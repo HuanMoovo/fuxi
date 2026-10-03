@@ -86,7 +86,7 @@ def convert(md):
 CSS = """
 @page { size: A4; margin: 18mm 16mm 17mm; }
 * { box-sizing: border-box; }
-body { font-family: "Microsoft YaHei","PingFang SC",sans-serif; font-size: 11.5pt; color: #2B2B2B; line-height: 1.95; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Microsoft YaHei","PingFang SC",sans-serif; font-size: 12pt; color: #2B2B2B; line-height: 2.0; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .cover { height: 247mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; page-break-after: always; border: 6px double #6E4E9E; border-radius: 6px; padding: 20mm; }
 .cover .logo { width: 96px; height: 96px; margin-bottom: 10mm; }
 .cover h1 { font-size: 30pt; letter-spacing: 2px; border: none; margin: 6mm 0 2mm; color: #3A3355; }
@@ -97,7 +97,7 @@ h1:first-of-type { page-break-before: avoid; }
 h2 { font-size: 14pt; color: #4A4166; border-left: 5px solid #6E4E9E; padding-left: 3mm; margin: 7mm 0 3mm; page-break-after: avoid; }
 h3 { font-size: 11.5pt; color: #4A4166; margin: 5mm 0 2mm; page-break-after: avoid; }
 p { margin: 2mm 0; text-align: justify; }
-table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 9.8pt; page-break-inside: auto; }
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 10pt; page-break-inside: auto; }
 th { background: #F5EEDD; color: #3A3355; border: 1px solid #D8CFC0; padding: 1.6mm 2mm; text-align: left; }
 td { border: 1px solid #D8CFC0; padding: 1.6mm 2mm; vertical-align: top; }
 tr { page-break-inside: avoid; }
