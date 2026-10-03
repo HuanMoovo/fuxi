@@ -173,3 +173,13 @@
 - [C200] World Economic Forum. Future of Jobs Report: <https://www.weforum.org/publications/the-future-of-jobs-report-2025/>
 - [C201] Acemoglu & Restrepo (2019). Automation and New Tasks（JEP）: <https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3>
 - [C202] Epoch AI — 算力与模型趋势数据: <https://epoch.ai/>
+
+## 为什么页 · 立项论证（C203–C209）
+
+- [C203] Bornmann & Mutz (2015). Growth rates of modern science: <https://arxiv.org/abs/1402.4578>
+- [C204] Hilbert & López (2011). The World's Technological Capacity: <https://martinhilbert.net/WorldInfoCapacity.html>
+- [C205] Reich & Ruipérez-Valiente (2019). The MOOC Pivot（Science）: <https://www.science.org/doi/10.1126/science.aav7958>
+- [C206] World Bank — Learning Poverty: <https://www.worldbank.org/en/topic/education/brief/learning-poverty>
+- [C207] WHO — Commission on Social Connection: <https://www.who.int/groups/commission-on-social-connection>
+- [C208] U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation: <https://www.hhs.gov/surgeongeneral/priorities/connection/index.html>
+- [C209] OECD (2023). PISA 2022 Results: <https://www.oecd.org/en/about/news/press-releases/2023/12/pisa-2022-results.html>

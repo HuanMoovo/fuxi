@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.5.0] - 2026-10-03
+
+### Added
+- **「为什么需要伏羲框架」全解页** `docs/why.md`：三重不对称（知识膨胀/教育滞后/AI 与注意力）× 设计四原则 × 社会影响情景推演（个人/组织/社会三层）+ 可检验性承诺；首页（README）该章节增设直达超链接。
+- **专属图表** `fuxi-why.svg`（知识缺口曲线 + 三重危机卡）；笔记本页码体系升级至 1–10。
+- 文献 C203–C209：Bornmann&Mutz（+4.1%/年）· Hilbert&López · MOOC Pivot · World Bank · WHO · 美国卫生总监 · PISA 2022。
+
 ## [1.4.0] - 2026-10-03
 
 ### Added

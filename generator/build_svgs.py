@@ -157,7 +157,7 @@ def svg_open(w, h, title):
 def build_hero():
     W, H = 1720, 960
     p = [svg_open(W, H, "伏羲框架：五纪十阶总览（复古笔记本风）")]
-    p.append(deco_page(W, H, 1, 9))
+    p.append(deco_page(W, H, 1, 10))
     # 标题（黄色高亮 + 手写体）
     p.append(rect(58, 92, 560, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 132, "伏羲框架 · 万物皆可学", 52, INK, "700"))
@@ -230,7 +230,7 @@ def build_hero():
 def build_engine():
     W, H = 1560, 1030
     p = [svg_open(W, H, "伏羲引擎：十阶环 · 三恒 · 两把尺 · 一原则（复古笔记本风）")]
-    p.append(deco_page(W, H, 2, 9))
+    p.append(deco_page(W, H, 2, 10))
     p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "伏羲引擎 · 十阶环", 36, INK, "700"))
     p.append(text(78, 168, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 18, INK2))
@@ -309,7 +309,7 @@ def build_engine():
 def build_paths():
     W, H = 1700, 970
     p = [svg_open(W, H, "三轨适配：探索 / 实战 / 冲刺（复古笔记本风）")]
-    p.append(deco_page(W, H, 3, 9))
+    p.append(deco_page(W, H, 3, 10))
     p.append(rect(64, 96, 680, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "三轨适配 · 先选路线，再分配阶段权重", 36, INK, "700"))
     p.append(text(78, 168, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 18, INK2))
@@ -367,7 +367,7 @@ def build_paths():
 def build_spacing():
     W, H = 1560, 920
     p = [svg_open(W, H, "间隔：遗忘曲线与复习调度（复古笔记本风）")]
-    p.append(deco_page(W, H, 4, 9))
+    p.append(deco_page(W, H, 4, 10))
     p.append(rect(64, 96, 600, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "间隔 · 在遗忘边缘复习", 36, INK, "700"))
     p.append(text(78, 168, "遗忘不是 bug；卡在 R≈0.9 复习，收益/成本最优", 18, INK2))
@@ -432,7 +432,7 @@ def build_spacing():
 def build_loop():
     W, H = 1440, 940
     p = [svg_open(W, H, "刻意练习闭环：定靶-练-测-诊-修（复古笔记本风）")]
-    p.append(deco_page(W, H, 5, 9))
+    p.append(deco_page(W, H, 5, 10))
     p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "精练 · 刻意练习闭环", 36, INK, "700"))
     p.append(text(78, 168, "无反馈 = 无精练：每一次循环都要闭合", 18, INK2))
@@ -574,7 +574,7 @@ def _card(x, y, w, h, tapes=None):
 def build_expand():
     W, H = 1560, 880
     p = [svg_open(W, H, "拓界篇 · 五大赛道（复古笔记本风）")]
-    p.append(deco_page(W, H, 6, 9))
+    p.append(deco_page(W, H, 6, 10))
     p.append(rect(58, 92, 620, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "拓界篇 · 五大赛道", 44, INK, "700"))
     p.append(text(80, 200, "十阶之后：从学到创造 —— 每条赛道都有自己的方法论与证据体系", 19, INK2))
@@ -607,7 +607,7 @@ def build_expand():
 def build_longevity():
     W, H = 1560, 900
     p = [svg_open(W, H, "长寿 · 证据分级（复古笔记本风）")]
-    p.append(deco_page(W, H, 7, 9))
+    p.append(deco_page(W, H, 7, 10))
     p.append(rect(58, 92, 640, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "长寿 · 证据分级与关键数字", 42, INK, "700"))
     p.append(text(80, 200, "把筹码押在 A 级因素上：不伤害 × 运动 × 睡眠 × 饮食 × 社交", 19, INK2))
@@ -639,7 +639,7 @@ def build_longevity():
 def build_future():
     W, H = 1560, 920
     p = [svg_open(W, H, "未来纪元 · 前沿科学雷达与宏观趋势（复古笔记本风）")]
-    p.append(deco_page(W, H, 8, 9))
+    p.append(deco_page(W, H, 8, 10))
     p.append(rect(58, 92, 700, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "未来纪元 · 前沿科学雷达 × 宏观趋势", 40, INK, "700"))
     p.append(text(80, 200, "先学会判断预测（超级预测 / 情景 / 预测市场），再读雷达与趋势 —— 每季度更新", 19, INK2))
@@ -682,7 +682,7 @@ def build_future():
 def build_integration():
     W, H = 1560, 980
     p = [svg_open(W, H, "拓界篇 · 理论整合（复古笔记本风）")]
-    p.append(deco_page(W, H, 9, 9))
+    p.append(deco_page(W, H, 9, 10))
     p.append(rect(58, 92, 700, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "拓界篇 · 理论整合", 42, INK, "700"))
     p.append(text(80, 200, "一个循环 · 五条赛道 · 五大理论支柱 —— 五篇合一，融入总体系", 19, INK2))
@@ -726,6 +726,43 @@ def build_integration():
     p.append("</svg>")
     return "".join(p)
 
+
+def build_why():
+    W, H = 1560, 920
+    p = [svg_open(W, H, "为什么需要伏羲框架（复古笔记本风）")]
+    p.append(deco_page(W, H, 10, 10))
+    p.append(rect(58, 92, 780, 78, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 128, "为什么需要「伏羲框架」", 42, INK, "700"))
+    p.append(text(80, 200, "三重不对称：知识的膨胀 × 教育的滞后 × 注意力的争夺 —— 缺的不是努力，是地图与标尺", 19, INK2))
+    p.append(stamp(W - 150, 150, 116, "为什么", -8, RED, "#FFFFFF", "#C0392B"))
+    p.append(paper_card(58, 236, 830, 460))
+    p.append('<path d="M140 636 C320 624 480 596 590 510 C680 438 742 334 800 274" fill="none" stroke="' + ERA[0] + '" stroke-width="3.4"/>')
+    p.append('<path d="M140 560 L830 548" fill="none" stroke="' + ERA[3] + '" stroke-width="3"/>')
+    p.append('<path d="M140 560 L830 548 L800 274 C742 334 680 438 590 510 C480 596 320 624 140 636 Z" fill="' + YELLOW + '" opacity="0.35"/>')
+    p.append('<path d="M140 636 L140 280 M140 636 L830 636" fill="none" stroke="#8A8F7A" stroke-width="2"/>')
+    p.append(text(600, 470, "科学文献累积（+4.1%/年 · 17.3 年翻番）[C203]", 15, ERA[0], "600"))
+    p.append(text(150, 542, "个体学习带宽（近似恒定）", 15, ERA[3], "600"))
+    p.append(rect(384, 424, 256, 30, YELLOW, None, rx=4, op="0.6"))
+    p.append(text(394, 446, "缺口 = 地图与标尺的价值", 16, INK, "700"))
+    p.append(text(700, 664, "(示意) 1750 → 2026 · 纵轴对数示意", 13, "#8A8F7A"))
+    cards = [
+        ("① 知识不对称", "年增 4.1%（17.3 年翻番）[C203] · 存储 +23%/年 [C204]", "读完再上场，已不可行"),
+        ("② 教育滞后", "PISA 2022 历史性下跌 [C209] · 学习贫困 ~70% [C206] · 慕课完成 ~3% [C205]", "开放 ≠ 完成，需要质量工具"),
+        ("③ AI 与注意力", "无护栏 AI：练时 +48% / 考时 −17% [C56] · 孤独列流行病级威胁 [C207][C208]", "需要自带护栏的学习系统"),
+    ]
+    for i, (nm, line1, line2) in enumerate(cards):
+        cy = 236 + i * 162
+        p.append(paper_card(920, cy, 582, 148, tape_specs=[(60, 0, i % 5, -9)]))
+        p.append(text(946, cy + 44, nm, 23, INK, "700"))
+        p.append(text(946, cy + 82, line1, 14, "#454C59"))
+        p.append(text(946, cy + 114, "→ " + line2, 15, ERA[4], "600"))
+    p.append(paper_card(58, 722, W - 120, 82))
+    p.append(text(96, 756, "答案（本框架）：十阶地图 · A/B/C/D 证据标尺 · 双路径走法 · 开源可纠错", 19, "#454C59", "600"))
+    p.append(text(96, 786, "十阶之后还有拓界：科研 · 创业 · 人际 · 长寿 · 未来 —— 以及第五个「为什么」：知识边界之后怎么办", 15, "#6B7280"))
+    p.append(text(96, H - 26, "详见 docs/why.md · 文献 C203–C209 · 全部逐条核验", 14, "#8A8F7A"))
+    p.append("</svg>")
+    return "".join(p)
+
 def main():
     files = {
         "fuxi-hero.svg": build_hero(),
@@ -739,6 +776,7 @@ def main():
         "fuxi-longevity.svg": build_longevity(),
         "fuxi-future.svg": build_future(),
         "fuxi-integration.svg": build_integration(),
+        "fuxi-why.svg": build_why(),
     }
     for name, content in files.items():
         path = os.path.join(OUT, name)
