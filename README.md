@@ -227,14 +227,12 @@ fuxi/
 
 ## Star 记录
 
-> 本项目的 star 增长记录：数据由 GitHub Actions **每日自动抓取**（`generator/track_stars.py` → [data/stars.json](./data/stars.json)），图表由 `generator/build_stars_svg.py` 生成——全部公开、可审计、可复现。
+> 本项目 star 增长曲线由第三方服务 **star-history.com** 实时生成（自动回溯完整历史，无需自建）。
 
-[![Star 记录](docs/assets/fuxi-stars.svg)](docs/assets/fuxi-stars.svg)
+[![Star History Chart](https://api.star-history.com/svg?repos=HuanMoovo/fuxi&type=Date&theme=light)](https://star-history.com/#HuanMoovo/fuxi&Date)
 
 - 实时徽章：![Stars](https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B) ![Forks](https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E)
-- 原始数据：[data/stars.json](./data/stars.json)（每个日期的 star / fork / watcher 快照）
-- 第三方对照：[star-history.com ↗](https://star-history.com/#HuanMoovo/fuxi&Date)
-- 记录起点：2026-10-03
+- 交互版图表 · 更多格式（PNG/CSV 导出）：[star-history.com ↗](https://star-history.com/#HuanMoovo/fuxi&Date)
 
 ---
 

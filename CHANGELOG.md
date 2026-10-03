@@ -2,6 +2,11 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.14.0] - 2026-10-03
+
+### Changed
+- **Star 记录切换为第三方方案**：图表改用 star-history.com（README 浅色 / 站点深色主题嵌入，自动回溯历史并支持交互版）；移除自建记录系统（Actions 工作流 / 抓取与绘图脚本 / 数据文件），仓库更简洁。
+
 ## [1.13.2] - 2026-10-03
 
 ### Changed
