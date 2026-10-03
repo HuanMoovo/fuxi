@@ -57,6 +57,7 @@ def clean(s):
     s = EMOJI.sub("", s or "")
     s = s.replace("[", "\uff08").replace("]", "\uff09")
     s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"github\.co/(?!m)", "github.com/", s)
     return s[:110]
 
 _calls = []
