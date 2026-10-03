@@ -29,7 +29,7 @@
 
 - [C79] Ericsson & Harwell (2019) 刻意练习与练习效应的边界（开放获取）。 <https://doi.org/10.3389/fpsyg.2019.02396>
 - [C80] Hambrick et al. (2014) 刻意练习解释力的批判性检验。 <https://doi.org/10.1016/j.intell.2013.04.001>
-- [C86] Wulf & Shea (2002) 从简单技能研究导出的练习原则。 <https://gwulf.faculty.unlv.edu/wp-content/uploads/2014/05/Wulf_Shea-2002.pdf>
+- [C86] Wulf & Shea (2002) 从简单技能研究导出的练习原则。 <https://doi.org/10.3758/BF03196276>
 - [C92] Ericsson (2008) 刻意练习与专家表现总览。 <https://doi.org/10.1111/j.1553-2712.2008.00227.x>
 - [C103] Arthur et al. (1998) 技能衰减与保持综述。 <https://doi.org/10.1207/s15327043hup1101_3>
 

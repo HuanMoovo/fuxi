@@ -115,7 +115,7 @@
 - [C49] Ahrens, S. (2017). How to Take Smart Notes；Luhmann 卡片盒。 <https://www.soenkeahrens.de/en/takesmartnotes>
 - [C50] Dunning & Kruger (1999) 自我评估偏差；Koriat & Bjork (2005) 胜任错觉。 <https://doi.org/10.1037/0022-3514.77.6.1121>；<https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf>
 - [C51] Pashler, H., et al. (2008). Learning Styles: Concepts and Evidence. *PSPI*. <https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x>
-- [C52] Letrud (2012) 与 Subramony et al. (2014)：学习金字塔/保持率锥系神话。 <https://eric.ed.gov/?id=EJ996977>；<https://eric.ed.gov/?id=EJ1057239>
+- [C52] Letrud (2012) 与 Subramony et al. (2014)：学习金字塔/保持率锥系神话。 <https://web.archive.org/web/2024/https://eric.ed.gov/?id=EJ996977>；<https://web.archive.org/web/2024/https://eric.ed.gov/?id=EJ1057239>
 - [C53] Rayner, K., et al. (2016). So Much to Read, So Little Time. *PSPI*. <https://pubmed.ncbi.nlm.nih.gov/26769745/>
 - [C54] Sala, G., & Gobet, F. (2019). Near and Far Transfer in Cognitive Training. *Collabra*. <https://online.ucpress.edu/collabra/article/5/1/18/113004/>
 - [C55] Kirschner, P. A. (2017). Stop propagating the learning styles myth. *Computers & Education*. <https://doi.org/10.1016/j.compedu.2017.05.005>
