@@ -499,7 +499,6 @@ def build_loop():
 def build_mark():
     S = 260
     p = [svg_open(S, S, "伏羲框架标志（复古笔记本风）")]
-    p.append(rect(0, 0, S, S, PAPER, None, rx=0))
     cx, cy, R = 130, 130, 86
     # 手绘双圈
     p.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{INK}" stroke-width="3"/>')
@@ -532,15 +531,8 @@ def build_logo():
     # 横排组合标（图标 + 字标），用于 README 居中头部与站点
     W, H = 1280, 360
     p = [svg_open(W, H, "伏羲框架 · LOGO")]
-    p.append(rect(0, 0, W, H, PAPER, None, rx=0))
-    # 底纹淡格
-    for gx in range(0, W + 1, 40):
-        p.append(f'<line x1="{gx}" y1="0" x2="{gx}" y2="{H}" stroke="#E9E2CF" stroke-width="1"/>')
-    for gy in range(0, H + 1, 40):
-        p.append(f'<line x1="0" y1="{gy}" x2="{W}" y2="{gy}" stroke="#E9E2CF" stroke-width="1"/>')
     # 图标
     cx, cy, R = 190, 180, 128
-    p.append(tape(190, 52, TAPES[1], -4, w=150, h=30))
     p.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{CARD}" stroke="{INK}" stroke-width="4"/>')
     p.append(f'<circle cx="{cx+2}" cy="{cy+2}" r="{R-7}" fill="none" stroke="{INK}" stroke-width="1.2" opacity="0.35"/>')
     p.append(f'<circle cx="{cx}" cy="{cy}" r="{R-46}" fill="none" stroke="{BLUE}" stroke-width="2" opacity="0.65"/>')
@@ -561,11 +553,15 @@ def build_logo():
              f'<rect x="{cx-k/2+8}" y="{cy-k/2+8}" width="{k-16}" height="{k-16}" fill="none" stroke="{RED}" stroke-width="1.6" opacity="0.8" rx="7"/>'
              f'<text x="{cx}" y="{cy+2}" font-size="30" fill="{RED}" font-weight="800" text-anchor="middle" dominant-baseline="middle" font-family="{FF}">伏羲</text>'
              f'</g>')
-    # 字标
-    p.append(text(392, 168, "伏羲框架", 92, INK, "700"))
-    p.append(rect(396, 224, 300, 10, YELLOW, None, rx=4, op="0.75"))
-    p.append(text(392, 268, "万物皆可学 · Everything Can Be Learned", 26, "#4A5160", "500"))
-    p.append(text(392, 308, "十阶时间线 × 证据分级 × 开源工具链", 19, INK2))
+    # 字标（放大 + 浅色描边，深色背景同样可读）
+    def logo_text(x, y, s, size, fill, weight):
+        return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}" font-weight="{weight}" '
+                f'font-family="{FF}" dominant-baseline="middle" stroke="#FFFDF6" '
+                f'stroke-width="{size * 0.10:.1f}" stroke-linejoin="round" paint-order="stroke">{esc(s)}</text>')
+    p.append(logo_text(392, 150, "伏羲框架", 116, INK, "700"))
+    p.append(rect(398, 218, 372, 13, YELLOW, None, rx=5, op="0.8"))
+    p.append(logo_text(392, 262, "万物皆可学 · Everything Can Be Learned", 32, "#3A4048", "600"))
+    p.append(logo_text(392, 312, "十阶时间线 × 证据分级 × 开源工具链", 25, "#4A5160", "500"))
     p.append("</svg>")
     return "".join(p)
 
