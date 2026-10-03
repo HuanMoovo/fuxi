@@ -218,7 +218,7 @@
     {
      "name": "github",
      "full": "phodal/github",
-     "desc": "GitHub 漫游指南- a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some ",
+     "desc": "GitHub 漫游指南- a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some",
      "stars": 11239
     },
     {
@@ -230,7 +230,7 @@
     {
      "name": "eShopOnWeb",
      "full": "dotnet-architecture/eShopOnWeb",
-     "desc": "Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnW",
+     "desc": "Sample ASP.NET Core 8.0 reference application, now community supported:",
      "stars": 10682
     },
     {
@@ -416,7 +416,7 @@
     {
      "name": "go-questions",
      "full": "golang-design/go-questions",
-     "desc": "Go 程序员面试笔试宝典 | 从问题切入，串连 Go 语言相关的所有知识，融会贯通。 https://golang.design/go-questions",
+     "desc": "Go 程序员面试笔试宝典 | 从问题切入，串连 Go 语言相关的所有知识，融会贯通。",
      "stars": 6409
     },
     {
@@ -476,7 +476,7 @@
     {
      "name": "progit",
      "full": "progit/progit",
-     "desc": "Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at （progit2）(https://github.co",
+     "desc": "Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at （progit2）(",
      "stars": 5973
     },
     {
@@ -500,7 +500,7 @@
     {
      "name": "kubernetes-handbook",
      "full": "feiskyer/kubernetes-handbook",
-     "desc": "Kubernetes Handbook （Kubernetes指南） https://kubernetes.feisky.xyz",
+     "desc": "Kubernetes Handbook （Kubernetes指南）",
      "stars": 5526
     },
     {
@@ -596,7 +596,7 @@
     {
      "name": "d2l-pytorch",
      "full": "dsgiitr/d2l-pytorch",
-     "desc": "This project reproduces the book Dive Into Deep Learning (https://d2l.ai/), adapting the code from MXNet into ",
+     "desc": "This project reproduces the book Dive Into Deep Learning ( adapting the code from MXNet into",
      "stars": 4368
     },
     {
@@ -722,7 +722,7 @@
     {
      "name": "write-you-a-haskell",
      "full": "sdiehl/write-you-a-haskell",
-     "desc": "Building a modern functional compiler from first principles. (http://dev.stephendiehl.com/fun/)",
+     "desc": "Building a modern functional compiler from first principles. (",
      "stars": 3478
     },
     {
@@ -878,7 +878,7 @@
     {
      "name": "BezierInfo-2",
      "full": "Pomax/BezierInfo-2",
-     "desc": "The development repo for the Primer on Bézier curves, https://pomax.github.io/bezierinfo",
+     "desc": "The development repo for the Primer on Bézier curves,",
      "stars": 2496
     },
     {
@@ -1478,7 +1478,7 @@
     {
      "name": "ods",
      "full": "patmorin/ods",
-     "desc": "Mission: To provide a high-quality open content data structures textbook that is both mathematically rigorous ",
+     "desc": "Mission: To provide a high-quality open content data structures textbook that is both mathematically rigorous",
      "stars": 1301
     },
     {
@@ -1508,7 +1508,7 @@
     {
      "name": "single-cell-best-practices",
      "full": "theislab/single-cell-best-practices",
-     "desc": "https://www.sc-best-practices.org",
+     "desc": "",
      "stars": 1276
     },
     {
@@ -1604,7 +1604,7 @@
     {
      "name": "kaobook",
      "full": "fmarotta/kaobook",
-     "desc": "A LaTeX class for books, reports or theses based on https://github.com/kenohori/thesis and https://github.com/",
+     "desc": "A LaTeX class for books, reports or theses based on and",
      "stars": 1114
     },
     {
@@ -1742,13 +1742,13 @@
     {
      "name": "book",
      "full": "foundry-rs/book",
-     "desc": "A book on all things Foundry, available at https://getfoundry.sh.",
+     "desc": "A book on all things Foundry, available at",
      "stars": 964
     },
     {
      "name": "Booktype",
      "full": "booktype/Booktype",
-     "desc": "Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon, ",
+     "desc": "Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon,",
      "stars": 961
     },
     {
@@ -1766,7 +1766,7 @@
     {
      "name": "Modern-CMake-zh_CN",
      "full": "Modern-CMake-CN/Modern-CMake-zh_CN",
-     "desc": "CMake 教程 Modern-CMake 的简体中文翻译，中文版 Gitbook ：https://modern-cmake-cn.github.io/Modern-CMake-zh_CN/ Chinese(simpl",
+     "desc": "CMake 教程 Modern-CMake 的简体中文翻译，中文版 Gitbook ： Chinese(simpl",
      "stars": 953
     },
     {
@@ -1832,7 +1832,7 @@
     {
      "name": "Packt-Publishing-Free-Learning",
      "full": "luk6xff/Packt-Publishing-Free-Learning",
-     "desc": "Scripts that automatically claim and download free daily eBooks from https://www.packtpub.com/packt/offers/fre",
+     "desc": "Scripts that automatically claim and download free daily eBooks from",
      "stars": 871
     },
     {
@@ -1886,7 +1886,7 @@
     {
      "name": "ebookcoin",
      "full": "Ebookcoin/ebookcoin",
-     "desc": "Ebookcoin has been updated to DDN Blockchain，please get it from https://github.com/ddnlink/ddn",
+     "desc": "Ebookcoin has been updated to DDN Blockchain，please get it from",
      "stars": 794
     },
     {
@@ -2240,7 +2240,7 @@
     {
      "name": "openintro-statistics",
      "full": "OpenIntroStat/openintro-statistics",
-     "desc": "An open-source textbook written at the college level. OpenIntro also offers a second college-level intro stat ",
+     "desc": "An open-source textbook written at the college level. OpenIntro also offers a second college-level intro stat",
      "stars": 454
     },
     {
@@ -2564,7 +2564,7 @@
     {
      "name": "Biblioteca",
      "full": "alexanyernas/Biblioteca",
-     "desc": "Colección de libros recomendados en formato PDF que he realizado para ti y así puedas mejorar tus habilidades ",
+     "desc": "Colección de libros recomendados en formato PDF que he realizado para ti y así puedas mejorar tus habilidades",
      "stars": 253
     },
     {
@@ -2684,7 +2684,7 @@
     {
      "name": "BookHeaven.Server",
      "full": "BookHeaven/BookHeaven.Server",
-     "desc": "BookHeaven Server is a web app to manage your ebook library. Compatible with OPDS, Koreader Sync and a custom ",
+     "desc": "BookHeaven Server is a web app to manage your ebook library. Compatible with OPDS, Koreader Sync and a custom",
      "stars": 189
     },
     {
@@ -2936,7 +2936,7 @@
     {
      "name": "markdownslides",
      "full": "asanzdiego/markdownslides",
-     "desc": "MarkdownSlides is a Reveal.js and PDF slides generator from MARKDOWN files, that also generate HTML, EPUB and ",
+     "desc": "MarkdownSlides is a Reveal.js and PDF slides generator from MARKDOWN files, that also generate HTML, EPUB and",
      "stars": 142
     },
     {
@@ -3098,7 +3098,7 @@
     {
      "name": "free-resources-books-papers",
      "full": "TatevKaren/free-resources-books-papers",
-     "desc": "Books and Papers in Mathematics, Econometrics, Machine Learning, Finance etc for different levels that can be ",
+     "desc": "Books and Papers in Mathematics, Econometrics, Machine Learning, Finance etc for different levels that can be",
      "stars": 61
     },
     {
@@ -3182,7 +3182,7 @@
     {
      "name": "DeepTutor",
      "full": "HKUDS/DeepTutor",
-     "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+     "desc": "DeepTutor: Lifelong Personalized Tutoring.",
      "stars": 40721
     },
     {
@@ -3254,7 +3254,7 @@
     {
      "name": "C",
      "full": "TheAlgorithms/C",
-     "desc": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented ",
+     "desc": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented",
      "stars": 22495
     },
     {
@@ -3338,7 +3338,7 @@
     {
      "name": "7days-golang",
      "full": "geektutu/7days-golang",
-     "desc": "7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ",
+     "desc": "7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping",
      "stars": 17026
     },
     {
@@ -3350,7 +3350,7 @@
     {
      "name": "digital_video_introduction",
      "full": "leandromoreira/digital_video_introduction",
-     "desc": "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding). ",
+     "desc": "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding).",
      "stars": 16342
     },
     {
@@ -3518,7 +3518,7 @@
     {
      "name": "content",
      "full": "mdn/content",
-     "desc": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, ",
+     "desc": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS,",
      "stars": 11014
     },
     {
@@ -3548,7 +3548,7 @@
     {
      "name": "AgentGuide",
      "full": "adongwanai/AgentGuide",
-     "desc": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | ",
+     "desc": "| AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 |",
      "stars": 10370
     },
     {
@@ -3896,7 +3896,7 @@
     {
      "name": "ClashX-V2Ray-TopFreeProxy",
      "full": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-     "desc": "Top free VPN (ClashX & V2Ray proxy) with subscription links. （免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray ",
+     "desc": "Top free VPN (ClashX & V2Ray proxy) with subscription links. （免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray",
      "stars": 5571
     },
     {
@@ -3914,13 +3914,13 @@
     {
      "name": "OpenCat-Quadruped-Robot",
      "full": "PetoiCamp/OpenCat-Quadruped-Robot",
-     "desc": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are ",
+     "desc": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are",
      "stars": 5412
     },
     {
      "name": "awesome-powershell",
      "full": "janikvonrotz/awesome-powershell",
-     "desc": "This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new l",
+     "desc": "This repository has been moved to Please visit the new l",
      "stars": 5405
     },
     {
@@ -4142,7 +4142,7 @@
     {
      "name": "Auto-Empirical-Research-Skills",
      "full": "brycewang-stanford/Auto-Empirical-Research-Skills",
-     "desc": "A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 ",
+     "desc": "A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选",
      "stars": 4465
     },
     {
@@ -4346,7 +4346,7 @@
     {
      "name": "learn-react-app",
      "full": "tyroprogrammer/learn-react-app",
-     "desc": "Application that will help you learn React fundamentals. Install this application locally - there's tutorial, ",
+     "desc": "Application that will help you learn React fundamentals. Install this application locally - there's tutorial,",
      "stars": 3843
     },
     {
@@ -4364,7 +4364,7 @@
     {
      "name": "Play-with-Algorithms",
      "full": "liuyubobobo/Play-with-Algorithms",
-     "desc": "Codes of my MOOC Course <Play with Algorithms>, Both in C++ and Java language. Updated contents and practices ",
+     "desc": "Codes of my MOOC Course <Play with Algorithms>, Both in C++ and Java language. Updated contents and practices",
      "stars": 3716
     },
     {
@@ -4556,7 +4556,7 @@
     {
      "name": "uvadlc_notebooks",
      "full": "phlippe/uvadlc_notebooks",
-     "desc": "Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam ",
+     "desc": "Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam",
      "stars": 3195
     },
     {
@@ -4616,7 +4616,7 @@
     {
      "name": "fastapi-realworld-example-app",
      "full": "nsidnev/fastapi-realworld-example-app",
-     "desc": "Backend logic implementation for https://github.com/gothinkster/realworld with awesome FastAPI",
+     "desc": "Backend logic implementation for with awesome FastAPI",
      "stars": 3104
     },
     {
@@ -4778,7 +4778,7 @@
     {
      "name": "Hypervisor-From-Scratch",
      "full": "SinaKarvandi/Hypervisor-From-Scratch",
-     "desc": "Source code of a multiple series of tutorials about the hypervisor. Available at: https://rayanfam.com/tutoria",
+     "desc": "Source code of a multiple series of tutorials about the hypervisor. Available at:",
      "stars": 2670
     },
     {
@@ -4874,7 +4874,7 @@
     {
      "name": "handy-ollama",
      "full": "datawhalechina/handy-ollama",
-     "desc": "动手学Ollama，CPU玩转大模型部署，在线阅读地址：https://datawhalechina.github.io/handy-ollama/",
+     "desc": "动手学Ollama，CPU玩转大模型部署，在线阅读地址：",
      "stars": 2541
     },
     {
@@ -5066,7 +5066,7 @@
     {
      "name": "OSINT-Cheat-sheet",
      "full": "Jieyab89/OSINT-Cheat-sheet",
-     "desc": "OSINT cheat sheet, list OSINT tools, wiki, dataset, article, book , red team OSINT for hackers and OSINT tips ",
+     "desc": "OSINT cheat sheet, list OSINT tools, wiki, dataset, article, book , red team OSINT for hackers and OSINT tips",
      "stars": 2235
     },
     {
@@ -5474,7 +5474,7 @@
     {
      "name": "ELI5",
      "full": "DreambigOu/ELI5",
-     "desc": "ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, ",
+     "desc": "ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone,",
      "stars": 1611
     },
     {
@@ -6050,7 +6050,7 @@
     {
      "name": "Termux-Command-Handbook",
      "full": "BlackTechX011/Termux-Command-Handbook",
-     "desc": "Termux Command Handbook, your comprehensive guide to Termux commands organized into various chapters for easy ",
+     "desc": "Termux Command Handbook, your comprehensive guide to Termux commands organized into various chapters for easy",
      "stars": 1097
     },
     {
@@ -6386,13 +6386,13 @@
     {
      "name": "open-source-mac-os-apps",
      "full": "serhii-londar/open-source-mac-os-apps",
-     "desc": "Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
+     "desc": "Awesome list of open source applications for macOS.",
      "stars": 50623
     },
     {
      "name": "awesome-remote-job",
      "full": "lukasz-madon/awesome-remote-job",
-     "desc": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+     "desc": "A curated list of awesome remote jobs and resources. Inspired by",
      "stars": 49179
     },
     {
@@ -6410,7 +6410,7 @@
     {
      "name": "agentic-awesome-skills",
      "full": "sickn33/agentic-awesome-skills",
-     "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack ",
+     "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack",
      "stars": 47209
     },
     {
@@ -6638,7 +6638,7 @@
     {
      "name": "dashy",
      "full": "lissy93/dashy",
-     "desc": "A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI ",
+     "desc": "A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI",
      "stars": 26609
     },
     {
@@ -6698,7 +6698,7 @@
     {
      "name": "Self-Hosting-Guide",
      "full": "mikeroyal/Self-Hosting-Guide",
-     "desc": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software ",
+     "desc": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software",
      "stars": 22959
     },
     {
@@ -6866,7 +6866,7 @@
     {
      "name": "awesome-tensorflow",
      "full": "jtoy/awesome-tensorflow",
-     "desc": "TensorFlow - A curated list of dedicated resources http://tensorflow.org",
+     "desc": "TensorFlow - A curated list of dedicated resources",
      "stars": 17535
     },
     {
@@ -6956,7 +6956,7 @@
     {
      "name": "awesome-cloudflare",
      "full": "zhuima/awesome-cloudflare",
-     "desc": "精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ A curated list of Cloudflare tools, open source projects, guides, blogs ",
+     "desc": "精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ A curated list of Cloudflare tools, open source projects, guides, blogs",
      "stars": 15489
     },
     {
@@ -7004,7 +7004,7 @@
     {
      "name": "static-analysis",
      "full": "analysis-tools-dev/static-analysis",
-     "desc": "A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build ",
+     "desc": "A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build",
      "stars": 14821
     },
     {
@@ -7382,7 +7382,7 @@
     {
      "name": "awesome-opencode",
      "full": "awesome-opencode/awesome-opencode",
-     "desc": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+     "desc": "A curated list of awesome plugins, themes, agents, projects, and resources for",
      "stars": 10461
     },
     {
@@ -8108,13 +8108,13 @@
     {
      "name": "anything-llm",
      "full": "Mintplex-Labs/anything-llm",
-     "desc": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent ",
+     "desc": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent",
      "stars": 66683
     },
     {
      "name": "mem0",
      "full": "mem0ai/mem0",
-     "desc": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. ",
+     "desc": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists.",
      "stars": 66512
     },
     {
@@ -8168,7 +8168,7 @@
     {
      "name": "TrendRadar",
      "full": "sansan0/TrendRadar",
-     "desc": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts. 告别信息过载，你的 AI ",
+     "desc": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts. 告别信息过载，你的 AI",
      "stars": 62650
     },
     {
@@ -8180,7 +8180,7 @@
     {
      "name": "coolify",
      "full": "coollabsio/coolify",
-     "desc": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static ",
+     "desc": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static",
      "stars": 62534
     },
     {
@@ -8408,7 +8408,7 @@
     {
      "name": "LocalAI",
      "full": "mudler/LocalAI",
-     "desc": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No ",
+     "desc": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No",
      "stars": 49372
     },
     {
@@ -8498,7 +8498,7 @@
     {
      "name": "full-stack-fastapi-template",
      "full": "fastapi/full-stack-fastapi-template",
-     "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, ",
+     "desc": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui,",
      "stars": 45845
     },
     {
@@ -8630,7 +8630,7 @@
     {
      "name": "ToolJet",
      "full": "ToolJet/ToolJet",
-     "desc": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, ",
+     "desc": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards,",
      "stars": 41027
     },
     {
@@ -8858,7 +8858,7 @@
     {
      "name": "linux-command",
      "full": "jaywcjlove/linux-command",
-     "desc": "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux",
+     "desc": "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。",
      "stars": 37061
     },
     {
@@ -8906,7 +8906,7 @@
     {
      "name": "sheetjs",
      "full": "SheetJS/sheetjs",
-     "desc": "SheetJS Spreadsheet Data Toolkit -- New home https://git.sheetjs.com/SheetJS/sheetjs",
+     "desc": "SheetJS Spreadsheet Data Toolkit -- New home",
      "stars": 36351
     },
     {
@@ -8966,7 +8966,7 @@
     {
      "name": "seaweedfs",
      "full": "seaweedfs/seaweedfs",
-     "desc": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed ",
+     "desc": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed",
      "stars": 35215
     },
     {
@@ -9068,7 +9068,7 @@
     {
      "name": "Anthropic-Cybersecurity-Skills",
      "full": "mukul975/Anthropic-Cybersecurity-Skills",
-     "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ",
+     "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE",
      "stars": 33729
     },
     {
@@ -9098,7 +9098,7 @@
     {
      "name": "nacos",
      "full": "alibaba/nacos",
-     "desc": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud ",
+     "desc": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud",
      "stars": 33421
     },
     {
@@ -9338,7 +9338,7 @@
     {
      "name": "leetcode-company-wise-problems",
      "full": "liquidslr/leetcode-company-wise-problems",
-     "desc": "Lists of company wise questions. Every csv file in the companies directory corresponds to a list of questions ",
+     "desc": "Lists of company wise questions. Every csv file in the companies directory corresponds to a list of questions",
      "stars": 30982
     },
     {
@@ -9362,7 +9362,7 @@
     {
      "name": "composio",
      "full": "ComposioHQ/composio",
-     "desc": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to ",
+     "desc": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to",
      "stars": 30412
     },
     {
@@ -9530,7 +9530,7 @@
     {
      "name": "xgboost",
      "full": "dmlc/xgboost",
-     "desc": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, ",
+     "desc": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala,",
      "stars": 28818
     },
     {
@@ -9614,7 +9614,7 @@
     {
      "name": "mlflow",
      "full": "mlflow/mlflow",
-     "desc": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to ",
+     "desc": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to",
      "stars": 28240
     },
     {
@@ -9800,7 +9800,7 @@
     {
      "name": "handson-ml",
      "full": "ageron/handson-ml",
-     "desc": "DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.",
+     "desc": "DEPRECATED – See or handson-mlp instead.",
      "stars": 25603
     },
     {
@@ -9830,7 +9830,7 @@
     {
      "name": "JARVIS",
      "full": "microsoft/JARVIS",
-     "desc": "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf",
+     "desc": "JARVIS, a system to connect LLMs with ML community. Paper:",
      "stars": 25378
     },
     {
@@ -9920,7 +9920,7 @@
     {
      "name": "lvgl",
      "full": "lvgl/lvgl",
-     "desc": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by ",
+     "desc": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by",
      "stars": 24786
     },
     {
@@ -10112,13 +10112,13 @@
     {
      "name": "rxdb",
      "full": "pubkey/rxdb",
-     "desc": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, ",
+     "desc": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor,",
      "stars": 23397
     },
     {
      "name": "wechaty",
      "full": "wechaty/wechaty",
-     "desc": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt",
+     "desc": "Conversational RPA SDK for Chatbot Makers. Join our Discord:",
      "stars": 23350
     },
     {
@@ -10178,7 +10178,7 @@
     {
      "name": "marimo",
      "full": "marimo-team/marimo",
-     "desc": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as ",
+     "desc": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as",
      "stars": 22996
     },
     {
@@ -10208,7 +10208,7 @@
     {
      "name": "SafeLine",
      "full": "chaitin/SafeLine",
-     "desc": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks ",
+     "desc": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks",
      "stars": 22695
     },
     {
@@ -10238,7 +10238,7 @@
     {
      "name": "super-productivity",
      "full": "super-productivity/super-productivity",
-     "desc": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It ",
+     "desc": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It",
      "stars": 22492
     },
     {
@@ -10274,7 +10274,7 @@
     {
      "name": "datasets",
      "full": "huggingface/datasets",
-     "desc": "The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation ",
+     "desc": "The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation",
      "stars": 22024
     },
     {
@@ -10292,7 +10292,7 @@
     {
      "name": "matomo",
      "full": "matomo-org/matomo",
-     "desc": "Empowering People Ethically — Matomo is hiring! Join us https://matomo.org/jobs Matomo is the leading open-sou",
+     "desc": "Empowering People Ethically — Matomo is hiring! Join us Matomo is the leading open-sou",
      "stars": 21920
     },
     {
@@ -10856,7 +10856,7 @@
     {
      "name": "camel",
      "full": "camel-ai/camel",
-     "desc": "CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.o",
+     "desc": "CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents.",
      "stars": 17805
     },
     {
@@ -10916,7 +10916,7 @@
     {
      "name": "tensor2tensor",
      "full": "tensorflow/tensor2tensor",
-     "desc": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML ",
+     "desc": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML",
      "stars": 17473
     },
     {
@@ -11078,7 +11078,7 @@
     {
      "name": "redox",
      "full": "redox-os/redox",
-     "desc": "Mirror of https://gitlab.redox-os.org/redox-os/redox",
+     "desc": "Mirror of",
      "stars": 16601
     },
     {
@@ -11216,7 +11216,7 @@
     {
      "name": "winapps",
      "full": "winapps-org/winapps",
-     "desc": "Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part ",
+     "desc": "Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part",
      "stars": 16033
     },
     {
@@ -11420,7 +11420,7 @@
     {
      "name": "mvt",
      "full": "mvt-project/mvt",
-     "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of ",
+     "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of",
      "stars": 15172
     },
     {
@@ -11498,7 +11498,7 @@
     {
      "name": "bullet3",
      "full": "bulletphysics/bullet3",
-     "desc": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, ",
+     "desc": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects,",
      "stars": 14761
     },
     {
@@ -11714,7 +11714,7 @@
     {
      "name": "zola",
      "full": "getzola/zola",
-     "desc": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+     "desc": "A fast static site generator in a single binary with everything built-in.",
      "stars": 17491
     },
     {
@@ -11942,7 +11942,7 @@
     {
      "name": "vditor",
      "full": "Vanessa219/vditor",
-     "desc": "一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich ",
+     "desc": "一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich",
      "stars": 11356
     },
     {
@@ -11960,7 +11960,7 @@
     {
      "name": "kodluyoruz-frontend-101-egitimi",
      "full": "hakanyalcinkaya/kodluyoruz-frontend-101-egitimi",
-     "desc": "Kodluyoruz için Hazırladığım Video Eğitim Seti Repo'sudur. Tüm Eğitimlerime: https://linktr.ee/hakanyalcinkaya",
+     "desc": "Kodluyoruz için Hazırladığım Video Eğitim Seti Repo'sudur. Tüm Eğitimlerime:",
      "stars": 10902
     },
     {
@@ -12032,7 +12032,7 @@
     {
      "name": "laverna",
      "full": "Laverna/laverna",
-     "desc": "Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like ",
+     "desc": "Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like",
      "stars": 9170
     },
     {
@@ -12104,7 +12104,7 @@
     {
      "name": "ever-gauzy",
      "full": "ever-co/ever-gauzy",
-     "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+     "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) -",
      "stars": 8162
     },
     {
@@ -12140,7 +12140,7 @@
     {
      "name": "oh-my-bash",
      "full": "ohmybash/oh-my-bash",
-     "desc": "A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that ",
+     "desc": "A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that",
      "stars": 7724
     },
     {
@@ -12152,7 +12152,7 @@
     {
      "name": "opencommit",
      "full": "di-sukharev/opencommit",
-     "desc": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with ",
+     "desc": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with",
      "stars": 7543
     },
     {
@@ -12542,7 +12542,7 @@
     {
      "name": "kubero",
      "full": "kubero-dev/kubero",
-     "desc": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on ",
+     "desc": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on",
      "stars": 4429
     },
     {

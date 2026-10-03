@@ -56,8 +56,8 @@ EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2190-\u21FF\u2600-\u27BF\u2B00-\u2BF
 def clean(s):
     s = EMOJI.sub("", s or "")
     s = s.replace("[", "\uff08").replace("]", "\uff09")
+    s = re.sub(r"https?://\S+", "", s)
     s = re.sub(r"\s+", " ", s).strip()
-    s = re.sub(r"github\.co/(?!m)", "github.com/", s)
     return s[:110]
 
 _calls = []
