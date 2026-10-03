@@ -238,12 +238,12 @@
 - [C252] Locke & Latham (2002). Building a Practically Useful Theory of Goal Setting（Am Psychol）: <https://pubmed.ncbi.nlm.nih.gov/12237980/>
 - [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）: <https://www.semanticscholar.org/paper/c4deb3507fe725ce6363c1735f1ba83bab20d665>
 - [C254] Siemens (2005). Connectivism: A Learning Theory for the Digital Age（存档）: <https://web.archive.org/web/2024/https://www.itdl.org/Journal/Jan_05/article01.htm>
-- [C255] Krathwohl (2002). A Revision of Bloom『s Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
+- [C255] Krathwohl (2002). A Revision of Bloom's Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
 - [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/19119232/>
 - [C257] Kyndt et al. (2013). A Meta-Analysis of the Effects of Face-to-Face Cooperative Learning: <https://www.semanticscholar.org/paper/82515246772d66d24ef855d7c23067355db269f3>
 - [C258] Hattie & Timperley (2007). The Power of Feedback: <https://doi.org/10.3102/003465430298487>
 - [C259] Wisniewski et al. (2020). The Power of Feedback Revisited（Frontiers）: <https://www.frontiersin.org/articles/10.3389/feduc.2019.00152/full>
 - [C260] Wood & Neal (2007). A New Look at Habits and the Habit–Goal Interface: <https://pubmed.ncbi.nlm.nih.gov/17907866/>
-- [C261] Rasch & Born (2013). About Sleep『s Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
+- [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
 - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
 - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>

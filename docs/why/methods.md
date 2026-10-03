@@ -96,6 +96,17 @@
 | 动机设计 | 给自主选择 + 胜任台阶 + 联结（组队） | B | [C250][C251] |
 | 分类学自检 | 用（记忆→理解→应用→分析→评价→创造）检查学到哪层 | B | [C255] |
 
+## 方法选择的常见错误用法
+
+| 错误用法 | 为什么错 | 修正 |
+|---|---|---|
+| 用记忆术去啃理解类材料 | 记忆术效用有限且不产生迁移 | 换自我解释 + 变式练习 [C05][C19] |
+| 收藏课程但不设目标 | 无目标→无筛选→无完成 | 先写具体目标 + 执行意图 [C{{LOCKE}}][C{{GOLLWITZER}}] |
+| 只有输入没有测验 | 熟悉的错觉替代真实掌握 | 加入自由回忆/卡片 [C01] |
+| 测验只对答案不纠错因 | 反馈停在「对/错」层，纠错不闭环 | 反馈到过程与策略层 [C{{HATTIE}}][C{{WISNIEWSKI}}] |
+| 同一题型刷到滚瓜烂熟 | 缺少变式与交错，迁移失效 | 交错 + 变式 + 跨情境 [C{{BRUNMAIR}}][C{{BARNETT}}] |
+| 靠意志力硬撑不断链 | 习惯层缺设计，动机耗尽后崩塌 | 习惯线索 + 最小启动动作 [C{{WOODNEAL}}] |
+
 ## 组合示例（把方法排成流水线）
 
 ```mermaid
@@ -136,12 +147,12 @@ flowchart LR
 - [C252] Locke & Latham (2002). Building a Practically Useful Theory of Goal Setting（Am Psychol）: <https://pubmed.ncbi.nlm.nih.gov/12237980/>
 - [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）: <https://www.semanticscholar.org/paper/c4deb3507fe725ce6363c1735f1ba83bab20d665>
 - [C254] Siemens (2005). Connectivism: A Learning Theory for the Digital Age（存档）: <https://web.archive.org/web/2024/https://www.itdl.org/Journal/Jan_05/article01.htm>
-- [C255] Krathwohl (2002). A Revision of Bloom『s Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
+- [C255] Krathwohl (2002). A Revision of Bloom's Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
 - [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/19119232/>
 - [C257] Kyndt et al. (2013). A Meta-Analysis of the Effects of Face-to-Face Cooperative Learning: <https://www.semanticscholar.org/paper/82515246772d66d24ef855d7c23067355db269f3>
 - [C258] Hattie & Timperley (2007). The Power of Feedback: <https://doi.org/10.3102/003465430298487>
 - [C259] Wisniewski et al. (2020). The Power of Feedback Revisited（Frontiers）: <https://www.frontiersin.org/articles/10.3389/feduc.2019.00152/full>
 - [C260] Wood & Neal (2007). A New Look at Habits and the Habit–Goal Interface: <https://pubmed.ncbi.nlm.nih.gov/17907866/>
-- [C261] Rasch & Born (2013). About Sleep『s Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
+- [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
 - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
 - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>
