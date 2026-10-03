@@ -45,6 +45,27 @@ flowchart TD
 - [ ] 冲突记录：本轮是否出现四骑士？是否有修复尝试？
 - [ ] 弱连接带来过至少一个真实机会（信息、合作或客户）。
 
+## 6. 深潜一：交换、共有与公平
+
+- **社会交换理论**：人际互动可视为「报酬 − 成本 − 期望」的交换；关系满意度与替代方案（comparison level for alternatives）共同决定去留。[C161]
+- **交换型 vs 共有型关系**：交换型（记账、即时对等）适合交易与合作；共有型（按需响应、不记账）适合亲密与高强度团队——**用错模式是冲突之源**：对朋友记账、对同事索求无度都违背了各自的关系规则。[C162]
+
+## 7. 深潜二：社会资本与「桥」
+
+- **黏合资本 vs 桥接资本**：黏合连接同质者、提供支持；桥接连接异质者、提供**机会**——职业跃迁多由桥接资本驱动。[C163]
+- **结构洞**：站在两个互不相连群体「洞」上的人拥有信息套利与创意优势——好点子更多来自跨群体中介。行动：刻意成为两圈之间「唯一互相认识的人」。[C164]
+
+## 8. 深潜三：信任方程与心理安全
+
+- **信任三要素**：能力 × 善意 × 正直——三项都可疑时信任崩塌；修复顺序上「正直」最难重建，所以承诺要少而准。[C165]
+- **团队心理安全**：成员确信「说出错误不会受罚」时，团队学习行为与绩效显著更好（医院团队经典研究）。行动：领导者先示范公开认错。[C166]
+
+## 9. 深潜四：说服与冲突模式
+
+- **说服六原则**（正当使用）：互惠、承诺一致、社会认同、喜好、权威、稀缺——先给价值，再谈请求。[C167]
+- **冲突五模式（TKI）**：竞争 / 协作 / 妥协 / 回避 / 迁就——按「议题重要性 × 关系重要性」选模式；长期关系中默认协作。[C168]
+- **依恋四象限**：自我模型 × 他人模型 → 安全 / 焦虑 / 回避 / 恐惧型；沟通配方不同：对焦虑型给确定性，对回避型给空间，对恐惧型给稳定的一致信号。[C169]
+
 ## 参考（人际赛道）
 
 - [C130] Hazan & Shaver (1987). Romantic love conceptualized as an attachment process: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.3.511>
@@ -55,3 +76,13 @@ flowchart TD
 - [C135] The Gottman Institute — 关系研究总览: <https://www.gottman.com/about/research/>
 - [C136] Holt-Lunstad et al. (2010). Social Relationships and Mortality Risk（PLOS Med）: <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316>
 - [C137] 非暴力沟通中心（CNVC）: <https://www.cnvc.org/>
+- [C161] Homans (1958). Social Behavior as Exchange (AJS): <https://doi.org/10.1086/222355>
+- [C162] Clark & Mills (1979). Interpersonal attraction in exchange and communal relationships: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.37.1.12>
+- [C163] Putnam (1995). Bowling Alone: America's Declining Social Capital: <https://www.journalofdemocracy.org/articles/bowling-alone-americas-declining-social-capital/>
+- [C164] Burt (2004). Structural Holes and Good Ideas (AJS): <https://doi.org/10.1086/421787>
+- [C165] Mayer, Davis & Schoorman (1995). An Integrative Model of Organizational Trust (AMR): <https://doi.org/10.5465/amr.1995.9508080335>
+- [C166] Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams (ASQ): <https://journals.sagepub.com/doi/10.2307/2666999>
+- [C167] Cialdini (2001). Harnessing the Science of Persuasion: <https://hbr.org/2001/10/harnessing-the-science-of-persuasion>
+- [C168] 冲突五模式（TKI 方法论）: https://www.themyersbriggs.com/en-US/Products-and-Services/TKI
+- [C169] Bartholomew & Horowitz (1991). Attachment styles among young adults: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.61.2.226>
+

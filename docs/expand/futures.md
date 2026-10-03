@@ -53,6 +53,31 @@ flowchart TD
 - [ ] 完成一次 2×2 情景演练并列出无后悔动作；
 - [ ] 每季度更新一次本页雷达（有新证据就替换引用）。
 
+## 6. 深潜一：能源底座 —— 聚变与光伏学习曲线
+
+- **聚变**：ITER 是全球最大实验合作；NIF 已于 2022 年实现点火净能量增益 [C146]——但并网时间表高度不确定，职业与投资按「2040s+」保守规划。[C176]
+- **光伏学习曲线**：累计装机每翻倍、组件成本约降 20%+（数据见 OWID 可查）——「持续下降的电力成本」是未来一切成本结构的地基。[C152]
+
+## 7. 深潜二：量子科技的现实进度条
+
+- 现状（Nature 评述）：数百量子比特可用，但「容错 + 有用算力」仍在早期——最先落地的是量子传感与专用模拟；通用破解 RSA 还很远。[C177]
+- 对个人：现在系统学量子信息是「看涨期权」（线性代数 + 量子算法基础），但不要用作 5 年内职业主线。
+
+## 8. 深潜三：空间与机器人
+
+- **空间**：Artemis 等国家级项目把月球经济从科幻变成工程排程——机会在配套供应链与地月通信。[C178]
+- **机器人**：国际机器人联合会数据显示装机量连年高增，服务机器人增速最快——与 AI 结合的具身智能是 2026–2035 确定性最高的交叉之一。[C179]
+
+## 9. 深潜四：脑科学与 AI 治理
+
+- **脑科学**：NIH BRAIN Initiative 把神经接口与认知测量推向前台——与长寿赛道在未来十年深度合流（认知测量 = 新的体检项目）。[C180]
+- **治理**：OECD AI 政策观察台追踪各国立法——监管差异将重塑行业地图；合规先行的市场将先出现企业级机会。[C181]
+
+## 10. 深潜五：自动化与就业的学术争论
+
+- Frey & Osborne (2017) 估计美国约 47% 岗位「高风险可自动化」——后续研究口径从 ~9% 到 ~47% 差异巨大；教益：**争论本身就是信号**——「任务级自动化」比「岗位级替换」更值得下注。[C182]
+- 叠加老龄化：UN 数据显示 65+ 人口占比持续攀升 [C183]——护理、健康与银发科技是「双趋势叠加」的确定性赛道。
+
 ## 参考（未来赛道）
 
 - [C144] Stanford AI Index（年度报告）: <https://aiindex.stanford.edu/report/>
@@ -64,3 +89,12 @@ flowchart TD
 - [C150] WHO — Decade of Healthy Ageing: <https://www.who.int/initiatives/decade-of-healthy-ageing>
 - [C151] Tetlock et al. — Identifying and Cultivating Superforecasters（EPJ）: <https://www.tandfonline.com/doi/full/10.1080/01973533.2015.1012991>
 - [C152] Our World in Data（数据基线）: <https://ourworldindata.org/>
+- [C176] ITER（国际热核聚变实验堆）: <https://www.iter.org/>
+- [C177] Nature (2023). Quantum computers: what are they good for?: <https://www.nature.com/articles/d41586-023-01692-9>
+- [C178] NASA Artemis: <https://www.nasa.gov/humans-in-space/artemis/>
+- [C179] IFR（国际机器人联合会）: <https://ifr.org/>
+- [C180] NIH BRAIN Initiative: <https://braininitiative.nih.gov/>
+- [C181] OECD.AI（AI 政策观察台）: <https://oecd.ai/>
+- [C182] Frey & Osborne (2017). The future of employment（Technological Forecasting）: <https://doi.org/10.1016/j.techfore.2016.08.019>
+- [C183] UN — Global Issues: Ageing: <https://www.un.org/en/global-issues/ageing>
+

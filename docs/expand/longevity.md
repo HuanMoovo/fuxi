@@ -50,6 +50,26 @@ flowchart LR
 - [ ] 核心社交圈最近 30 天联系过；
 - [ ] 复查用药与补剂清单（只留证据 A/B 的）。
 
+## 6. 深潜一：为什么进化不给我们长寿（理论底座）
+
+- **可弃体细胞假说**：能量在「繁殖 vs 修复」之间权衡，自然选择只保障能繁殖的年限——衰老不是预设程序，而是维护预算的余额。[C170]
+- **衰老标志的演变**：2013 年 9 大标志 → 2023 年扩为 12 大（新增自噬失能、菌群失调、慢性炎症等）——当前「老化理论」最被引用的分类框架。[C171]
+
+## 7. 深潜二：生物年龄与时钟（前沿工具）
+
+- **DNA 甲基化时钟**（Horvath 2013）：预测生理年龄误差约 ±3-4 年；它衡量**风险**不是命运——睡眠、运动与代谢改善与更慢的表观遗传老化相关。[C172]
+- 警示：时钟是研究工具，不是补剂营销许可证；看到「细胞年龄逆转 N 岁」先问「什么终点、谁复现的」。
+
+## 8. 深潜三：热量限制的边界
+
+- 恒河猴 CR 长期研究：热量限制改善代谢与健康指标，寿命效应在不同队列间有差异（喂养方案与对照饮食质量可解释）——人类应当把它当**工具**（配合总热量管理），而不是长生术。[C173]
+- 可操作版：餐盘法则（½ 蔬菜 ¼ 蛋白 ¼ 主食）+ 每周 2 天轻度限制（医嘱许可下）。
+
+## 9. 深潜四：力量与心肺（被低估的双引擎）
+
+- **握力与死亡风险**：50 万人队列——握力每下降 5kg，全因死亡风险显著上升；肌肉力量是优于 BMI 的预测指标之一。[C174]
+- **WHO 2020 指南**（长寿的最低有效剂量）：150–300 分钟中等强度/周 + 2 次力量训练 + 少坐多动。[C175]
+
 ## 参考（长寿赛道）
 
 - [C138] López-Otín et al. (2023). Hallmarks of aging: An expanding universe（Cell）: https://pubmed.ncbi.nlm.nih.gov/36599349/
@@ -58,3 +78,10 @@ flowchart LR
 - [C141] Estruch et al. (2013). PREDIMED（NEJM）: https://pubmed.ncbi.nlm.nih.gov/23432189/
 - [C142] Newman. Supercentenarians and the oldest-old（bioRxiv）: <https://www.biorxiv.org/content/10.1101/704080v3>
 - [C143] Lee et al. (2019). Optimism is associated with exceptional longevity（PNAS）: https://www.pnas.org/doi/10.1073/pnas.1816454116
+- [C170] Kirkwood (1977). Evolution of ageing（可弃体细胞）: <https://www.nature.com/articles/270301a0>
+- [C171] López-Otín et al. (2013). The Hallmarks of Aging（原始版）: https://pubmed.ncbi.nlm.nih.gov/23746838/
+- [C172] Horvath (2013). DNA methylation age of human tissues（时钟）: <https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r115>
+- [C173] Mattison et al. (2017). Caloric restriction in rhesus monkeys（Nature Comm）: <https://www.nature.com/articles/ncomms14063>
+- [C174] Celis-Morales et al. (2018). Handgrip strength and mortality（BMJ）: https://pubmed.ncbi.nlm.nih.gov/29739772/
+- [C175] WHO (2020). Physical Activity Guidelines: <https://www.who.int/publications/i/item/9789240015128>
+

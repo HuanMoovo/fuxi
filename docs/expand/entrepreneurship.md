@@ -54,6 +54,30 @@ flowchart LR
 - [ ] 写下「可承受损失上限」与停止规则；
 - [ ] ≥3 个渠道实验，至少 1 个跑通 LTV > CAC。
 
+## 7. 深潜一：竞争结构、破坏式创新与平台
+
+- **五力模型（先做体检再创业）**：新进入者威胁 / 替代品 / 买方议价力 / 供方议价力 / 现有对手竞争——五力决定行业平均利润，优先找「五力友好」的切口，而不是在绞肉机里拼运营。[C154]
+- **破坏式创新（与其常见误读）**：颠覆从低端或新市场起步，先服务被忽视人群、再向上迁移；「技术更先进 ≠ 颠覆」——多数独角兽其实是持续性创新。[C155]
+- **双边平台冷启动**：同时点燃两边（鸡生蛋）——先重度补贴「更难获得」的一边，或先用单边小工具建立用户池再平台化。[C156]
+
+## 8. 深潜二：融资与实验的纪律
+
+- **创业即实验组合**：每一轮融资买到的不是「成功」而是**更多实验次数**——真正的里程碑是单位经济与学习速率。[C159]
+- **VC 绩效的真相**：顶级基金的回报存在轻微但可测的持续性——对创业者的含义：投资人不能点石成金，他们是在为你的实验质量下注。[C158]
+- 纪律三条：① 稀释意识（每轮只卖必需）；② 里程碑融资（估值随证据增长）；③ 跑道纪律（≥12 个月且 13 周滚动现金流台账）。
+- **PMF 的量化红线**（Sean Ellis 测试）：若「如果这个产品明天消失，你会非常失望吗？」回答「非常」的用户占比 ≥40%，用户增长引擎一般可持续。[C160]
+
+## 9. 深潜三：失败解剖（尸检报告）
+
+| 常见死因（CB Insights 汇总）[C157] | 预防动作 |
+|---|---|
+| 没有真实市场需求 | Mom Test 前置调查；MVP 前先预售 |
+| 现金流断裂 | 13 周滚动现金流 + 跑道预警线 |
+| 团队不匹配 / 单打独斗 | 股权与决策规则前置；「为什么」对齐 |
+| 被击败 / 定价失误 | 五力扫描 + 价值定价而非成本定价 |
+
+- **结构化复盘模板**（经验要经过反思才可迁移）：事件 → 当时的假设 → 证据 → 决策点 → 下一次的「如果…就…」规则。
+
 ## 参考（创业赛道）
 
 - [C123] Camuffo et al. (2020). A Scientific Approach to Entrepreneurial Decision Making（RCT）: <https://doi.org/10.1287/mnsc.2018.3249>
@@ -62,3 +86,12 @@ flowchart LR
 - [C126] Andreessen. The Only Thing That Matters（PMF 经典文）: <https://pmarchive.com/guide_to_startups_part4.html>
 - [C127] Blank. Why the Lean Start-Up Changes Everything（HBR）: <https://hbr.org/2013/05/why-the-lean-start-up-changes-everything>
 - [C128] Fitzpatrick. The Mom Test（官网）: <https://www.momtestbook.com/>
+- [C153] Shane & Venkataraman (2000). The Promise of Entrepreneurship as a Field of Research: <https://doi.org/10.5465/amr.2000.2791606>
+- [C154] Porter (2008). The Five Competitive Forces That Shape Strategy: <https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy>
+- [C155] Christensen, Raynor & McDonald (2015). What Is Disruptive Innovation?: <https://hbr.org/2015/12/what-is-disruptive-innovation>
+- [C156] Eisenmann, Parker & Van Alstyne (2006). Strategies for Two-Sided Markets: <https://hbr.org/2006/10/strategies-for-two-sided-markets>
+- [C157] CB Insights. Top Reasons Startups Fail: <https://www.cbinsights.com/research/startup-failure-reasons-top/>
+- [C158] Gompers et al. (2010). Performance Persistence in Entrepreneurship (JFE): <https://doi.org/10.1016/j.jfineco.2010.02.004>
+- [C159] Kerr, Nanda & Rhodes-Kropf (2014). Entrepreneurship as Experimentation (JEP): <https://www.aeaweb.org/articles?id=10.1257/jep.28.3.25>
+- [C160] Ellis. The Startup Pyramid（PMF 40% 测试）: <https://www.startup-marketing.com/the-startup-pyramid/>
+

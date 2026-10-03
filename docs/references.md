@@ -117,3 +117,37 @@
 - [C150] WHO Decade of Healthy Ageing: <https://www.who.int/initiatives/decade-of-healthy-ageing>
 - [C151] Tetlock et al. — Superforecasters: <https://www.tandfonline.com/doi/full/10.1080/01973533.2015.1012991>
 - [C152] Our World in Data: <https://ourworldindata.org/>
+
+## 拓界篇扩展二 · 深潜增强（C153–C183）
+
+- [C153] Shane & Venkataraman (2000). The Promise of Entrepreneurship as a Field of Research: <https://doi.org/10.5465/amr.2000.2791606>
+- [C154] Porter (2008). The Five Competitive Forces That Shape Strategy: <https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy>
+- [C155] Christensen, Raynor & McDonald (2015). What Is Disruptive Innovation?: <https://hbr.org/2015/12/what-is-disruptive-innovation>
+- [C156] Eisenmann, Parker & Van Alstyne (2006). Strategies for Two-Sided Markets: <https://hbr.org/2006/10/strategies-for-two-sided-markets>
+- [C157] CB Insights. Top Reasons Startups Fail: <https://www.cbinsights.com/research/startup-failure-reasons-top/>
+- [C158] Gompers et al. (2010). Performance Persistence in Entrepreneurship (JFE): <https://doi.org/10.1016/j.jfineco.2010.02.004>
+- [C159] Kerr, Nanda & Rhodes-Kropf (2014). Entrepreneurship as Experimentation (JEP): <https://www.aeaweb.org/articles?id=10.1257/jep.28.3.25>
+- [C160] Ellis. The Startup Pyramid（PMF 40% 测试）: <https://www.startup-marketing.com/the-startup-pyramid/>
+- [C161] Homans (1958). Social Behavior as Exchange (AJS): <https://doi.org/10.1086/222355>
+- [C162] Clark & Mills (1979). Interpersonal attraction in exchange and communal relationships: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.37.1.12>
+- [C163] Putnam (1995). Bowling Alone: America's Declining Social Capital: <https://www.journalofdemocracy.org/articles/bowling-alone-americas-declining-social-capital/>
+- [C164] Burt (2004). Structural Holes and Good Ideas (AJS): <https://doi.org/10.1086/421787>
+- [C165] Mayer, Davis & Schoorman (1995). An Integrative Model of Organizational Trust (AMR): <https://doi.org/10.5465/amr.1995.9508080335>
+- [C166] Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams (ASQ): <https://journals.sagepub.com/doi/10.2307/2666999>
+- [C167] Cialdini (2001). Harnessing the Science of Persuasion: <https://hbr.org/2001/10/harnessing-the-science-of-persuasion>
+- [C168] 冲突五模式（TKI 方法论）: https://www.themyersbriggs.com/en-US/Products-and-Services/TKI
+- [C169] Bartholomew & Horowitz (1991). Attachment styles among young adults: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.61.2.226>
+- [C170] Kirkwood (1977). Evolution of ageing（可弃体细胞）: <https://www.nature.com/articles/270301a0>
+- [C171] López-Otín et al. (2013). The Hallmarks of Aging（原始版）: https://pubmed.ncbi.nlm.nih.gov/23746838/
+- [C172] Horvath (2013). DNA methylation age of human tissues（时钟）: <https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r115>
+- [C173] Mattison et al. (2017). Caloric restriction in rhesus monkeys（Nature Comm）: <https://www.nature.com/articles/ncomms14063>
+- [C174] Celis-Morales et al. (2018). Handgrip strength and mortality（BMJ）: https://pubmed.ncbi.nlm.nih.gov/29739772/
+- [C175] WHO (2020). Physical Activity Guidelines: <https://www.who.int/publications/i/item/9789240015128>
+- [C176] ITER（国际热核聚变实验堆）: <https://www.iter.org/>
+- [C177] Nature (2023). Quantum computers: what are they good for?: <https://www.nature.com/articles/d41586-023-01692-9>
+- [C178] NASA Artemis: <https://www.nasa.gov/humans-in-space/artemis/>
+- [C179] IFR（国际机器人联合会）: <https://ifr.org/>
+- [C180] NIH BRAIN Initiative: <https://braininitiative.nih.gov/>
+- [C181] OECD.AI（AI 政策观察台）: <https://oecd.ai/>
+- [C182] Frey & Osborne (2017). The future of employment（Technological Forecasting）: <https://doi.org/10.1016/j.techfore.2016.08.019>
+- [C183] UN — Global Issues: Ageing: <https://www.un.org/en/global-issues/ageing>
