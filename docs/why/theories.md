@@ -1,4 +1,4 @@
-# 姐妹篇（上）· 理论框架全景：40 个框架，把学习与思考的科学装进一张地图
+# 姐妹篇（上）· 理论框架全景：53 个框架，把学习与思考的科学装进一张地图
 
 > 「[方法碎片化](fragmentation.md)」的解药是框架层认知：单个技巧必须先挂到理论框架上，才知道**什么时候成立、为什么成立、何时失效**。本页把学习科学的主要理论框架一次收全：每个框架给出核心主张、代表文献与实践含义。
 > 系列：[① 方法碎片化](fragmentation.md) · [② 伪科学横行](pseudoscience.md) · [③ 爽感陷阱](fluency-trap.md) · [④ AI 时代的新风险](ai-risks.md) ｜ **姐妹篇：[上 · 理论框架全景（本文）](theories.md)** · [下 · 学习方法全景](methods.md)
@@ -70,7 +70,7 @@
 |---|---|---|---|
 | 关联主义 | 知识分布在网络中，学习 = 建立与维护连接（**主张有争议、实证薄弱，谨慎使用「理论」头衔**） | [C254] | 用作「学习网络化」的启发，不当作已验证规律 |
 
-## G. 思维与推理（8）
+## G. 思维与推理（21）
 
 > 这一族回答「**怎么想**」而不只是「怎么记」。「第一性原理」等流行提法的学术对应物在此，同时给出证据边界。
 
@@ -84,8 +84,22 @@
 | 因果推理 | 人天然做因果推断，但常混淆相关与干预 | [C272] | 画因果图：变量、方向、可干预点 |
 | 有限理性与启发式 | 简单规则在真实不确定环境中常表现优异——「偏差」不是全部故事 | [C273] | 信息少、时间紧时用简单规则而非硬建模 |
 | 科学方法论（假说-检验） | 知识靠可反驳的假设与检验前进 | [C113] Kuhn；[C114] Popper（既有编号） | 把自己的判断写成可被证伪的假设 |
+| 演绎推理（反例搜索） | 有效推理 = 系统性搜索「结论为假」的模型；推理错误多来自只建构了单一情境 | [C274] | 检验判断时主动列举反例情形 |
+| 归纳与抽象 | 心智是「统计推断器」：从少量样本推断生成结构 | [C275] | 主动多找样本（案例、变式）再下结论 |
+| 贝叶斯推理与自然频率 | 把条件概率改写成**自然频率**（每 1000 人里……）可大幅提升判断正确率 | [C276] | 遇到概率题先换自然频率格式 |
+| 前景理论（风险决策） | 人对损失比对等量收益敏感；决策取决于参考点与框架 | [C277] | 决策时先问「参考点和框架是谁设的」 |
+| 博弈与策略思维 | 重复互动中「友善-可报复-宽容」的以牙还牙型策略稳健占优 | [C278] | 长期关系默认先合作、再按对方行为调整 |
+| 系统思维（反馈与延迟） | 复杂系统的反馈延迟会让直觉判断系统性出错 | [C279] | 画反馈回路图，标注延迟再决策 |
+| 创造性思维（发散与生成） | 发散思维可测可训，与创造潜能相关；创造=类比/组合/抽象等生成过程 | [C280]；[C281] | 生成与评估分离：先求量再求质 |
+| 设计思维 | 问题定义 → 发散 → 原型 → 测试的迭代流程（教育应用证据中等） | [C282] | 用它组织复杂项目，不神化 |
+| 统计素养（p 值） | p 值不是「证据强度打分」；不显著 ≠ 无效应 | [C284]；[C283] | 读论文先看效应量与不确定区间 |
+| 开放科学与可重复性 | 预注册、数据开放、复现研究是方法论标准 | [C285] | 引用结论前看是否被独立复现 |
+| 文化认知（整体/分析） | 东亚思维偏整体关系、西方偏分析对象——实验可测的文化差异 | [C286] | 跨文化学习与协作时主动切换视角 |
+| 去偏差训练 | 一次性结构化训练可改善偏差判断且效果持续 | [C287] | 用固定清单核对锚定/确认/可得性偏差 |
+| 概率预测与校准 | 分层校准 + 基础率 + 频繁小步更新显著优于直觉预测 | [C151]（既有编号） | 记录预测并复盘校准 |
 
-## 旗舰框架深读（9 个）
+
+## 旗舰框架深读（11 个）
 
 - **认知负荷理论**：三类负荷——内在（材料本身的复杂度）、外在（表述与界面带来的额外负担）、相关（用于建构图式的有效投入）。教学原则：先管外在（去噪、给样例），再留出相关负荷的空间；新手与专家的最优设计相反，脚手架必须能撤掉 [C81][C15]。
 - **间隔效应**：最稳健的实证规律之一。解释理论包括「学习阶段提取」「加工不足说」等；实践参数（间隔长度）取决于目标保持时长，越长目标配越长间隔 [C04]。
@@ -97,6 +111,9 @@
 - **自我决定理论（SDT）**：自主（我有选择）、胜任（我在变强）、联结（与他人一起）三需求满足程度决定动机质量——外部奖励用不好会侵蚀内在动机，设计学习时优先满足三需求 [C250]。
 
 - **第一性原理 × 类比（补注）**：两者互补——类比擅长快速迁移已知结构（如「这像上一个项目的哪部分」），第一性原理擅长在无先例时从约束重新推导（如「从物理极限倒推可行性」）。专家-新手研究表明：问题表征停留于表面特征的人靠类比碰运气，按深层原理表征的人能系统迁移 [C264][C265]；而类比若要可靠，需要「结构对齐」训练 [C266]。
+
+- **贝叶斯更新与自然频率（补注）**：把条件概率改写成自然频率（「每 1000 人里……」）能显著提升贝叶斯判断正确率 [C276]；配合个人预测校准记录 [C151] 使用。
+- **系统与统计素养（补注）**：复杂系统的反馈延迟会系统性骗过直觉 [C279]；读研究结论时默认三问——效应量多大？不确定区间？「不显著」是否被误读为「无效应」？[C284][C283]。
 
 ## 框架 → 方法的转换示例
 
@@ -145,3 +162,17 @@
 - [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically（元分析）: <https://www.semanticscholar.org/paper/652411c3fd70c5303249a925df5930c8ea2b36e7>
 - [C272] Sloman & Lagnado (2015). Causality in Thought（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/25061673/>
 - [C273] Gigerenzer & Gaissmaier (2011). Heuristic Decision Making（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/21126183/>
+- [C274] Johnson-Laird (2010). Mental Models and Human Reasoning（PNAS）: <https://pubmed.ncbi.nlm.nih.gov/20956326/>
+- [C275] Tenenbaum et al. (2011). How to Grow a Mind: Statistics, Structure, and Abstraction（Science）: <https://pubmed.ncbi.nlm.nih.gov/21393536/>
+- [C276] Gigerenzer & Hoffrage (1995). How to Improve Bayesian Reasoning Without Instruction（Psych Review）: <https://www.semanticscholar.org/search?q=How%20to%20improve%20Bayesian%20reasoning%20without%20instruction>
+- [C277] Kahneman & Tversky (1979). Prospect Theory: An Analysis of Decision under Risk（Econometrica）: <https://www.uzh.ch/cmsssl/suz/dam/jcr:00000000-64a0-5b1c-0000-00003b7ec704/10.05-kahneman-tversky-79.pdf>
+- [C278] Axelrod & Hamilton (1981). The Evolution of Cooperation（Science）: <https://pubmed.ncbi.nlm.nih.gov/7466396/>
+- [C279] Sterman (2006). Learning from Evidence in a Complex World（AJPH）: <https://pubmed.ncbi.nlm.nih.gov/16030331/>
+- [C280] Runco & Acar (2012). Divergent Thinking as an Indicator of Creative Potential: <https://www.semanticscholar.org/paper/1a09e7f61e419693853281d8638c1feefdfe507e>
+- [C281] DeHaan (2009). Teaching Creativity and Inventive Problem Solving in Science（CBE-LSE）: <https://pubmed.ncbi.nlm.nih.gov/19487497/>
+- [C282] Razzouk & Shute (2012). What Is Design Thinking and Why Is It Important?: <https://www.semanticscholar.org/paper/3bfc46f00bd1bfa57189fb78c9aa1194ff0ad6ad>
+- [C284] Wasserstein & Lazar (2016). The ASA Statement on p-Values: <https://www.semanticscholar.org/paper/81a65f23474ffceb2481836328608102950da979>
+- [C283] Amrhein, Greenland & McShane (2019). Scientists Rise Up Against Statistical Significance（Nature）: <https://www.nature.com/articles/d41586-019-00857-9>
+- [C285] Munafò et al. (2017). A Manifesto for Reproducible Science: <https://pubmed.ncbi.nlm.nih.gov/33954258/>
+- [C286] Peng & Nisbett (1999). Culture, Dialectics, and Reasoning About Contradiction（Am Psychol）: <https://www.semanticscholar.org/paper/073c71e1972025e05eb69f0e992b28aa68bfc7b1>
+- [C287] Morewedge et al. (2015). Debiasing Decisions: Improved Decision Making With a Single Training Intervention: <https://www.semanticscholar.org/paper/1984f045b488bb1af481b23f83f1b9df68e3f5b9>

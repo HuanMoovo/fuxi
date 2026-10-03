@@ -260,3 +260,20 @@
 - [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically: <https://www.semanticscholar.org/paper/652411c3fd70c5303249a925df5930c8ea2b36e7>
 - [C272] Sloman & Lagnado (2015). Causality in Thought: <https://pubmed.ncbi.nlm.nih.gov/25061673/>
 - [C273] Gigerenzer & Gaissmaier (2011). Heuristic Decision Making: <https://pubmed.ncbi.nlm.nih.gov/21126183/>
+
+## 思维与推理扩编（C274–C287）
+
+- [C274] Johnson-Laird (2010). Mental Models and Human Reasoning（PNAS）: <https://pubmed.ncbi.nlm.nih.gov/20956326/>
+- [C275] Tenenbaum et al. (2011). How to Grow a Mind（Science）: <https://pubmed.ncbi.nlm.nih.gov/21393536/>
+- [C276] Gigerenzer & Hoffrage (1995). Bayesian Reasoning Without Instruction: <https://www.semanticscholar.org/search?q=How%20to%20improve%20Bayesian%20reasoning%20without%20instruction>
+- [C277] Kahneman & Tversky (1979). Prospect Theory（Econometrica）: <https://www.uzh.ch/cmsssl/suz/dam/jcr:00000000-64a0-5b1c-0000-00003b7ec704/10.05-kahneman-tversky-79.pdf>
+- [C278] Axelrod & Hamilton (1981). The Evolution of Cooperation（Science）: <https://pubmed.ncbi.nlm.nih.gov/7466396/>
+- [C279] Sterman (2006). Learning from Evidence in a Complex World: <https://pubmed.ncbi.nlm.nih.gov/16030331/>
+- [C280] Runco & Acar (2012). Divergent Thinking as an Indicator of Creative Potential: <https://www.semanticscholar.org/paper/1a09e7f61e419693853281d8638c1feefdfe507e>
+- [C281] DeHaan (2009). Teaching Creativity in Science: <https://pubmed.ncbi.nlm.nih.gov/19487497/>
+- [C282] Razzouk & Shute (2012). What Is Design Thinking: <https://www.semanticscholar.org/paper/3bfc46f00bd1bfa57189fb78c9aa1194ff0ad6ad>
+- [C284] Wasserstein & Lazar (2016). ASA Statement on p-Values: <https://www.semanticscholar.org/paper/81a65f23474ffceb2481836328608102950da979>
+- [C283] Amrhein et al. (2019). Scientists Rise Up Against Statistical Significance: <https://www.nature.com/articles/d41586-019-00857-9>
+- [C285] Munafò et al. (2017). A Manifesto for Reproducible Science: <https://pubmed.ncbi.nlm.nih.gov/33954258/>
+- [C286] Peng & Nisbett (1999). Culture, Dialectics, and Reasoning About Contradiction: <https://www.semanticscholar.org/paper/073c71e1972025e05eb69f0e992b28aa68bfc7b1>
+- [C287] Morewedge et al. (2015). Debiasing Decisions: <https://www.semanticscholar.org/paper/1984f045b488bb1af481b23f83f1b9df68e3f5b9>
