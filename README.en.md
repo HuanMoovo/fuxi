@@ -8,7 +8,10 @@
 [![License: MIT + CC-BY-4.0](https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg)](./LICENSE)
 [![Evidence Graded](https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg)](./docs/evidence.md)
 
-![Fuxi Framework overview](docs/assets/fuxi-hero.svg)
+[![Fuxi Framework overview](docs/assets/fuxi-hero.svg)](docs/assets/fuxi-hero.svg)
+
+
+> Tip: click any image to enlarge it (opens the original).
 
 ## The 10-Stage Timeline
 

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="docs/assets/fuxi-logo.svg" alt="伏羲框架 · LOGO" width="560">
+<a href="docs/assets/fuxi-logo.svg" target="_blank"><img src="docs/assets/fuxi-logo.svg" alt="伏羲框架 · LOGO" width="560"></a>
 
 # 伏羲框架 · 万物皆可学
 
@@ -19,7 +19,10 @@
 
 </div>
 
-![伏羲框架 · 五纪十阶总览](docs/assets/fuxi-hero.svg)
+[![伏羲框架 · 五纪十阶总览](docs/assets/fuxi-hero.svg)](docs/assets/fuxi-hero.svg)
+
+
+> 提示：点击任意图片可放大查看（打开原图）。
 
 ---
 
@@ -76,7 +79,7 @@
 
 ## 引擎：三恒 · 两尺 · 一原则
 
-![伏羲引擎](docs/assets/fuxi-engine.svg)
+[![伏羲引擎](docs/assets/fuxi-engine.svg)](docs/assets/fuxi-engine.svg)
 
 - **三恒（永远在线的约束）**：认知负荷预算（[Sweller et al., 2019](<https://link.springer.com/article/10.1007/s10648-019-09465-5>)）· 动机与自我调节（[Ryan & Deci, 2000](<https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf>)）· 反馈回路（[Hattie & Timperley, 2007](<https://doi.org/10.3102/003465430298487>)）。
 - **两把尺**：区分「表现」（当下手感）与「学习」（延迟检索仍会）—— 只用第二把尺做决策（[Karpicke & Roediger, 2008](<https://doi.org/10.1126/science.1152408>)）。
@@ -118,7 +121,7 @@
 
 ## 三大路线：先选走法
 
-![三轨适配](docs/assets/fuxi-paths.svg)
+[![三轨适配](docs/assets/fuxi-paths.svg)](docs/assets/fuxi-paths.svg)
 
 | 路线 | 适用 | 重心阶段 | 策略 |
 |------|------|----------|------|
