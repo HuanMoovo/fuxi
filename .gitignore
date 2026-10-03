@@ -6,4 +6,5 @@ Thumbs.db
 *.log
 docs/book/*.html
 docs/book/full-assets/
-docs/pdf/_full_raw.pdf
+docs/pdf/*.pdf
+generator/__pycache__/

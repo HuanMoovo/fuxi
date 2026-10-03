@@ -45,21 +45,21 @@ PARTS = [
    ("赛道 · 未来纪元", "docs/expand/futures.md"),
  ]),
  ("第四部分 · 误区全景", "24 条高频误区的证据裁决", [("学习误区辟谣库（24 条）", "docs/myths.md")]),
- ("第五部分 · 证据与文献", "每一条主张都可核验", [
-   ("证据底座（30 条结论）", "docs/evidence.md"),
-   ("全量文献库（C01–C286）", "docs/references.md"),
- ]),
- ("第六部分 · 路线、FAQ 与工具", "怎么走、遇到问题怎么办、用什么工具", [
+ ("第五部分 · 路线、FAQ 与工具", "怎么走、遇到问题怎么办、用什么工具", [
    ("路线与领域", "docs/paths.md"),
    ("常见问题 FAQ", "docs/faq.md"),
    ("开源工具链", "docs/tools.md"),
  ]),
- ("第七部分 · 模板与行动附录", "即取即用：契约 / 检视 / 错题 / 卡片 / 清单", [
+ ("第六部分 · 模板与行动附录", "即取即用：契约 / 检视 / 错题 / 卡片 / 清单", [
    ("学习契约（模板）", "templates/learning-contract.md"),
    ("周检视（模板）", "templates/weekly-review.md"),
    ("错题日志（模板）", "templates/error-log.md"),
    ("卡片规则（模板）", "templates/card-rules.md"),
    ("十阶过关清单（模板）", "templates/stage-checklist.md"),
+ ]),
+ ("第七部分 · 证据与文献", "每一条主张都可核验（放于最末）", [
+   ("证据底座（30 条结论）", "docs/evidence.md"),
+   ("全量文献库（C01–C286）", "docs/references.md"),
  ]),
 ]
 

@@ -56,7 +56,7 @@
 
 ## 资源目录
 
-- 📄 **PDF 下载**：[精简版](pdf/fuxi-handbook-lite-zh.pdf)（39 页）· [完整版](pdf/fuxi-handbook-full-zh.pdf)（117 页，含全部文档/页码/书签）——离线 / 打印读物
+- 📄 **PDF 版**：制作中（暂未上线）
 - [学习友链目录](awesome-learning.md) —— **2465 个**开源学习项目（12 类）
 - [人生时间线目录](awesome-lifespan.md) —— 从出生到老年排序的资源带
 

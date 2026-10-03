@@ -356,112 +356,14 @@
 
 ① 上次学习结束有做空白纸回忆吗？② 用「我是视觉型」做过决定吗？③ 复习由工具调度还是心情？④ 撤掉 AI 能独立复现吗？⑤ 「等基础学完」说了多久？⑥ 判断「困难」看它练什么还是多难受？⑦ 用莫扎特/右脑类说法指导过学习投资吗？⑧ 校验过自己的 AI 用法符合三步协议吗？
 
-# 第七章 证据与文献
+# 第七章 结语：从这里出发
 
-## 7.1 证据分级标准
+- 在线主页：https://HuanMoovo.github.io/fuxi/
+- 文档总目录：https://github.com/HuanMoovo/fuxi/blob/main/docs/README.md
+- 全量文献库：https://github.com/HuanMoovo/fuxi/blob/main/docs/references.md
+- 图表生成器（可复现）：generator/build_svgs.py ｜ 本书生成器：generator/build_book.py
 
-**A 强**（多项元分析/RCT 方向一致）· **B 中**（有对照研究，受情境调节）· **C 弱/条件**（理论好、实证有限）· **D 证伪**（流行但被证据否定）。等级为本项目对证据的综合判断，非期刊官方评级；所有数字照转文献报告口径。
-
-## 7.3 如何引用
-
-HuanMoovo. 《伏羲框架 · 万物皆可学》. GitHub: https://github.com/HuanMoovo/fuxi （文档 CC BY 4.0）——引用格式见仓库 CITATION.cff。
-
-## 7.2 精选文献（全量 C01–C286 见线上文献库）
-
-- - [C01] Karpicke, J. D., & Roediger, H. L. (2008). The Critical Importance of Retrieval for Learning. *Science*, 319(5865), 966–968. ；<http
-- - [C02] Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. *Perspectives on Psychological Science*. ；<
-- - [C03] Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the Use of Tests: A Meta-Analysis of Practice Testing. *Review of Educational Research*. <
-- - [C04] Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*, 132(3). ；
-- - [C05] Dunlosky, J., et al. (2013). Improving Students' Learning With Effective Learning Techniques. *PSPI*.
-- - [C09] Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. *RER*.
-- - [C15] Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. *EPR*.
-- - [C17] Chase & Simon (1973) Perception in chess；Cowan (2001) The magical number 4. ；
-- - [C19] Bisra, K., et al. (2018). Inducing Self-Explanation: a Meta-Analysis. *EPR*.
-- - [C20] Paivio, A. (1971). Imagery and Verbal Processes（书）；Mayer, R. E. (2009). Multimedia Learning（书）. ；
-- - [C23] Fiorella, L., & Mayer, R. E. (2016). Eight Ways to Promote Generative Learning. *EPR*, 28(4).
-- - [C25] Nestojko, J. F., et al. (2014). Expecting to teach enhances learning.
-- - [C31] Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice. *Psychological Review*.
-- - [C32] Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate Practice and Performance: A Meta-Analysis. *Psychological Science*.
-- - [C41] Ausubel, D. P. (1960). Advance organizers；Novak & Cañas 概念图理论。 ；
-- - [C44] Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive Apprenticeship.
-- - [C45] Dochy, F., et al. (2003). Effects of problem-based learning: A meta-analysis. *Learning and Instruction*.
-- - [C51] Pashler, H., et al. (2008). Learning Styles: Concepts and Evidence. *PSPI*.
-- - [C52] Letrud (2012) 与 Subramony et al. (2014)：学习金字塔/保持率锥系神话。 ；
-- - [C53] Rayner, K., et al. (2016). So Much to Read, So Little Time. *PSPI*.
-- - [C54] Sala, G., & Gobet, F. (2019). Near and Far Transfer in Cognitive Training. *Collabra*.
-- - [C56] Bastani, H., et al. (2025). Generative AI without guardrails can harm learning. *PNAS*.
-- - [C57] Fan, Y., et al. (2025). Beware of metacognitive laziness. *BJET*.
-- - [C59] Kestin, G., et al. (2025). AI tutoring outperforms in-class active learning. *Scientific Reports*.
-- - [C65] Bloom, B. S. (1984). The 2 Sigma Problem.
-- - [C75] Roediger & Butler (2011) 检索练习的批判性回顾（TiCS）。
-- - [C81] Sweller (1988) 认知负荷与示范题效应（原始论文）。
-- - [C113] Kuhn, T. — The Structure of Scientific Revolutions（范式与反常）:
-- - [C114] Popper, K. — 可证伪性与批判理性主义:
-- - [C123] Camuffo et al. (2020). A Scientific Approach to Entrepreneurial Decision Making:
-- - [C125] Azoulay et al. (2020). Age and High-Growth Entrepreneurship:
-- - [C130] Hazan & Shaver (1987). Romantic love as attachment:
-- - [C132] Granovetter (1973). The Strength of Weak Ties:
-- - [C133] Nowak & Sigmund (2005). Evolution of indirect reciprocity:
-- - [C135] Gottman Institute — Research:
-- - [C136] Holt-Lunstad et al. (2010). Social Relationships and Mortality Risk:
-- - [C138] López-Otín et al. (2023). Hallmarks of aging:
-- - [C139] Moore et al. (2012). Physical activity and mortality:
-- - [C141] Estruch et al. (2013). PREDIMED:
-- - [C144] Stanford AI Index:
-- - [C146] LLNL Fusion Ignition:
-- - [C147] UN World Population Prospects:
-- - [C148] IPCC AR6 SYR:
-- - [C151] Tetlock et al. — Superforecasters:
-- - [C203] Bornmann & Mutz (2015). Growth rates of modern science:
-- - [C204] Hilbert & López (2011). The World's Technological Capacity:
-- - [C205] Reich & Ruipérez-Valiente (2019). The MOOC Pivot（Science）:
-- - [C206] World Bank — Learning Poverty:
-- - [C207] WHO — Commission on Social Connection:
-- - [C208] U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation:
-- - [C209] OECD (2023). PISA 2022 Results:
-- - [C210] Zimmerman (2002). Becoming a Self-Regulated Learner:
-- - [C214] Pashler et al. (2008). Learning Styles: Concepts and Evidence:
-- - [C215] Rayner et al. (2016). So Much to Read, So Little Time:
-- - [C216] Dekker et al. (2012). Neuromyths in Education:
-- - [C217] Weisberg et al. (2008). The Seductive Allure of Neuroscience Explanations:
-- - [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way:
-- - [C220] Koriat & Bjork (2005). Illusions of Competence:
-- - [C222] Ji et al. (2023). Survey of Hallucination in NLG:
-- - [C224] Dell'Acqua et al. (2023). Navigating the Jagged Technological Frontier:
-- - [C225] UNESCO (2023). Guidance for Generative AI in Education and Research:
-- - [C226] Gerlich (2025). AI Tools in Society:
-- - [C227] OpenAI et al. (2023). GPT-4 Technical Report:
-- - [C228] Pietschnig, Voracek & Formann (2010). Mozart effect–Shmozart effect: A Meta-analysis:
-- - [C230] Hartshorne, Tenenbaum & Pinker (2018). A Critical Period for Second Language Acquisition（Cognition）:
-- - [C231] Urry et al. (2021). Don't Ditch the Laptop Just Yet: A Direct Replication（Psych Science）:
-- - [C232] Pan & Rickard (2018). Transfer of Test-Enhanced Learning: Meta-Analytic Review（Psych Bulletin）:
-- - [C233] Butler (2010). Repeated Testing Produces Superior Transfer of Learning（JEP:LMC）:
-- - [C238] Cowan (2001). The Magical Number 4 in Short-Term Memory:
-- - [C239] Baddeley (2012). Working Memory: Theories, Models, and Controversies（Annu Rev Psychol）:
-- - [C240] van Kesteren et al. (2012). How Schema and Novelty Augment Memory Formation（TiCS）:
-- - [C241] Wittrock (1974). Learning as a Generative Process:
-- - [C244] Barnett & Ceci (2002). When and Where Do We Apply What We Learn?（迁移分类学）:
-- - [C249] Freeman et al. (2014). Active Learning Increases Student Performance（PNAS）:
-- - [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）:
-- - [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）:
-- - [C258] Hattie & Timperley (2007). The Power of Feedback:
-- - [C259] Wisniewski et al. (2020). The Power of Feedback Revisited（Frontiers）:
-- - [C260] Wood & Neal (2007). A New Look at Habits and the Habit–Goal Interface:
-- - [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）:
-- - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）:
-- - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning:
-- - [C264] Chi, Feltovich & Glaser (1981). Categorization and Representation of Physics Problems:
-- - [C265] Larkin et al. (1980). Expert and Novice Performance in Solving Physics Problems（Science）:
-- - [C266] Gentner (1983). Structure-Mapping: A Theoretical Framework for Analogy:
-- - [C269] Kahneman (2003). Maps of Bounded Rationality:
-- - [C270] Evans & Stanovich (2013). Dual-Process Theories of Higher Cognition:
-- - [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically:
-- - [C276] Gigerenzer & Hoffrage (1995). Bayesian Reasoning Without Instruction:
-- - [C279] Sterman (2006). Learning from Evidence in a Complex World:
-- - [C283] Amrhein et al. (2019). Scientists Rise Up Against Statistical Significance:
-- - [C284] Wasserstein & Lazar (2016). ASA Statement on p-Values:
-- - [C287] Morewedge et al. (2015). Debiasing Decisions:
-
+框架自己接受评判：发现错误欢迎提 Issue——错误被公开修正，本身就是这套方法的演示。
 # 第八章 附录（即用工具）
 
 ## 附录 A · 立即开始（30 分钟行动版）
@@ -657,11 +559,109 @@ HuanMoovo. 《伏羲框架 · 万物皆可学》. GitHub: https://github.com/Hua
 
 > 依据：错误日志与根因分类（B，工具方法）；反馈机制见（A，[C46][C47]）。等级为本项目对现有证据的综合判断，非期刊官方评级。
 
-# 结语：从这里出发
+# 第九章 证据与文献
 
-- 在线主页：https://HuanMoovo.github.io/fuxi/
-- 文档总目录：https://github.com/HuanMoovo/fuxi/blob/main/docs/README.md
-- 全量文献库：https://github.com/HuanMoovo/fuxi/blob/main/docs/references.md
-- 图表生成器（可复现）：generator/build_svgs.py ｜ 本书生成器：generator/build_book.py
+## 9.1 证据分级标准
 
-框架自己接受评判：发现错误欢迎提 Issue——错误被公开修正，本身就是这套方法的演示。
+**A 强**（多项元分析/RCT 方向一致）· **B 中**（有对照研究，受情境调节）· **C 弱/条件**（理论好、实证有限）· **D 证伪**（流行但被证据否定）。等级为本项目对证据的综合判断，非期刊官方评级；所有数字照转文献报告口径。
+
+## 9.3 如何引用
+
+HuanMoovo. 《伏羲框架 · 万物皆可学》. GitHub: https://github.com/HuanMoovo/fuxi （文档 CC BY 4.0）——引用格式见仓库 CITATION.cff。
+
+## 9.2 精选文献（全量 C01–C286 见线上文献库）
+
+- - [C01] Karpicke, J. D., & Roediger, H. L. (2008). The Critical Importance of Retrieval for Learning. *Science*, 319(5865), 966–968. ；<http
+- - [C02] Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. *Perspectives on Psychological Science*. ；<
+- - [C03] Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the Use of Tests: A Meta-Analysis of Practice Testing. *Review of Educational Research*. <
+- - [C04] Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*, 132(3). ；
+- - [C05] Dunlosky, J., et al. (2013). Improving Students' Learning With Effective Learning Techniques. *PSPI*.
+- - [C09] Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. *RER*.
+- - [C15] Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. *EPR*.
+- - [C17] Chase & Simon (1973) Perception in chess；Cowan (2001) The magical number 4. ；
+- - [C19] Bisra, K., et al. (2018). Inducing Self-Explanation: a Meta-Analysis. *EPR*.
+- - [C20] Paivio, A. (1971). Imagery and Verbal Processes（书）；Mayer, R. E. (2009). Multimedia Learning（书）. ；
+- - [C23] Fiorella, L., & Mayer, R. E. (2016). Eight Ways to Promote Generative Learning. *EPR*, 28(4).
+- - [C25] Nestojko, J. F., et al. (2014). Expecting to teach enhances learning.
+- - [C31] Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice. *Psychological Review*.
+- - [C32] Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate Practice and Performance: A Meta-Analysis. *Psychological Science*.
+- - [C41] Ausubel, D. P. (1960). Advance organizers；Novak & Cañas 概念图理论。 ；
+- - [C44] Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive Apprenticeship.
+- - [C45] Dochy, F., et al. (2003). Effects of problem-based learning: A meta-analysis. *Learning and Instruction*.
+- - [C51] Pashler, H., et al. (2008). Learning Styles: Concepts and Evidence. *PSPI*.
+- - [C52] Letrud (2012) 与 Subramony et al. (2014)：学习金字塔/保持率锥系神话。 ；
+- - [C53] Rayner, K., et al. (2016). So Much to Read, So Little Time. *PSPI*.
+- - [C54] Sala, G., & Gobet, F. (2019). Near and Far Transfer in Cognitive Training. *Collabra*.
+- - [C56] Bastani, H., et al. (2025). Generative AI without guardrails can harm learning. *PNAS*.
+- - [C57] Fan, Y., et al. (2025). Beware of metacognitive laziness. *BJET*.
+- - [C59] Kestin, G., et al. (2025). AI tutoring outperforms in-class active learning. *Scientific Reports*.
+- - [C65] Bloom, B. S. (1984). The 2 Sigma Problem.
+- - [C75] Roediger & Butler (2011) 检索练习的批判性回顾（TiCS）。
+- - [C81] Sweller (1988) 认知负荷与示范题效应（原始论文）。
+- - [C113] Kuhn, T. — The Structure of Scientific Revolutions（范式与反常）:
+- - [C114] Popper, K. — 可证伪性与批判理性主义:
+- - [C123] Camuffo et al. (2020). A Scientific Approach to Entrepreneurial Decision Making:
+- - [C125] Azoulay et al. (2020). Age and High-Growth Entrepreneurship:
+- - [C130] Hazan & Shaver (1987). Romantic love as attachment:
+- - [C132] Granovetter (1973). The Strength of Weak Ties:
+- - [C133] Nowak & Sigmund (2005). Evolution of indirect reciprocity:
+- - [C135] Gottman Institute — Research:
+- - [C136] Holt-Lunstad et al. (2010). Social Relationships and Mortality Risk:
+- - [C138] López-Otín et al. (2023). Hallmarks of aging:
+- - [C139] Moore et al. (2012). Physical activity and mortality:
+- - [C141] Estruch et al. (2013). PREDIMED:
+- - [C144] Stanford AI Index:
+- - [C146] LLNL Fusion Ignition:
+- - [C147] UN World Population Prospects:
+- - [C148] IPCC AR6 SYR:
+- - [C151] Tetlock et al. — Superforecasters:
+- - [C203] Bornmann & Mutz (2015). Growth rates of modern science:
+- - [C204] Hilbert & López (2011). The World's Technological Capacity:
+- - [C205] Reich & Ruipérez-Valiente (2019). The MOOC Pivot（Science）:
+- - [C206] World Bank — Learning Poverty:
+- - [C207] WHO — Commission on Social Connection:
+- - [C208] U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation:
+- - [C209] OECD (2023). PISA 2022 Results:
+- - [C210] Zimmerman (2002). Becoming a Self-Regulated Learner:
+- - [C214] Pashler et al. (2008). Learning Styles: Concepts and Evidence:
+- - [C215] Rayner et al. (2016). So Much to Read, So Little Time:
+- - [C216] Dekker et al. (2012). Neuromyths in Education:
+- - [C217] Weisberg et al. (2008). The Seductive Allure of Neuroscience Explanations:
+- - [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way:
+- - [C220] Koriat & Bjork (2005). Illusions of Competence:
+- - [C222] Ji et al. (2023). Survey of Hallucination in NLG:
+- - [C224] Dell'Acqua et al. (2023). Navigating the Jagged Technological Frontier:
+- - [C225] UNESCO (2023). Guidance for Generative AI in Education and Research:
+- - [C226] Gerlich (2025). AI Tools in Society:
+- - [C227] OpenAI et al. (2023). GPT-4 Technical Report:
+- - [C228] Pietschnig, Voracek & Formann (2010). Mozart effect–Shmozart effect: A Meta-analysis:
+- - [C230] Hartshorne, Tenenbaum & Pinker (2018). A Critical Period for Second Language Acquisition（Cognition）:
+- - [C231] Urry et al. (2021). Don't Ditch the Laptop Just Yet: A Direct Replication（Psych Science）:
+- - [C232] Pan & Rickard (2018). Transfer of Test-Enhanced Learning: Meta-Analytic Review（Psych Bulletin）:
+- - [C233] Butler (2010). Repeated Testing Produces Superior Transfer of Learning（JEP:LMC）:
+- - [C238] Cowan (2001). The Magical Number 4 in Short-Term Memory:
+- - [C239] Baddeley (2012). Working Memory: Theories, Models, and Controversies（Annu Rev Psychol）:
+- - [C240] van Kesteren et al. (2012). How Schema and Novelty Augment Memory Formation（TiCS）:
+- - [C241] Wittrock (1974). Learning as a Generative Process:
+- - [C244] Barnett & Ceci (2002). When and Where Do We Apply What We Learn?（迁移分类学）:
+- - [C249] Freeman et al. (2014). Active Learning Increases Student Performance（PNAS）:
+- - [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）:
+- - [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）:
+- - [C258] Hattie & Timperley (2007). The Power of Feedback:
+- - [C259] Wisniewski et al. (2020). The Power of Feedback Revisited（Frontiers）:
+- - [C260] Wood & Neal (2007). A New Look at Habits and the Habit–Goal Interface:
+- - [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）:
+- - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）:
+- - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning:
+- - [C264] Chi, Feltovich & Glaser (1981). Categorization and Representation of Physics Problems:
+- - [C265] Larkin et al. (1980). Expert and Novice Performance in Solving Physics Problems（Science）:
+- - [C266] Gentner (1983). Structure-Mapping: A Theoretical Framework for Analogy:
+- - [C269] Kahneman (2003). Maps of Bounded Rationality:
+- - [C270] Evans & Stanovich (2013). Dual-Process Theories of Higher Cognition:
+- - [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically:
+- - [C276] Gigerenzer & Hoffrage (1995). Bayesian Reasoning Without Instruction:
+- - [C279] Sterman (2006). Learning from Evidence in a Complex World:
+- - [C283] Amrhein et al. (2019). Scientists Rise Up Against Statistical Significance:
+- - [C284] Wasserstein & Lazar (2016). ASA Statement on p-Values:
+- - [C287] Morewedge et al. (2015). Debiasing Decisions:
+
