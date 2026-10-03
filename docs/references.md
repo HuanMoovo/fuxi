@@ -214,6 +214,6 @@
 - [C231] Urry et al. (2021). Don't Ditch the Laptop Just Yet: A Direct Replication（Psych Science）: <https://pubmed.ncbi.nlm.nih.gov/33593174/>
 - [C232] Pan & Rickard (2018). Transfer of Test-Enhanced Learning: Meta-Analytic Review（Psych Bulletin）: <https://pubmed.ncbi.nlm.nih.gov/29733621/>
 - [C233] Butler (2010). Repeated Testing Produces Superior Transfer of Learning（JEP:LMC）: <https://pubmed.ncbi.nlm.nih.gov/20804289/>
-- [C234] 膳食补充剂与健康成人认知表现的系统综述（见文中说明）
+- [C234] 膳食补充剂与健康成人认知表现的系统综述: <https://pubmed.ncbi.nlm.nih.gov/34370563/>
 - [C235] Peterson & Pennington (2012). Developmental Dyslexia（The Lancet）: <https://pubmed.ncbi.nlm.nih.gov/22513218/>
 - [C236] Hyde et al. (2008). Gender Similarities Characterize Math Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/18653867/>
