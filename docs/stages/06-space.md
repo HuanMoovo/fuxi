@@ -28,7 +28,7 @@
   - 服从到期清单：到期就测，测完才看答案。
   - 长期目标用工具自动扩间隔，不手动拍脑袋。
 - **最合适**：需要跨月保留的内容；**不适用**：一次性的临时信息——集中记一遍即可。
-- **证据**：A + [C04][C06][C62]（https://pubmed.ncbi.nlm.nih.gov/16719566/；https://doi.org/10.1111/j.1467-9280.2008.02209.x；https://papers.nips.cc/paper_files/paper/2009/file/6bc24fc1ab650b25b4114e93a98f1eba-Paper.pdf）
+- **证据**：A + [C04][C06][C62]（<https://pubmed.ncbi.nlm.nih.gov/16719566/>；<https://doi.org/10.1111/j.1467-9280.2008.02209.x>；<https://papers.nips.cc/paper_files/paper/2009/file/6bc24fc1ab650b25b4114e93a98f1eba-Paper.pdf>）
 
 ### 现代调度算法（SM-2 → FSRS）
 
@@ -39,7 +39,7 @@
   - 导入历史复习记录跑优化器，生成个人参数，每 1–2 个月重跑一次。
   - 每月看一次「忘记率、卡片量、用时」三条曲线的方向。
 - **最合适**：卡片量超过 200、持续 1 个月以上的复习系统；**不适用**：考前两周才开始——数据不足，先用默认参数跑。
-- **证据**：A（工业级验证）+ [C26][C27]（https://dl.acm.org/doi/10.1145/3534678.3539081；https://github.com/open-spaced-repetition/fsrs4anki；https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler）
+- **证据**：A（工业级验证）+ [C26][C27]（<https://dl.acm.org/doi/10.1145/3534678.3539081>；<https://github.com/open-spaced-repetition/fsrs4anki>；<https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler>）
 
 ### 交错练习（Interleaving）
 
@@ -50,7 +50,7 @@
   - 做错不退回同类连做，记录后继续混合。
   - 每周至少一次书面交错测验，限时或半限时。
 - **最合适**：容易混用方法的内容（数学题型、语法点、程序模式）；**不适用**：第一轮全新知识先单点掌握再混合；内容互相独立时收益有限，调节因素见 [C08]。
-- **证据**：A（受调节）+ [C07][C08]（https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf；https://pubmed.ncbi.nlm.nih.gov/24578089/；https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf）
+- **证据**：A（受调节）+ [C07][C08]（<https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf>；<https://pubmed.ncbi.nlm.nih.gov/24578089/>；<https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf>）
 
 ### 变式练习（Variation Practice）
 
@@ -61,7 +61,7 @@
   - 给卡片标注「变式轴」（在哪个维度变），便于系统生成。
   - 先自己写 1–2 个变式，再考虑让 AI 批量补。
 - **最合适**：程序性技能、解题方法、语言结构；**不适用**：纯事实清单——变式价值低，改为轮换提取线索即可。
-- **证据**：B + [C30]（https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf）
+- **证据**：B + [C30]（<https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf>）
 
 ### 累计测验（Cumulative Testing）
 
@@ -72,7 +72,7 @@
   - 记录各主题通过率变化，找出「总是掉」的主题回炉重编码。
   - 大考前把复测间隔刻意拉长，模拟真实延迟。
 - **最合适**：需要跨月保留的一切内容；**不适用**：单次交付项目的中期，可用轻量抽查替代。
-- **证据**：A + [C04][C07]（https://pubmed.ncbi.nlm.nih.gov/16719566/；https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf）
+- **证据**：A + [C04][C07]（<https://pubmed.ncbi.nlm.nih.gov/16719566/>；<https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf>）
 
 ### 复习预算管理（Review Budget）
 
@@ -83,7 +83,7 @@
   - Leech（反复记不住的卡）三步：拆小、改写提问、加例子；仍无效就停用。
   - 每周看一次到期堆积曲线，超载就下调新卡配额。
 - **最合适**：长期运转的调度系统；**不适用**：短期冲刺可临时上调，但要在截止日后安排还债期。
-- **证据**：B + [C26]（https://dl.acm.org/doi/10.1145/3534678.3539081）
+- **证据**：B + [C26]（<https://dl.acm.org/doi/10.1145/3534678.3539081>）
 
 ## 工具（开源优先）
 
@@ -121,11 +121,11 @@
 
 - [C04] Cepeda et al. (2006, Psychological Bulletin) — https://pubmed.ncbi.nlm.nih.gov/16719566/
 - [C06] Cepeda et al. (2008, Psychological Science) — https://doi.org/10.1111/j.1467-9280.2008.02209.x
-- [C07] Rohrer et al. (2020, JEP)；Rohrer, Dedrick & Stershic (2015) — https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf；https://pubmed.ncbi.nlm.nih.gov/24578089/
+- [C07] Rohrer et al. (2020, JEP)；Rohrer, Dedrick & Stershic (2015) — <https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf>；https://pubmed.ncbi.nlm.nih.gov/24578089/
 - [C08] Brunmair & Richter (2019, Psychological Bulletin) — https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf
 - [C14] Murre & Dros (2015, PLOS ONE) — https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
 - [C26] Ye, Su & Cao (2022, KDD) — https://dl.acm.org/doi/10.1145/3534678.3539081
-- [C27] FSRS4Anki 与算法说明 — https://github.com/open-spaced-repetition/fsrs4anki；https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler
+- [C27] FSRS4Anki 与算法说明 — <https://github.com/open-spaced-repetition/fsrs4anki>；https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler
 - [C30] Shea & Morgan (1979) — https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf
 - [C56] Bastani et al. (2025, PNAS) — https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544

@@ -58,7 +58,7 @@
   4. 只承诺你能控制的行为（每周 X 小时），不承诺不可控的结果；
   5. 逾期后 24 小时内恢复动作，不做「全或无」式自责。
 - **最合适**：拖延型、缺外部结构的人。**不适用**：已有强内部结构，或公开会带来额外压力时。
-- **证据**：C —— [C33](https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)：执行意图元分析对目标达成有稳健中等效应；公开承诺本身证据弱于 if-then。
+- **证据**：C —— [C33](<https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)：执行意图元分析对目标达成有稳健中等效应>；公开承诺本身证据弱于 if-then。
 
 ### 作品评审与真实反馈（Review and Authentic Feedback）
 - **机制**：真实反馈来自需求方，比自我感觉更能暴露盲区；反馈质量决定迭代方向。
@@ -69,7 +69,7 @@
   4. 负面反馈记入日志而非辩解；警惕反馈反效果（约 1/3 以上反馈干预降低表现 [C47]）；
   5. 保留「反馈 → 迭代」记录，它就是你能力成长的证据链。
 - **最合适**：有真实受众的产出。**不适用**：尚无任何可展示物时——先出最小版本。
-- **证据**：B —— [C46](https://doi.org/10.3102/003465430298487)（反馈的形式差异）、[C48](https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD)（真实情境中的反馈）。
+- **证据**：B —— [C46](<https://doi.org/10.3102/003465430298487)（反馈的形式差异>）、[C48](<https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD)（真实情境中的反馈>）。
 
 ### 情境学习与合法边缘参与（Legitimate Peripheral Participation）
 - **机制**：新手从社区边缘角色开始做真实但低风险的工作，逐步向中心移动——身份、实践与知识同步成长。
@@ -109,7 +109,7 @@
 ## AI 副驾（此阶段）
 - 用法：AI 帮拆验收标准与坑位清单；生成「真实用户会问的 10 个刁钻问题」；扮演难缠用户或严苛评审挑刺。
 - 协议：先自己做出最小版本再交给 AI 点评；不直接索取完整实现；AI 指出的方向要自己复验（防幻觉）。
-- 风险证据：生成式 AI 可能诱发依赖与「元认知懒惰」，把思考外包会削弱自我监控与纠错 [C57](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)；校内实验也显示，撤除 AI 后考试表现可能更差 [C56](https://www.pnas.org/doi/10.1073/pnas.2422633122)。验收原则：撤掉 AI 后能独立复现同一交付物，才算学会。
+- 风险证据：生成式 AI 可能诱发依赖与「元认知懒惰」，把思考外包会削弱自我监控与纠错 [C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)>；校内实验也显示，撤除 AI 后考试表现可能更差 [C56](https://www.pnas.org/doi/10.1073/pnas.2422633122)。验收原则：撤掉 AI 后能独立复现同一交付物，才算学会。
 
 ## 参考
 - [C12] Barnett & Ceci (2002, Psychological Bulletin)：远迁移分类学。https://doi.org/10.1037/0033-2909.128.4.612

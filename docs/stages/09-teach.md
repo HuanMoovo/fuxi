@@ -25,7 +25,7 @@
   4. 真的讲给一个人听（或对着录音讲），观察对方在哪皱眉、哪追问；
   5. 把最终版压缩成 5 句摘要 + 1 例 + 1 反例，存入素材库。
 - **最合适**：概念性知识、任何「感觉会了」的内容。**不适用**：完全没入门的领域——先建图再讲。注意：费曼技巧属流行方法、无原始文献出处，机制对应 [C19][C25]。
-- **证据**：B —— [C19](https://eric.ed.gov/?id=EJ1186664)（自我解释元分析）、[C25](https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall)（预期要教）。
+- **证据**：B —— [C19](<https://eric.ed.gov/?id=EJ1186664)（自我解释元分析>）、[C25](<https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall)（预期要教>）。
 
 ### 教学预期效应（Expecting to Teach）
 - **机制**：知道「要教别人」会提高学习的组织度——自动去找结构、抓重点、想例子，编码更整齐。
@@ -61,7 +61,7 @@
   4. 让对方自己找新类比，你能判断对错说明你真懂；
   5. 好类比入素材库，注明适用与失效场景。
 - **最合适**：抽象概念、陌生领域入门。**不适用**：只需记住的事实清单——直接用卡片。
-- **证据**：B —— [C11](https://www.sciencedirect.com/science/article/pii/0010028583900026)（图式归纳与类比迁移）。
+- **证据**：B —— [C11](<https://www.sciencedirect.com/science/article/pii/0010028583900026)（图式归纳与类比迁移>）。
 
 ### 迁移设计（Transfer Design）
 - **机制**：近迁移（换同类题）证据强，远迁移（跨领域）证据有限且需要刻意设计——迁移是被设计出来的，不是自然发生的。
@@ -72,7 +72,7 @@
   4. 在新情境里先完整演练一次，哪怕笨拙，别等「准备好」；
   5. 记录迁移失败案例——失败比成功信息量更大。
 - **最合适**：希望知识跨界可用时。**不适用**：考试型短期目标——先把近迁移做透。
-- **证据**：B —— [C10](https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf)（近迁移强、远迁移有限）、[C12](https://doi.org/10.1037/0033-2909.128.4.612)（迁移距离越远越难；Perkins & Salomon 文本引）。
+- **证据**：B —— [C10](<https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf)（近迁移强、远迁移有限>）、[C12](<https://doi.org/10.1037/0033-2909.128.4.612)（迁移距离越远越难>；Perkins & Salomon 文本引）。
 
 ### 适应性专长（Adaptive Expertise）
 - **机制**：常规专长只让流程更快；适应性专长理解「为什么」，遇到新问题能重组旧技能，而不是照搬套路。

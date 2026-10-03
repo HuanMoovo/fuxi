@@ -29,7 +29,7 @@
   4. 写每周时间块：固定「周几 + 时段 + 时长」，写进日历；
   5. 写保底预案：状态差时做的最小动作（例如复习旧卡）。
 - **最合适**：任何正式学习项目启动时。**不适用**：纯休闲探索——但至少写下一句话的「为什么」。
-- **证据**：B —— [C36](https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.57.9.705)（目标设定理论）、[C37](https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf)（自我调节学习循环）。
+- **证据**：B —— [C36](<https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.57.9.705)（目标设定理论>）、[C37](<https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf)（自我调节学习循环>）。
 
 ### WOOP 与执行意图（Mental Contrasting + Implementation Intentions）
 
@@ -40,7 +40,7 @@
   3. 每个障碍配一条 if-then：「如果 X 发生，我就做 Y」；Y 必须小到能立即执行；
   4. 把 if-then 卡贴在学习位置，或设成手机提醒。
 - **最合适**：目标已明确、但执行不稳定的阶段。**不适用**：目标还在摇摆时——先用学习契约把目标定下来。
-- **证据**：A/B —— [C33](https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)（对目标达成有稳健中等效应）。
+- **证据**：A/B —— [C33](<https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)（对目标达成有稳健中等效应>）。
 
 ### 时间预算与范围控制（Time Budget & Scope Control）
 
@@ -73,7 +73,7 @@
   3. 建立联结：加入一个能对话的社区，或找一位学习搭子；
   4. 连接效用价值：写下「它与我生活、工作的具体关系」（[C39]，文本引）。
 - **最合适**：长期项目、容易中段熄火的领域。**不适用**：应急考试周——先活下来，内化问题放到考后。
-- **证据**：B —— [C34](https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf)（自我决定理论）、[C39]（效用价值，文本引）。
+- **证据**：B —— [C34](<https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf)（自我决定理论>）、[C39]（效用价值，文本引）。
 
 ## 工具（开源优先）
 
@@ -102,7 +102,7 @@
 ## AI 副驾（此阶段）
 - 用法：让 AI 扮演教练，追问目标与失败预案：「这个结果三天后谁能检验？」「最可能失败的是哪个场景？」；也可让它给「典型里程碑样例」供你裁剪（明确它是参考而非标准）。
 - 协议（**先自己再AI**）：先独立写完「为什么 / 3 个结果 / 保底预案」草稿，再交给 AI 只做追问与挑错；不直接索取「标准答案」；撤掉 AI 后必须能独立复述并执行这份契约。
-- 风险证据：把 AI 当答案机会诱发依赖与「元认知懒惰」（[C57](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)）；校内实验显示，无护栏的 AI 辅助在撤除后独立考试表现更差，带「只提示、不给答案」护栏的版本可缓解（[C56](https://www.pnas.org/doi/10.1073/pnas.2422633122)）。
+- 风险证据：把 AI 当答案机会诱发依赖与「元认知懒惰」（[C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)>）；校内实验显示，无护栏的 AI 辅助在撤除后独立考试表现更差，带「只提示、不给答案」护栏的版本可缓解（[C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>）。
 
 ## 参考
 - [C33] Gollwitzer & Sheeran (2006)：执行意图元分析，对目标达成有稳健中等效应。https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes
