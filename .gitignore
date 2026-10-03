@@ -5,3 +5,5 @@ Thumbs.db
 .DS_Store
 *.log
 docs/book/*.html
+docs/book/full-assets/
+docs/pdf/_full_raw.pdf

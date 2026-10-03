@@ -26,7 +26,7 @@
 
 > 📚 **全部文档一页导航 → [docs/README.md](./docs/README.md)**（十阶 / 拓界篇 / 深度剖析 / 文献库 / 资源目录 / 模板）
 >
-> 📄 **PDF 版**：[精读手册 · 精简版](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/pdf/fuxi-handbook-lite-zh.pdf)（40+ 页，适合离线 / 打印阅读）
+> 📄 **PDF 版**：[精简版](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/pdf/fuxi-handbook-lite-zh.pdf)（39 页）· [完整版](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/pdf/fuxi-handbook-full-zh.pdf)（117 页，带目录页码与书签）——适合离线 / 打印阅读
 
 ---
 

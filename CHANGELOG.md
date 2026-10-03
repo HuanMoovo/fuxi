@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.13.0] - 2026-10-03
+
+### Added
+- **完整版 PDF**：`docs/pdf/fuxi-handbook-full-zh.pdf` —— 117 页，收录深度剖析、理论/方法全景、十阶详解、拓界五赛道、误区库、全量文献（C01–C286）与模板附录；21 张 mermaid 流程图渲染内嵌；pypdf 自动页码 + 章节书签（7 大部分）。
+- 生成器 `generator/build_book_full.py`（三阶段可复现：HTML+mermaid / Chrome 打印 / pypdf 后处理）；README / 文档总目录 / 站点三处新增完整版下载入口（中英日）。
+
 ## [1.12.0] - 2026-10-03
 
 ### Added
