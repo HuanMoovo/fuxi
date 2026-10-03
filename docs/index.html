@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>伏羲框架 · 万物皆可学 — Everything Can Be Learned</title>
+<meta name="description" content="伏羲框架：把「学会一样东西」拆成 5 纪 10 阶的时间线。每阶给出最合适的方法 × 证据等级 × 开源工具 × 过关测试。">
+<meta property="og:title" content="伏羲框架 · 万物皆可学">
+<meta property="og:description" content="十阶时间线 · 证据分级 A/B/C/D · 50+ 开源工具 · 安全 AI 用法">
+<meta property="og:image" content="https://HuanMoovo.github.io/fuxi/assets/banner.png">
+<meta property="og:url" content="https://HuanMoovo.github.io/fuxi/">
+<link rel="icon" href="assets/fuxi-mark.svg" type="image/svg+xml">
+<style>
+:root{
+  --era0:#8B5CF6;--era1:#22D3EE;--era2:#34D399;--era3:#F59E0B;--era4:#FB7185;
+  --grad:linear-gradient(90deg,#8B5CF6,#22D3EE,#34D399,#F59E0B,#FB7185);
+  --radius:18px;
+}
+html[data-theme="dark"]{
+  --bg:#0B1020;--bg2:#0E1526;--panel:rgba(18,26,46,.66);--panel2:rgba(14,21,38,.82);
+  --pb:rgba(51,64,107,.55);--ink:#E8ECF8;--muted:#93A0BF;--line:#232F4E;--accent:#22D3EE;--shadow:0 18px 50px -20px rgba(34,211,238,.25);
+}
+html[data-theme="light"]{
+  --bg:#F2F5FB;--bg2:#E9EEF8;--panel:rgba(255,255,255,.78);--panel2:rgba(255,255,255,.92);
+  --pb:rgba(148,163,184,.45);--ink:#1B2436;--muted:#5B6A8C;--line:#D7DEEB;--accent:#0891B2;--shadow:0 18px 50px -24px rgba(8,145,178,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;line-height:1.7;overflow-x:hidden}
+a{color:var(--accent);text-decoration:none}
+a:hover{opacity:.85}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 72%,transparent);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:18px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
+.brand img{width:28px;height:28px}
+.nav-links{display:flex;gap:16px;margin-left:auto;flex-wrap:wrap}
+.nav-links a{color:var(--muted);font-size:14.5px}
+.nav-links a:hover{color:var(--ink)}
+.nav-actions{display:flex;gap:10px;align-items:center;margin-left:8px}
+.tbtn,.ghbtn{cursor:pointer;border:1px solid var(--pb);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px;text-decoration:none}
+.ghbtn{background:var(--grad);border:none;color:#0B1020;font-weight:700}
+.hero{position:relative;padding:84px 0 40px;text-align:center;overflow:hidden}
+#stars{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .wrap{position:relative}
+.kicker{display:inline-block;font-size:13px;letter-spacing:3px;color:var(--muted);border:1px solid var(--pb);border-radius:999px;padding:6px 16px;margin-bottom:22px;background:var(--panel)}
+h1{font-size:clamp(2.1rem,5.4vw,3.4rem);letter-spacing:2px;line-height:1.25}
+h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--muted);font-size:clamp(1rem,2vw,1.2rem);margin-top:14px}
+.tag{margin-top:10px;font-size:15px;color:var(--muted)}
+.tag b{color:var(--ink)}
+.cta{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+.btn{border-radius:999px;padding:12px 26px;font-size:15.5px;font-weight:700;transition:.25s;display:inline-block}
+.btn.p{background:var(--grad);color:#0B1020;box-shadow:var(--shadow)}
+.btn.p:hover{transform:translateY(-2px)}
+.btn.g{border:1px solid var(--pb);color:var(--ink);background:var(--panel)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:760px;margin:38px auto 0}
+.stat{background:var(--panel);border:1px solid var(--pb);border-radius:14px;padding:14px 8px;backdrop-filter:blur(10px)}
+.stat b{display:block;font-size:26px;letter-spacing:1px}
+.stat span{font-size:13px;color:var(--muted)}
+.heromap{margin:46px auto 0;max-width:1100px;border-radius:var(--radius);border:1px solid var(--pb);overflow:hidden;box-shadow:var(--shadow)}
+.heromap img{width:100%;display:block}
+section{padding:70px 0 10px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+.sec-head h2{font-size:clamp(1.5rem,3vw,2rem);letter-spacing:1px}
+.sec-head .en{color:var(--muted);font-size:14px;letter-spacing:2px}
+.sec-sub{color:var(--muted);margin-bottom:28px;max-width:900px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--pb);border-radius:var(--radius);padding:20px;backdrop-filter:blur(12px);transition:.28s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card.top{border-top:3px solid var(--c)}
+.card .num{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;color:#0B1020;background:var(--c);font-size:16px}
+.card h3{font-size:19px;margin:12px 0 2px}
+.card .en{font-size:12.5px;color:var(--muted);letter-spacing:2px}
+.card p{font-size:14.5px;color:var(--muted);margin-top:10px;min-height:44px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-size:12.5px;border:1px solid var(--pb);border-radius:999px;padding:3px 11px;color:var(--muted)}
+.card .more{display:inline-block;margin-top:14px;font-size:14px;font-weight:600;color:var(--c)}
+.docimg{max-width:1100px;margin:0 auto;border-radius:var(--radius);border:1px solid var(--pb);overflow:hidden;box-shadow:var(--shadow)}
+.docimg img{width:100%;display:block}
+.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:22px}
+.mini .card h3{font-size:16.5px;margin-top:0}
+.mini .card p{margin-top:8px;min-height:0}
+table.ev{width:100%;border-collapse:collapse;margin-top:22px;font-size:14.5px;background:var(--panel);border:1px solid var(--pb);border-radius:var(--radius);overflow:hidden}
+table.ev th,table.ev td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.ev th{color:var(--muted);font-size:13px;letter-spacing:1px;background:var(--panel2)}
+table.ev tr:last-child td{border-bottom:none}
+.badge{display:inline-block;font-size:12px;font-weight:800;border-radius:999px;padding:2px 10px;color:#0B1020}
+.bA{background:#4ADE80}.bB{background:#60A5FA}.bC{background:#FBBF24}.bD{background:#F87171}
+.center{text-align:center;margin-top:26px}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:10px 34px;margin-top:20px}
+ol.rules{list-style:none;counter-reset:r}
+ol.rules li{counter-increment:r;background:var(--panel);border:1px solid var(--pb);border-radius:14px;padding:14px 16px 14px 54px;position:relative;font-size:14.5px;color:var(--ink)}
+ol.rules li::before{content:counter(r);position:absolute;left:16px;top:14px;width:26px;height:26px;border-radius:50%;background:var(--grad);color:#0B1020;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:22px}
+.step{background:var(--panel);border:1px solid var(--pb);border-radius:16px;padding:18px}
+.step b{display:block;font-size:15px;margin-bottom:6px}
+.step span{font-size:13.5px;color:var(--muted)}
+footer{margin-top:80px;border-top:1px solid var(--line);padding:40px 0 30px;color:var(--muted);font-size:14px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:26px}
+footer b{color:var(--ink)}
+.fgrid a{display:block;margin:6px 0}
+.footline{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}
+.reveal.on{opacity:1;transform:none}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.cols2{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr}.nav-links{display:none}}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand"><img src="assets/fuxi-mark.svg" alt="伏羲框架标志"><span>伏羲框架</span></div>
+    <nav class="nav-links">
+      <a href="#stages">十阶</a><a href="#engine">引擎</a><a href="#evidence">证据</a>
+      <a href="#tools">工具</a><a href="#tracks">路线</a><a href="#ai">AI 协议</a><a href="#myths">误区</a><a href="#start">开始</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="tbtn" id="themeBtn" title="切换深浅色">◐ 主题</button>
+      <a class="ghbtn" href="https://github.com/HuanMoovo/fuxi" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <canvas id="stars"></canvas>
+  <div class="wrap">
+    <span class="kicker">EVIDENCE-GRADED · 十阶时间线 · 三条路线</span>
+    <h1>伏羲框架 · <span class="grad">万物皆可学</span></h1>
+    <p class="sub">The Fuxi Framework — Everything Can Be Learned</p>
+    <p class="tag">把「学会一样东西」拆成一条十阶时间线：每阶给出 <b>最合适的方法 × 证据等级 × 开源工具 × 过关测试</b>。</p>
+    <div class="cta">
+      <a class="btn p" href="https://github.com/HuanMoovo/fuxi/blob/main/README.md" target="_blank" rel="noopener">开始阅读框架</a>
+      <a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md" target="_blank" rel="noopener">打开证据库</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>10</b><span>阶时间线</span></div>
+      <div class="stat"><b>3</b><span>条适配路线</span></div>
+      <div class="stat"><b>70+</b><span>篇论文与文献</span></div>
+      <div class="stat"><b>50+</b><span>个开源工具</span></div>
+    </div>
+    <div class="heromap reveal"><img src="assets/fuxi-hero.svg" alt="伏羲框架五纪十阶总览图"></div>
+  </div>
+</div>
+
+<section id="stages">
+  <div class="wrap">
+    <div class="sec-head"><h2>十阶时间线</h2><span class="en">THE 10-STAGE TIMELINE</span></div>
+    <p class="sec-sub">上一阶的产出，是下一阶的输入。每张卡片点进 GitHub 查看完整详解（方法卡 / 工具 / 自测 / 误区 / AI 用法）。</p>
+    <div class="grid" id="stageGrid"></div>
+  </div>
+</section>
+
+<section id="engine">
+  <div class="wrap">
+    <div class="sec-head"><h2>伏羲引擎</h2><span class="en">THREE CONSTRAINTS · TWO RULERS · ONE PRINCIPLE</span></div>
+    <p class="sec-sub">十阶是主干；三恒是永远在线的约束；两把尺决定你测什么；一原则决定学习深度。</p>
+    <div class="docimg reveal"><img src="assets/fuxi-engine.svg" alt="伏羲引擎：十阶环、三恒、两把尺、ICAP 原则"></div>
+    <div class="mini">
+      <div class="card"><h3>三恒 · 永远在线</h3><p>认知负荷预算（新手要给示范与引导）· 动机与自我调节（自主/胜任/联结）· 反馈回路（无反馈=无精练）。</p></div>
+      <div class="card"><h3>两把尺 · 测什么</h3><p>表现≠学习。「当下手感」会骗人；只有延迟检索测出来的，才是真的学会了。</p></div>
+      <div class="card"><h3>一原则 · ICAP</h3><p>交互 &gt; 建构 &gt; 主动 &gt; 被动。能讨论、能生成、能自测，就别只看和听。</p></div>
+      <div class="card"><h3>证据分级 A/B/C/D</h3><p>每个方法都标等级：A 强 / B 中 / C 弱或条件 / D 证伪。等级为本项目对证据的综合判断。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="evidence">
+  <div class="wrap">
+    <div class="sec-head"><h2>证据底座</h2><span class="en">EVIDENCE BASE</span></div>
+    <p class="sec-sub">不靠感觉，靠论文。完整 30 条结论与 70+ 引用（含数字口径）都在 docs/evidence.md。</p>
+    <table class="ev">
+      <tr><th>结论</th><th>关键数字</th><th>等级</th></tr>
+      <tr><td>检索练习（测试效应）</td><td>一周后约 80% vs 约 35%（检索 vs 重读）</td><td><span class="badge bA">A</span></td></tr>
+      <tr><td>间隔重复</td><td>254 项实验；最佳间隔 ≈ 目标保持期的 10–20%</td><td><span class="badge bA">A</span></td></tr>
+      <tr><td>交错练习（数学 RCT）</td><td>延迟测验 61% vs 38%（d=0.83）</td><td><span class="badge bA">A</span></td></tr>
+      <tr><td>FSRS 调度算法</td><td>2.2 亿学习日志建模，+12.6%；已内置 Anki</td><td><span class="badge bA">A</span></td></tr>
+      <tr><td>刻意练习的解释力</td><td>棋类 26% / 音乐 21% / 体育 18% / 教育 4% / 职业 &lt;1%</td><td><span class="badge bB">B</span></td></tr>
+      <tr><td>无护栏 AI 的风险</td><td>练习期 +48%，撤除 AI 后考试 −17%</td><td><span class="badge bB">B</span></td></tr>
+      <tr><td>学习风格 / 学习金字塔 / 速读 / 脑训远迁移</td><td>均无可靠证据</td><td><span class="badge bD">D</span></td></tr>
+    </table>
+    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md" target="_blank" rel="noopener">查看全部 30 条结论 →</a></div>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="wrap">
+    <div class="sec-head"><h2>开源工具链</h2><span class="en">OPEN-SOURCE TOOLCHAIN</span></div>
+    <p class="sec-sub">50+ 个工具，按阶段索引、逐链接核验。只用你真正会打开的，别收集徽章。</p>
+    <div class="mini">
+      <div class="card"><h3>记忆与间隔</h3><p>Anki · FSRS4Anki · AnkiDroid · org-fc · genanki</p></div>
+      <div class="card"><h3>笔记与知识库</h3><p>Obsidian · Logseq · Zettlr · SilverBullet · Quartz</p></div>
+      <div class="card"><h3>绘图与可视化</h3><p>markmap · Excalidraw · draw.io · Mermaid · tldraw</p></div>
+      <div class="card"><h3>课程与练习</h3><p>freeCodeCamp · Exercism · The Odin Project · Lean 4 · KaTrain</p></div>
+      <div class="card"><h3>语言学习</h3><p>Yomitan · asbplayer · mpvacious · Whisper · LanguageTool</p></div>
+      <div class="card"><h3>习惯与执行</h3><p>Habitica · Loop · Super Productivity · ActivityWatch</p></div>
+      <div class="card"><h3>AI 学习助手（本地优先）</h3><p>Ollama · llama.cpp · Mr.-Ranedeer-AI-Tutor</p></div>
+      <div class="card"><h3>文献与引用</h3><p>Zotero · Better BibTeX · Tesseract · Xournal++</p></div>
+    </div>
+    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/tools.md" target="_blank" rel="noopener">完整工具表 →</a></div>
+  </div>
+</section>
+
+<section id="tracks">
+  <div class="wrap">
+    <div class="sec-head"><h2>三轨适配</h2><span class="en">THREE TRACKS</span></div>
+    <p class="sec-sub">同一套十阶，不同走法。先回答「有截止日吗？有交付目标吗？」，再分配阶段权重。</p>
+    <div class="docimg reveal"><img src="assets/fuxi-paths.svg" alt="三轨适配：探索轨、实战轨、冲刺轨的阶段权重图"></div>
+    <div class="mini">
+      <div class="card top" style="--c:var(--era1)"><h3>探索轨</h3><p>无目标、想了解。重心：建图 → 拆解 → 编码 → 检索。结构化漫游，随手建卡。</p></div>
+      <div class="card top" style="--c:var(--era3)"><h3>实战轨</h3><p>有交付目标。重心：立志 → 拆解 → 精练 → 实战。先粗框架，直接做，缺啥补啥。</p></div>
+      <div class="card top" style="--c:var(--era4)"><h3>冲刺轨</h3><p>考试 / 硬截止。重心：立志 → 检索 → 间隔 → 精练。考纲倒推地图，模考即检索。</p></div>
+    </div>
+    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/paths.md" target="_blank" rel="noopener">领域适配与 30 天模板 →</a></div>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="wrap">
+    <div class="sec-head"><h2>AI 副驾协议</h2><span class="en">SAFE-AI PROTOCOL</span></div>
+    <p class="sec-sub">AI 可以是加速器，也可以是毒药 —— 差别就在这七条。证据：Bastani 2025（PNAS）· Fan 2025（BJET）· Kestin 2025（Sci Rep）。</p>
+    <ol class="rules cols2">
+      <li>顺序铁律：先自己产出，再让 AI 挑错。</li>
+      <li>检索期只让 AI 出题追问，不索取答案。</li>
+      <li>角色定位：陪练 / 考官 / 反方 / 小白 —— 不是代笔。</li>
+      <li>核验义务：AI 给的数字与引用，回原始来源核对。</li>
+      <li>撤离测试：定期做「无 AI 延迟测验」。</li>
+      <li>省脑审计：记录哪些环节省了脑子 —— 那是要补练的靶子。</li>
+      <li>工具选择：本地 / 开源优先（Ollama、llama.cpp）。</li>
+    </ol>
+  </div>
+</section>
+
+<section id="myths">
+  <div class="wrap">
+    <div class="sec-head"><h2>常见误区</h2><span class="en">MYTHS DEBUNKED</span></div>
+    <p class="sec-sub">15 条完整辟谣见 docs/myths.md。先看最常踩的：</p>
+    <table class="ev">
+      <tr><th>说法</th><th>真相</th><th>等级</th></tr>
+      <tr><td>「我是视觉型学习者」</td><td>学习风格匹配假设缺乏证据（Pashler et al., 2008）</td><td><span class="badge bD">D</span></td></tr>
+      <tr><td>划线、重读、抄书有用</td><td>低效用技术，只能热身（Dunlosky et al., 2013）</td><td><span class="badge bD">D</span></td></tr>
+      <tr><td>速读（高速+高理解）</td><td>与阅读科学不符（Rayner et al., 2016）</td><td><span class="badge bD">D</span></td></tr>
+      <tr><td>「1 万小时定律」</td><td>练习质量的函数，不是时长的函数（Macnamara et al., 2014）</td><td><span class="badge bD">D</span></td></tr>
+      <tr><td>把学习全交给 AI</td><td>撤除后表现下降；依赖与元认知懒惰是真实风险</td><td><span class="badge bB">风险</span></td></tr>
+    </table>
+    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/myths.md" target="_blank" rel="noopener">15 条完整辟谣 →</a></div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <div class="sec-head"><h2>立即开始</h2><span class="en">START IN 30 MINUTES</span></div>
+    <p class="sec-sub">不要先「学好学习方法」再开始 —— 从今天要学的东西直接开始。</p>
+    <div class="steps">
+      <div class="step"><b>1 · 5 分钟</b><span>选一条路线：探索 / 实战 / 冲刺。</span></div>
+      <div class="step"><b>2 · 10 分钟</b><span>填一份《学习契约》：只写 3 个可验证结果。</span></div>
+      <div class="step"><b>3 · 10 分钟</b><span>画一版领域地图草稿：结构比美观重要。</span></div>
+      <div class="step"><b>4 · 5 分钟</b><span>做 3 张卡片，装进 Anki + FSRS。</span></div>
+      <div class="step"><b>5 · 明天</b><span>开始 25 分钟/天节律；一周后做空白纸回忆。</span></div>
+    </div>
+    <div class="center">
+      <a class="btn p" href="https://github.com/HuanMoovo/fuxi/tree/main/templates" target="_blank" rel="noopener">拿走 5 个学习模板</a>
+      <a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/faq.md" target="_blank" rel="noopener">先看 FAQ</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <b>伏羲框架 · 万物皆可学</b>
+        <p style="margin-top:10px">把学习工程化：十阶时间线 × 证据分级 × 开源工具链。每一条主张都可核验，每一个数字都有出处。</p>
+      </div>
+      <div>
+        <b>文档</b>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md">证据库</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/tools.md">工具链</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/paths.md">路线与领域</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/myths.md">误区辟谣</a>
+      </div>
+      <div>
+        <b>参与</b>
+        <a href="https://github.com/HuanMoovo/fuxi/issues/new/choose">提 Issue（文献/工具/纠错）</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/CONTRIBUTING.md">贡献指南</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/roadmap.md">迭代路线图</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/CHANGELOG.md">更新日志</a>
+      </div>
+    </div>
+    <div class="footline">
+      <span>代码 MIT · 文档与图表 CC BY 4.0 ｜ 核验日期 2026-10-03</span>
+      <span>图表由 generator/build_svgs.py 生成 · <a href="https://github.com/HuanMoovo/fuxi">github.com/HuanMoovo/fuxi</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const STAGES=[
+ ["1","立志","Orient","把「想学」变成可执行契约",["学习契约","执行意图"],0],
+ ["2","建图","Map","先见森林：画出领域地图",["知识树三进路","门槛概念"],0],
+ ["3","拆解","Decompose","拆到能一口吃下的原子",["组块","技能分解"],1],
+ ["4","编码","Encode","用例子与解释织进旧知识",["自我解释","双重编码"],1],
+ ["5","检索","Retrieve","合上书，从脑中取出来",["测试效应","自由回忆"],2],
+ ["6","间隔","Space","在遗忘边缘科学复习",["FSRS 调度","交错练习"],2],
+ ["7","精练","Drill","在能力边缘带反馈重复",["刻意练习","反馈环"],3],
+ ["8","实战","Apply","直接做真事，缺啥补啥",["干中学","真实反馈"],3],
+ ["9","教学","Teach","讲给别人听，迁移新场景",["费曼技巧","类比迁移"],4],
+ ["10","维护","Maintain","低频保养，复利增值",["最低剂量","教学即维护"],4]];
+const ERAS=[["01-orient","02-map"],["03-decompose","04-encode"],["05-retrieve","06-space"],["07-drill","08-apply"],["09-teach","10-maintain"]];
+const ECOLS=["var(--era0)","var(--era1)","var(--era2)","var(--era3)","var(--era4)"];
+const grid=document.getElementById("stageGrid");
+STAGES.forEach((s,i)=>{
+  const d=document.createElement("a");
+  d.className="card top reveal";
+  d.style.setProperty("--c",ECOLS[s[5]]);
+  d.href="https://github.com/HuanMoovo/fuxi/blob/main/docs/stages/"+ERAS[s[5]][s[0]%2===1?0:1]+".md";
+  d.target="_blank";d.rel="noopener";
+  d.innerHTML=`<div class="num" style="background:${ECOLS[s[5]]}">${s[0]}</div>
+    <h3>${s[1]}</h3><div class="en">${s[2]}</div>
+    <p>${s[3]}</p>
+    <div class="chips">${s[4].map(c=>`<span class="chip">${c}</span>`).join("")}</div>
+    <span class="more">详解 →</span>`;
+  grid.appendChild(d);
+});
+
+/* theme toggle */
+const btn=document.getElementById("themeBtn");
+const saved=localStorage.getItem("fuxi-theme");
+if(saved){document.documentElement.dataset.theme=saved;}
+btn.addEventListener("click",()=>{
+  const next=document.documentElement.dataset.theme==="dark"?"light":"dark";
+  document.documentElement.dataset.theme=next;localStorage.setItem("fuxi-theme",next);
+});
+
+/* reveal on scroll */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("on");io.unobserve(e.target);}}),{threshold:.08});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+
+/* particles */
+const cv=document.getElementById("stars");
+if(cv && !matchMedia("(prefers-reduced-motion: reduce)").matches){
+  const ctx=cv.getContext("2d");let W,H,pts;
+  const COLS=["#8B5CF6","#22D3EE","#34D399","#F59E0B","#FB7185"];
+  function size(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;
+    pts=Array.from({length:Math.min(90,Math.floor(W/16))},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.8+.6,vx:(Math.random()-.5)*.18,vy:(Math.random()-.5)*.18,c:COLS[Math.floor(Math.random()*5)]}));}
+  size();addEventListener("resize",size);
+  (function tick(){ctx.clearRect(0,0,W,H);
+    pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+      ctx.globalAlpha=.55;ctx.fillStyle=p.c;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fill();});
+    ctx.globalAlpha=1;requestAnimationFrame(tick);})();
+}
+</script>
+</body>
+</html>

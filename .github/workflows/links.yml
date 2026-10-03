@@ -1,0 +1,32 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 * * 1" # 每周一 03:00 UTC（北京时间 11:00）
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links (README / docs / templates)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept 100..=103,200..=299,403,429
+            --max-concurrency 8
+            --timeout 20
+            --retry 2
+            ./README.md ./README.en.md ./CONTRIBUTING.md ./CHANGELOG.md
+            ./docs/*.md ./docs/stages/*.md ./templates/*.md
+          fail: true
+      - name: Upload report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: ./lychee/out.md

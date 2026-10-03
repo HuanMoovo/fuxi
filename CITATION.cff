@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this framework in your work, please cite it as below."
+title: "伏羲框架：万物皆可学 (The Fuxi Framework: Everything Can Be Learned)"
+authors:
+  - name: "HuanMoovo"
+date-released: "2026-10-03"
+url: "https://github.com/HuanMoovo/fuxi"
+repository-code: "https://github.com/HuanMoovo/fuxi"
+license: "MIT"
+abstract: >-
+  A universal learning methodology organized as a 10-stage timeline
+  (Orient, Map, Decompose, Encode, Retrieve, Space, Drill, Apply, Teach, Maintain)
+  with evidence-graded methods (A/B/C/D), an open-source toolchain, learning
+  templates, and a safe-AI usage protocol.
+keywords:
+  - learning science
+  - spaced repetition
+  - retrieval practice
+  - deliberate practice
+  - cognitive science
+  - study methodology
+  - open source
