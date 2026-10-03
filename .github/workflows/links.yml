@@ -20,7 +20,7 @@ jobs:
             --accept 100..=103,200..=299,403,429
             --max-concurrency 8
             --timeout 20
-            --retry 2
+            --max-retries 2
             ./README.md ./README.en.md ./CONTRIBUTING.md ./CHANGELOG.md
             ./docs/*.md ./docs/stages/*.md ./templates/*.md
           fail: true
