@@ -112,7 +112,7 @@
 ## AI 副驾（此阶段）
 - 用法：AI 扮演「最笨的学生」专问蠢问题；再扮演「严苛评审」挑逻辑漏洞与遗漏；或生成初学者常见误解清单供你逐条讲解。
 - 协议：先自己写讲稿与讲解，再交给 AI 挑错；不要直接拿 AI 的「标准讲解」照读；交付前做一次「无 AI 复现」——合上电脑给真人讲一遍。
-- 风险证据：[C58](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) 为预印本、未同行评审：EEG 研究提示 LLM 辅助写作与更低的脑连通性、更弱的文本归属感相关（「认知债务」）。公开输出类任务尤其要保留自己的生成过程。
+- 风险证据：[C58](https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/) 为预印本、未同行评审：EEG 研究提示 LLM 辅助写作与更低的脑连通性、更弱的文本归属感相关（「认知债务」）。公开输出类任务尤其要保留自己的生成过程。
 
 ## 参考
 - [C10] Pan & Rickard (2018)：测试增强学习的迁移元分析。https://pubmed.ncbi.nlm.nih.gov/29733621/
@@ -123,7 +123,7 @@
 - [C23] Fiorella & Mayer (2016, EPR)：生成式学习八策略。https://eric.ed.gov/?id=EJ1120458
 - [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://pubmed.ncbi.nlm.nih.gov/25084988/
 - [C30] Shea & Morgan (1979)：情境干扰效应。https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf
-- [C58] Kosmyna et al. (2025, MIT Media Lab 预印本)：LLM 辅助写作与「认知债务」。https://www.media.mit.edu/publications/your-brain-on-chatgpt/
+- [C58] Kosmyna et al. (2025, MIT Media Lab 预印本)：LLM 辅助写作与「认知债务」。https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 
 ### 扩展阅读（v1.1 新增）
 - [C85] Gentner (1983) 结构映射：类比的理论框架。 <https://ia801406.us.archive.org/18/items/gentner_dedre/gentner1983.pdf>

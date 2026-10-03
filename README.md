@@ -14,7 +14,7 @@
 <a href="./docs/evidence.md"><img src="https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg" alt="Evidence"></a>
 <a href="./docs/references.md"><img src="https://img.shields.io/badge/references-280%2B%20papers-6E4E9E.svg" alt="References"></a>
 <a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
-<a href="https://github.com/HuanMoovo/fuxi/stargazers"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
+<a href="https://star-history.com/#HuanMoovo/fuxi&Date"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
 <a href="https://github.com/HuanMoovo/fuxi/forks"><img src="https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E" alt="Forks"></a>
 
 **[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
@@ -156,7 +156,7 @@
 
 ## AI 副驾协议
 
-> AI 是本框架的加速器，但用错方向会变成学习毒药（[Bastani 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)｜[Fan 2025](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)｜[Kosmyna 2025 预印本](<https://www.media.mit.edu/publications/your-brain-on-chatgpt/>)）。
+> AI 是本框架的加速器，但用错方向会变成学习毒药（[Bastani 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)｜[Fan 2025](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)｜[Kosmyna 2025 预印本](<https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/>)）。
 
 1. **顺序铁律**：先自己产出（解释/答案/方案），再让 AI 挑错 —— 不许反过来。
 2. **检索期**：只让 AI 当考官出题、追问，**不索取答案**。

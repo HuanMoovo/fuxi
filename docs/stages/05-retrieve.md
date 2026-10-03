@@ -128,7 +128,7 @@
 - [C50] Dunning & Kruger (1999)；Koriat & Bjork（文本引） <https://doi.org/10.1037/0022-3514.77.6.1121>；<https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf>
 - [C56] Bastani et al. (2025, PNAS) — https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-- [C58] Kosmyna et al. (2025, MIT Media Lab 预印本，未同行评审) — https://www.media.mit.edu/publications/your-brain-on-chatgpt/
+- [C58] Kosmyna et al. (2025, MIT Media Lab 预印本，未同行评审) — https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 - [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引） <https://archive.org/details/memorycontributi00ebbiuoft>；<https://bjorklab.psych.ucla.edu/publication/bjork-e-l-bjork-r-a-2014-making-things-hard-on-yourself-but-in-a-good-way-creating-desirable-difficulties-to-enhance-learning-in-m-a-gernsbacher-and-j-pomerantz-eds-psycholo/>
 - [C71] Karpicke & Blunt (2011, Science) — https://pubmed.ncbi.nlm.nih.gov/21252317/
 

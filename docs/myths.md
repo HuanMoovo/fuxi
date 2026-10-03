@@ -144,7 +144,7 @@
 - **证据**：
   - [C56]（Bastani 等, 2025, PNAS）：高中数学校内实验——练习期受益于 GPT-4，但撤除 AI 后考试表现更差；带「教师设计提示、不给答案」护栏的版本可缓解。https://www.pnas.org/doi/10.1073/pnas.2422633122
   - [C57]（Fan 等, 2025, BJET）：生成式 AI 可能诱发依赖与「元认知懒惰」。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-  - [C58]（Kosmyna 等, 2025，预印本、未同行评审）：EEG 研究提示 LLM 辅助写作与更低的脑连通性、更弱的文本归属感相关（「认知债务」）。https://www.media.mit.edu/publications/your-brain-on-chatgpt/
+  - [C58]（Kosmyna 等, 2025，预印本、未同行评审）：EEG 研究提示 LLM 辅助写作与更低的脑连通性、更弱的文本归属感相关（「认知债务」）。https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/
   - 正确用法侧：[C59]（Kestin 等, 2025, Scientific Reports）：专门设计的 AI 导师（RCT，大学物理、交叉设计）学习增益 0.73–1.3 SD，且用时更少。https://doi.org/10.1038/s41598-025-97652-6
 - **正确做法**：
   - 遵守 AI 副驾协议：先自己想，AI 只做追问、出题、挑错；不直接索取答案；撤掉 AI 后必须能独立复现。

@@ -121,7 +121,7 @@
 - [C55] Kirschner, P. A. (2017). Stop propagating the learning styles myth. *Computers & Education*. <https://doi.org/10.1016/j.compedu.2017.05.005>
 - [C56] Bastani, H., et al. (2025). Generative AI without guardrails can harm learning. *PNAS*. <https://www.pnas.org/doi/10.1073/pnas.2422633122>
 - [C57] Fan, Y., et al. (2025). Beware of metacognitive laziness. *BJET*. <https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544>
-- [C58] Kosmyna, N., et al. (2025). Your Brain on ChatGPT（预印本）. <https://www.media.mit.edu/publications/your-brain-on-chatgpt/>
+- [C58] Kosmyna, N., et al. (2025). Your Brain on ChatGPT（预印本）. <https://web.archive.org/web/20250601000000/https://www.media.mit.edu/publications/your-brain-on-chatgpt/>
 - [C59] Kestin, G., et al. (2025). AI tutoring outperforms in-class active learning. *Scientific Reports*. <https://doi.org/10.1038/s41598-025-97652-6>
 - [C60] Wang, R. E., et al. (2024). Tutor CoPilot. <https://arxiv.org/abs/2410.03017>
 - [C61] Tabibian, B., et al. (2019). Enhancing human learning via spaced repetition optimization. *PNAS*. <https://www.pnas.org/doi/10.1073/pnas.1815156116>
