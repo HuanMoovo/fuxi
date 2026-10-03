@@ -2,6 +2,11 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.2.1] - 2026-10-03
+
+### Added
+- 站点（docs/index.html）新增**三语切换：中文 / English / 日本語** —— 顶栏语言切换器、localStorage 记忆、`?lang=en|ja|zh` 直链参数；171 条文案全量词典（含 JS 动态渲染的十阶卡片），切换后自动重译（含 title/alt 属性）。
+
 ## [1.2.0] - 2026-10-03
 
 ### Added
