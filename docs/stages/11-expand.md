@@ -15,6 +15,20 @@
 
 一句话：学习的尽头不是「学完了」，而是「没得学了」——**这正是研究的起点**。
 
+## 拓界篇 · 五大赛道（扩展模块）
+
+> 拓界不止于科研：**创造价值（创业）、经营关系（人际）、保养载体（长寿）、预判世界（未来）**同属「从已知到未知」的创造循环，各有独立方法论与证据体系。
+
+| 赛道 | 一句话 | 入口 |
+|---|---|---|
+| **科研**（本文 §2–§7） | 把未知变成公共知识 | 本页 |
+| **创业** | 把创造变成产品与组织（RCT 级证据） | [docs/expand/entrepreneurship.md](../expand/entrepreneurship.md) |
+| **人际** | 把关系建模与经营（依恋 / 弱连接 / 互惠） | [docs/expand/relationships.md](../expand/relationships.md) |
+| **长寿** | 把身体变成基础设施（证据分级表） | [docs/expand/longevity.md](../expand/longevity.md) |
+| **未来** | 把世界地图更新到 2045（前沿科学雷达） | [docs/expand/futures.md](../expand/futures.md) |
+
+![拓界篇 · 五大赛道](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/assets/fuxi-expand.svg)
+
 ## 2. 核心方法论（七步）
 
 ### 2.1 无知优先：从未知出发（等级 A）

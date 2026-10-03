@@ -566,6 +566,118 @@ def build_logo():
     return "".join(p)
 
 
+
+# ---------------------------------------------------------------- expand / longevity / future
+def _card(x, y, w, h, tapes=None):
+    return paper_card(x, y, w, h, tape_specs=tapes or [(30, 0, 1, -10)])
+
+def build_expand():
+    W, H = 1560, 880
+    p = [svg_open(W, H, "拓界篇 · 五大赛道（复古笔记本风）")]
+    p.append(deco_page(W, H, 7, 7))
+    p.append(rect(58, 92, 620, 78, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 128, "拓界篇 · 五大赛道", 44, INK, "700"))
+    p.append(text(80, 200, "十阶之后：从学到创造 —— 每条赛道都有自己的方法论与证据体系", 19, INK2))
+    p.append(stamp(W - 150, 150, 116, "拓界", -8, RED, "#FFFFFF", "#C0392B"))
+    courses = [
+        ("科研", "Research", "把未知变成公共知识", ["无知清单", "四大矿脉", "证伪优先", "立新理论"], ERA[0]),
+        ("创业", "Venture", "把创造变成产品与组织", ["Mom Test 访谈", "MVP 证伪假设", "PMF 看留存", "可承受损失"], ERA[3]),
+        ("人际", "Relate", "把关系建模与经营", ["依恋四类型", "弱连接机会", "互惠博弈", "修复尝试"], ERA[2]),
+        ("长寿", "Longevity", "把身体变成基础设施", ["证据分级表", "运动睡眠社交", "慢病管理", "拒绝补剂营销"], ERA[1]),
+        ("未来", "Futures", "把地图更新到 2045", ["超级预测", "前沿雷达", "情景规划", "无后悔动作"], ERA[4]),
+    ]
+    cw, gap, x0, y0 = 278, 14, 58, 240
+    for i, (name, en, line, keys, col) in enumerate(courses):
+        cx = x0 + i * (cw + gap)
+        p.append(_card(cx, y0, cw, 500, [(40, 0, i % 5, -12), (cw - 40, 2, i % 5, 10)]))
+        p.append(hand_circle(cx + 46, y0 + 52, 24, col))
+        p.append(text(cx + 46, y0 + 53, str(i + 1), 22, col, "700", "middle"))
+        p.append(text(cx + 30, y0 + 112, name, 34, INK, "700"))
+        p.append(text(cx + 30, y0 + 146, en, 15, INK2, ls="1"))
+        p.append(text(cx + 30, y0 + 192, line, 16, "#454C59"))
+        for j, k in enumerate(keys):
+            p.append(f'<circle cx="{cx+38}" cy="{y0+250+j*48}" r="6" fill="{col}"/>')
+            p.append(text(cx + 56, y0 + 251 + j * 48, k, 18, INK, "500"))
+        p.append(text(cx + 30, y0 + 476, "详见 docs/expand/", 13, "#8A8F7A"))
+    p.append(paper_card(58, 780, W - 120, 62))
+    p.append(text(96, 812, "五赛道共用一个创造循环：无知 → 问题 → 实验 → 创造 → 传播（科研造知识 · 创业造价值 · 人际造信任 · 长寿保载体 · 未来定方向）", 18, "#454C59", "500"))
+    p.append("</svg>")
+    return "".join(p)
+
+def build_longevity():
+    W, H = 1560, 900
+    p = [svg_open(W, H, "长寿 · 证据分级（复古笔记本风）")]
+    p.append(deco_page(W, H, 8, 9))
+    p.append(rect(58, 92, 640, 78, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 128, "长寿 · 证据分级与关键数字", 42, INK, "700"))
+    p.append(text(80, 200, "把筹码押在 A 级因素上：不伤害 × 运动 × 睡眠 × 饮食 × 社交", 19, INK2))
+    rows = [
+        ("不吸烟", "20 世纪最大单项寿命增益", "A", 470),
+        ("运动：150 分/周 + 力量 2 次", "全因死亡风险 −30~40%", "A", 470),
+        ("睡眠 7–9 小时（规律）", "短睡（<6h）死亡风险 +12% 量级", "A", 470),
+        ("地中海饮食", "PREDIMED RCT：心血管事件显著下降", "A", 470),
+        ("社交连接", "存活率 +50% 量级（148 研究）", "A", 470),
+        ("乐观与意义感", "高乐观组寿命更长（队列）", "B", 300),
+        ("限时进食 / 间歇禁食", "收益主要来自总热量", "B", 300),
+        ("「蓝区」极端长寿叙事", "出生记录质量受质疑", "C", 165),
+        ("抗衰补剂（NAD+ 等）", "无人体硬终点证据", "C", 165),
+        ("换血 / 干细胞注射", "无证据 + 真实风险", "D", 80),
+    ]
+    col = {"A": "#3E7C59", "B": "#2F5496", "C": "#C97A3D", "D": "#C0392B"}
+    y = 268
+    for name, note, g, bw in rows:
+        p.append(text(400, y + 16, name, 18, INK, "600", "end"))
+        p.append(rect(420, y, bw, 26, col[g], "#3A3A3A22", rx=6, sw=1, op="0.85"))
+        p.append(f'<circle cx="1060" cy="{y+13}" r="16" fill="{CARD}" stroke="{col[g]}" stroke-width="2.4"/>')
+        p.append(text(1060, y + 14, g, 17, col[g], "700", "middle"))
+        p.append(text(1096, y + 16, note, 16, "#454C59"))
+        y += 52
+    p.append(text(96, 820, "等级为本项目对证据的综合判断（详见 docs/expand/longevity.md）；抗衰补剂与换血疗法的 D 级是「别做」而不是「没看到」", 14, "#8A8F7A"))
+    p.append("</svg>")
+    return "".join(p)
+
+def build_future():
+    W, H = 1560, 920
+    p = [svg_open(W, H, "未来纪元 · 前沿科学雷达与宏观趋势（复古笔记本风）")]
+    p.append(deco_page(W, H, 9, 9))
+    p.append(rect(58, 92, 700, 78, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 128, "未来纪元 · 前沿科学雷达 × 宏观趋势", 40, INK, "700"))
+    p.append(text(80, 200, "先学会判断预测（超级预测 / 情景 / 预测市场），再读雷达与趋势 —— 每季度更新", 19, INK2))
+    fields = [
+        ("人工智能", "Stanford AI Index [C144]", 4, ERA[0]),
+        ("生物技术（CRISPR）", "2020 诺贝尔化学奖 [C145]", 3, ERA[2]),
+        ("能源（聚变）", "NIF 点火净增益 [C146]", 2, ERA[3]),
+        ("健康老龄化", "WHO 健康老龄化十年 [C150]", 3, ERA[1]),
+        ("气候与地球系统", "IPCC AR6 综合报告 [C148]", 4, ERA[4]),
+        ("空间与先进制造", "观察位：追踪 arXiv / 行业年报", 1, ERA[4]),
+    ]
+    cw, ch, gap = 466, 148, 12
+    for i, (name, src, dots, col) in enumerate(fields):
+        cx = 58 + (i % 3) * (cw + gap)
+        cy = 236 + (i // 3) * (ch + gap)
+        p.append(_card(cx, cy, cw, ch, [(50, 0, i % 5, -9)]))
+        p.append(text(cx + 26, cy + 42, name, 24, INK, "700"))
+        for k in range(4):
+            fill = col if k < dots else "#DDD6C6"
+            p.append(f'<circle cx="{cx+34+k*26}" cy="{cy+78}" r="9" fill="{fill}"/>')
+        p.append(text(cx + 26, cy + 116, src, 14, INK2))
+    tb = 236 + 2 * (ch + gap) + 16
+    trends = [
+        ("人口：2080s 峰值 ~103 亿", "UN WPP 2024 [C147]", ERA[1]),
+        ("气候：每 +0.5°C 风险台阶", "IPCC AR6 [C148]", ERA[4]),
+        ("治理：竞争性共存", "NIC Global Trends 2040 [C149]", ERA[0]),
+    ]
+    tw = (W - 120 - 24) // 3
+    for i, (line, src, col) in enumerate(trends):
+        tx = 58 + i * (tw + 12)
+        p.append(_card(tx, tb, tw, 108, [(60, 0, (i + 2) % 5, -8)]))
+        p.append(text(tx + 24, tb + 40, line, 20, INK, "700"))
+        p.append(text(tx + 24, tb + 76, src, 14, INK2))
+    p.append(text(96, H - 66, "2×2 情景（AI 快慢 × 全球化/碎片化）→ 找无后悔动作：健康 · 技能 · 社交 · 现金缓冲", 17, "#454C59", "500"))
+    p.append(text(96, H - 34, "详见 docs/expand/futures.md · 数据基线 ourworldindata.org", 14, "#8A8F7A"))
+    p.append("</svg>")
+    return "".join(p)
+
 def main():
     files = {
         "fuxi-hero.svg": build_hero(),
@@ -575,6 +687,9 @@ def main():
         "fuxi-loop.svg": build_loop(),
         "fuxi-mark.svg": build_mark(),
         "fuxi-logo.svg": build_logo(),
+        "fuxi-expand.svg": build_expand(),
+        "fuxi-longevity.svg": build_longevity(),
+        "fuxi-future.svg": build_future(),
     }
     for name, content in files.items():
         path = os.path.join(OUT, name)

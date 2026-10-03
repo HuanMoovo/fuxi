@@ -185,6 +185,7 @@ fuxi/
 │   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
 │   ├── awesome-learning.md  ← 学习友链目录（2464 个学习项目）
 │   ├── awesome-lifespan.md  ← 人生时间线友链（出生 → 老年）
+│   ├── expand/              ← 拓界篇扩展：创业 · 人际 · 长寿 · 未来纪元
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
 │   ├── myths.md             ← 15 条误区辟谣
 │   ├── faq.md               ← 常见问题

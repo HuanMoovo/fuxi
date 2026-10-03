@@ -85,3 +85,35 @@
 - [C120] Lakatos, I. — 科学研究纲领方法论: <https://plato.stanford.edu/entries/lakatos/>
 - [C121] Abduction（溯因推理，Peirce）: <https://plato.stanford.edu/entries/abduction/>
 - [C122] FAIR Principles（可复现数据标准）: <https://www.go-fair.org/fair-principles/>
+
+## 拓界篇扩展 · 创业 / 人际 / 长寿 / 未来（C123–C152）
+
+- [C123] Camuffo et al. (2020). A Scientific Approach to Entrepreneurial Decision Making: <https://doi.org/10.1287/mnsc.2018.3249>
+- [C124] Sarasvathy (2001). Causation and Effectuation: <https://effectuation.org/>
+- [C125] Azoulay et al. (2020). Age and High-Growth Entrepreneurship: <https://www.nber.org/papers/w24489>
+- [C126] Andreessen. The Only Thing That Matters（PMF）: <https://pmarchive.com/guide_to_startups_part4.html>
+- [C127] Blank (2013). Why the Lean Start-Up Changes Everything: <https://hbr.org/2013/05/why-the-lean-start-up-changes-everything>
+- [C128] Fitzpatrick. The Mom Test: <https://www.momtestbook.com/>
+- [C130] Hazan & Shaver (1987). Romantic love as attachment: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.3.511>
+- [C131] Sternberg (1986). Triangular theory of love: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.93.2.119>
+- [C132] Granovetter (1973). The Strength of Weak Ties: <https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf>
+- [C133] Nowak & Sigmund (2005). Evolution of indirect reciprocity: <https://www.nature.com/articles/nature04131>
+- [C134] Dunbar's numbers（2021）: https://pubmed.ncbi.nlm.nih.gov/33947220/
+- [C135] Gottman Institute — Research: <https://www.gottman.com/about/research/>
+- [C136] Holt-Lunstad et al. (2010). Social Relationships and Mortality Risk: <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316>
+- [C137] CNVC — 非暴力沟通: <https://www.cnvc.org/>
+- [C138] López-Otín et al. (2023). Hallmarks of aging: https://pubmed.ncbi.nlm.nih.gov/36599349/
+- [C139] Moore et al. (2012). Physical activity and mortality: https://pubmed.ncbi.nlm.nih.gov/23139642/
+- [C140] Cappuccio et al. (2010). Sleep duration and mortality: https://pubmed.ncbi.nlm.nih.gov/20469800/
+- [C141] Estruch et al. (2013). PREDIMED: https://pubmed.ncbi.nlm.nih.gov/23432189/
+- [C142] Newman — Supercentenarians critique: <https://www.biorxiv.org/content/10.1101/704080v3>
+- [C143] Lee et al. (2019). Optimism and longevity: https://www.pnas.org/doi/10.1073/pnas.1816454116
+- [C144] Stanford AI Index: <https://aiindex.stanford.edu/report/>
+- [C145] Nobel Chemistry 2020 (CRISPR): <https://www.nobelprize.org/prizes/chemistry/2020/summary/>
+- [C146] LLNL Fusion Ignition: <https://www.llnl.gov/news/national-ignition-facility-achieves-fusion-ignition>
+- [C147] UN World Population Prospects: <https://population.un.org/wpp/>
+- [C148] IPCC AR6 SYR: <https://www.ipcc.ch/report/ar6/syr/>
+- [C149] NIC Global Trends 2040: <https://www.dni.gov/index.php/gt2040-home>
+- [C150] WHO Decade of Healthy Ageing: <https://www.who.int/initiatives/decade-of-healthy-ageing>
+- [C151] Tetlock et al. — Superforecasters: <https://www.tandfonline.com/doi/full/10.1080/01973533.2015.1012991>
+- [C152] Our World in Data: <https://ourworldindata.org/>
