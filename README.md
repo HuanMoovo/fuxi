@@ -178,7 +178,7 @@ fuxi/
 │   ├── evidence.md          ← 证据库：30 条结论 + 73 条引用
 │   ├── references.md        ← 扩展文献库（C74–C110，37 条）
 │   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
-│   ├── awesome-learning.md  ← 学习友链目录（125 热门学习项目）
+│   ├── awesome-learning.md  ← 学习友链目录（248 热门学习项目）
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
 │   ├── myths.md             ← 15 条误区辟谣
 │   ├── faq.md               ← 常见问题
