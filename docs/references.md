@@ -151,3 +151,25 @@
 - [C181] OECD.AI（AI 政策观察台）: <https://oecd.ai/>
 - [C182] Frey & Osborne (2017). The future of employment（Technological Forecasting）: <https://doi.org/10.1016/j.techfore.2016.08.019>
 - [C183] UN — Global Issues: Ageing: <https://www.un.org/en/global-issues/ageing>
+
+## 拓界篇扩展三 · 理论整合增强（C184–C202）
+
+- [C184] Fortunato et al. (2018). Science of Science（综述）: <https://arxiv.org/abs/1804.03461>
+- [C185] Wuchty, Jones & Uzzi (2007). The Increasing Dominance of Teams in Production of Knowledge: <https://pubmed.ncbi.nlm.nih.gov/17431139/>
+- [C186] Uzzi et al. (2013). Atypical Combinations and Scientific Impact: <https://www.science.org/doi/10.1126/science.1240474>
+- [C187] Azoulay, Fons-Rosen & Graff Zivin (2019). Does Science Advance One Funeral at a Time?（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.20161574>
+- [C188] Gans, Scott & Stern (2018). Strategy for Start-ups（HBR）: <https://hbr.org/2018/05/strategy-for-start-ups>
+- [C189] Ries. The Lean Startup（官网）: <https://theleanstartup.com/>
+- [C190] Hall & Woodward (2010). The Burden of Nondiversifiable Risk of Entrepreneurship（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.100.3.1163>
+- [C191] Osterwalder & Pigneur. Business Model Generation（Strategyzer）: <https://www.strategyzer.com/>
+- [C192] Baumeister & Leary (1995). The Need to Belong（Psych Bulletin）: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-2909.117.3.497>
+- [C193] Christakis & Fowler (2007). The Spread of Obesity in a Large Social Network（NEJM）: <https://pubmed.ncbi.nlm.nih.gov/17652652/>
+- [C194] Fowler & Christakis (2008). Dynamic Spread of Happiness（BMJ）: <https://pubmed.ncbi.nlm.nih.gov/19056788/>
+- [C195] Harvard Study of Adult Development（1938– ）: <https://www.adultdevelopmentstudy.org/>
+- [C196] Harrison et al. (2009). Rapamycin Fed Late in Life Extends Lifespan（Nature）: <https://www.nature.com/articles/nature08221>
+- [C197] Windred et al. (2024). Sleep Regularity and Mortality（SLEEP）: <https://pubmed.ncbi.nlm.nih.gov/37738616/>
+- [C198] Lowe et al. (2020). TREAT: Time-Restricted Eating RCT（JAMA IM）: <https://pubmed.ncbi.nlm.nih.gov/32986097/>
+- [C199] Jumper et al. (2021). Highly Accurate Protein Structure Prediction（AlphaFold2, Nature）: <https://www.nature.com/articles/s41586-021-03819-2>
+- [C200] World Economic Forum. Future of Jobs Report: <https://www.weforum.org/publications/the-future-of-jobs-report-2025/>
+- [C201] Acemoglu & Restrepo (2019). Automation and New Tasks（JEP）: <https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3>
+- [C202] Epoch AI — 算力与模型趋势数据: <https://epoch.ai/>

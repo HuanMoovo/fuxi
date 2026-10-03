@@ -66,6 +66,14 @@ flowchart TD
 - **冲突五模式（TKI）**：竞争 / 协作 / 妥协 / 回避 / 迁就——按「议题重要性 × 关系重要性」选模式；长期关系中默认协作。[C168]
 - **依恋四象限**：自我模型 × 他人模型 → 安全 / 焦虑 / 回避 / 恐惧型；沟通配方不同：对焦虑型给确定性，对回避型给空间，对恐惧型给稳定的一致信号。[C169]
 
+
+## 10. 深潜五：归属需求与社会网络传染
+
+- **归属是刚需**：归属需要理论——关系匮乏带来的痛苦是进化写死的报警器，不是「矫情」。[C192]
+- **体重与习惯在网络中传染**：32 年家族队列数据——朋友肥胖显著提升你肥胖的概率，同伴效应强到出乎直觉。[C193]
+- **情绪同样传染**：快乐在社交网络中一层层扩散、随距离衰减——主动提高「高频接触圈」的质量就是提高自己的基线。[C194]
+- **纵向终局证据**：哈佛成人发展研究（1938 年至今）——高质量关系是幸福与健康的最强预测因素之一。[C195]
+
 ## 参考（人际赛道）
 
 - [C130] Hazan & Shaver (1987). Romantic love conceptualized as an attachment process: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.3.511>
@@ -85,4 +93,7 @@ flowchart TD
 - [C167] Cialdini (2001). Harnessing the Science of Persuasion: <https://hbr.org/2001/10/harnessing-the-science-of-persuasion>
 - [C168] 冲突五模式（TKI 方法论）: https://www.themyersbriggs.com/en-US/Products-and-Services/TKI
 - [C169] Bartholomew & Horowitz (1991). Attachment styles among young adults: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.61.2.226>
-
+- [C192] Baumeister & Leary (1995). The Need to Belong（Psych Bulletin）: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-2909.117.3.497>
+- [C193] Christakis & Fowler (2007). The Spread of Obesity in a Large Social Network（NEJM）: <https://pubmed.ncbi.nlm.nih.gov/17652652/>
+- [C194] Fowler & Christakis (2008). Dynamic Spread of Happiness（BMJ）: <https://pubmed.ncbi.nlm.nih.gov/19056788/>
+- [C195] Harvard Study of Adult Development（1938– ）: <https://www.adultdevelopmentstudy.org/>

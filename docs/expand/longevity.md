@@ -3,6 +3,8 @@
 > **何时进入**：任何时候都不晚 —— 健康寿命（healthspan）是科研 / 创业 / 人际所有赛道的**底座**。
 > 本页是 [第 11 阶 · 拓界](../stages/11-expand.md) 的五大赛道之一。
 
+![图](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/assets/fuxi-longevity.svg)
+
 ## 1. 老化理论地图
 
 - **衰老的十二大标志**（2023 扩展版）：基因组不稳定、端粒磨损、表观遗传改变、蛋白稳态丧失、营养感应失调、线粒体功能障碍、细胞衰老、干细胞耗竭、细胞间通讯改变、慢性炎症、菌群失调、大分子自噬受损。[C138]
@@ -70,6 +72,13 @@ flowchart LR
 - **握力与死亡风险**：50 万人队列——握力每下降 5kg，全因死亡风险显著上升；肌肉力量是优于 BMI 的预测指标之一。[C174]
 - **WHO 2020 指南**（长寿的最低有效剂量）：150–300 分钟中等强度/周 + 2 次力量训练 + 少坐多动。[C175]
 
+
+## 10. 深潜五：药物与节律（冷静的加分项）
+
+- **雷帕霉素（小鼠）**：晚年给药仍延长遗传异质小鼠寿命——抗衰药物研究最重要的概念验证，但**尚未**转化为人体的硬终点结论。[C196]
+- **睡眠规律 > 时长**：40 万人级数据——入睡/起床时间的规律性与死亡风险的关联强于睡眠时长本身。先把「规律」做到，再谈时长。[C197]
+- **限时进食的人体 RCT**：TREAT 试验——同等热量下的限时进食 12 周内未显示额外减重优势；决定作用的仍是总热量与可持续性。[C198]
+
 ## 参考（长寿赛道）
 
 - [C138] López-Otín et al. (2023). Hallmarks of aging: An expanding universe（Cell）: https://pubmed.ncbi.nlm.nih.gov/36599349/
@@ -84,4 +93,6 @@ flowchart LR
 - [C173] Mattison et al. (2017). Caloric restriction in rhesus monkeys（Nature Comm）: <https://www.nature.com/articles/ncomms14063>
 - [C174] Celis-Morales et al. (2018). Handgrip strength and mortality（BMJ）: https://pubmed.ncbi.nlm.nih.gov/29739772/
 - [C175] WHO (2020). Physical Activity Guidelines: <https://www.who.int/publications/i/item/9789240015128>
-
+- [C196] Harrison et al. (2009). Rapamycin Fed Late in Life Extends Lifespan（Nature）: <https://www.nature.com/articles/nature08221>
+- [C197] Windred et al. (2024). Sleep Regularity and Mortality（SLEEP）: <https://pubmed.ncbi.nlm.nih.gov/37738616/>
+- [C198] Lowe et al. (2020). TREAT: Time-Restricted Eating RCT（JAMA IM）: <https://pubmed.ncbi.nlm.nih.gov/32986097/>

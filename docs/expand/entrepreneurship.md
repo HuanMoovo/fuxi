@@ -78,6 +78,13 @@ flowchart LR
 
 - **结构化复盘模板**（经验要经过反思才可迁移）：事件 → 当时的假设 → 证据 → 决策点 → 下一次的「如果…就…」规则。
 
+
+## 10. 深潜四：双轨战略与不可分散的风险
+
+- **两种战略姿态**：需求可确认、竞争可辨时用**预测法**（定位、护城河、规划）；高度不确定时用**创造法**（试错、联盟、控制损失）——先判断自己在哪一轨，再选工具箱。[C188]
+- **不可分散的风险**：创业者财富高度集中于单一非上市资产，风险无法用分散化消除（估算的风险溢价远超二级市场股票）——纪律：生活费与创业资金物理隔离、始终保留「失败重启能力」。[C190]
+- **商业模式 = 假设集合**：把商业模式画布九宫格的每一格写成「假设 + 验证方式」，画布才是活的。[C191]
+
 ## 参考（创业赛道）
 
 - [C123] Camuffo et al. (2020). A Scientific Approach to Entrepreneurial Decision Making（RCT）: <https://doi.org/10.1287/mnsc.2018.3249>
@@ -94,4 +101,7 @@ flowchart LR
 - [C158] Gompers et al. (2010). Performance Persistence in Entrepreneurship (JFE): <https://doi.org/10.1016/j.jfineco.2010.02.004>
 - [C159] Kerr, Nanda & Rhodes-Kropf (2014). Entrepreneurship as Experimentation (JEP): <https://www.aeaweb.org/articles?id=10.1257/jep.28.3.25>
 - [C160] Ellis. The Startup Pyramid（PMF 40% 测试）: <https://www.startup-marketing.com/the-startup-pyramid/>
-
+- [C188] Gans, Scott & Stern (2018). Strategy for Start-ups（HBR）: <https://hbr.org/2018/05/strategy-for-start-ups>
+- [C189] Ries. The Lean Startup（官网）: <https://theleanstartup.com/>
+- [C190] Hall & Woodward (2010). The Burden of Nondiversifiable Risk of Entrepreneurship（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.100.3.1163>
+- [C191] Osterwalder & Pigneur. Business Model Generation（Strategyzer）: <https://www.strategyzer.com/>

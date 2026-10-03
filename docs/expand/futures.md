@@ -3,6 +3,8 @@
 > **用途**：所有赛道都押注未来 —— 这里给你一张可核验的「世界地图更新包」：会做预测的方法 + 六大前沿科学雷达 + 宏观趋势 + 个人适配。
 > 本页是 [第 11 阶 · 拓界](../stages/11-expand.md) 的五大赛道之一。
 
+![图](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/assets/fuxi-future.svg)
+
 ## 1. 先学会「怎么判断预测」（等级 A）
 
 - **超级预测**：Tetlock 好判断项目——系统训练「分层校准 + 基础率 + 频繁小步更新」的人，准确率显著超越获密级情报的分析员。[C151]
@@ -78,6 +80,13 @@ flowchart TD
 - Frey & Osborne (2017) 估计美国约 47% 岗位「高风险可自动化」——后续研究口径从 ~9% 到 ~47% 差异巨大；教益：**争论本身就是信号**——「任务级自动化」比「岗位级替换」更值得下注。[C182]
 - 叠加老龄化：UN 数据显示 65+ 人口占比持续攀升 [C183]——护理、健康与银发科技是「双趋势叠加」的确定性赛道。
 
+
+## 11. 深潜六：计算与生物的交汇
+
+- **AlphaFold**：蛋白质结构预测达到实验级精度并转化为公开数据库（2 亿+ 结构）——AI for Science 的标志性起点，生物赛道的时间表因此整体前移。[C199]
+- **算力趋势**：Epoch AI 持续追踪训练算力与成本曲线——「每美元算力」的复利效应是预判 AI 时间表的底层数据。[C202]
+- 补充：任务级自动化 [C201] 与劳动力市场报告 [C200] 是 §10 争论的两组数据源。
+
 ## 参考（未来赛道）
 
 - [C144] Stanford AI Index（年度报告）: <https://aiindex.stanford.edu/report/>
@@ -97,4 +106,7 @@ flowchart TD
 - [C181] OECD.AI（AI 政策观察台）: <https://oecd.ai/>
 - [C182] Frey & Osborne (2017). The future of employment（Technological Forecasting）: <https://doi.org/10.1016/j.techfore.2016.08.019>
 - [C183] UN — Global Issues: Ageing: <https://www.un.org/en/global-issues/ageing>
-
+- [C199] Jumper et al. (2021). Highly Accurate Protein Structure Prediction（AlphaFold2, Nature）: <https://www.nature.com/articles/s41586-021-03819-2>
+- [C200] World Economic Forum. Future of Jobs Report: <https://www.weforum.org/publications/the-future-of-jobs-report-2025/>
+- [C201] Acemoglu & Restrepo (2019). Automation and New Tasks（JEP）: <https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3>
+- [C202] Epoch AI — 算力与模型趋势数据: <https://epoch.ai/>

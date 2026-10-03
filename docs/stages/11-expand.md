@@ -15,6 +15,14 @@
 
 一句话：学习的尽头不是「学完了」，而是「没得学了」——**这正是研究的起点**。
 
+
+## 8. 深潜：科学的科学（怎么让创造更可能发生）
+
+- **团队优先**：1950–2000 年代论文分析显示，高影响论文中团队署名占比持续上升、单作份额下降——「组队」已从选项变成默认策略。[C185]
+- **非常规组合出高影响**：把常规与新组合配比在特定「最优新奇度」区间的论文获得更高引用——太保守没人引，太怪异没人懂。[C186]
+- **「巨星陨落」实验**：领域巨星离世后，新进入者带来更多高影响论文——权威在场会压制异议，元老退场是异端的机会窗口（Planck 原则的实验检验）。[C187]
+- **统一视角**：科学学（science of science）用大规模数据研究科学生产与传播规律，是「如何做研究」的元方法。[C184]
+
 ## 拓界篇 · 五大赛道（扩展模块）
 
 > 拓界不止于科研：**创造价值（创业）、经营关系（人际）、保养载体（长寿）、预判世界（未来）**同属「从已知到未知」的创造循环，各有独立方法论与证据体系。
@@ -26,6 +34,7 @@
 | **人际** | 把关系建模与经营（依恋 / 弱连接 / 互惠） | [docs/expand/relationships.md](../expand/relationships.md) |
 | **长寿** | 把身体变成基础设施（证据分级表） | [docs/expand/longevity.md](../expand/longevity.md) |
 | **未来** | 把世界地图更新到 2045（前沿科学雷达） | [docs/expand/futures.md](../expand/futures.md) |
+| **整合** | 一个循环 · 五条赛道 · 五大理论支柱 | [docs/expand/integration.md](../expand/integration.md) |
 
 ![拓界篇 · 五大赛道](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/assets/fuxi-expand.svg)
 
@@ -140,3 +149,7 @@ flowchart LR
 ---
 
 [← 返回十阶：⑩ 维护](./10-maintain.md) ｜ [项目主页](../../README.md)
+- [C184] Fortunato et al. (2018). Science of Science（综述）: <https://arxiv.org/abs/1804.03461>
+- [C185] Wuchty, Jones & Uzzi (2007). The Increasing Dominance of Teams in Production of Knowledge: <https://pubmed.ncbi.nlm.nih.gov/17431139/>
+- [C186] Uzzi et al. (2013). Atypical Combinations and Scientific Impact: <https://www.science.org/doi/10.1126/science.1240474>
+- [C187] Azoulay, Fons-Rosen & Graff Zivin (2019). Does Science Advance One Funeral at a Time?（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.20161574>
