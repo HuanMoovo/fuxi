@@ -2,6 +2,11 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.13.2] - 2026-10-03
+
+### Changed
+- **PDF 深度清理**：PDF 二进制与构建产物从 git 历史中彻底移除（历史重写）；仓库回到纯文档状态，全部 PDF 内容可在本地 `generator/` 中随时重建。
+
 ## [1.13.1] - 2026-10-03
 
 ### Changed
