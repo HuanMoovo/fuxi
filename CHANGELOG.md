@@ -2,6 +2,18 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.1.0] - 2026-10-03
+
+### Changed
+- **README 顶部居中**：LOGO + 标题 + 徽章居中排版；新增横版组合标 `docs/assets/fuxi-logo.svg`。
+- **图表重绘为「复古笔记本」手绘风**：纸张横格、红边线、装订孔、和纸胶带、手写体、红印章、荧光笔高亮；6+1 张 SVG 全部由 `generator/build_svgs.py` 可复现生成。
+- **引用全面补链**：C01–C73 每条均附可查看来源（开放获取优先，替换 ResearchGate 等反爬链接）；清理不可加载链接。
+- 站点：LOGO 入驻、区块标题居中、统计更新为 110+ 文献、新增扩展文献入口。
+
+### Added
+- `docs/references.md`：扩展文献库 C74–C110（37 条，按主题分类）。
+- `LICENSE-DOCS.md`：文档与图表 CC BY 4.0 声明（LICENSE 保持纯 MIT，便于 GitHub 识别）。
+
 ## [1.0.0] - 2026-10-03
 
 ### Added

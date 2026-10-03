@@ -25,7 +25,7 @@
   4. 每次练习后写下一行修正动作，并在下一次练习里复测；
   5. 每两周只升级一个变量（速度、复杂度、干扰），其余保持不变。
 - **最合适**：子技能明确、可重复、反馈易得的技能（编程、乐器、运动、写作片段）。**不适用**：还在建立整体图式的早期——先回到第 4/5 阶。
-- **证据**：B —— [C31](<https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363)（刻意练习与专家表现>）、[C32](<https://pubmed.ncbi.nlm.nih.gov/24986855/)（领域调节很大，数据以原文为准>）。
+- **证据**：B —— [C31](<https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363>)（刻意练习与专家表现）、[C32](<https://pubmed.ncbi.nlm.nih.gov/24986855/>)（领域调节很大，数据以原文为准）。
 
 ### 反馈设计（Feedback Design）
 - **机制**：反馈的价值是缩短「做错」到「知道错在哪、下次怎么改」的距离；形式与时机决定它是加速器还是干扰源。
@@ -36,7 +36,7 @@
   4. 主动索取外部反馈（导师、评审、社区），并准备好可比对的数据（录音、日志、提交记录）；
   5. 警惕反效果：约 1/3 以上的反馈干预会降低表现 [C47]，收到负面反馈先分类再行动。
 - **最合适**：有明确标准、产出可比对的练习。**不适用**：还不会正确动作时大量自我评价——先照示范做。
-- **证据**：A —— [C46](<https://doi.org/10.3102/003465430298487)（反馈力量与形式差异>）、[C47](https://psycnet.apa.org/record/1996-02773-003)（607 个效应量、23,663 观测；约 1/3 以上反效果）。
+- **证据**：A —— [C46](<https://doi.org/10.3102/003465430298487>)（反馈力量与形式差异）、[C47](https://psycnet.apa.org/record/1996-02773-003)（607 个效应量、23,663 观测；约 1/3 以上反效果）。
 
 ### 错误日志与根因分类（Error Log and Root-Cause Taxonomy）
 - **机制**：错误是能力边界的探针；不分类的错误只剩情绪成本，分类后的错误直接生成训练计划。
@@ -58,7 +58,7 @@
   4. 淡出（fading）：每熟练一段撤掉一层提示，直到能独立完成；
   5. 补两个动作：表达（说出自己的思考过程）与反思（列「我 vs 高手」的差异清单）。
 - **最合适**：程序性技能与专业判断（调试、教学、乐器、临床）。**不适用**：纯事实记忆——直接走第 5/6 阶。
-- **证据**：B —— [C44](<https://files.eric.ed.gov/fulltext/ED284181.pdf)（认知学徒制>）；新手需要引导与示范（[C16](<https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1)>）。
+- **证据**：B —— [C44](<https://files.eric.ed.gov/fulltext/ED284181.pdf>)（认知学徒制）；新手需要引导与示范（[C16](<https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1>)）。
 
 ### 先失败后教学（Productive Failure）
 - **机制**：先自己尝试解一个超出当前水平的问题，即使失败也会激活相关概念、暴露缺口，之后的教学因此更深地接到已有结构上。
@@ -124,7 +124,13 @@
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后考试表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：生成式 AI 的依赖与「元认知懒惰」风险。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
 - [C67] （文本引）Fitts & Posner (1967) 技能三阶段；Newell & Rosenbloom (1981) 练习幂律。https://iiif.library.cmu.edu/file/Newell_box00032_fld02190_doc0001/Newell_box00032_fld02190_doc0001.pdf
-- [C68] （文本引）Vygotsky (1978) 最近发展区；Wood, Bruner & Ross (1976) 脚手架。
+- [C68] （文本引）Vygotsky (1978) 最近发展区；Wood, Bruner & Ross (1976) 脚手架。 <https://archive.org/details/mindinsocietydev0000vygo>；<https://doi.org/10.1111/j.1469-7610.1976.tb00381.x>
+
+### 扩展阅读（v1.1 新增）
+- [C79] Ericsson & Harwell (2019) 刻意练习与练习效应的边界（开放获取）。 <https://doi.org/10.3389/fpsyg.2019.02396>
+- [C80] Hambrick et al. (2014) 刻意练习解释力的批判性检验。 <https://doi.org/10.1016/j.intell.2013.04.001>
+- [C86] Wulf & Shea (2002) 从简单技能研究导出的练习原则。 <https://gwulf.faculty.unlv.edu/wp-content/uploads/2014/05/Wulf_Shea-2002.pdf>
+
 
 ```mermaid
 flowchart LR

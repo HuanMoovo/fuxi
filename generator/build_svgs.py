@@ -1,25 +1,27 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""伏羲框架 SVG 图表生成器 v2。
+"""伏羲框架 SVG 图表生成器 v3 —— 复古笔记本手绘风。
 运行: python generator/build_svgs.py
-输出: docs/assets/fuxi-hero.svg / fuxi-engine.svg / fuxi-paths.svg / fuxi-spacing.svg / fuxi-loop.svg / fuxi-mark.svg
-设计原则: 纯静态、无外部依赖、无 <style>、全内联属性（GitHub 渲染安全）。
-v2 修复: 环形扇区角度 bug、英文与徽章重叠、证据分级固定配色、合流箭头、交错网格、表格对齐。
+输出: docs/assets/fuxi-hero.svg / fuxi-engine.svg / fuxi-paths.svg / fuxi-spacing.svg / fuxi-loop.svg / fuxi-mark.svg / fuxi-logo.svg
+风格: 米黄纸张 + 横格线 + 红边线 + 装订孔 + 白纸卡片 + 和纸胶带 + 手写体 + 红印章 + 高亮笔。
+纯静态、无外部依赖、全内联属性（GitHub 渲染安全）。
 """
 import math, os
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "assets")
 os.makedirs(OUT, exist_ok=True)
 
-FF = "'Segoe UI','Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif"
-BG = "#0B1020"
-PANEL = "#121A2E"
-PANEL2 = "#0E1526"
-INK = "#E8ECF8"
-MUT = "#93A0BF"
-LINE = "#2A3550"
-ERA = ["#8B5CF6", "#22D3EE", "#34D399", "#F59E0B", "#FB7185"]
-GRADE = {"A": "#4ADE80", "B": "#60A5FA", "C": "#FBBF24", "D": "#F87171"}
+# —— 手写字体栈（拉丁优先手写字体，中文回退楷体）
+FF = "'Segoe Print','Bradley Hand','Comic Sans MS','KaiTi','STKaiti','Kaiti SC','Noto Serif SC',serif"
+# —— 纸张与墨水
+PAPER = "#F5EEDD"; RULE = "#C9D6E8"; MARGINR = "#E4A9A0"
+CARD = "#FFFDF6"; CARD_ST = "#D9CFB8"; SHADOW = "#00000014"
+INK = "#2B2F36"; INK2 = "#6A6F7C"
+BLUE = "#2F5496"; RED = "#C0392B"; GREEN = "#3E7C59"; ORANGE = "#C97A3D"; PURPLE = "#6E4E9E"
+YELLOW = "#F6E27A"
+TAPES = ["#E7DCF0", "#D9E7F2", "#DCEBE0", "#F3E6CE", "#F2DCDE"]  # 与五纪色相呼应
+ERA = ["#6E4E9E", "#2E6E8E", "#3E7C59", "#C97A3D", "#B04A5A"]
+GRADE = {"A": "#3E7C59", "B": "#2F5496", "C": "#C97A3D", "D": "#C0392B"}
 ERA_NAMES = ["启程纪", "建构纪", "巩固纪", "淬炼纪", "传承纪"]
 ERA_SUB = ["立志 · 建图", "拆解 · 编码", "检索 · 间隔", "精练 · 实战", "教学 · 维护"]
 
@@ -48,25 +50,24 @@ def tw(s, size):
     return w
 
 
-def rect(x, y, w, h, fill, stroke=None, rx=14, sw=1.2, op=None):
+def rect(x, y, w, h, fill, stroke=None, rx=8, sw=1.2, op=None, dash=None):
     s = f'<rect x="{x:.0f}" y="{y:.0f}" width="{w:.0f}" height="{h:.0f}" rx="{rx}" fill="{fill}"'
     if stroke: s += f' stroke="{stroke}" stroke-width="{sw}"'
     if op is not None: s += f' opacity="{op}"'
+    if dash: s += f' stroke-dasharray="{dash}"'
     return s + "/>"
 
 
-def text(x, y, s, size, fill, weight="400", anchor="start", op=None, ls=None):
-    a = f'<text x="{x:.0f}" y="{y:.0f}" font-size="{size}" fill="{fill}" font-weight="{weight}" text-anchor="{anchor}"'
+def text(x, y, s, size, fill, weight="400", anchor="start", op=None, ls=None, fs=FF):
+    a = f'<text x="{x:.0f}" y="{y:.0f}" font-size="{size}" fill="{fill}" font-weight="{weight}" text-anchor="{anchor}" font-family="{fs}"'
     if op is not None: a += f' opacity="{op}"'
     if ls: a += f' letter-spacing="{ls}"'
     return a + f' dominant-baseline="middle">{esc(s)}</text>'
 
 
-def chip(x, y, s, size=16, fg=INK, bg="none", stroke=None, h=32, pad=12, weight="500"):
+def chip(x, y, s, size=16, fg=INK, bg=CARD, stroke=CARD_ST, h=30, pad=12, weight="500", rx=None):
     w = tw(s, size) + pad * 2
-    g = ""
-    if bg != "none" or stroke:
-        g += rect(x, y, w, h, bg if bg != "none" else "none", stroke, rx=h / 2, sw=1.1)
+    g = rect(x, y, w, h, bg, stroke, rx=rx if rx is not None else h / 2, sw=1.1)
     g += text(x + w / 2, y + h / 2 + 1, s, size, fg, weight, "middle")
     return g, w
 
@@ -87,387 +88,484 @@ def seg_path(mid, span, r_in, r_out, cx, cy):
             f'L {x1o:.1f} {y1o:.1f} A {r_out} {r_out} 0 0 0 {x0o:.1f} {y0o:.1f} Z')
 
 
+def tape(cx, cy, color, deg, w=76, h=22, op=0.85):
+    return (f'<rect x="{-w/2}" y="{-h/2}" width="{w}" height="{h}" fill="{color}" opacity="{op}" rx="3" '
+            f'transform="translate({cx:.0f} {cy:.0f}) rotate({deg})"/>')
+
+
+def paper_card(x, y, w, h, tape_specs=None, rx=10):
+    g = rect(x + 3, y + 4, w, h, "#00000010", None, rx=rx)
+    g += rect(x, y, w, h, CARD, CARD_ST, rx=rx, sw=1.3)
+    for (tx, ty, ci, deg) in (tape_specs or []):
+        g += tape(x + tx, y + ty, TAPES[ci], deg)
+    return g
+
+
+def doodle_arrow(x1, y1, x2, y2, color=INK2, sw=1.8, bend=8):
+    dx, dy = x2 - x1, y2 - y1
+    L = math.hypot(dx, dy) or 1
+    nx, ny = -dy / L, dx / L
+    mx, my = (x1 + x2) / 2 + nx * bend, (y1 + y2) / 2 + ny * bend
+    ang = math.atan2(y2 - my, x2 - mx)
+    a1 = ang + math.radians(152); a2 = ang - math.radians(152)
+    hx1, hy1 = x2 + 13 * math.cos(a1), y2 + 13 * math.sin(a1)
+    hx2, hy2 = x2 + 13 * math.cos(a2), y2 + 13 * math.sin(a2)
+    return (f'<path d="M {x1:.0f} {y1:.0f} Q {mx:.0f} {my:.0f} {x2:.0f} {y2:.0f}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round"/>'
+            f'<path d="M {hx1:.0f} {hy1:.0f} L {x2:.0f} {y2:.0f} L {hx2:.0f} {hy2:.0f}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round"/>')
+
+
+def hand_circle(cx, cy, r, color, sw=2.2):
+    """手绘感双线圆。"""
+    return (f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{r}" fill="{CARD}" stroke="{color}" stroke-width="{sw}"/>'
+            f'<circle cx="{cx+2:.0f}" cy="{cy+1:.0f}" r="{r-3}" fill="none" stroke="{color}" stroke-width="0.8" opacity="0.45"/>')
+
+
+def stamp(cx, cy, size=128, chars="伏羲", rot=-7, color=RED, txt="#FFFFFF", fill=None):
+    g = f'<g transform="rotate({rot} {cx} {cy})">'
+    if fill:
+        g += rect(cx - size / 2, cy - size / 2, size, size, fill, None, rx=10)
+    g += rect(cx - size / 2, cy - size / 2, size, size, "none", color, rx=10, sw=3)
+    g += rect(cx - size / 2 + 7, cy - size / 2 + 7, size - 14, size - 14, "none", color, rx=7, sw=1, op=0.7)
+    g += text(cx, cy + 1, chars, int(size * 0.36), txt, "800", "middle")
+    g += "</g>"
+    return g
+
+
+def deco_page(w, h, no=1, count=6):
+    """纸张背景 + 横格 + 红边线 + 装订孔 + 页眉页脚。"""
+    p = [rect(0, 0, w, h, PAPER, None, rx=0)]
+    y = 118
+    while y < h - 46:
+        p.append(f'<line x1="70" y1="{y}" x2="{w-52}" y2="{y}" stroke="{RULE}" stroke-width="1.6" opacity="1"/>')
+        y += 38
+    p.append(f'<line x1="88" y1="96" x2="88" y2="{h-40}" stroke="{MARGINR}" stroke-width="1.8" opacity="0.8"/>')
+    for hy in [150, 360, 570, 780]:
+        if hy < h - 60:
+            p.append(f'<circle cx="44" cy="{hy}" r="13" fill="{PAPER}" stroke="#C9BFA8" stroke-width="1.4"/>')
+    p.append(text(70, 56, "伏羲框架 · 学习笔记", 15, INK2))
+    p.append(text(w - 64, 56, f"No.{no} / {count}　·　2026.10", 14, INK2, "400", "end"))
+    p.append(f'<line x1="70" y1="76" x2="{w-52}" y2="76" stroke="{INK2}" stroke-width="1" stroke-dasharray="7 7" opacity="0.5"/>')
+    return "".join(p)
+
+
 def svg_open(w, h, title):
-    m = "".join(
-        f'<marker id="aE{i}" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">'
-        f'<path d="M0,1 L7,4.5 L0,8" fill="none" stroke="{ERA[i]}" stroke-width="1.8"/></marker>'
-        for i in range(5))
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">'
-            f'<title>{esc(title)}</title><defs>'
-            f'<marker id="aN" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,1 L7,4.5 L0,8" fill="none" stroke="{MUT}" stroke-width="1.6"/></marker>'
-            f'{m}'
-            f'<radialGradient id="glowV" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>'
-            f'<radialGradient id="glowC" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22D3EE" stop-opacity="0.18"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>'
-            f'<linearGradient id="lgA" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="25%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#34D399"/><stop offset="75%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#FB7185"/></linearGradient>'
-            f'</defs>')
+            f'<title>{esc(title)}</title>')
 
 
 # ---------------------------------------------------------------- hero
 def build_hero():
-    W, H = 1720, 940
-    p = [svg_open(W, H, "伏羲框架：五纪十阶总览")]
-    p.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    p.append(f'<circle cx="180" cy="120" r="420" fill="url(#glowV)"/>')
-    p.append(f'<circle cx="1560" cy="820" r="460" fill="url(#glowC)"/>')
-
-    p.append(text(70, 78, "伏羲框架 · 万物皆可学", 54, INK, "800"))
-    p.append(text(72, 128, "The Fuxi Framework — Everything Can Be Learned", 22, MUT, "400", ls="0.5"))
-    p.append(text(72, 172, "5 纪 10 阶时间线 · 每阶 = 最合适的方法 × 证据等级 × 开源工具 × 过关测试", 21, "#C7D2EA"))
-
-    badges = [("十阶时间线", 17, INK, "#1B2440", "#33406B"),
-              ("三轨适配：探索 / 实战 / 冲刺", 15, INK, "#1B2440", "#33406B"),
-              ("证据分级 A/B/C/D", 17, "#22D3EE", "#0E2433", "#155E75"),
-              ("先建图再填肉 · 先检索再重复 · 先做真事", 15, MUT, "none", "#33406B")]
-    ys = [54, 98, 142, 186]
-    for (s, size, fg, bg, stroke), y in zip(badges, ys):
-        w = tw(s, size) + 24
-        g, _ = chip(1652 - w, y, s, size, fg, bg, stroke, h=32)
-        p.append(g)
-
+    W, H = 1720, 960
+    p = [svg_open(W, H, "伏羲框架：五纪十阶总览（复古笔记本风）")]
+    p.append(deco_page(W, H, 1))
+    # 标题（黄色高亮 + 手写体）
+    p.append(rect(58, 92, 560, 78, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 132, "伏羲框架 · 万物皆可学", 52, INK, "700"))
+    p.append(text(80, 184, "The Fuxi Framework — Everything Can Be Learned", 21, INK2))
+    p.append(text(80, 222, "5 纪 10 阶时间线 · 每阶 = 最合适的方法 × 证据等级 × 开源工具 × 过关测试", 20, "#4A5160"))
+    # 右侧标签（纸片）
+    badges = [("十阶时间线", 16), ("三轨适配：探索 / 实战 / 冲刺", 14)]
+    yy = 100
+    for s, size in badges:
+        g, w = chip(1664 - (tw(s, size) + 24), yy, s, size, INK, CARD, CARD_ST, h=32)
+        p.append(g); yy += 46
+    # 证据分级（圈字母）
+    p.append(text(1664 - 296, 236, "证据分级", 14, INK2, "400", "start"))
+    xx = 1664 - 296 + tw("证据分级", 14) + 10
+    for letter, col in [("A", GRADE["A"]), ("B", GRADE["B"]), ("C", GRADE["C"]), ("D", GRADE["D"])]:
+        p.append(f'<circle cx="{xx+13}" cy="236" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
+        p.append(text(xx + 13, 237, letter, 15, col, "700", "middle"))
+        xx += 34
+    # 五纪列
     col_w, gap = 320, 16
     x0 = 60
     for i in range(5):
         cx = x0 + i * (col_w + gap)
-        p.append(rect(cx, 230, col_w, 580, "#0F1729", ERA[i] + "55", rx=22, sw=1.4))
-        p.append(rect(cx, 230, col_w, 58, ERA[i] + "26", ERA[i] + "66", rx=18, sw=1.1))
-        p.append(text(cx + col_w / 2, 251, f"{ERA_NAMES[i]}", 23, ERA[i], "700", "middle"))
-        p.append(text(cx + col_w / 2, 274, ERA_SUB[i], 15, MUT, "400", "middle"))
+        p.append(rect(cx, 268, col_w, 560, "#FFFFFF55", ERA[i], rx=16, sw=1.6, dash="9 7"))
+        p.append(tape(cx + col_w / 2, 282, ERA[i], -1.5 if i % 2 == 0 else 1.5, w=190, h=34, op=0.22))
+        p.append(text(cx + col_w / 2, 276, f"{ERA_NAMES[i]}", 21, ERA[i], "700", "middle"))
+        p.append(text(cx + col_w / 2, 294, ERA_SUB[i], 13, INK2, "400", "middle"))
         for j in range(2):
             st = STAGES[i * 2 + j]
-            cy = 306 + j * 258
-            p.append(rect(cx + 14, cy, col_w - 28, 234, PANEL, "#232F4E", rx=16, sw=1.2))
-            p.append(f'<circle cx="{cx + 14 + 40}" cy="{cy + 40}" r="21" fill="{ERA[st["era"]]}"/>')
-            p.append(text(cx + 14 + 40, cy + 41, str(st["num"]), 21, "#0B1020", "800", "middle"))
-            p.append(text(cx + 14 + 78, cy + 40, st["name"], 30, INK, "700"))
-            p.append(text(cx + 14 + 78, cy + 68, st["en"], 14, MUT, "400", ls="1"))
-            gq = f'证据 {st["grade"]}'
-            wq = tw(gq, 15) + 20
-            g, _ = chip(cx + col_w - 28 + 14 - wq - 12, cy + 22, gq, 15, "#0B1020", GRADE[st["grade"]], None, h=30, pad=10)
-            p.append(g)
-            p.append(text(cx + 14 + 30, cy + 108, st["line"], 20, "#C7D2EA"))
-            cxx = cx + 14 + 16
+            cy = 320 + j * 248
+            cw = col_w - 28
+            p.append(paper_card(cx + 14, cy, cw, 224, tape_specs=[(24, 0, st["era"], -14), (cw - 24, 2, st["era"], 12)]))
+            p.append(hand_circle(cx + 14 + 40, cy + 42, 21, ERA[st["era"]]))
+            p.append(text(cx + 14 + 40, cy + 43, str(st["num"]), 20, ERA[st["era"]], "700", "middle"))
+            p.append(text(cx + 14 + 76, cy + 42, st["name"], 29, INK, "700"))
+            p.append(text(cx + 14 + 76, cy + 68, st["en"], 13, INK2, "400", ls="1"))
+            # 证据圈字母
+            gx_ = cx + 14 + cw - 30
+            p.append(f'<circle cx="{gx_}" cy="{cy+42}" r="19" fill="none" stroke="{GRADE[st["grade"]]}" stroke-width="2.4"/>')
+            p.append(text(gx_, cy + 43, st["grade"], 19, GRADE[st["grade"]], "700", "middle"))
+            p.append(text(gx_, cy + 72, "证据", 11, INK2, "400", "middle"))
+            p.append(text(cx + 14 + 30, cy + 108, st["line"], 19, "#454C59"))
+            cxx = cx + 14 + 18
             for c in st["chips"]:
-                g2, w2 = chip(cxx, cy + 134, c, 16, ERA[st["era"]], "none", ERA[st["era"]] + "AA", h=32)
+                g2, w2 = chip(cxx, cy + 134, c, 15, ERA[st["era"]], CARD, ERA[st["era"]] + "88", h=30)
                 p.append(g2)
-                cxx += w2 + 10
+                cxx += w2 + 9
             if j == 0:
-                p.append(f'<line x1="{cx + col_w / 2}" y1="{cy + 234}" x2="{cx + col_w / 2}" y2="{cy + 256}" stroke="{MUT}" stroke-width="1.4" marker-end="url(#aN)"/>')
-
-    by = 866
-    p.append(rect(60, by - 26, W - 120, 64, PANEL2, "#232F4E", rx=18, sw=1.1))
-    step = (W - 200) / 9
+                p.append(doodle_arrow(cx + col_w / 2, cy + 226, cx + col_w / 2, cy + 246, INK2, 1.8, 5))
+    # 底部：索引卡主干
+    by = 872
+    p.append(paper_card(60, by - 32, W - 120, 76, tape_specs=[(90, 0, 0, -8), (W - 210, 74, 2, 8)]))
+    step = (W - 280) / 9
     for i in range(10):
-        px = 100 + i * step
+        px = 140 + i * step
         col = ERA[STAGES[i]["era"]]
-        p.append(f'<circle cx="{px:.0f}" cy="{by}" r="13" fill="{col}"/>')
-        p.append(text(px, by + 1, str(i + 1), 13, "#0B1020", "800", "middle"))
+        p.append(f'<circle cx="{px:.0f}" cy="{by+4}" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
+        p.append(text(px, by + 5, str(i + 1), 13, col, "700", "middle"))
         if i < 9:
-            p.append(f'<line x1="{px + 18:.0f}" y1="{by}" x2="{px + step - 18:.0f}" y2="{by}" stroke="{LINE}" stroke-width="2" marker-end="url(#aN)"/>')
-    p.append(text(W / 2, by - 44, "主干流向：上一阶的产出，是下一阶的输入", 17, MUT, "400", "middle"))
-    p.append(text(W - 90, 46, "github.com/HuanMoovo/fuxi", 16, MUT, "400", "end"))
-    p.append(text(W / 2, H - 18, "启发式路线图 · 经验权重 · 证据分级为本项目综合判断（详见 docs/evidence.md）", 15, "#5E6C8F", "400", "middle"))
+            p.append(f'<line x1="{px + 18:.0f}" y1="{by+4}" x2="{px + step - 18:.0f}" y2="{by+4}" stroke="{INK2}" stroke-width="1.6" stroke-dasharray="1 0"/>')
+            p.append(f'<path d="M {px+step-24:.0f} {by-1} L {px+step-16:.0f} {by+4} L {px+step-24:.0f} {by+9}" fill="none" stroke="{INK2}" stroke-width="1.6"/>')
+    p.append(text(W / 2, by - 44, "主干流向：上一阶的产出，是下一阶的输入", 16, INK2, "400", "middle"))
+    p.append(text(70, H - 18, "启发式路线图 · 经验权重 · 证据分级为本项目综合判断（详见 docs/evidence.md）", 14, "#8A8F7A"))
+    p.append(text(W - 64, H - 18, "github.com/HuanMoovo/fuxi", 14, "#8A8F7A", "400", "end"))
     p.append("</svg>")
     return "".join(p)
 
 
 # ---------------------------------------------------------------- engine
 def build_engine():
-    W, H = 1560, 1010
-    p = [svg_open(W, H, "伏羲引擎：十阶环 · 三恒 · 两尺 · 一原则")]
-    p.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    p.append(f'<circle cx="380" cy="300" r="380" fill="url(#glowV)"/>')
-    p.append(text(64, 66, "伏羲引擎 · 十阶环", 40, INK, "800"))
-    p.append(text(64, 104, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 19, MUT))
+    W, H = 1560, 1030
+    p = [svg_open(W, H, "伏羲引擎：十阶环 · 三恒 · 两把尺 · 一原则（复古笔记本风）")]
+    p.append(deco_page(W, H, 2))
+    p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 120, "伏羲引擎 · 十阶环", 36, INK, "700"))
+    p.append(text(78, 168, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 18, INK2))
 
-    cx, cy, r_out, r_in = 500, 580, 322, 234
+    cx, cy, r_out, r_in = 500, 600, 300, 218
     for i in range(10):
         mid = 90 - (i * 36 + 18)
         col = ERA[STAGES[i]["era"]]
-        p.append(f'<path d="{seg_path(mid, 34, r_in, r_out, cx, cy)}" fill="{col}" opacity="0.9" stroke="{BG}" stroke-width="2"/>')
-        lx, ly = polar(cx, cy, r_out + 54, mid)
+        p.append(f'<path d="{seg_path(mid, 34, r_in, r_out, cx, cy)}" fill="{col}" opacity="0.92" stroke="{PAPER}" stroke-width="2.5"/>')
+        lx, ly = polar(cx, cy, r_out + 52, mid)
         anchor = "start" if lx > cx + 30 else ("end" if lx < cx - 30 else "middle")
         st = STAGES[i]
-        p.append(text(lx, ly - 9, f'{st["num"]} · {st["name"]}', 23, col, "700", anchor))
-        p.append(text(lx, ly + 15, st["en"], 14, MUT, "400", anchor))
-    p.append(f'<rect x="{cx - 62}" y="{cy - 62}" width="124" height="124" rx="14" fill="#D33A3A" transform="rotate(45 {cx} {cy})"/>')
-    p.append(text(cx, cy + 1, "伏羲", 40, "#FFFFFF", "800", "middle"))
-    for ang, label, col in [(152, "认知负荷预算", ERA[1]), (28, "动机与自我调节", ERA[0]), (270, "反馈回路", ERA[3])]:
+        p.append(text(lx, ly - 9, f'{st["num"]} · {st["name"]}', 22, INK, "700", anchor))
+        p.append(text(lx, ly + 14, st["en"], 13, INK2, "400", anchor))
+    p.append(stamp(cx, cy, 110, "伏羲", -8, RED, "#FFFFFF", "#C0392B"))
+    chips3 = [(152, "认知负荷预算", "#CFDFEA", "#2E6E8E"), (28, "动机与自我调节", "#DCCFE8", "#6E4E9E"), (270, "反馈回路", "#F0D3C0", "#C97A3D")]
+    for ang, label, tcol, fcol in chips3:
         lx, ly = polar(cx, cy, 150, ang)
-        w = tw(label, 15) + 24
-        p.append(rect(lx - w / 2, ly - 16, w, 32, PANEL2, col, rx=16, sw=1.4))
-        p.append(text(lx, ly + 1, label, 15, col, "600", "middle"))
-    p.append(text(cx, cy + 118, "十阶主干：上一阶输出 = 下一阶输入", 15, "#C7D2EA", "400", "middle"))
-    p.append(text(cx, 963, "① 立志 → ② 建图 → ③ 拆解 → ④ 编码 → ⑤ 检索 → ⑥ 间隔 → ⑦ 精练 → ⑧ 实战 → ⑨ 教学 → ⑩ 维护", 17, "#C7D2EA", "500", "middle"))
+        w = tw(label, 14) + 26
+        g = f'<rect x="{lx-w/2:.0f}" y="{ly-17:.0f}" width="{w:.0f}" height="34" fill="{tcol}" opacity="0.95" rx="4" transform="rotate({"2" if ang!=270 else "-2"} {lx:.0f} {ly:.0f})"/>'
+        g += text(lx, ly + 1, label, 14, "#3A3A32", "600", "middle")
+        p.append(g)
+    p.append(text(cx, cy + 118, "十阶主干：上一阶输出 = 下一阶输入", 14, "#4A5160", "400", "middle"))
+    p.append(text(cx, 963, "① 立志 → ② 建图 → ③ 拆解 → ④ 编码 → ⑤ 检索 → ⑥ 间隔 → ⑦ 精练 → ⑧ 实战 → ⑨ 教学 → ⑩ 维护", 16, "#4A5160", "500", "middle"))
 
-    px, pw = 980, 545
+    px, pw = 980, 528
+    # 三恒
     y = 150
-    p.append(rect(px, y, pw, 240, PANEL, "#232F4E", rx=18))
-    p.append(text(px + 24, y + 34, "三恒 · 永远在线的约束", 24, INK, "700"))
-    rows = [("认知负荷预算", "工作记忆有限；新手先给示范与引导 [C15][C16]", ERA[1]),
-            ("动机与自我调节", "自主 · 胜任 · 联结；目标 + 计划 [C34][C36]", ERA[0]),
-            ("反馈回路", "即时、具体、可行动；无反馈=无精练 [C46][C47]", ERA[3])]
+    p.append(paper_card(px, y, pw, 238, tape_specs=[(70, 0, 0, -10), (pw - 60, 2, 1, 9)]))
+    p.append(text(px + 24, y + 36, "三恒 · 永远在线的约束", 22, INK, "700"))
+    rows = [("认知负荷预算", "工作记忆有限；新手先给示范与引导 [C15][C16]", "#2E6E8E"),
+            ("动机与自我调节", "自主 · 胜任 · 联结；目标 + 计划 [C34][C36]", "#6E4E9E"),
+            ("反馈回路", "即时、具体、可行动；无反馈=无精练 [C46][C47]", "#C97A3D")]
     for i, (t1, t2, col) in enumerate(rows):
-        yy = y + 78 + i * 52
+        yy = y + 82 + i * 50
         p.append(f'<circle cx="{px + 34}" cy="{yy}" r="7" fill="{col}"/>')
-        p.append(text(px + 54, yy, t1, 19, INK, "600"))
-        p.append(text(px + 54 + tw(t1, 19) + 14, yy + 1, t2, 15, MUT))
-    y = 414
-    p.append(rect(px, y, pw, 210, PANEL, "#232F4E", rx=18))
-    p.append(text(px + 24, y + 34, "两把尺 · 测什么", 24, INK, "700"))
-    p.append(text(px + 24, y + 74, "表现（当下手感）", 17, "#F59E0B"))
-    p.append(rect(px + 24, y + 88, 260, 14, "#F59E0B", None, rx=7, op="0.35"))
-    p.append(text(px + 300, y + 96, "→ 会骗人", 15, MUT))
-    p.append(text(px + 24, y + 130, "学习（延迟检索仍会）", 17, "#34D399"))
-    p.append(rect(px + 24, y + 144, 260, 14, "#34D399", None, rx=7, op="0.9"))
-    p.append(text(px + 300, y + 152, "→ 才是裁判", 15, MUT))
-    p.append(text(px + 24, y + 184, "流畅感是骗子；一周后再测才作数 [C01][C05]", 15, MUT))
-    y = 648
-    p.append(rect(px, y, pw, 240, PANEL, "#232F4E", rx=18))
-    p.append(text(px + 24, y + 34, "一原则 · ICAP 主动参与", 24, INK, "700"))
-    lv = [("I 交互", "与人/系统讨论、互教", 1.0, ERA[2]), ("C 建构", "自我解释、画图、生成", 0.78, ERA[1]),
-          ("A 主动", "操作、标注、复制", 0.5, ERA[0]), ("P 被动", "看、听、划重点", 0.22, ERA[4])]
+        p.append(text(px + 52, yy, t1, 18, INK, "600"))
+        p.append(text(px + 52 + tw(t1, 18) + 12, yy + 1, t2, 14, INK2))
+    # 两把尺
+    y = 412
+    p.append(paper_card(px, y, pw, 208, tape_specs=[(120, 0, 2, 10)]))
+    p.append(text(px + 24, y + 36, "两把尺 · 测什么", 22, INK, "700"))
+    p.append(text(px + 24, y + 76, "表现（当下手感）", 16, "#B06A2A"))
+    p.append(rect(px + 24, y + 90, 250, 15, "#E8C48A", None, rx=4))
+    p.append(text(px + 288, y + 98, "→ 会骗人", 14, INK2))
+    p.append(text(px + 24, y + 132, "学习（延迟检索仍会）", 16, "#2E6E8E"))
+    p.append(rect(px + 24, y + 146, 250, 15, "#7FB3D5", None, rx=4))
+    p.append(text(px + 288, y + 154, "→ 才是裁判", 14, INK2))
+    p.append(text(px + 24, y + 184, "流畅感是骗子；一周后再测才作数 [C01][C05]", 14, INK2))
+    # 一原则
+    y = 644
+    p.append(paper_card(px, y, pw, 236, tape_specs=[(80, 0, 1, -9), (pw - 90, 234, 0, 8)]))
+    p.append(text(px + 24, y + 36, "一原则 · ICAP 主动参与", 22, INK, "700"))
+    lv = [("I 交互", "与人/系统讨论、互教", 1.0, "#9CC5A1"), ("C 建构", "自我解释、画图、生成", 0.78, "#A8C6E8"),
+          ("A 主动", "操作、标注、复制", 0.5, "#C7B8E8"), ("P 被动", "看、听、划重点", 0.22, "#E8B4B4")]
     for i, (t1, t2, f, col) in enumerate(lv):
-        yy = y + 72 + i * 42
-        bw = 260 * f
-        p.append(rect(px + 24, yy - 12, bw, 24, col, None, rx=12, op="0.85"))
-        p.append(text(px + 34, yy, t1, 16, "#0B1020", "700"))
-        p.append(text(px + 24 + max(bw, 130) + 16, yy, t2, 15, MUT))
-    y = 912
-    p.append(text(px + 24, y + 4, "证据分级：", 16, MUT))
-    xx = px + 24 + tw("证据分级：", 16)
-    for gl_, gcol in [("A 强", GRADE["A"]), ("B 中", GRADE["B"]), ("C 弱/条件", GRADE["C"]), ("D 证伪", GRADE["D"])]:
-        g, w = chip(xx, y - 14, gl_, 14, gcol, "none", gcol + "99", h=28, pad=10)
-        p.append(g); xx += w + 8
-    p.append(text(64, H - 22, "三恒为本项目综合框架，具体证据见 docs/evidence.md", 15, "#5E6C8F"))
+        yy = y + 76 + i * 40
+        bw = 250 * f
+        p.append(rect(px + 24, yy - 12, bw, 24, col, "#3A3A3A22", rx=4, sw=1))
+        p.append(text(px + 34, yy, t1, 15, "#33392F", "700"))
+        p.append(text(px + 24 + max(bw, 132) + 16, yy, t2, 14, INK2))
+    # 分级图例
+    p.append(text(px + 24, 928, "证据分级：", 15, INK2))
+    xx = px + 24 + tw("证据分级：", 15)
+    for letter, col, lab_ in [("A", GRADE["A"], " 强"), ("B", GRADE["B"], " 中"), ("C", GRADE["C"], " 弱/条件"), ("D", GRADE["D"], " 证伪")]:
+        p.append(f'<circle cx="{xx+13}" cy="928" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
+        p.append(text(xx + 13, 929, letter, 15, col, "700", "middle"))
+        p.append(text(xx + 30, 929, lab_, 13, INK2))
+        xx += 30 + tw(lab_, 13) + 16
+    p.append(text(70, H - 18, "三恒为本项目综合框架，具体证据见 docs/evidence.md", 14, "#8A8F7A"))
     p.append("</svg>")
     return "".join(p)
 
 
 # ---------------------------------------------------------------- paths
 def build_paths():
-    W, H = 1700, 950
-    p = [svg_open(W, H, "三轨适配：探索 / 实战 / 冲刺")]
-    p.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    p.append(f'<circle cx="1500" cy="140" r="360" fill="url(#glowC)"/>')
-    p.append(text(64, 70, "三轨适配 · 先选路线，再分配阶段权重", 40, INK, "800"))
-    p.append(text(64, 110, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 19, MUT))
-    y = 156
+    W, H = 1700, 970
+    p = [svg_open(W, H, "三轨适配：探索 / 实战 / 冲刺（复古笔记本风）")]
+    p.append(deco_page(W, H, 3))
+    p.append(rect(64, 96, 680, 46, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 120, "三轨适配 · 先选路线，再分配阶段权重", 36, INK, "700"))
+    p.append(text(78, 168, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 18, INK2))
+    y = 200
     qs = [("只是好奇 → 探索轨", ERA[1]), ("有交付目标 → 实战轨", ERA[3]), ("有截止日/考试 → 冲刺轨", ERA[4])]
-    xx = 64
+    xx = 78
     for q, col in qs:
-        g, w = chip(xx, y, q, 17, col, "none", col + "AA", h=36, pad=16)
-        p.append(g); xx += w + 18
+        g, w = chip(xx, y, q, 16, col, CARD, col + "99", h=34, pad=15)
+        p.append(g); xx += w + 16
 
     lanes = [
         ("探索轨", "无目标 · 想了解", [0.16, 0.9, 0.9, 0.9, 0.9, 0.45, 0.16, 0.16, 0.45, 0.16], ERA[1]),
         ("实战轨", "有交付物 / 工作技能", [0.9, 0.3, 0.9, 0.45, 0.45, 0.45, 0.9, 0.9, 0.45, 0.16], ERA[3]),
         ("冲刺轨", "考试 / 证书 / 硬截止", [0.9, 0.45, 0.45, 0.45, 0.9, 0.9, 0.9, 0.45, 0.16, 0.16], ERA[4]),
     ]
-    lx, lw = 64, 210
-    gx, gw, ggap = 320, 112, 12
-    lane_w = 1506
-    ly = 280
+    gx, gw, ggap = 330, 108, 12
+    ly = 330
     for i in range(10):
         x = gx + i * (gw + ggap)
-        p.append(text(x + gw / 2, ly - 64, f'{i + 1}', 21, ERA[STAGES[i]["era"]], "700", "middle"))
-        p.append(text(x + gw / 2, ly - 38, STAGES[i]["name"], 16, MUT, "400", "middle"))
+        p.append(text(x + gw / 2, ly - 64, f'{i + 1}', 20, ERA[STAGES[i]["era"]], "700", "middle"))
+        p.append(text(x + gw / 2, ly - 38, STAGES[i]["name"], 15, INK2, "400", "middle"))
     for li, (name, sub, weights, col) in enumerate(lanes):
-        y = ly + li * 136
-        p.append(rect(64, y, lane_w, 120, "#0F1729", LINE, rx=18, sw=1.1))
-        p.append(text(lx + 24, y + 48, name, 26, col, "700"))
-        p.append(text(lx + 24, y + 80, sub, 15, MUT))
+        y = ly + li * 130
+        p.append(paper_card(64, y, 1506, 114, tape_specs=[(64, 0, li % 3, -10)] if li == 0 else [(1506 - 60, 112, (li + 1) % 3, 9)]))
+        p.append(text(88, y + 44, name, 24, col, "700"))
+        p.append(text(88, y + 76, sub, 14, INK2))
         for i, wgt in enumerate(weights):
             x = gx + i * (gw + ggap)
             c = ERA[STAGES[i]["era"]]
-            op = "0.88" if wgt >= 0.8 else ("0.42" if wgt >= 0.4 else "0.16")
-            p.append(rect(x, y + 16, gw, 88, c, None, rx=12, op=op))
-            tcol = "#0B1020" if wgt >= 0.8 else (INK if wgt >= 0.4 else "#8A94B5")
+            op = "0.85" if wgt >= 0.8 else ("0.40" if wgt >= 0.4 else "0.16")
+            p.append(rect(x, y + 15, gw, 84, c, "#3A3A3A22", rx=6, sw=1, op=op))
+            tcol = "#FFFFFF" if wgt >= 0.8 else (INK if wgt >= 0.4 else "#8A8F7A")
             lab = "重" if wgt >= 0.8 else ("中" if wgt >= 0.4 else "轻")
-            p.append(text(x + gw / 2, y + 60, lab, 22, tcol, "700", "middle"))
-    my = 708
-    spine_x = 1608
-    ys_mid = [ly + li * 136 + 60 for li in range(3)]
+            p.append(text(x + gw / 2, y + 58, lab, 21, tcol, "700", "middle"))
+    my = 752
+    ys_mid = [ly + li * 130 + 57 for li in range(3)]
     for ym in ys_mid:
-        p.append(f'<line x1="{1574}" y1="{ym}" x2="{spine_x - 4}" y2="{ym}" stroke="{MUT}" stroke-width="1.6" marker-end="url(#aN)" opacity="0.85"/>')
-    p.append(f'<line x1="{spine_x}" y1="{ys_mid[0]}" x2="{spine_x}" y2="{my - 4}" stroke="{MUT}" stroke-width="1.6" marker-end="url(#aN)" opacity="0.85"/>')
-    p.append(rect(64, my, 1586, 78, PANEL2, "#33406B", rx=20, sw=1.2))
-    p.append(text(96, my + 30, "共用十阶主干", 22, INK, "700"))
-    p.append(text(96 + tw("共用十阶主干", 22) + 20, my + 31, "①立志 → ②建图 → ③拆解 → ④编码 → ⑤检索 → ⑥间隔 → ⑦精练 → ⑧实战 → ⑨教学 → ⑩维护", 19, "#C7D2EA"))
-    p.append(text(96, my + 58, "换乘：目标变化就换轨；考试结束降级为低剂量维护，防止技能衰减 [C28]", 15, MUT))
-    lgx = 1180
-    for wgt, lab_ in [("0.88", "重"), ("0.42", "中"), ("0.16", "轻")]:
-        p.append(rect(lgx, my + 26, 16, 16, INK, None, rx=4, op=wgt))
-        p.append(text(lgx + 24, my + 34, lab_, 15, MUT))
-        lgx += 62
-    p.append(text(lgx + 4, my + 34, "（底色 = 所属纪）", 14, "#5E6C8F"))
-    p.append(text(W / 2, H - 20, "权重为经验值、非实验结论；方法与证据见 docs/stages 与 docs/evidence.md", 15, "#5E6C8F", "400", "middle"))
+        p.append(doodle_arrow(1578, ym, 1622, my + 20, INK2, 1.6, 4))
+    p.append(paper_card(64, my, 1586, 82, tape_specs=[(120, 0, 1, -8), (1586 - 130, 80, 2, 8)]))
+    p.append(text(96, my + 32, "共用十阶主干", 21, INK, "700"))
+    p.append(text(96 + tw("共用十阶主干", 21) + 18, my + 33, "①立志 → ②建图 → ③拆解 → ④编码 → ⑤检索 → ⑥间隔 → ⑦精练 → ⑧实战 → ⑨教学 → ⑩维护", 17, "#4A5160"))
+    p.append(text(96, my + 60, "换乘：目标变化就换轨；考试结束降级为低剂量维护，防止技能衰减 [C28]", 14, INK2))
+    lgx = 1230
+    for wgt, lab_ in [("0.85", "重"), ("0.40", "中"), ("0.16", "轻")]:
+        p.append(rect(lgx, my + 28, 16, 16, INK, None, rx=3, op=wgt))
+        p.append(text(lgx + 24, my + 36, lab_, 14, INK2))
+        lgx += 58
+    p.append(text(lgx + 2, my + 36, "（底色调 = 所属纪）", 13, "#8A8F7A"))
+    p.append(text(W / 2, H - 18, "权重为经验值、非实验结论；方法与证据见 docs/stages 与 docs/evidence.md", 14, "#8A8F7A", "400", "middle"))
     p.append("</svg>")
     return "".join(p)
 
 
 # ---------------------------------------------------------------- spacing
 def build_spacing():
-    W, H = 1560, 900
-    p = [svg_open(W, H, "间隔：遗忘曲线与复习调度")]
-    p.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    p.append(f'<circle cx="240" cy="200" r="330" fill="url(#glowV)"/>')
-    p.append(text(64, 70, "间隔 · 在遗忘边缘复习", 40, INK, "800"))
-    p.append(text(64, 110, "遗忘不是 bug；卡在 R≈0.9 复习，收益/成本最优", 19, MUT))
-    p.append(text(100, 196, "R = e^(−t/S)　（S 越大，衰减越慢）", 16, "#C7D2EA", "500"))
-
-    ox, oy, pw, ph = 120, 240, 740, 460
-    p.append(f'<line x1="{ox}" y1="{oy + ph}" x2="{ox + pw}" y2="{oy + ph}" stroke="{LINE}" stroke-width="1.5"/>')
-    p.append(f'<line x1="{ox}" y1="{oy}" x2="{ox}" y2="{oy + ph}" stroke="{LINE}" stroke-width="1.5"/>')
-    p.append(text(ox + pw / 2, oy + ph + 42, "时间 →", 17, MUT, "400", "middle"))
-    p.append(text(ox - 42, oy + ph / 2, "记忆强度 R", 17, MUT, "400", "middle"))
-
-    def X(t): return ox + (t / 36.0) * pw
-    def Y(r): return oy + ph - r * ph
-    for tick, lab_ in [(1.0, "1.0"), (0.5, "0.5"), (0.0, "0")]:
-        p.append(text(ox - 12, Y(tick), lab_, 14, MUT, "400", "end"))
-    p.append(f'<line x1="{ox}" y1="{Y(0.9):.1f}" x2="{ox + pw}" y2="{Y(0.9):.1f}" stroke="#F59E0B" stroke-width="1.3" stroke-dasharray="6 6" opacity="0.75"/>')
-    p.append(text(ox + pw - 8, Y(0.9) - 16, "R ≈ 0.9：最佳复习窗口", 15, "#F59E0B", "600", "end"))
-    reviews = [(0.0, 1.0), (1.0, 3.0), (4.0, 8.0), (12.0, 20.0)]
-    seg_colors = ["#22D3EE", "#34D399", "#8B5CF6", "#FB7185"]
-    for k, (t_start, S) in enumerate(reviews):
-        t_end = 36.0 if k == len(reviews) - 1 else reviews[k + 1][0]
+    W, H = 1560, 920
+    p = [svg_open(W, H, "间隔：遗忘曲线与复习调度（复古笔记本风）")]
+    p.append(deco_page(W, H, 4))
+    p.append(rect(64, 96, 600, 46, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 120, "间隔 · 在遗忘边缘复习", 36, INK, "700"))
+    p.append(text(78, 168, "遗忘不是 bug；卡在 R≈0.9 复习，收益/成本最优", 18, INK2))
+    # 左：坐标纸卡片
+    ox, oy, pw, ph = 150, 300, 700, 360
+    p.append(paper_card(96, 220, 830, 560, tape_specs=[(120, 0, 0, -8), (830 - 130, 558, 2, 8)]))
+    p.append(text(116, 252, "R(t) = e^(−t/S)：每次复习后稳定度 S 增大 → 曲线更平、间隔更长（纵轴局部放大 0.8–1.0）", 14, "#4A5160", "500"))
+    gx0, gy0, gx1, gy1 = ox, oy, ox + pw, oy + ph
+    for gx in range(int(gx0), int(gx1) + 1, 35):
+        p.append(f'<line x1="{gx}" y1="{gy0}" x2="{gx}" y2="{gy1}" stroke="#E1E9F4" stroke-width="1"/>')
+    for gy in range(int(gy0), int(gy1) + 1, 35):
+        p.append(f'<line x1="{gx0}" y1="{gy}" x2="{gx1}" y2="{gy}" stroke="#E1E9F4" stroke-width="1"/>')
+    p.append(f'<line x1="{gx0}" y1="{gy1}" x2="{gx1}" y2="{gy1}" stroke="{INK}" stroke-width="2"/>')
+    p.append(f'<line x1="{gx0}" y1="{gy0}" x2="{gx0}" y2="{gy1}" stroke="{INK}" stroke-width="2"/>')
+    p.append(text(ox + pw / 2, oy + ph + 46, "时间（复习间隔逐次增大）→", 16, INK2, "400", "middle"))
+    T_MAX = 15.0
+    def X(t):
+        return ox + (t / T_MAX) * pw
+    def Y(r):
+        return oy + ph * (1 - (r - 0.8) / 0.2)
+    p.append(text(ox - 36, oy + 10, "R", 15, INK2, "600"))
+    for tick in (1.0, 0.9, 0.8):
+        p.append(text(ox - 12, Y(tick), f"{tick:.1f}", 14, INK2, "400", "end"))
+    y09 = Y(0.9)
+    p.append(f'<line x1="{ox}" y1="{y09:.1f}" x2="{ox + pw}" y2="{y09:.1f}" stroke="{RED}" stroke-width="1.4" stroke-dasharray="8 6" opacity="0.7"/>')
+    p.append(text(ox + pw - 8, y09 - 16, "R ≈ 0.9：复习触发线", 15, RED, "600", "end"))
+    times = [0.0, 1.0, 3.0, 7.0, 15.0]
+    seg_colors = ["#2E6E8E", "#3E7C59", "#6E4E9E", "#B04A5A"]
+    for k in range(4):
+        t0, t1 = times[k], times[k + 1]
+        S = (t1 - t0) / 0.10536
+        n = 64
         pts = []
-        t = t_start
-        while t <= t_end + 1e-9:
-            r = math.exp(-(t - t_start) / S)
-            pts.append(f"{X(t):.1f},{Y(r):.1f}")
-            t += 0.25
-        p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{seg_colors[k]}" stroke-width="3" opacity="0.95"/>')
-    for k, (t, S) in enumerate(reviews):
-        px_, py_ = X(t), Y(1.0)
-        p.append(f'<circle cx="{px_:.1f}" cy="{py_:.1f}" r="7" fill="{seg_colors[k]}" stroke="{BG}" stroke-width="3"/>')
-        lab = ["学习", "复习①", "复习②", "复习③"][k]
-        if k == 0:
-            p.append(text(px_ + 12, py_ + 24, lab, 15, seg_colors[k], "600"))
+        for i in range(n + 1):
+            tt = t0 + (t1 - t0) * i / n
+            pts.append(f"{X(tt):.1f},{Y(math.exp(-(tt - t0) / S)):.1f}")
+        p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{seg_colors[k]}" stroke-width="3.4" stroke-linecap="round"/>')
+        if k > 0:
+            p.append(f'<line x1="{X(t0):.1f}" y1="{Y(1.0):.1f}" x2="{X(t0):.1f}" y2="{y09:.1f}" stroke="{seg_colors[k]}" stroke-width="2" opacity="0.5"/>')
+        tmid = (t0 + t1) / 2
+        p.append(text(X(tmid), Y(1.0) + 22, f"S{k+1}", 13, seg_colors[k], "600", "middle"))
+    p.append(f'<circle cx="{X(0):.1f}" cy="{Y(1.0):.1f}" r="8" fill="{RED}" stroke="{CARD}" stroke-width="3"/>')
+    p.append(text(X(0) + 14, Y(1.0) - 16, "R=1.0", 12, INK2))
+    for k, tt in enumerate(times[1:]):
+        px_, py_ = X(tt), y09
+        if k == 3:
+            p.append(f'<circle cx="{px_:.1f}" cy="{py_:.1f}" r="8" fill="{CARD}" stroke="{RED}" stroke-width="2.4" opacity="0.55"/>')
         else:
-            p.append(text(px_ + 10, py_ - 20, lab, 15, seg_colors[k], "600"))
-    p.append(text(ox + pw - 8, oy + 16, "S 随复习增长 → 曲线越来越平", 15, MUT, "400", "end"))
-    p.append(text(ox, oy + ph + 72, "口径：最佳间隔 ≈ 目标保持期的 10–20% [C06]；254 项实验支持分布练习 [C04]", 15, MUT))
-
-    rx0 = 940
-    ry0 = 240
-    p.append(rect(rx0, ry0, 560, 268, PANEL, "#232F4E", rx=18))
-    p.append(text(rx0 + 22, ry0 + 30, "交错练习 vs 块状练习", 22, INK, "700"))
-    lx0 = rx0 + 22
-    for j, (nm, col) in enumerate([("A", ERA[2]), ("B", ERA[0]), ("C", ERA[3])]):
-        p.append(rect(lx0 + j * 66, ry0 + 50, 18, 18, col, None, rx=4, op="0.9"))
-        p.append(text(lx0 + j * 66 + 24, ry0 + 59, f"{nm} 类题型", 14, MUT))
-
-    def grid_row(yy, seq, label):
-        p.append(text(rx0 + 22, yy + 22, label, 16, INK, "600"))
-        for i, k in enumerate(seq):
-            x = rx0 + 96 + i * 48
-            p.append(rect(x, yy, 44, 44, [ERA[2], ERA[0], ERA[3]][k], None, rx=8, op="0.85"))
-            p.append(text(x + 22, yy + 23, "ABC"[k], 20, "#0B1020", "800", "middle"))
-
-    grid_row(ry0 + 84, [0, 0, 0, 1, 1, 1, 2, 2, 2], "块状")
-    grid_row(ry0 + 142, [0, 1, 2, 0, 1, 2, 0, 1, 2], "交错")
-    p.append(text(rx0 + 22, ry0 + 214, "块状：一类连做，手感顺。 交错：混着练，学得慢、记得牢。", 15, MUT))
-    p.append(text(rx0 + 22, ry0 + 244, "延迟测验 61% vs 38%（d=0.83）；材料越相似收益越大 [C07][C08]", 15, "#F59E0B"))
-
-    ry1 = 536
-    p.append(rect(rx0, ry1, 560, 300, PANEL, "#232F4E", rx=18))
-    p.append(text(rx0 + 22, ry1 + 32, "调度：SM-2 → FSRS", 22, INK, "700"))
-    steps = ["每张卡有状态：难度 D · 稳定度 S · 可提取度 R",
-             "你给评分（Again / Hard / Good / Easy）",
-             "更新 D、S，计算下个复习间隔",
-             "目标留存率（desired retention）由你设定，如 0.9"]
-    for i, s in enumerate(steps):
-        yy = ry1 + 74 + i * 44
-        p.append(f'<circle cx="{rx0 + 36}" cy="{yy}" r="13" fill="#0E2433" stroke="#22D3EE" stroke-width="1.2"/>')
-        p.append(text(rx0 + 36, yy + 1, str(i + 1), 13, "#22D3EE", "700", "middle"))
-        p.append(text(rx0 + 62, yy, s, 16, "#C7D2EA"))
-    p.append(text(rx0 + 22, ry1 + 262, "2.2 亿学习日志建模，较当时最优方法 +12.6% [C26]", 15, "#22D3EE"))
-    p.append(text(rx0 + 22, ry1 + 286, "墨墨背单词线上部署；FSRS 已内置 Anki [C26][C27]", 15, MUT))
-    p.append(text(W / 2, H - 20, "间隔 = 把时间变成盟友：复习点由算法安排，你只负责检索与评分", 15, "#5E6C8F", "400", "middle"))
+            p.append(f'<circle cx="{px_:.1f}" cy="{py_:.1f}" r="8" fill="{RED}" stroke="{CARD}" stroke-width="3"/>')
+        lab = ["复习①", "复习②", "复习③", "下次复习"][k]
+        p.append(f'<line x1="{px_:.1f}" y1="{py_ + 12:.1f}" x2="{px_:.1f}" y2="524" stroke="{RED}" stroke-width="1" opacity="0.3"/>')
+        p.append(text(px_ + (10 if k == 0 else 0), 542, lab, 15, "#A03028" if k == 3 else RED, "600", "middle"))
+    p.append(text(X(0) - 10, 542, "学习", 15, RED, "600", "middle"))
+    p.append(f'<line x1="{X(0):.1f}" y1="{Y(1.0) + 12:.1f}" x2="{X(0):.1f}" y2="524" stroke="{RED}" stroke-width="1" opacity="0.3"/>')
+    p.append(text(116, 806, "口径：最佳间隔 ≈ 目标保持期的 10–20% [C06]；254 项实验支持分布练习 [C04]", 14, INK2))
+    p.append(text(W / 2, H - 18, "间隔 = 把时间变成盟友：复习点由算法安排，你只负责检索与评分", 14, "#8A8F7A", "400", "middle"))
     p.append("</svg>")
     return "".join(p)
 
 
 # ---------------------------------------------------------------- loop
 def build_loop():
-    W, H = 1440, 920
-    p = [svg_open(W, H, "刻意练习闭环：定靶-练-测-诊-修")]
-    p.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    p.append(f'<circle cx="360" cy="480" r="360" fill="url(#glowV)"/>')
-    p.append(text(64, 70, "精练 · 刻意练习闭环", 40, INK, "800"))
-    p.append(text(64, 110, "无反馈 = 无精练：每一次循环都要闭合", 19, MUT))
-    cx, cy, R = 420, 510, 250
+    W, H = 1440, 940
+    p = [svg_open(W, H, "刻意练习闭环：定靶-练-测-诊-修（复古笔记本风）")]
+    p.append(deco_page(W, H, 5))
+    p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 120, "精练 · 刻意练习闭环", 36, INK, "700"))
+    p.append(text(78, 168, "无反馈 = 无精练：每一次循环都要闭合", 18, INK2))
+    cx, cy, R = 420, 540, 240
     nodes = [("定靶", "选一个子技能", 0), ("全神练", "在能力边缘", 1), ("即时测", "证据 > 感觉", 2),
              ("诊断", "根因分类", 3), ("修正再练", "针对性重练", 4)]
     for i, (t1, t2, e) in enumerate(nodes):
         ang = 90 - i * 72
         nx, ny = polar(cx, cy, R, ang)
         col = ERA[e]
-        p.append(f'<circle cx="{nx:.0f}" cy="{ny:.0f}" r="66" fill="{PANEL}" stroke="{col}" stroke-width="2"/>')
-        p.append(text(nx, ny - 10, t1, 22, INK, "700", "middle"))
-        p.append(text(nx, ny + 16, t2, 14, MUT, "400", "middle"))
+        p.append(f'<circle cx="{nx:.0f}" cy="{ny:.0f}" r="64" fill="{CARD}" stroke="{col}" stroke-width="2.4"/>')
+        p.append(f'<circle cx="{nx+2:.0f}" cy="{ny+1:.0f}" r="57" fill="none" stroke="{col}" stroke-width="0.9" opacity="0.45"/>')
+        p.append(text(nx, ny - 10, t1, 21, INK, "700", "middle"))
+        p.append(text(nx, ny + 16, t2, 13, INK2, "400", "middle"))
         s_ang, e_ang = ang - 26, ang - 72 + 26
         sx_, sy_ = polar(cx, cy, R, s_ang)
         ex_, ey_ = polar(cx, cy, R, e_ang)
-        p.append(f'<path d="M {sx_:.0f} {sy_:.0f} A {R} {R} 0 0 1 {ex_:.0f} {ey_:.0f}" fill="none" stroke="{col}" stroke-width="2.4" opacity="0.75" marker-end="url(#aE{e})"/>')
-    p.append(text(cx, cy + 0, "闭环", 30, INK, "800", "middle"))
-    p.append(text(cx, cy + 34, "缺一环 = 原地踏步", 15, MUT, "400", "middle"))
+        ang_t = math.atan2(ey_ - sy_, ex_ - sx_) if False else 0
+        # 手绘弧线 + 手绘箭头
+        mx_, my_ = polar(cx, cy, R + 14, (s_ang + e_ang) / 2)
+        hx1 = ex_ - 12 * math.cos(math.radians(30)); hy1 = ey_ - 12 * math.sin(math.radians(30))
+        p.append(f'<path d="M {sx_:.0f} {sy_:.0f} A {R} {R} 0 0 1 {ex_:.0f} {ey_:.0f}" fill="none" stroke="{col}" stroke-width="2.4" opacity="0.8" stroke-linecap="round"/>')
+        a_head = math.atan2(ey_ - my_, ex_ - mx_)
+        for da in (152, -152):
+            hhx = ex_ + 12 * math.cos(a_head + math.radians(da)); hhy = ey_ + 12 * math.sin(a_head + math.radians(da))
+            p.append(f'<line x1="{ex_:.0f}" y1="{ey_:.0f}" x2="{hhx:.0f}" y2="{hhy:.0f}" stroke="{col}" stroke-width="2.2" stroke-linecap="round"/>')
+    p.append(stamp(cx, cy, 96, "闭环", -6, BLUE, "#FFFFFF", None))
+    p.append(text(cx, cy + 78, "缺一环 = 原地踏步", 14, INK2, "400", "middle"))
 
-    rx0, ry0 = 800, 150
-    p.append(rect(rx0, ry0, 590, 240, PANEL, "#232F4E", rx=18))
-    p.append(text(rx0 + 24, ry0 + 34, "三速反馈", 24, INK, "700"))
-    fr = [("即时（每个动作）", "对答案 / 引擎 / 导师批注", ERA[1]), ("每日（日志复盘）", "错题日志 + 根因分类", ERA[3]),
-          ("每周（教练/检视）", "周检视 + 高手示范 [C44]", ERA[0])]
+    rx0 = 800
+    p.append(paper_card(rx0, 150, 580, 236, tape_specs=[(90, 0, 0, -9)]))
+    p.append(text(rx0 + 24, 186, "三速反馈", 22, INK, "700"))
+    fr = [("即时（每个动作）", "对答案 / 引擎 / 导师批注", "#2E6E8E"), ("每日（日志复盘）", "错题日志 + 根因分类", "#C97A3D"),
+          ("每周（教练/检视）", "周检视 + 高手示范 [C44]", "#6E4E9E")]
     for i, (t1, t2, col) in enumerate(fr):
-        yy = ry0 + 78 + i * 52
+        yy = 228 + i * 50
         p.append(f'<circle cx="{rx0 + 36}" cy="{yy}" r="7" fill="{col}"/>')
-        p.append(text(rx0 + 54, yy, t1, 18, INK, "600"))
-        p.append(text(rx0 + 54 + tw(t1, 18) + 12, yy + 1, t2, 15, MUT))
-    p.append(text(rx0 + 24, ry0 + 220, "具体、可行动、对事不对人；约 1/3 的反馈会反噬 [C46][C47]", 15, "#F59E0B"))
-
+        p.append(text(rx0 + 54, yy, t1, 17, INK, "600"))
+        p.append(text(rx0 + 54 + tw(t1, 17) + 12, yy + 1, t2, 14, INK2))
+    p.append(text(rx0 + 24, 368, "具体、可行动、对事不对人；约 1/3 的反馈会反噬 [C46][C47]", 14, "#B06A2A"))
     ry1 = 420
-    p.append(rect(rx0, ry1, 590, 300, PANEL, "#232F4E", rx=18))
-    p.append(text(rx0 + 24, ry1 + 32, "错误日志（示例结构）", 22, INK, "700"))
-    cols = [("日期", 24), ("错因类型", 94), ("修正动作", 214), ("复测", 440)]
-    p.append(rect(rx0 + 18, ry1 + 52, 554, 36, PANEL2, None, rx=10))
+    p.append(paper_card(rx0, ry1, 580, 296, tape_specs=[(120, 0, 2, 10), (580 - 120, 294, 1, -8)]))
+    p.append(text(rx0 + 24, ry1 + 34, "错误日志（示例结构）", 21, INK, "700"))
+    cols = [("日期", 24), ("错因类型", 92), ("修正动作", 208), ("复测", 430)]
+    p.append(f'<line x1="{rx0+18}" y1="{ry1+58}" x2="{rx0+562}" y2="{ry1+58}" stroke="{INK}" stroke-width="1.4"/>')
     for h_, hx in cols:
-        p.append(text(rx0 + hx, ry1 + 70, h_, 15, MUT, "600"))
+        p.append(text(rx0 + hx, ry1 + 74, h_, 14, INK2, "600"))
     rows = [("10-01", "概念错", "重学前置概念，画反例", "10-04 ✓"),
             ("10-02", "程序错", "慢速分解，重练 2 组", "10-05 重练"),
             ("10-03", "粗心", "检查清单 + 限时 3 题", "10-06 ✓")]
     for i, r_ in enumerate(rows):
-        yy = ry1 + 106 + i * 46
-        if i > 0:
-            p.append(f'<line x1="{rx0 + 18}" y1="{yy - 26}" x2="{rx0 + 572}" y2="{yy - 26}" stroke="{LINE}" stroke-width="1"/>')
+        yy = ry1 + 112 + i * 46
+        p.append(f'<line x1="{rx0+18}" y1="{yy+22}" x2="{rx0+562}" y2="{yy+22}" stroke="{RULE}" stroke-width="1.2"/>')
         for cell, hx in zip(r_, [c[1] for c in cols]):
-            p.append(text(rx0 + hx, yy - 6, cell, 15, "#C7D2EA"))
-    p.append(text(rx0 + 24, ry1 + 258, "根因分类：概念错｜程序错｜粗心｜记忆缺失 —— 不同根因，不同药方", 15, MUT))
-    p.append(text(rx0 + 24, ry1 + 284, "先自己提交版本，再请 AI 挑错（护栏用法）[C56]", 15, "#22D3EE"))
-    p.append(text(W / 2, H - 20, "刻意练习 = 明确子目标 × 全神贯注 × 能力边缘 × 即时反馈与修正 [C31]", 15, "#5E6C8F", "400", "middle"))
+            p.append(text(rx0 + hx, yy, cell, 14, "#454C59"))
+    p.append(text(rx0 + 24, ry1 + 258, "根因分类：概念错｜程序错｜粗心｜记忆缺失 —— 不同根因，不同药方", 14, INK2))
+    p.append(text(rx0 + 24, ry1 + 282, "先自己提交版本，再请 AI 挑错（护栏用法）[C56]", 14, BLUE))
+    p.append(text(W / 2, H - 18, "刻意练习 = 明确子目标 × 全神贯注 × 能力边缘 × 即时反馈与修正 [C31]", 14, "#8A8F7A", "400", "middle"))
     p.append("</svg>")
     return "".join(p)
 
 
-# ---------------------------------------------------------------- mark
+# ---------------------------------------------------------------- mark & logo
 def build_mark():
-    S = 240
-    p = [svg_open(S, S, "伏羲框架标志")]
-    p.append(f'<rect width="{S}" height="{S}" fill="{BG}"/>')
-    cx, cy, R = 120, 120, 84
+    S = 260
+    p = [svg_open(S, S, "伏羲框架标志（复古笔记本风）")]
+    p.append(rect(0, 0, S, S, PAPER, None, rx=0))
+    cx, cy, R = 130, 130, 86
+    # 手绘双圈
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{INK}" stroke-width="3"/>')
+    p.append(f'<circle cx="{cx+2}" cy="{cy+1}" r="{R-5}" fill="none" stroke="{INK}" stroke-width="1" opacity="0.35"/>')
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{R-30}" fill="none" stroke="{BLUE}" stroke-width="1.6" opacity="0.7"/>')
     pts = []
     for i in range(10):
         ang = 90 - i * 36
         x, y = polar(cx, cy, R, ang)
         pts.append((x, y, ERA[STAGES[i]["era"]]))
     for i, (x, y, col) in enumerate(pts):
-        x2, y2, col2 = pts[(i + 1) % 10]
-        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{x2:.0f}" y2="{y2:.0f}" stroke="{col}" stroke-width="1.6" opacity="0.5"/>')
-        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{cx}" y2="{cy}" stroke="#E8ECF8" stroke-width="1.1" opacity="0.35"/>')
+        x2, y2, _ = pts[(i + 1) % 10]
+        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{x2:.0f}" y2="{y2:.0f}" stroke="{col}" stroke-width="1.6" opacity="0.6"/>')
     for x, y, col in pts:
-        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="9" fill="{col}"/>')
-    p.append(f'<circle cx="{cx}" cy="{cy}" r="17" fill="#E8ECF8"/>')
-    p.append(f'<circle cx="{cx}" cy="{cy}" r="26" fill="none" stroke="#E8ECF8" stroke-width="1.2" opacity="0.5"/>')
+        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{cx}" y2="{cy}" stroke="{INK}" stroke-width="1" opacity="0.3"/>')
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="9.5" fill="{col}" stroke="{PAPER}" stroke-width="2"/>')
+    # 中心绳结（红）
+    k = 30
+    p.append(f'<g transform="rotate(-8 {cx} {cy})">'
+             f'<rect x="{cx-k/2}" y="{cy-k/2}" width="{k}" height="{k}" fill="{RED}" rx="6"/>'
+             f'<rect x="{cx-k/2+4}" y="{cy-k/2+4}" width="{k-8}" height="{k-8}" fill="none" stroke="{PAPER}" stroke-width="1.2" opacity="0.85"/>'
+             f'<line x1="{cx-k/2}" y1="{cy}" x2="{cx+k/2}" y2="{cy}" stroke="{PAPER}" stroke-width="1.6" opacity="0.85"/>'
+             f'<line x1="{cx}" y1="{cy-k/2}" x2="{cx}" y2="{cy+k/2}" stroke="{PAPER}" stroke-width="1.6" opacity="0.85"/>'
+             f'</g>')
+    p.append("</svg>")
+    return "".join(p)
+
+
+def build_logo():
+    # 横排组合标（图标 + 字标），用于 README 居中头部与站点
+    W, H = 1280, 360
+    p = [svg_open(W, H, "伏羲框架 · LOGO")]
+    p.append(rect(0, 0, W, H, PAPER, None, rx=0))
+    # 底纹淡格
+    for gx in range(0, W + 1, 40):
+        p.append(f'<line x1="{gx}" y1="0" x2="{gx}" y2="{H}" stroke="#E9E2CF" stroke-width="1"/>')
+    for gy in range(0, H + 1, 40):
+        p.append(f'<line x1="0" y1="{gy}" x2="{W}" y2="{gy}" stroke="#E9E2CF" stroke-width="1"/>')
+    # 图标
+    cx, cy, R = 190, 180, 128
+    p.append(tape(190, 52, TAPES[1], -4, w=150, h=30))
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{CARD}" stroke="{INK}" stroke-width="4"/>')
+    p.append(f'<circle cx="{cx+2}" cy="{cy+2}" r="{R-7}" fill="none" stroke="{INK}" stroke-width="1.2" opacity="0.35"/>')
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{R-46}" fill="none" stroke="{BLUE}" stroke-width="2" opacity="0.65"/>')
+    pts = []
+    for i in range(10):
+        ang = 90 - i * 36
+        x, y = polar(cx, cy, R, ang)
+        pts.append((x, y, ERA[STAGES[i]["era"]]))
+    for i, (x, y, col) in enumerate(pts):
+        x2, y2, _ = pts[(i + 1) % 10]
+        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{x2:.0f}" y2="{y2:.0f}" stroke="{col}" stroke-width="2.2" opacity="0.6"/>')
+        p.append(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{cx}" y2="{cy}" stroke="{INK}" stroke-width="1.4" opacity="0.28"/>')
+    for x, y, col in pts:
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="13" fill="{col}" stroke="{CARD}" stroke-width="3"/>')
+    k = 74
+    p.append(f'<g transform="rotate(-8 {cx} {cy})">'
+             f'<rect x="{cx-k/2}" y="{cy-k/2}" width="{k}" height="{k}" fill="none" stroke="{RED}" stroke-width="5" rx="10"/>'
+             f'<rect x="{cx-k/2+8}" y="{cy-k/2+8}" width="{k-16}" height="{k-16}" fill="none" stroke="{RED}" stroke-width="1.6" opacity="0.8" rx="7"/>'
+             f'<text x="{cx}" y="{cy+2}" font-size="30" fill="{RED}" font-weight="800" text-anchor="middle" dominant-baseline="middle" font-family="{FF}">伏羲</text>'
+             f'</g>')
+    # 字标
+    p.append(text(392, 168, "伏羲框架", 92, INK, "700"))
+    p.append(rect(396, 224, 300, 10, YELLOW, None, rx=4, op="0.75"))
+    p.append(text(392, 268, "万物皆可学 · Everything Can Be Learned", 26, "#4A5160", "500"))
+    p.append(text(392, 308, "十阶时间线 × 证据分级 × 开源工具链", 19, INK2))
     p.append("</svg>")
     return "".join(p)
 
@@ -480,6 +578,7 @@ def main():
         "fuxi-spacing.svg": build_spacing(),
         "fuxi-loop.svg": build_loop(),
         "fuxi-mark.svg": build_mark(),
+        "fuxi-logo.svg": build_logo(),
     }
     for name, content in files.items():
         path = os.path.join(OUT, name)

@@ -131,6 +131,13 @@
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
 - [C62] Mozer et al. (2009, NeurIPS) — https://papers.nips.cc/paper_files/paper/2009/file/6bc24fc1ab650b25b4114e93a98f1eba-Paper.pdf
 
+### 扩展阅读（v1.1 新增）
+- [C77] Kang (2016) 间隔重复实践指南。 <https://www.semanticscholar.org/paper/Spaced-Repetition-Promotes-Efficient-and-Effective-Kang/52d75ac6080842077877219003dbfbcbea36020f>
+- [C89] SuperMemo：知识表述二十条规则。 <https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge>
+- [C98] Anki 官方手册。 <https://docs.ankiweb.net/>
+- [C99] FSRS Wiki：调度原理与进阶用法。 <https://github.com/open-spaced-repetition/fsrs4anki/wiki>
+
+
 [下一阶 →](./07-drill.md)
 
 ```mermaid

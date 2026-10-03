@@ -49,6 +49,7 @@ h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:tex
 .sub{color:var(--muted);font-size:clamp(1rem,2vw,1.2rem);margin-top:14px}
 .tag{margin-top:10px;font-size:15px;color:var(--muted)}
 .tag b{color:var(--ink)}
+.hero-logo{width:min(560px,86%);margin:0 auto 22px;display:block}
 .cta{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap}
 .btn{border-radius:999px;padding:12px 26px;font-size:15.5px;font-weight:700;transition:.25s;display:inline-block}
 .btn.p{background:var(--grad);color:#0B1020;box-shadow:var(--shadow)}
@@ -61,10 +62,10 @@ h1 .grad{background:var(--grad);-webkit-background-clip:text;background-clip:tex
 .heromap{margin:46px auto 0;max-width:1100px;border-radius:var(--radius);border:1px solid var(--pb);overflow:hidden;box-shadow:var(--shadow)}
 .heromap img{width:100%;display:block}
 section{padding:70px 0 10px}
-.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;justify-content:center;text-align:center}
 .sec-head h2{font-size:clamp(1.5rem,3vw,2rem);letter-spacing:1px}
 .sec-head .en{color:var(--muted);font-size:14px;letter-spacing:2px}
-.sec-sub{color:var(--muted);margin-bottom:28px;max-width:900px}
+.sec-sub{color:var(--muted);margin-bottom:28px;max-width:900px;margin-left:auto;margin-right:auto;text-align:center}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .card{background:var(--panel);border:1px solid var(--pb);border-radius:var(--radius);padding:20px;backdrop-filter:blur(12px);transition:.28s;position:relative;overflow:hidden}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
@@ -126,6 +127,7 @@ footer b{color:var(--ink)}
 <div class="hero">
   <canvas id="stars"></canvas>
   <div class="wrap">
+    <img class="hero-logo" src="assets/fuxi-logo.svg" alt="伏羲框架 LOGO">
     <span class="kicker">EVIDENCE-GRADED · 十阶时间线 · 三条路线</span>
     <h1>伏羲框架 · <span class="grad">万物皆可学</span></h1>
     <p class="sub">The Fuxi Framework — Everything Can Be Learned</p>
@@ -137,7 +139,7 @@ footer b{color:var(--ink)}
     <div class="stats">
       <div class="stat"><b>10</b><span>阶时间线</span></div>
       <div class="stat"><b>3</b><span>条适配路线</span></div>
-      <div class="stat"><b>70+</b><span>篇论文与文献</span></div>
+      <div class="stat"><b>110+</b><span>篇论文与文献</span></div>
       <div class="stat"><b>50+</b><span>个开源工具</span></div>
     </div>
     <div class="heromap reveal"><img src="assets/fuxi-hero.svg" alt="伏羲框架五纪十阶总览图"></div>
@@ -180,7 +182,7 @@ footer b{color:var(--ink)}
       <tr><td>无护栏 AI 的风险</td><td>练习期 +48%，撤除 AI 后考试 −17%</td><td><span class="badge bB">B</span></td></tr>
       <tr><td>学习风格 / 学习金字塔 / 速读 / 脑训远迁移</td><td>均无可靠证据</td><td><span class="badge bD">D</span></td></tr>
     </table>
-    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md" target="_blank" rel="noopener">查看全部 30 条结论 →</a></div>
+    <div class="center"><a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md" target="_blank" rel="noopener">查看全部 30 条结论 →</a>&nbsp;&nbsp;<a class="btn g" href="https://github.com/HuanMoovo/fuxi/blob/main/docs/references.md" target="_blank" rel="noopener">扩展文献库（110+）→</a></div>
   </div>
 </section>
 
@@ -276,6 +278,7 @@ footer b{color:var(--ink)}
       <div>
         <b>文档</b>
         <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/evidence.md">证据库</a>
+        <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/references.md">参考文献（扩展）</a>
         <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/tools.md">工具链</a>
         <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/paths.md">路线与领域</a>
         <a href="https://github.com/HuanMoovo/fuxi/blob/main/docs/myths.md">误区辟谣</a>

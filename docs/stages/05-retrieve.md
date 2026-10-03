@@ -72,7 +72,7 @@
   - 难度分级靠小测，不靠感觉。
   - 每周看一次偏差趋势，调整测验频率与内容。
 - **最合适**：冲刺期排计划、判断复习优先级；**不适用**：低风险探索期可轻量跳过。
-- **证据**：B + [C05][C50]（[C05] <https://pubmed.ncbi.nlm.nih.gov/26173288/>；[C50] 文本引，无链接）
+- **证据**：B + [C05][C50]（[C05] <https://pubmed.ncbi.nlm.nih.gov/26173288/>；[C50] 文本引）
 
 ### 反馈修正（Feedback Correction）
 
@@ -125,12 +125,20 @@
 - [C05] Dunlosky et al. (2013, PSPI) — https://pubmed.ncbi.nlm.nih.gov/26173288/
 - [C46] Hattie & Timperley (2007, RER) — https://doi.org/10.3102/003465430298487
 - [C47] Kluger & DeNisi (1996) — https://psycnet.apa.org/record/1996-02773-003
-- [C50] Dunning & Kruger (1999)；Koriat & Bjork（文本引，无链接）
+- [C50] Dunning & Kruger (1999)；Koriat & Bjork（文本引） <https://doi.org/10.1037/0022-3514.77.6.1121>；<https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf>
 - [C56] Bastani et al. (2025, PNAS) — https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
 - [C58] Kosmyna et al. (2025, MIT Media Lab 预印本，未同行评审) — https://www.media.mit.edu/publications/your-brain-on-chatgpt/
-- [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引，无链接）
+- [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引） <https://archive.org/details/memorycontributi00ebbiuoft>；<https://bjorklab.psych.ucla.edu/publication/bjork-e-l-bjork-r-a-2014-making-things-hard-on-yourself-but-in-a-good-way-creating-desirable-difficulties-to-enhance-learning-in-m-a-gernsbacher-and-j-pomerantz-eds-psycholo/>
 - [C71] Karpicke & Blunt (2011, Science) — https://doi.org/10.1126/science.1199327
+
+### 扩展阅读（v1.1 新增）
+- [C75] Roediger & Butler (2011) 检索练习的批判性回顾（TiCS）。 <https://doi.org/10.1016/j.tics.2011.07.002>
+- [C76] Rowland (2014) 测试效应元分析。 <https://doi.org/10.1037/a0037559>
+- [C77] Kang (2016) 间隔重复实践指南。 <https://www.semanticscholar.org/paper/Spaced-Repetition-Promotes-Efficient-and-Effective-Kang/52d75ac6080842077877219003dbfbcbea36020f>
+- [C78] Soderstrom & Bjork (2016) 表现 ≠ 学习：整合综述。 <https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Soderstrom_Bjork_Learning_versus_Performance.pdf>
+- [C100] retrievalpractice.org：检索练习科普与研究资料。 <https://www.retrievalpractice.org>
+
 
 [下一阶 →](./06-space.md)
 

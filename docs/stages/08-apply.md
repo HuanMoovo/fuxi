@@ -58,7 +58,7 @@
   4. 只承诺你能控制的行为（每周 X 小时），不承诺不可控的结果；
   5. 逾期后 24 小时内恢复动作，不做「全或无」式自责。
 - **最合适**：拖延型、缺外部结构的人。**不适用**：已有强内部结构，或公开会带来额外压力时。
-- **证据**：C —— [C33](<https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)：执行意图元分析对目标达成有稳健中等效应>；公开承诺本身证据弱于 if-then。
+- **证据**：C —— [C33](<https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf>)：执行意图元分析对目标达成有稳健中等效应；公开承诺本身证据弱于 if-then。
 
 ### 作品评审与真实反馈（Review and Authentic Feedback）
 - **机制**：真实反馈来自需求方，比自我感觉更能暴露盲区；反馈质量决定迭代方向。
@@ -69,7 +69,7 @@
   4. 负面反馈记入日志而非辩解；警惕反馈反效果（约 1/3 以上反馈干预降低表现 [C47]）；
   5. 保留「反馈 → 迭代」记录，它就是你能力成长的证据链。
 - **最合适**：有真实受众的产出。**不适用**：尚无任何可展示物时——先出最小版本。
-- **证据**：B —— [C46](<https://doi.org/10.3102/003465430298487)（反馈的形式差异>）、[C48](<https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD)（真实情境中的反馈>）。
+- **证据**：B —— [C46](<https://doi.org/10.3102/003465430298487>)（反馈的形式差异）、[C48](<https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD>)（真实情境中的反馈）。
 
 ### 情境学习与合法边缘参与（Legitimate Peripheral Participation）
 - **机制**：新手从社区边缘角色开始做真实但低风险的工作，逐步向中心移动——身份、实践与知识同步成长。
@@ -109,21 +109,27 @@
 ## AI 副驾（此阶段）
 - 用法：AI 帮拆验收标准与坑位清单；生成「真实用户会问的 10 个刁钻问题」；扮演难缠用户或严苛评审挑刺。
 - 协议：先自己做出最小版本再交给 AI 点评；不直接索取完整实现；AI 指出的方向要自己复验（防幻觉）。
-- 风险证据：生成式 AI 可能诱发依赖与「元认知懒惰」，把思考外包会削弱自我监控与纠错 [C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)>；校内实验也显示，撤除 AI 后考试表现可能更差 [C56](https://www.pnas.org/doi/10.1073/pnas.2422633122)。验收原则：撤掉 AI 后能独立复现同一交付物，才算学会。
+- 风险证据：生成式 AI 可能诱发依赖与「元认知懒惰」，把思考外包会削弱自我监控与纠错 [C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544>)；校内实验也显示，撤除 AI 后考试表现可能更差 [C56](https://www.pnas.org/doi/10.1073/pnas.2422633122)。验收原则：撤掉 AI 后能独立复现同一交付物，才算学会。
 
 ## 参考
 - [C12] Barnett & Ceci (2002, Psychological Bulletin)：远迁移分类学。https://doi.org/10.1037/0033-2909.128.4.612
 - [C16] Kirschner, Sweller & Clark (2006)：对新手「最小指导」无效。https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
 - [C18] Chi & Wylie (2014)：ICAP 框架。https://doi.org/10.1080/00461520.2014.965823
 - [C22] Freeman et al. (2014, PNAS)：主动学习元分析（+0.47 SD；挂科率 33.8% → 21.8%）。https://doi.org/10.1073/pnas.1319030111
-- [C33] Gollwitzer & Sheeran (2006)：执行意图元分析。https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes
+- [C33] Gollwitzer & Sheeran (2006)：执行意图元分析。https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf
 - [C45] Dochy et al. (2003, Learning and Instruction)：PBL 元分析。https://eric.ed.gov/?id=EJ678509
 - [C46] Hattie & Timperley (2007, RER)：反馈的力量。https://doi.org/10.3102/003465430298487
 - [C47] Kluger & DeNisi (1996)：反馈反效果风险。https://psycnet.apa.org/record/1996-02773-003
 - [C48] Lave & Wenger (1991)：情境学习与合法边缘参与。https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：AI 依赖与「元认知懒惰」。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-- [C72] （文本引）延伸读物（书籍）：Young《Ultralearning》(2019)；Ericsson & Pool《Peak》(2016)；Brown et al.《Make It Stick》(2014)。
+- [C72] （文本引）延伸读物（书籍）：Young《Ultralearning》(2019)；Ericsson & Pool《Peak》(2016)；Brown et al.《Make It Stick》(2014)。 <https://www.hup.harvard.edu/books/9780674729018>；<https://www.penguin.co.uk/books/421170/peak-by-anders-ericsson/9781473513143>
+
+### 扩展阅读（v1.1 新增）
+- [C84] Hmelo-Silver (2004) 问题式学习：学生学什么、怎么学。 <https://link.springer.com/article/10.1023/B:EDPR.0000034022.16470.f3>
+- [C87] Pashler et al. (2007) 美国 IES 教学实践指南。 <https://files.eric.ed.gov/fulltext/ED498555.pdf>
+- [C97] 美国国家科学院 (2018) How People Learn II（免费全书）。 <https://nap.nationalacademies.org/catalog/24783/how-people-learn-ii-learners-contexts-and-cultures>
+
 
 ```mermaid
 flowchart LR

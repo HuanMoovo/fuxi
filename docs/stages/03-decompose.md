@@ -28,7 +28,7 @@
   3. 用「不看笔记能否复述块内关系」检验组块是否成立；
   4. 块的规模控制在「能一口气说出」；说不出就说明还是散点。
 - **最合适**：概念与事实密集的主题。**不适用**：暂时无法归组的零散清单（如单词表）——先分组，再谈组块。
-- **证据**：A —— [C24]（专家-新手差异经典研究：Chase & Simon 1973，文本引，无链接）。
+- **证据**：A —— [C24]（专家-新手差异经典研究：Chase & Simon 1973，文本引）。
 
 ### 技能分解与部分任务练习（Part-Task Practice）
 
@@ -39,7 +39,7 @@
   3. 每次只练一个子技能，练完立即回整体任务跑一遍；
   4. 给子技能写通过标准（正确率、速度或稳定性目标，写进清单）。
 - **最合适**：子技能相对独立、且能清晰回到整体任务的技能。**不适用**：强耦合、拆开就变样的整体性活动。
-- **证据**：B —— [C31](<https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363)（刻意练习与专家表现>）；注意其解释力有限且领域差异大（[C32](https://pubmed.ncbi.nlm.nih.gov/24986855/)：棋类 / 音乐较高，教育与职业领域很低，4% 与 <1% 量级，以原文为准）——拆解聚焦「可独立练习且有反馈」的子技能，别堆时长。
+- **证据**：B —— [C31](<https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363>)（刻意练习与专家表现）；注意其解释力有限且领域差异大（[C32](https://pubmed.ncbi.nlm.nih.gov/24986855/)：棋类 / 音乐较高，教育与职业领域很低，4% 与 <1% 量级，以原文为准）——拆解聚焦「可独立练习且有反馈」的子技能，别堆时长。
 
 ### 全任务设计（Whole-Task Design，4C/ID 思路）
 
@@ -72,7 +72,7 @@
   3. 把先决关系画成依赖图；出现环处标注「需要先造一个粗支架」；
   4. 让门槛概念尽早出现、多次复访——不必一次攻克。
 - **最合适**：层级明显的学科与技能。**不适用**：结构扁平、可任意切入的领域——仍应标注建议起点。
-- **证据**：C —— Gagné 学习层级（文本引，无链接）。
+- **证据**：C —— Gagné 学习层级（文本引）。
 
 ### 平衡提示：先打基础为什么低效，以及基础什么时候仍然重要
 
@@ -105,19 +105,24 @@
 
 ## AI 副驾（此阶段）
 - 用法：让 AI 列「子技能候选 + 常见卡点排行」，你逐条核验、删改、补先决；也可让它挑出「粒度不当」「缺先决」「有环依赖」的条目。
-- 协议（**先自己再AI**）：先独立写出原子清单与依赖草稿，再交给 AI 只做提问与挑错；不直接索取「完整学习路线」；AI 的判断可能有幻觉，回教材与社区核实（[C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)>）；撤掉 AI 后必须能独立说出每个原子的先决条件。
-- 风险证据：基线测试表明，无护栏的 AI 辅助在撤除后独立表现更差，「只提示、不给答案」的护栏版本可缓解（[C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>）。
+- 协议（**先自己再AI**）：先独立写出原子清单与依赖草稿，再交给 AI 只做提问与挑错；不直接索取「完整学习路线」；AI 的判断可能有幻觉，回教材与社区核实（[C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544>)）；撤掉 AI 后必须能独立说出每个原子的先决条件。
+- 风险证据：基线测试表明，无护栏的 AI 辅助在撤除后独立表现更差，「只提示、不给答案」的护栏版本可缓解（[C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122>)）。
 
 ## 参考
 - [C15] Sweller, van Merriënboer & Paas (2019)：认知负荷理论（示范、专长反转、脚手架淡出）。https://link.springer.com/article/10.1007/s10648-019-09465-5
 - [C16] Kirschner, Sweller & Clark (2006)：对新手而言「最小指导」无效。https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
-- [C17] （文本引）Chase & Simon (1973)、Cowan (2001)：工作记忆限制与组块。
-- [C24] （文本引）Chase & Simon (1973)：国际象棋专家以「组块」记忆棋局。
+- [C17] （文本引）Chase & Simon (1973)、Cowan (2001)：工作记忆限制与组块。 <https://doi.org/10.1016/0010-0285(73)90004-2>；<https://pubmed.ncbi.nlm.nih.gov/11515286>
+- [C24] （文本引）Chase & Simon (1973)：国际象棋专家以「组块」记忆棋局。 <https://doi.org/10.1016/0010-0285(73)90004-2>
 - [C31] Ericsson, Krampe & Tesch-Römer (1993)：刻意练习与专家表现。https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363
 - [C32] Macnamara, Hambrick & Oswald (2014)：刻意练习解释力的领域差异（批判性元分析）。https://pubmed.ncbi.nlm.nih.gov/24986855/
-- [C43] （文本引）Gagné：学习层级与九大教学事件。
+- [C43] （文本引）Gagné：学习层级与九大教学事件。 <https://www.niu.edu/citl/resources/guides/instructional-guide/gagnes-nine-events-of-instruction.shtml>
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后独立表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：生成式 AI 的依赖与「元认知懒惰」风险。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
+
+### 扩展阅读（v1.1 新增）
+- [C83] Renkl (2014) 面向教学的示例学习理论。 <https://pubmed.ncbi.nlm.nih.gov/24070563/>
+- [C97] 美国国家科学院 (2018) How People Learn II（免费全书）。 <https://nap.nationalacademies.org/catalog/24783/how-people-learn-ii-learners-contexts-and-cultures>
+
 
 ```mermaid
 flowchart LR

@@ -1,22 +1,23 @@
-# 伏羲框架 · 万物皆可学
-
-> **The Fuxi Framework — Everything Can Be Learned**
-> 把「学会一样东西」拆成一条 **5 纪 10 阶** 的时间线：每阶告诉你 **最合适的方法 × 证据等级 × 开源工具 × 过关测试**。
-
-[![License: MIT + CC-BY-4.0](https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg)](./LICENSE)
-[![Evidence Graded](https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg)](./docs/evidence.md)
-[![Stages](https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg)](./docs/paths.md)
-[![Link Check](https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml/badge.svg)](https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml)
-
-![伏羲框架 · 五纪十阶总览](docs/assets/fuxi-hero.svg)
-
-**一句话**：学习不是玄学也不是苦役，而是一套可以工程化的流程 —— 先建图、再填肉；先检索、再重复；先做真事、再谈精通。
-
 <div align="center">
 
-[十阶详解](#十阶时间线) · [证据库](./docs/evidence.md) · [开源工具链](./docs/tools.md) · [三大路线](./docs/paths.md) · [误区辟谣](./docs/myths.md) · [学习模板](./templates/) · [在线主页](https://HuanMoovo.github.io/fuxi/)
+<img src="docs/assets/fuxi-logo.svg" alt="伏羲框架 · LOGO" width="560">
+
+# 伏羲框架 · 万物皆可学
+
+**The Fuxi Framework — Everything Can Be Learned**
+
+把「学会一样东西」拆成一条 **5 纪 10 阶** 的时间线：每阶告诉你 **最合适的方法 × 证据等级 × 开源工具 × 过关测试**。
+
+<a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg" alt="License"></a>
+<a href="./docs/evidence.md"><img src="https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg" alt="Evidence"></a>
+<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-110%2B%20papers-6E4E9E.svg" alt="References"></a>
+<a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
+
+**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
 
 </div>
+
+![伏羲框架 · 五纪十阶总览](docs/assets/fuxi-hero.svg)
 
 ---
 
@@ -42,9 +43,9 @@
 ## 为什么需要这个框架
 
 1. **方法碎片化**：费曼技巧、番茄钟、卡片盒、刻意练习……全是散装零件，没人告诉你**什么时候该用哪个**。
-2. **伪科学横行**：学习金字塔、学习风格匹配、速读神话被反复传播，而真正高证据强度的方法（检索练习、间隔重复、交错练习）反而没人用（[Dunlosky et al., 2013](<https://pubmed.ncbi.nlm.nih.gov/26173288/)>）。
-3. **爽感陷阱**：重读、划线、看视频都让人「感觉在学」，但延迟测验一做就露馅 —— 流畅感是骗子（[Karpicke & Roediger, 2008](<https://doi.org/10.1126/science.1152408)>）。
-4. **AI 时代的新风险**：无护栏的生成式 AI 会让人练习期更顺、撤掉后更差（[Bastani et al., 2025, PNAS](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>）—— 本框架把「安全使用 AI」写进了每一阶。
+2. **伪科学横行**：学习金字塔、学习风格匹配、速读神话被反复传播，而真正高证据强度的方法（检索练习、间隔重复、交错练习）反而没人用（[Dunlosky et al., 2013](<https://pubmed.ncbi.nlm.nih.gov/26173288/>)）。
+3. **爽感陷阱**：重读、划线、看视频都让人「感觉在学」，但延迟测验一做就露馅 —— 流畅感是骗子（[Karpicke & Roediger, 2008](<https://doi.org/10.1126/science.1152408>)）。
+4. **AI 时代的新风险**：无护栏的生成式 AI 会让人练习期更顺、撤掉后更差（[Bastani et al., 2025, PNAS](<https://www.pnas.org/doi/10.1073/pnas.2422633122>)）—— 本框架把「安全使用 AI」写进了每一阶。
 
 > 本框架的**双路径思想**（搭框架 / 干中学）受 B 站方法论视频 [BV1SUdBUBE18](https://www.bilibili.com/video/BV1SUdBUBE18/) 启发，在此基础上扩展为完整的十阶时间线，并为每个方法补充证据分级与开源工具链。
 
@@ -75,15 +76,15 @@
 
 ![伏羲引擎](docs/assets/fuxi-engine.svg)
 
-- **三恒（永远在线的约束）**：认知负荷预算（[Sweller et al., 2019](<https://link.springer.com/article/10.1007/s10648-019-09465-5)>）· 动机与自我调节（[Ryan & Deci, 2000](<https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf)>）· 反馈回路（[Hattie & Timperley, 2007](<https://doi.org/10.3102/003465430298487)>）。
-- **两把尺**：区分「表现」（当下手感）与「学习」（延迟检索仍会）—— 只用第二把尺做决策（[Karpicke & Roediger, 2008](<https://doi.org/10.1126/science.1152408)>）。
-- **一原则**：ICAP 主动参与 —— 交互 > 建构 > 主动 > 被动（[Chi & Wylie, 2014](<https://doi.org/10.1080/00461520.2014.965823)>）。
+- **三恒（永远在线的约束）**：认知负荷预算（[Sweller et al., 2019](<https://link.springer.com/article/10.1007/s10648-019-09465-5>)）· 动机与自我调节（[Ryan & Deci, 2000](<https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf>)）· 反馈回路（[Hattie & Timperley, 2007](<https://doi.org/10.3102/003465430298487>)）。
+- **两把尺**：区分「表现」（当下手感）与「学习」（延迟检索仍会）—— 只用第二把尺做决策（[Karpicke & Roediger, 2008](<https://doi.org/10.1126/science.1152408>)）。
+- **一原则**：ICAP 主动参与 —— 交互 > 建构 > 主动 > 被动（[Chi & Wylie, 2014](<https://doi.org/10.1080/00461520.2014.965823>)）。
 
 ---
 
 ## 证据底座
 
-本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论与 70+ 条文献见 **[docs/evidence.md](./docs/evidence.md)**。挑选几条体会一下口味：
+本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论、73 条基础引用与 37 条扩展文献（合计 110+）见 **[docs/evidence.md](./docs/evidence.md)** 与 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
 
 | 结论 | 数字口径 | 等级 |
 |------|----------|------|
@@ -139,7 +140,7 @@
 
 ## AI 副驾协议
 
-> AI 是本框架的加速器，但用错方向会变成学习毒药（[Bastani 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)｜[Fan 2025](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)｜[Kosmyna 2025 预印本](<https://www.media.mit.edu/publications/your-brain-on-chatgpt/)>）。
+> AI 是本框架的加速器，但用错方向会变成学习毒药（[Bastani 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)｜[Fan 2025](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)｜[Kosmyna 2025 预印本](<https://www.media.mit.edu/publications/your-brain-on-chatgpt/>)）。
 
 1. **顺序铁律**：先自己产出（解释/答案/方案），再让 AI 挑错 —— 不许反过来。
 2. **检索期**：只让 AI 当考官出题、追问，**不索取答案**。
@@ -147,9 +148,9 @@
 4. **核验义务**：AI 给的任何数字/引用，回原始来源核对后才有资格进你的笔记。
 5. **撤离测试**：阶段性做「无 AI 延迟测验」——撤掉拐杖还能走，才叫学会。
 6. **省脑审计**：记录哪些环节被 AI 省掉了脑子 —— 那正是你要补练的靶子。
-7. **工具选择**：本地/开源优先（[Ollama](<https://github.com/ollama/ollama)/[llama.cpp](https://github.com/ggml-org/llama.cpp)>），数据可控、可离线。
+7. **工具选择**：本地/开源优先（[Ollama](<https://github.com/ollama/ollama>)/[llama.cpp](<https://github.com/ggml-org/llama.cpp>)），数据可控、可离线。
 
-> 正面样板：设计良好的 AI 导师可带来 0.73–1.3 SD 的学习增益且更省时（[Kestin et al., 2025, Scientific Reports](<https://doi.org/10.1038/s41598-025-97652-6)>）—— 关键在「设计」，不在「有无 AI」。
+> 正面样板：设计良好的 AI 导师可带来 0.73–1.3 SD 的学习增益且更省时（[Kestin et al., 2025, Scientific Reports](<https://doi.org/10.1038/s41598-025-97652-6>)）—— 关键在「设计」，不在「有无 AI」。
 
 ---
 
@@ -159,11 +160,11 @@
 
 | 说法 | 真相 |
 |------|------|
-| 「我是视觉型学习者」 | 学习风格匹配假设无证据（[Pashler et al., 2008](<https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x)>）|
-| 划线、重读、抄书有用 | 低效用技术，只能热身（[Dunlosky et al., 2013](<https://pubmed.ncbi.nlm.nih.gov/26173288/)>）|
-| 一周读五本书（速读） | 超高速+高理解与阅读科学不符（[Rayner et al., 2016](<https://pubmed.ncbi.nlm.nih.gov/26769745/)>）|
-| 「1 万小时定律」 | 练习质量的函数，不是时长的函数（[Macnamara et al., 2014](<https://pubmed.ncbi.nlm.nih.gov/24986855/)>）|
-| 把学习全交给 AI | 撤掉 AI 后表现下降；依赖与元认知懒惰是真实风险（[Bastani 2025](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>）|
+| 「我是视觉型学习者」 | 学习风格匹配假设无证据（[Pashler et al., 2008](<https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x>)）|
+| 划线、重读、抄书有用 | 低效用技术，只能热身（[Dunlosky et al., 2013](<https://pubmed.ncbi.nlm.nih.gov/26173288/>)）|
+| 一周读五本书（速读） | 超高速+高理解与阅读科学不符（[Rayner et al., 2016](<https://pubmed.ncbi.nlm.nih.gov/26769745/>)）|
+| 「1 万小时定律」 | 练习质量的函数，不是时长的函数（[Macnamara et al., 2014](<https://pubmed.ncbi.nlm.nih.gov/24986855/>)）|
+| 把学习全交给 AI | 撤掉 AI 后表现下降；依赖与元认知懒惰是真实风险（[Bastani 2025](<https://www.pnas.org/doi/10.1073/pnas.2422633122>)）|
 
 ---
 
@@ -174,7 +175,8 @@ fuxi/
 ├── README.md                ← 你在这里
 ├── docs/
 │   ├── stages/              ← 十阶详解（01-orient → 10-maintain）
-│   ├── evidence.md          ← 证据库：30 条结论 + 70+ 引用
+│   ├── evidence.md          ← 证据库：30 条结论 + 73 条引用
+│   ├── references.md        ← 扩展文献库（C74–C110，37 条）
 │   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
 │   ├── myths.md             ← 15 条误区辟谣
@@ -182,6 +184,7 @@ fuxi/
 │   ├── roadmap.md           ← 迭代路线图
 │   ├── assets/              ← 全部 SVG 图表（含生成器源码）
 │   └── index.html           ← GitHub Pages 主页
+├── LICENSE-DOCS.md          ← 文档与图表许可（CC BY 4.0）
 ├── templates/               ← 学习契约 / 周检视 / 错题日志 / 卡片规则 / 十阶清单
 ├── generator/               ← 图表生成脚本（可复现：python generator/build_svgs.py）
 └── .github/                 ← 链接检查 CI + Issue 模板
@@ -191,8 +194,9 @@ fuxi/
 
 ## 迭代与贡献
 
+- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（+37 条）；
 - 本仓库采用 **持续迭代** 模式：发版记录见 [CHANGELOG.md](./CHANGELOG.md)，计划见 [docs/roadmap.md](./docs/roadmap.md)；
-- 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml)，防止引用腐烂>；
+- 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml>)，防止引用腐烂；
 - 欢迎三类贡献：**新文献**（附链接+结论+建议等级）、**新工具**（附链接+适用阶）、**纠错**（任何数字/引用错误）—— 用 [Issue 模板](https://github.com/HuanMoovo/fuxi/issues/new/choose) 或直接 PR，细则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ---

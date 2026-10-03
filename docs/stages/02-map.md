@@ -37,7 +37,7 @@
   1. 先把上位核心概念列出来（一屏之内），再连线，每条边写连接词（「包含」「导致」「对比于」）；
   2. 做连通性检查：从任一概念出发，能否沿连线走到其他主干概念；
   3. 第一版求快、宁糙勿美；地图是迭代品，不是作品；
-  4. 记住边界：概念图的长处在组织知识；要检验掌握，主动检索优于纯画图（[C71](<https://doi.org/10.1126/science.1199327)>）。
+  4. 记住边界：概念图的长处在组织知识；要检验掌握，主动检索优于纯画图（[C71](<https://doi.org/10.1126/science.1199327>)）。
 - **最合适**：概念密集、关系复杂的学科。**不适用**：以程序与手感为主的技能——改用流程图或依赖图。
 - **证据**：B —— [C41]（Ausubel 1960 先行组织者；Novak 概念图，文本引）；边界条件见 [C71](https://doi.org/10.1126/science.1199327)。
 
@@ -50,7 +50,7 @@
   3. 标记候选门槛概念，并写下「卡住时的表现」（说不清、用不对、一用就错）；
   4. 为每个候选预留加时：不在本阶硬啃，但在后续各阶优先分配资源。
 - **最合适**：理论累积型学科。**不适用**：概念体系仍在争议中的新兴领域——先记录，不武断下结论。
-- **证据**：C —— [C42](<https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/)（概念有实证基础>；个体学习层面的操作方法证据有限）。
+- **证据**：C —— [C42](<https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/>)（概念有实证基础；个体学习层面的操作方法证据有限）。
 
 ### 素材源（Source Gathering）
 
@@ -103,16 +103,21 @@
 ## AI 副驾（此阶段）
 - 用法：先独立画出主干草稿，再让 AI 指出「缺口与重复」；也可让它先给「候选树」，但你逐条核验后再并入。
 - 协议（**先自己再AI**）：草稿与判断先行，AI 只做追问与挑错；让 AI 生成候选树时必须标明「可能有幻觉」；撤掉 AI 后必须能独立讲清主干。
-- 风险证据：生成式 AI 会诱发依赖与「元认知懒惰」（[C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)>）；实验显示无护栏的 AI 辅助在撤除后独立表现更差（[C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>）。
+- 风险证据：生成式 AI 会诱发依赖与「元认知懒惰」（[C57](<https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544>)）；实验显示无护栏的 AI 辅助在撤除后独立表现更差（[C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122>)）。
 
 ## 参考
 - [C16] Kirschner, Sweller & Clark (2006)：对新手而言「最小指导」无效，有结构引导的学习更优。https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
-- [C17] （文本引）Chase & Simon (1973)、Cowan (2001)：工作记忆限制与组块。
-- [C41] （文本引）Ausubel (1960) 先行组织者；Novak 概念图。
+- [C17] （文本引）Chase & Simon (1973)、Cowan (2001)：工作记忆限制与组块。 <https://doi.org/10.1016/0010-0285(73)90004-2>；<https://pubmed.ncbi.nlm.nih.gov/11515286>
+- [C41] （文本引）Ausubel (1960) 先行组织者；Novak 概念图。 <https://doi.org/10.1037/h0043805>；<https://cmap.ihmc.us/publications/researchpapers/theoryunderlyingconceptmaps.pdf>
 - [C42] Meyer & Land (2003)：门槛概念。https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后独立表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：生成式 AI 的依赖与「元认知懒惰」风险。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
 - [C71] Karpicke & Blunt (2011)：检索练习优于概念图复习（迁移测验）。https://doi.org/10.1126/science.1199327
+
+### 扩展阅读（v1.1 新增）
+- [C102] Novak & Cañas：概念图的理论基础（PDF）。 <https://cmap.ihmc.us/publications/researchpapers/theoryunderlyingconceptmaps.pdf>
+- [C97] 美国国家科学院 (2018) How People Learn II（免费全书）。 <https://nap.nationalacademies.org/catalog/24783/how-people-learn-ii-learners-contexts-and-cultures>
+
 
 ```mermaid
 flowchart LR

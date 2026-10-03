@@ -62,79 +62,83 @@
 
 ## 完整引用列表
 
-- [C01] Karpicke, J. D., & Roediger, H. L. (2008). The Critical Importance of Retrieval for Learning. *Science*, 319(5865), 966–968. https://doi.org/10.1126/science.1152408
-- [C02] Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. *Perspectives on Psychological Science*. https://journals.sagepub.com/doi/10.1111/j.1745-6916.2006.00012.x
-- [C03] Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the Use of Tests: A Meta-Analysis of Practice Testing. *Review of Educational Research*. https://gwern.net/doc/psychology/spaced-repetition/2017-adesope.pdf
-- [C04] Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin*, 132(3). https://pubmed.ncbi.nlm.nih.gov/16719566/
-- [C05] Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving Students' Learning With Effective Learning Techniques. *Psychological Science in the Public Interest*. https://pubmed.ncbi.nlm.nih.gov/26173288/
-- [C06] Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention. *Psychological Science*, 19(11). https://doi.org/10.1111/j.1467-9280.2008.02209.x
-- [C07] Rohrer, D., Dedrick, R. F., Hartwig, M. K., & Cheung, C.-N. (2020). A randomized controlled trial of interleaved mathematics practice. *JEP: General*. https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf ｜ Rohrer, Dedrick & Stershic (2015). https://pubmed.ncbi.nlm.nih.gov/24578089/
-- [C08] Brunmair, M., & Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning and its moderators. *Psychological Bulletin*, 145(11). https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf
-- [C09] Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. *Review of Educational Research*. https://journals.sagepub.com/doi/full/10.3102/00346543211019105
-- [C10] Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf
-- [C11] Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. *Cognitive Psychology*. https://www.sciencedirect.com/science/article/pii/0010028583900026
-- [C12] Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. *Psychological Bulletin*, 128(4). https://doi.org/10.1037/0033-2909.128.4.612
-- [C13] Hatano, G., & Inagaki, K. (1986). Two courses of expertise. https://psycnet.apa.org/record/1986-97669-017
-- [C14] Murre, J. M. J., & Dros, J. (2015). Replication and Analysis of Ebbinghaus' Forgetting Curve. *PLOS ONE*. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
-- [C15] Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. *Educational Psychology Review*. https://link.springer.com/article/10.1007/s10648-019-09465-5
-- [C16] Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why Minimal Guidance During Instruction Does Not Work. *Educational Psychologist*. https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
-- [C17] Chase & Simon (1973)；Cowan (2001)。工作记忆限制与组块（文本引用）。
-- [C18] Chi, M. T. H., & Wylie, R. (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes. *Educational Psychologist*. https://doi.org/10.1080/00461520.2014.965823
-- [C19] Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing Self-Explanation: a Meta-Analysis. *Educational Psychology Review*. https://eric.ed.gov/?id=EJ1186664
-- [C20] Paivio (1971) 双编码；Mayer (2009) 多媒体学习（文本引用）。
-- [C21] Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., & Macnamara, B. N. (2018). To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses. *Psychological Science*. https://journals.sagepub.com/doi/10.1177/0956797617739704
-- [C22] Freeman, S., et al. (2014). Active learning increases student performance in science, engineering, and mathematics. *PNAS*. https://doi.org/10.1073/pnas.1319030111
-- [C23] Fiorella, L., & Mayer, R. E. (2016). Eight Ways to Promote Generative Learning. *Educational Psychology Review*, 28(4). https://eric.ed.gov/?id=EJ1120458
-- [C24] Chase & Simon (1973)。专家以「组块」记忆棋局（文本引用）。
-- [C25] Nestojko, J. F., Bui, D. C., Kornell, N., & Bjork, E. L. (2014). Expecting to teach enhances learning and organization of knowledge in free recall of text passages. https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall
-- [C26] Ye, J., Su, J., & Cao, Y. (2022). A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling. *KDD '22*. https://dl.acm.org/doi/10.1145/3534678.3539081
-- [C27] FSRS 生态：https://github.com/open-spaced-repetition/fsrs4anki ｜ https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler
-- [C28] Arthur et al. (1998)。技能衰减与保持的定量综述（文本引用）。
-- [C29] Settles, B., & Meeder, B. (2016). A Trainable Spaced Repetition Model for Language Learning. *ACL*. https://research.duolingo.com/papers/settles.acl16.pdf
-- [C30] Shea, J. B., & Morgan, R. L. (1979). Contextual interference effects on the acquisition, retention, and transfer of a motor skill. https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf
-- [C31] Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*. https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363
-- [C32] Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis. *Psychological Science*. https://pubmed.ncbi.nlm.nih.gov/24986855/
-- [C33] Gollwitzer, P. M., & Sheeran, P. (2006). Implementation Intentions and Goal Achievement: A Meta-Analysis. https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes
-- [C34] Ryan, R. M., & Deci, E. L. (2000). Self-Determination Theory and the Facilitation of Intrinsic Motivation. *American Psychologist*. https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf
-- [C35] Bandura (1977)。自我效能四来源（文本引用）。
-- [C36] Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting and task motivation. *American Psychologist*. https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.57.9.705
-- [C37] Zimmerman, B. J. (2002). Becoming a Self-Regulated Learner: An Overview. https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf
-- [C38] Lally, P., et al. (2010). How are habits formed: Modelling habit formation in the real world. *EJSP*。（文本引用；口径见上表）
-- [C39] Hulleman & Harackiewicz (2009)。效用价值干预（文本引用）。
-- [C40] Oettingen（心理对照 / WOOP，文本引用）。
-- [C41] Ausubel (1960) 先行组织者；Novak 概念图（文本引用）。
-- [C42] Meyer, J. H. F., & Land, R. (2003). Threshold concepts and troublesome knowledge. https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/
-- [C43] Gagné 学习层级（文本引用）。
-- [C44] Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive Apprenticeship. https://files.eric.ed.gov/fulltext/ED284181.pdf
-- [C45] Dochy, F., et al. (2003). Effects of problem-based learning: A meta-analysis. *Learning and Instruction*. https://eric.ed.gov/?id=EJ678509
-- [C46] Hattie, J., & Timperley, H. (2007). The Power of Feedback. *Review of Educational Research*. https://doi.org/10.3102/003465430298487
-- [C47] Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions on performance. *Psychological Bulletin*. https://psycnet.apa.org/record/1996-02773-003
-- [C48] Lave, J., & Wenger, E. (1991). Situated Learning: Legitimate Peripheral Participation. https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD
-- [C49] Ahrens, S. (2017). *How to Take Smart Notes*；Luhmann 卡片盒（文本引用）。
-- [C50] Dunning & Kruger (1999)；Koriat & Bjork（学习判断，文本引用）。
-- [C51] Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning Styles: Concepts and Evidence. *PSPI*. https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x
-- [C52] Letrud, K. (2012). A Rebuttal of NTL Institute's Learning Pyramid. https://eric.ed.gov/?id=EJ996977 ｜ Subramony et al. (2014). https://eric.ed.gov/?id=EJ1057239
-- [C53] Rayner, K., et al. (2016). So Much to Read, So Little Time: How Do We Read, and Can Speed Reading Help? *PSPI*. https://pubmed.ncbi.nlm.nih.gov/26769745/
-- [C54] Sala, G., & Gobet, F. (2019). Near and Far Transfer in Cognitive Training: A Second-Order Meta-Analysis. *Collabra*. https://online.ucpress.edu/collabra/article/5/1/18/113004/
-- [C55] Kirschner, P. A. (2017). Stop propagating the learning styles myth. *Computers & Education*（文本引用）。
-- [C56] Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*. https://www.pnas.org/doi/10.1073/pnas.2422633122
-- [C57] Fan, Y., et al. (2025). Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance. *BJET*. https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-- [C58] Kosmyna, N., et al. (2025). Your Brain on ChatGPT: Accumulation of Cognitive Debt... MIT Media Lab（预印本，未同行评审）. https://www.media.mit.edu/publications/your-brain-on-chatgpt/
-- [C59] Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: an RCT... *Scientific Reports*. https://doi.org/10.1038/s41598-025-97652-6
-- [C60] Wang, R. E., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. https://arxiv.org/abs/2410.03017
-- [C61] Tabibian, B., et al. (2019). Enhancing human learning via spaced repetition optimization. *PNAS*. https://www.pnas.org/doi/10.1073/pnas.1815156116
-- [C62] Mozer, M., Pashler, H., Cepeda, N., Lindsey, R., & Vul, E. (2009). Predicting the Optimal Spacing of Study. *NeurIPS*. https://papers.nips.cc/paper_files/paper/2009/file/6bc24fc1ab650b25b4114e93a98f1eba-Paper.pdf
-- [C63] Kulik, J. A., & Fletcher, J. D. (2016). Effectiveness of Intelligent Tutoring Systems: A Meta-Analytic Review. *RER*. https://journals.sagepub.com/doi/10.3102/0034654315581420
-- [C64] VanLehn, K. (2011). The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems. *Educational Psychologist*. https://www.tandfonline.com/doi/full/10.1080/00461520.2011.611369
-- [C65] Bloom, B. S. (1984). The 2 Sigma Problem（文本引用）。
-- [C66] Ebbinghaus (1885)；Bjork & Bjork (2011) 合意困难；Craik & Lockhart (1972)（文本引用）。
-- [C67] Fitts & Posner (1967)；Newell & Rosenbloom (1981) 练习幂律。https://iiif.library.cmu.edu/file/Newell_box00032_fld02190_doc0001/Newell_box00032_fld02190_doc0001.pdf
-- [C68] Vygotsky (1978)；Wood, Bruner & Ross (1976)（文本引用）。
-- [C69] Krashen (1982)；Nation (2006)（文本引用）。
-- [C70] Csikszentmihalyi (1990)（文本引用）。
-- [C71] Karpicke, J. D., & Blunt, J. R. (2011). Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping. *Science*. https://doi.org/10.1126/science.1199327
-- [C72] 延伸读物：Brown et al. (2014)《Make It Stick》；Ericsson & Pool (2016)《Peak》；Young (2019)《Ultralearning》；Newport (2016)《Deep Work》；Walker (2017)《Why We Sleep》；Oakley (2014)《A Mind for Numbers》；Adler (1940/1972)《How to Read a Book》。
-- [C73] Rasch, B., & Born, J. (2013). About Sleep's Role in Memory. *Physiological Reviews*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3768102
+> 每条引用均附可查看来源；开放获取优先。出版商页面（少数需正常浏览器打开）在链接核验时可能拒绝爬虫访问。
+
+- [C01] Karpicke, J. D., & Roediger, H. L. (2008). The Critical Importance of Retrieval for Learning. *Science*, 319(5865), 966–968. <https://learninglab.psych.purdue.edu/downloads/2008/2008_Karpicke_Roediger_Science.pdf>；<https://doi.org/10.1126/science.1152408>
+- [C02] Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. *Perspectives on Psychological Science*. <https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf>；<https://journals.sagepub.com/doi/10.1111/j.1745-6916.2006.00012.x>
+- [C03] Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the Use of Tests: A Meta-Analysis of Practice Testing. *Review of Educational Research*. <https://gwern.net/doc/psychology/spaced-repetition/2017-adesope.pdf>
+- [C04] Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*, 132(3). <https://escholarship.org/content/qt3rr6q10c/qt3rr6q10c.pdf>；<https://pubmed.ncbi.nlm.nih.gov/16719566/>
+- [C05] Dunlosky, J., et al. (2013). Improving Students' Learning With Effective Learning Techniques. *PSPI*. <https://pubmed.ncbi.nlm.nih.gov/26173288/>
+- [C06] Cepeda, N. J., et al. (2008). Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention. *Psychological Science*, 19(11). <https://doi.org/10.1111/j.1467-9280.2008.02209.x>
+- [C07] Rohrer, D., Dedrick, R. F., Hartwig, M. K., & Cheung, C.-N. (2020). A randomized controlled trial of interleaved mathematics practice. *JEP: General*；另 Rohrer et al. (2015). <https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf>；<https://pubmed.ncbi.nlm.nih.gov/24578089/>
+- [C08] Brunmair, M., & Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning. *Psychological Bulletin*, 145(11). <https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf>
+- [C09] Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. *RER*. <https://journals.sagepub.com/doi/full/10.3102/00346543211019105>
+- [C10] Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. <https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf>
+- [C11] Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. *Cognitive Psychology*. <https://www.sciencedirect.com/science/article/pii/0010028583900026>
+- [C12] Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? *Psychological Bulletin*, 128(4). <https://doi.org/10.1037/0033-2909.128.4.612>
+- [C13] Hatano, G., & Inagaki, K. (1986). Two courses of expertise. <https://psycnet.apa.org/record/1986-97669-017>
+- [C14] Murre, J. M. J., & Dros, J. (2015). Replication and Analysis of Ebbinghaus' Forgetting Curve. *PLOS ONE*. <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644>
+- [C15] Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. *EPR*. <https://link.springer.com/article/10.1007/s10648-019-09465-5>
+- [C16] Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why Minimal Guidance During Instruction Does Not Work. *Educational Psychologist*. <https://eric.ed.gov/?id=EJ736299>
+- [C17] Chase & Simon (1973) Perception in chess；Cowan (2001) The magical number 4. <https://doi.org/10.1016/0010-0285(73)90004-2>；<https://pubmed.ncbi.nlm.nih.gov/11515286>
+- [C18] Chi, M. T. H., & Wylie, R. (2014). The ICAP Framework. *Educational Psychologist*. <https://doi.org/10.1080/00461520.2014.965823>
+- [C19] Bisra, K., et al. (2018). Inducing Self-Explanation: a Meta-Analysis. *EPR*. <https://eric.ed.gov/?id=EJ1186664>
+- [C20] Paivio, A. (1971). Imagery and Verbal Processes（书）；Mayer, R. E. (2009). Multimedia Learning（书）.  <https://archive.org/details/imageryverbalpro0000paiv>；<https://eric.ed.gov/?id=ED530802>
+- [C21] Sisk, V. F., et al. (2018). Growth Mind-Sets and Academic Achievement: Two Meta-Analyses. *Psychological Science*. <https://journals.sagepub.com/doi/10.1177/0956797617739704>
+- [C22] Freeman, S., et al. (2014). Active learning increases student performance in STEM. *PNAS*. <https://doi.org/10.1073/pnas.1319030111>；<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4018102/>
+- [C23] Fiorella, L., & Mayer, R. E. (2016). Eight Ways to Promote Generative Learning. *EPR*, 28(4). <https://eric.ed.gov/?id=EJ1120458>
+- [C24] Chase & Simon (1973). 专家以「组块」记忆棋局。 <https://doi.org/10.1016/0010-0285(73)90004-2>
+- [C25] Nestojko, J. F., et al. (2014). Expecting to teach enhances learning.  <https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall>
+- [C26] Ye, J., Su, J., & Cao, Y. (2022). A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling. *KDD*. <https://dl.acm.org/doi/10.1145/3534678.3539081>
+- [C27] FSRS 生态：FSRS4Anki 主仓与算法 wiki。 <https://github.com/open-spaced-repetition/fsrs4anki>；<https://github.com/open-spaced-repetition/fsrs4anki/wiki>
+- [C28] Arthur, W., et al. (1998). Factors that influence skill decay and retention. <https://doi.org/10.1207/s15327043hup1101_3>
+- [C29] Settles, B., & Meeder, B. (2016). A Trainable Spaced Repetition Model for Language Learning. *ACL*. <https://research.duolingo.com/papers/settles.acl16.pdf>
+- [C30] Shea, J. B., & Morgan, R. L. (1979). Contextual interference effects.  <https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf>
+- [C31] Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice. *Psychological Review*. <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363>
+- [C32] Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate Practice and Performance: A Meta-Analysis. *Psychological Science*. <https://pubmed.ncbi.nlm.nih.gov/24986855/>
+- [C33] Gollwitzer, P. M., & Sheeran, P. (2006). Implementation Intentions and Goal Achievement: A Meta-Analysis.（NIH 存档 PDF） <https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf>
+- [C34] Ryan, R. M., & Deci, E. L. (2000). Self-Determination Theory. *American Psychologist*. <https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf>
+- [C35] Bandura, A. (1977). Self-efficacy: Toward a unifying theory. *Psychological Review*. <https://pubmed.ncbi.nlm.nih.gov/847061>
+- [C36] Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting. *American Psychologist*. <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.57.9.705>
+- [C37] Zimmerman, B. J. (2002). Becoming a Self-Regulated Learner. <https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf>
+- [C38] Lally, P., et al. (2010). How are habits formed. *EJSP*. <https://doi.org/10.1002/ejsp.674>
+- [C39] Hulleman, C. S., & Harackiewicz, J. M. (2009). Promoting Interest and Performance. *Science*. <https://doi.org/10.1126/science.1177067>
+- [C40] Oettingen, G. (2012). Future thought and behaviour change. *ERSP*. <https://www.tandfonline.com/doi/full/10.1080/10463283.2011.643698>
+- [C41] Ausubel, D. P. (1960). Advance organizers；Novak & Cañas 概念图理论。 <https://doi.org/10.1037/h0043805>；<https://cmap.ihmc.us/publications/researchpapers/theoryunderlyingconceptmaps.pdf>
+- [C42] Meyer, J. H. F., & Land, R. (2003). Threshold concepts and troublesome knowledge. <https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/>
+- [C43] Gagné 九大教学事件（NIU 教学指南）。 <https://www.niu.edu/citl/resources/guides/instructional-guide/gagnes-nine-events-of-instruction.shtml>
+- [C44] Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive Apprenticeship. <https://files.eric.ed.gov/fulltext/ED284181.pdf>
+- [C45] Dochy, F., et al. (2003). Effects of problem-based learning: A meta-analysis. *Learning and Instruction*. <https://eric.ed.gov/?id=EJ678509>
+- [C46] Hattie, J., & Timperley, H. (2007). The Power of Feedback. *RER*. <https://doi.org/10.3102/003465430298487>
+- [C47] Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions. *Psychological Bulletin*. <https://psycnet.apa.org/record/1996-02773-003>
+- [C48] Lave, J., & Wenger, E. (1991). Situated Learning. <https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD>
+- [C49] Ahrens, S. (2017). How to Take Smart Notes；Luhmann 卡片盒。 <https://www.soenkeahrens.de/en/takesmartnotes>
+- [C50] Dunning & Kruger (1999) 自我评估偏差；Koriat & Bjork (2005) 胜任错觉。 <https://doi.org/10.1037/0022-3514.77.6.1121>；<https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf>
+- [C51] Pashler, H., et al. (2008). Learning Styles: Concepts and Evidence. *PSPI*. <https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x>
+- [C52] Letrud (2012) 与 Subramony et al. (2014)：学习金字塔/保持率锥系神话。 <https://eric.ed.gov/?id=EJ996977>；<https://eric.ed.gov/?id=EJ1057239>
+- [C53] Rayner, K., et al. (2016). So Much to Read, So Little Time. *PSPI*. <https://pubmed.ncbi.nlm.nih.gov/26769745/>
+- [C54] Sala, G., & Gobet, F. (2019). Near and Far Transfer in Cognitive Training. *Collabra*. <https://online.ucpress.edu/collabra/article/5/1/18/113004/>
+- [C55] Kirschner, P. A. (2017). Stop propagating the learning styles myth. *Computers & Education*. <https://doi.org/10.1016/j.compedu.2017.05.005>
+- [C56] Bastani, H., et al. (2025). Generative AI without guardrails can harm learning. *PNAS*. <https://www.pnas.org/doi/10.1073/pnas.2422633122>
+- [C57] Fan, Y., et al. (2025). Beware of metacognitive laziness. *BJET*. <https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544>
+- [C58] Kosmyna, N., et al. (2025). Your Brain on ChatGPT（预印本）. <https://www.media.mit.edu/publications/your-brain-on-chatgpt/>
+- [C59] Kestin, G., et al. (2025). AI tutoring outperforms in-class active learning. *Scientific Reports*. <https://doi.org/10.1038/s41598-025-97652-6>
+- [C60] Wang, R. E., et al. (2024). Tutor CoPilot. <https://arxiv.org/abs/2410.03017>
+- [C61] Tabibian, B., et al. (2019). Enhancing human learning via spaced repetition optimization. *PNAS*. <https://www.pnas.org/doi/10.1073/pnas.1815156116>
+- [C62] Mozer, M., et al. (2009). Predicting the Optimal Spacing of Study. *NeurIPS*. <https://papers.nips.cc/paper_files/paper/2009/file/6bc24fc1ab650b25b4114e93a98f1eba-Paper.pdf>
+- [C63] Kulik, J. A., & Fletcher, J. D. (2016). Effectiveness of Intelligent Tutoring Systems. *RER*. <https://journals.sagepub.com/doi/10.3102/0034654315581420>
+- [C64] VanLehn, K. (2011). Relative Effectiveness of Human Tutoring and ITS. *Educational Psychologist*. <https://www.tandfonline.com/doi/full/10.1080/00461520.2011.611369>；<https://asu.elsevierpure.com/en/publications/the-relative-effectiveness-of-human-tutoring-intelligent-tutoring/>
+- [C65] Bloom, B. S. (1984). The 2 Sigma Problem. <https://gwern.net/doc/psychology/1984-bloom.pdf>
+- [C66] Ebbinghaus (1885) 遗忘曲线（archive 原书）；Bjork & Bjork (2011) 合意困难；Craik & Lockhart (1972) 加工深度。 <https://archive.org/details/memorycontributi00ebbiuoft>；<https://bjorklab.psych.ucla.edu/publication/bjork-e-l-bjork-r-a-2014-making-things-hard-on-yourself-but-in-a-good-way-creating-desirable-difficulties-to-enhance-learning-in-m-a-gernsbacher-and-j-pomerantz-eds-psycholo/>
+- [C67] Newell & Rosenbloom (1981) 练习幂律；Fitts & Posner (1967) 技能三阶段。 <https://iiif.library.cmu.edu/file/Newell_box00032_fld02190_doc0001/Newell_box00032_fld02190_doc0001.pdf>
+- [C68] Vygotsky (1978) 最近发展区；Wood, Bruner & Ross (1976) 脚手架。 <https://archive.org/details/mindinsocietydev0000vygo>；<https://doi.org/10.1111/j.1469-7610.1976.tb00381.x>
+- [C69] Krashen (1982) 输入假说；Nation (2006) 词汇覆盖率。 <https://www.sdkrashen.com/content/books/principles_and_practice.pdf>
+- [C70] Csikszentmihalyi (1990) 心流（CUNY 开放 PDF）。 <https://files.blogs.baruch.cuny.edu/wp/blogs.dir/2418/files/2013/04/Mihaly-Csikszentmihalyi-Flow.pdf>
+- [C71] Karpicke, J. D., & Blunt, J. R. (2011). Retrieval Practice Produces More Learning than Concept Mapping. *Science*. <https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf>；<https://doi.org/10.1126/science.1199327>
+- [C72] 延伸读物：Make It Stick / Peak / Ultralearning / Deep Work / Why We Sleep / A Mind for Numbers / How to Read a Book（各书官方页或书目页）。 <https://www.hup.harvard.edu/books/9780674729018>；<https://www.penguin.co.uk/books/421170/peak-by-anders-ericsson/9781473513143>；<https://www.scotthyoung.com/blog/ultralearning/>；<https://calnewport.com/books/deep-work/>；<https://www.penguinrandomhouse.com/books/550909/why-we-sleep-by-matthew-walker-phd/>；<https://www.penguinrandomhouse.com/books/314056/a-mind-for-numbers-by-barbara-oakley-phd/>；<https://archive.org/details/howtoreadabook1972edition>
+- [C73] Rasch, B., & Born, J. (2013). About Sleep's Role in Memory. *Physiological Reviews*. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3768102>
+
+> ➕ 扩展文献库（[C74]–[C110]，37 条新增）见 [docs/references.md](./references.md)。
 
 ## 如何更新
 

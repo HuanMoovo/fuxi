@@ -25,7 +25,7 @@
   4. 对想保留但不常用的技能，设「最低可见性」动作（每次一句话复盘）；
   5. 通过不了的旧卡回炉第 5/6 阶，不硬撑。
 - **最合适**：所有长期想保留的知识与技能。**不适用**：明确不再需要的领域——允许主动淘汰（见方法四）。
-- **证据**：B —— [C04](<https://pubmed.ncbi.nlm.nih.gov/16719566/)、[C28]（文本引>）；[C14](<https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644)（遗忘曲线复现>）。
+- **证据**：B —— [C04](<https://pubmed.ncbi.nlm.nih.gov/16719566/>)、[C28]（文本引）；[C14](<https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644>)（遗忘曲线复现）。
 
 ### 教学即维护（Teaching as Maintenance）
 - **机制**：答疑与带新人把「回忆 + 组织 + 举例」打包成一次高强度输出，同时锁定社区身份——性价比最高的复习。
@@ -109,7 +109,7 @@
 ## AI 副驾（此阶段）
 - 用法：让 AI 定期抽考旧主题（扮演考官，先考后判）；把 AI 当「要听你讲课的新人」维持教学输出；让 AI 找出旧笔记中过时或自相矛盾的表述。
 - 协议：先自己回忆与作答，再让 AI 判分/点评；不把复习计划整体外包；撤掉 AI 后仍能独立复现讲解与解题。
-- 风险证据：练习期依赖无护栏 AI，撤除后表现可能更差 [C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122)>；并注意 AI 依赖与「元认知懒惰」风险 [C57](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)。维护阶段的关键指标：离开 AI 还剩下什么。
+- 风险证据：练习期依赖无护栏 AI，撤除后表现可能更差 [C56](<https://www.pnas.org/doi/10.1073/pnas.2422633122>)；并注意 AI 依赖与「元认知懒惰」风险 [C57](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544)。维护阶段的关键指标：离开 AI 还剩下什么。
 
 ## 参考
 - [C04] Cepeda et al. (2006, Psychological Bulletin)：分布练习元分析（254 项实验、约 1.4 万名被试）。https://pubmed.ncbi.nlm.nih.gov/16719566/
@@ -118,12 +118,17 @@
 - [C14] Murre & Dros (2015, PLOS ONE)：艾宾浩斯遗忘曲线复现。https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
 - [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall
 - [C26] Ye, Su & Cao (2022, KDD)：FSRS 调度器。https://dl.acm.org/doi/10.1145/3534678.3539081
-- [C28] （文本引）Arthur et al. (1998)：技能衰减元综述。
+- [C28] （文本引）Arthur et al. (1998)：技能衰减元综述。 <https://doi.org/10.1207/s15327043hup1101_3>
 - [C37] Zimmerman (2002)：自我调节学习循环。https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf
 - [C48] Lave & Wenger (1991)：情境学习与合法边缘参与。https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD
-- [C49] （文本引）Ahrens (2017)《How to Take Smart Notes》；Luhmann 卡片盒。
+- [C49] （文本引）Ahrens (2017)《How to Take Smart Notes》；Luhmann 卡片盒。 <https://www.soenkeahrens.de/en/takesmartnotes>
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：AI 依赖与「元认知懒惰」。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
+
+### 扩展阅读（v1.1 新增）
+- [C101] The Learning Scientists：六大学习策略科普站。 <https://www.learningscientists.org/>
+- [C97] 美国国家科学院 (2018) How People Learn II（免费全书）。 <https://nap.nationalacademies.org/catalog/24783/how-people-learn-ii-learners-contexts-and-cultures>
+
 
 ```mermaid
 flowchart LR

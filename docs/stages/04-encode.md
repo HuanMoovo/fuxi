@@ -61,7 +61,7 @@
   - 少装饰、多线条，别让无关细节挤占工作记忆。
   - 复习时先看图复述，再合图复述（与第 5 阶检索衔接）。
 - **最合适**：结构、流程、对比类知识；**不适用**：纯序列程序——图示可能不如「示范 + 说步骤」。
-- **证据**：B + [C20]（Paivio, 1971；Mayer, 2009；文本引，无链接）
+- **证据**：B + [C20]（Paivio, 1971；Mayer, 2009；文本引）
 
 ### 示范 → 补全 → 独立（Worked Example → Fading）
 
@@ -83,7 +83,7 @@
   - 术语统一命名，便于检索与复用。
   - 每周回看本周新链是否成立，修正错链。
 - **最合适**：需要长期积累的领域；**不适用**：一次性应试——轻量卡片 + 错题本可能更划算。
-- **证据**：C（工具方法）+ [C49]（Ahrens, 2017；文本引，无链接）
+- **证据**：C（工具方法）+ [C49]（Ahrens, 2017；文本引）
 
 ### 阅读法：骨架先行（SQ3R 类）
 
@@ -134,12 +134,17 @@
 - [C15] Sweller, van Merriënboer & Paas (2019) — https://link.springer.com/article/10.1007/s10648-019-09465-5
 - [C16] Kirschner, Sweller & Clark (2006) — https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
 - [C19] Bisra et al. (2018, EPR) — https://eric.ed.gov/?id=EJ1186664
-- [C20] Paivio (1971)；Mayer (2009)（文本引，无链接）
-- [C49] Ahrens (2017)《How to Take Smart Notes》（文本引，无链接）
-- [C50] Dunning & Kruger (1999)；Koriat & Bjork（文本引，无链接）
+- [C20] Paivio (1971)；Mayer (2009)（文本引） <https://archive.org/details/imageryverbalpro0000paiv>；<https://eric.ed.gov/?id=ED530802>
+- [C49] Ahrens (2017)《How to Take Smart Notes》（文本引） <https://www.soenkeahrens.de/en/takesmartnotes>
+- [C50] Dunning & Kruger (1999)；Koriat & Bjork（文本引） <https://doi.org/10.1037/0022-3514.77.6.1121>；<https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Koriat_RBjork_2005.pdf>
 - [C56] Bastani et al. (2025, PNAS) — https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-- [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引，无链接）
+- [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引） <https://archive.org/details/memorycontributi00ebbiuoft>；<https://bjorklab.psych.ucla.edu/publication/bjork-e-l-bjork-r-a-2014-making-things-hard-on-yourself-but-in-a-good-way-creating-desirable-difficulties-to-enhance-learning-in-m-a-gernsbacher-and-j-pomerantz-eds-psycholo/>
+
+### 扩展阅读（v1.1 新增）
+- [C83] Renkl (2014) 面向教学的示例学习理论。 <https://pubmed.ncbi.nlm.nih.gov/24070563/>
+- [C91] Flavell (1979) 元认知：认知发展中的新领域。 <https://doi.org/10.1037/0003-066X.34.10.906>
+
 
 [下一阶 →](./05-retrieve.md)
 
