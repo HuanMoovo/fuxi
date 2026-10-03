@@ -1,3 +1,5 @@
+[简体中文](./README.md) ｜ **English** ｜ [日本語](./README.ja.md)
+
 # Fuxi Framework — Everything Can Be Learned
 
 > **The Fuxi Framework** (伏羲框架 · 万物皆可学) organizes "learning anything" into a **10-stage timeline**. Every stage ships with the most suitable methods, an evidence grade (A/B/C/D), open-source tools, and a self-test.

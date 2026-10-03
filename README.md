@@ -1,3 +1,5 @@
+**简体中文** ｜ [English](./README.en.md) ｜ [日本語](./README.ja.md)
+
 <div align="center">
 
 <img src="docs/assets/fuxi-logo.svg" alt="伏羲框架 · LOGO" width="560">
