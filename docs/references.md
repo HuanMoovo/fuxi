@@ -183,3 +183,25 @@
 - [C207] WHO — Commission on Social Connection: <https://www.who.int/groups/commission-on-social-connection>
 - [C208] U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation: <https://www.hhs.gov/surgeongeneral/priorities/connection/index.html>
 - [C209] OECD (2023). PISA 2022 Results: <https://www.oecd.org/en/about/news/press-releases/2023/12/pisa-2022-results.html>
+
+## 深度剖析四页（C210–C227）
+
+- [C210] Zimmerman (2002). Becoming a Self-Regulated Learner: <https://doi.org/10.1207/s15430421tip4102_2>
+- [C211] Rubinstein, Meyer & Evans (2001). Executive Control of Cognitive Processes in Task Switching: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0096-3445.130.4.763>
+- [C212] Sparrow, Liu & Wegner (2011). Google Effects on Memory（Science）: <https://pubmed.ncbi.nlm.nih.gov/21764755/>
+- [C213] Kirschner & van Merriënboer (2013). Do Learners Really Know Best?: <https://doi.org/10.1080/00461520.2013.804395>
+- [C214] Pashler et al. (2008). Learning Styles: Concepts and Evidence: <https://journals.sagepub.com/doi/10.1111/j.1539-6053.2009.01038.x>
+- [C215] Rayner et al. (2016). So Much to Read, So Little Time: <https://journals.sagepub.com/doi/10.1177/1529100615623267>
+- [C216] Dekker et al. (2012). Neuromyths in Education: <https://www.frontiersin.org/articles/10.3389/fpsyg.2012.00429/full>
+- [C217] Weisberg et al. (2008). The Seductive Allure of Neuroscience Explanations: <https://pubmed.ncbi.nlm.nih.gov/18275336/>
+- [C218] Nickerson (1998). Confirmation Bias: <https://doi.org/10.1037/1089-2680.2.2.175>
+- [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way: <https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf>
+- [C220] Koriat & Bjork (2005). Illusions of Competence: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0278-7393.31.2.187>
+# [C2] Roediger & Karpicke (2006) 已在原数据库（见本文档前部）
+- [C221] Risko & Gilbert (2016). Cognitive Offloading（TiCS）: <https://pubmed.ncbi.nlm.nih.gov/27542527/>
+- [C222] Ji et al. (2023). Survey of Hallucination in NLG: <https://arxiv.org/abs/2202.03629>
+- [C223] Goddard, Roudsari & Wyatt (2012). Automation Bias（JAMIA）: <https://pubmed.ncbi.nlm.nih.gov/21685142/>
+- [C224] Dell'Acqua et al. (2023). Navigating the Jagged Technological Frontier: <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321>
+- [C225] UNESCO (2023). Guidance for Generative AI in Education and Research: <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
+- [C226] Gerlich (2025). AI Tools in Society: <https://www.mdpi.com/2075-4698/15/1/6>
+- [C227] OpenAI et al. (2023). GPT-4 Technical Report: <https://arxiv.org/abs/2303.08774>
