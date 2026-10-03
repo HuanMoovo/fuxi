@@ -39,10 +39,14 @@ def main():
         def X(d): return x0
     def Y(v): return y1 - (v / maxv) * (y1 - y0 - 20)
     # 网格 y 标签
+    seen = set()
     for frac in (0, 0.5, 1):
         v = maxv * frac
+        rv = round(v)
         A('<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" stroke="%s" stroke-width="1" opacity="0.5" stroke-dasharray="5 6"/>' % (x0, Y(v), x1, Y(v), RULE))
-        A('<text x="%d" y="%.0f" text-anchor="end" font-family="Microsoft YaHei" font-size="14" fill="%s">%d</text>' % (x0 - 12, Y(v) + 5, INK2, round(v)))
+        if rv not in seen:
+            seen.add(rv)
+            A('<text x="%d" y="%.0f" text-anchor="end" font-family="Microsoft YaHei" font-size="14" fill="%s">%d</text>' % (x0 - 12, Y(v) + 5, INK2, rv))
     pts = [(X(dates[i]), Y(recs[i]["stars"])) for i in range(len(recs))]
     if len(pts) >= 2:
         A('<path d="M' + " L".join("%.1f %.1f" % pt for pt in pts) + '" fill="none" stroke="%s" stroke-width="3.5"/>' % GOLD)
@@ -62,14 +66,7 @@ def main():
     A('<text x="56" y="%d" font-family="KaiTi,Microsoft YaHei" font-size="20" fill="%s" font-weight="700">最近记录</text>' % (ty, INK))
     row = min(7, len(recs))
     show = recs[-row:]
-    A('<text x="200" y="%d" font-family="Microsoft YaHei" font-size="15" fill="%s">日期</text>' % (ty, INK2))
-    A('<text x="420" y="%d" font-family="Microsoft YaHei" font-size="15" fill="%s">★ stars</text>' % (ty, INK2))
-    A('<text x="640" y="%d" font-family="Microsoft YaHei" font-size="15" fill="%s">变化</text>' % (ty, INK2))
-    A('<text x="820" y="%d" font-family="Microsoft YaHei" font-size="15" fill="%s">forks</text>' % (ty, INK2))
     A('<line x1="56" y1="%d" x2="1060" y2="%d" stroke="%s" stroke-width="1.6"/>' % (ty + 10, ty + 10, "#8A8F7A"))
-    for j, r in enumerate(show):
-        yy = ty + 40 + j * 0
-        pass
     # 平铺一行（最多7条，逗号分隔，避免多行溢出）
     cells = []
     for i, r in enumerate(show):
