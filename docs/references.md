@@ -70,3 +70,18 @@
 - [C101] The Learning Scientists：六大学习策略科普站。 <https://www.learningscientists.org/>
 
 > 如何补充：用仓库 Issue 模板提交（附论文链接、一句话结论、建议证据等级），合并后更新本页与 [CHANGELOG](../CHANGELOG.md)。
+
+## 拓界篇 · 发现问题与创造知识（C111–C122）
+
+- [C111] Firestein, S. — The Pursuit of Ignorance（研究从「可表述的无知」出发）: <https://www.ted.com/talks/stuart_firestein_the_pursuit_of_ignorance>
+- [C112] Hamming, R. — You and Your Research（只做重要问题）: <https://www.cs.virginia.edu/~robins/YouAndYourResearch.html>
+- [C113] Kuhn, T. — The Structure of Scientific Revolutions（范式与反常）: <https://plato.stanford.edu/entries/thomas-kuhn/>
+- [C114] Popper, K. — 可证伪性与批判理性主义: <https://plato.stanford.edu/entries/popper/>
+- [C115] Swanson, D. R. (1986). Undiscovered Public Knowledge（文献缝隙挖掘）: <https://www.journals.uchicago.edu/doi/10.1086/601720>
+- [C116] Open Science Collaboration (2015). Reproducibility in psychological science（复现危机数据）: <https://pubmed.ncbi.nlm.nih.gov/26315443/>
+- [C117] Wang, H. et al. (2023). Scientific discovery in the age of AI. Nature: <https://www.nature.com/articles/s41586-023-06221-2>
+- [C118] Wuchty, S. et al. (2007). The increasing dominance of teams. Science: <https://pubmed.ncbi.nlm.nih.gov/17656717/>
+- [C119] Wu, L., Wang, D. & Evans, J. (2019). Large teams develop, small teams disrupt. Nature: <https://www.nature.com/articles/s41586-019-0941-9>
+- [C120] Lakatos, I. — 科学研究纲领方法论: <https://plato.stanford.edu/entries/lakatos/>
+- [C121] Abduction（溯因推理，Peirce）: <https://plato.stanford.edu/entries/abduction/>
+- [C122] FAIR Principles（可复现数据标准）: <https://www.go-fair.org/fair-principles/>

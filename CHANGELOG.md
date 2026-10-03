@@ -2,6 +2,13 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.2.0] - 2026-10-03
+
+### Added
+- `docs/stages/11-expand.md`：**第 11 阶 · 拓界** —— 触到人类知识/认知边界后，如何发现新问题、炼化研究问题、构建新理论（结合 C111–C122 文献，含流程图、工具链与过关检验）。
+- `docs/awesome-lifespan.md`：**人生时间线友链目录** —— 从出生到老年 8 个阶段的学习重点 × 开源工具 × 对应十阶；由 `generator/build_lifespan.py` 可复现生成（41 条全部经核验）。
+- `docs/references.md` 增补拓界篇文献 C111–C122（全部可点击、经核验）。
+
 ## [1.1.1] - 2026-10-03
 
 ### Added
