@@ -220,6 +220,6 @@ fuxi/
 ## 许可
 
 - 代码（`generator/`、站点代码）：[MIT](./LICENSE)
-- 文档与图表（README、`docs/**`、`templates/**`）：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 文档与图表（README、`docs/**`、`templates/**`）：[CC BY 4.0](./LICENSE-DOCS.md)
 
 <sub>核验日期 2026-10-03 ｜ 证据分级为本项目综合判断，详见 docs/evidence.md ｜ 把时间变成盟友。</sub>
