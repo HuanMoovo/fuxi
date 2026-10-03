@@ -5,7 +5,7 @@
 ## [1.1.1] - 2026-10-03
 
 ### Added
-- `docs/awesome-learning.md`：学习友链目录 —— 248 个经核验的热门学习项目（11 大类、含星数快照；由 `generator/build_awesome.py` 可复现生成）；README 顶部导航、仓库导航树、工具链文档与站点页脚均已接入。
+- `docs/awesome-learning.md`：学习友链目录 —— 2464 个学习项目（精选 12 类 + 自动采集国际项目与书籍 5 区；由 `generator/build_awesome.py` 与 `generator/harvest_awesome.py` 可复现生成）；README 顶部导航、仓库导航树、工具链文档与站点页脚均已接入。
 
 ## [1.1.0] - 2026-10-03
 

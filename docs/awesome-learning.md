@@ -1,13 +1,13 @@
 # 学习友链目录 · Learning Ecosystem Directory
 
-> 超级完整的学习生态索引：**共 248 个热门学习项目**（全部为 GitHub 开源项目），按 11 大主题分类，每个仓库均经 GitHub API 批量核验，星数为构建当日快照。
+> 超级完整的学习生态索引：**共 2464 个热门学习项目**（全部为 GitHub 开源项目），按 17 个分区收录，每个仓库均经 GitHub API 批量核验，星数为构建当日快照。
 >
 > 与 [开源工具链](./tools.md) 的区别：`tools.md` 回答「十阶每一阶用什么工具」；本目录是更广的**学习生态友链** —— 找到同类工具、参考别人怎么学，甚至直接读它的源码学。
 >
 > 本目录由 [`generator/build_awesome.py`](https://github.com/HuanMoovo/fuxi/blob/main/generator/build_awesome.py) 可复现生成；收录标准：与「学习」直接相关、社区活跃、链接可访问；不收录取版资源。
 
 
-**共收录 248 个项目** ｜ 分类导航：① 学习科学与间隔重复（12） · ② 笔记与个人知识库（PKM）（24） · ③ 语言学习（10） · ④ 编程与计算机自学（51） · ⑤ 数学 · 科学 · 图形学（16） · ⑥ AI 与机器学习（50） · ⑦ 大学课程与自学体系（16） · ⑧ 阅读 · 文献 · 图书（15） · ⑨ 可视化 · 表达 · 输出（25） · ⑩ 汇总榜 · Awesome 系列（18） · ⑪ 兴趣与创作技能（11）
+**共收录 350 个项目** ｜ 分类导航：① 学习科学与间隔重复（12） · ② 笔记与个人知识库（PKM）（34） · ③ 语言学习（11） · ④ 编程与计算机自学（70） · ⑤ 数学 · 科学 · 图形学（20） · ⑥ AI 与机器学习（65） · ⑦ 大学课程与自学体系（20） · ⑧ 阅读 · 文献 · 图书（18） · ⑨ 可视化 · 表达 · 输出（36） · ⑩ 汇总榜 · Awesome 系列（33） · ⑪ 兴趣与创作技能（23） · ⑫ 系统 · 网络 · 安全（8）
 
 > 想推荐新的学习项目？提 Issue 使用「新增工具/资源」模板，或直接改 `generator/build_awesome.py` 里的数据后提 PR：https://github.com/HuanMoovo/fuxi/issues/new/choose
 
@@ -36,6 +36,8 @@
 - **[Logseq](https://github.com/logseq/logseq)** ★4.5万 — 大纲+双链+白板，隐私优先。（适用阶：2·3·4）
 - **[Outline](https://github.com/outline/outline)** ★4.1万 — 团队知识库。（适用阶：10）
 - **[Trilium Next](https://github.com/TriliumNext/Trilium)** ★3.8万 — 树状知识库（活跃维护版）。（适用阶：3·4）
+- **[Wiki.js](https://github.com/requarks/wiki)** ★2.9万 — 现代 wiki 平台。（适用阶：10）
+- **[Notable](https://github.com/notable/notable)** ★2.3万 — Markdown 笔记（老牌）。（适用阶：3·4）
 - **[Obsidian 插件库](https://github.com/obsidianmd/obsidian-releases)** ★2.2万 — 官方社区插件索引。（适用阶：2·4）
 - **[Docmost](https://github.com/docmost/docmost)** ★2.2万 — 协作文档/wiki。（适用阶：10）
 - **[Foam](https://github.com/foambubble/foam)** ★1.7万 — VS Code 里的 Zettelkasten。（适用阶：3·4）
@@ -46,11 +48,19 @@
 - **[Vimwiki](https://github.com/vimwiki/vimwiki)** ★9.5k — Vim 里的个人 wiki。（适用阶：3·4）
 - **[Obsidian Dataview](https://github.com/blacksmithgu/obsidian-dataview)** ★9.4k — 把笔记变成可查询数据库。（适用阶：3·9）
 - **[TiddlyWiki](https://github.com/TiddlyWiki/TiddlyWiki5)** ★8.7k — 单文件非线性 wiki。（适用阶：2·3）
+- **[nb](https://github.com/xwmx/nb)** ★8.4k — 命令行笔记/书签/待办。（适用阶：3·4）
+- **[Dendron](https://github.com/dendronhq/dendron)** ★7.5k — VS Code 层级笔记。（适用阶：3·4）
+- **[jrnl](https://github.com/jrnl-org/jrnl)** ★7.3k — 命令行日记。（适用阶：10）
 - **[Standard Notes](https://github.com/standardnotes/app)** ★6.6k — 端到端加密笔记。（适用阶：3·4）
+- **[Athens Research](https://github.com/athensresearch/athens)** ★6.3k — 双链大纲笔记（研究项目）。（适用阶：3·4）
 - **[SilverBullet](https://github.com/silverbulletmd/silverbullet)** ★6.2k — 可编程的 Markdown 知识库。（适用阶：3·4）
+- **[Org-roam](https://github.com/org-roam/org-roam)** ★6.0k — Emacs 双链笔记。（适用阶：2·3）
 - **[QOwnNotes](https://github.com/pbek/QOwnNotes)** ★5.9k — Markdown+待办笔记。（适用阶：3·4）
 - **[Simplenote](https://github.com/Automattic/simplenote-electron)** ★5.3k — 极简跨平台笔记。（适用阶：3·4）
+- **[MediaWiki](https://github.com/wikimedia/mediawiki)** ★5.2k — 维基百科同款引擎。（适用阶：3·10）
+- **[DokuWiki](https://github.com/dokuwiki/dokuwiki)** ★4.7k — 免数据库 wiki。（适用阶：3·10）
 - **[CherryTree](https://github.com/giuspen/cherrytree)** ★4.0k — 层级富文本笔记。（适用阶：3·4）
+- **[zk](https://github.com/zk-org/zk)** ★2.8k — 纯文本笔记 CLI。（适用阶：3·4）
 - **[Zim](https://github.com/zim-desktop-wiki/zim-desktop-wiki)** ★2.2k — 桌面 wiki。（适用阶：3·4）
 
 ## ③ 语言学习
@@ -65,6 +75,7 @@
 - **[Lute v3](https://github.com/LuteOrg/lute-v3)** ★1.6k — 阅读驱动式语言学习。（适用阶：4·5）
 - **[asbplayer](https://github.com/asbplayer/asbplayer)** ★1.5k — 字幕取词、导出制卡（看剧学）。（适用阶：4·7）
 - **[mpvacious](https://github.com/Ajatt-Tools/mpvacious)** ★890 — mpv 插件：音视频截句制卡。（适用阶：4·5）
+- **[VocabSieve](https://github.com/FreeLanguageTools/vocabsieve)** ★542 — 观影自动制卡（生词挖取）。（适用阶：4·5）
 
 ## ④ 编程与计算机自学
 
@@ -99,6 +110,7 @@
 - **[30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)** ★7.5万 — 30 天 Python 挑战。（适用阶：7）
 - **[33-js-concepts](https://github.com/leonardomso/33-js-concepts)** ★6.7万 — 33 个 JS 核心概念。（适用阶：5）
 - **[interviews](https://github.com/kdn251/interviews)** ★6.5万 — 面试知识速查。（适用阶：5·7）
+- **[Rustlings](https://github.com/rust-lang/rustlings)** ★6.4万 — 小练习学 Rust。（适用阶：7）
 - **[代码随想录](https://github.com/youngyangyang04/leetcode-master)** ★6.3万 — 刷题顺序与题解体系（中文）。（适用阶：5·7）
 - **[first-contributions](https://github.com/firstcontributions/first-contributions)** ★5.6万 — 第一个 PR 练习。（适用阶：8）
 - **[西法 LeetCode 题解](https://github.com/azl397985856/leetcode)** ★5.6万 — 系统化题解与模板。（适用阶：5·7）
@@ -106,17 +118,35 @@
 - **[kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)** ★5.0万 — 硬核方式学 K8s。（适用阶：7·8）
 - **[awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)** ★4.9万 — 设计模式资源集。（适用阶：4）
 - **[design-patterns-for-humans](https://github.com/nilbuild/design-patterns-for-humans)** ★4.9万 — 人话设计模式。（适用阶：4）
+- **[type-challenges](https://github.com/type-challenges/type-challenges)** ★4.9万 — TS 类型体操。（适用阶：4·7）
 - **[karan/Projects](https://github.com/karan/Projects)** ★4.8万 — 经典练手项目清单。（适用阶：7）
 - **[30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)** ★4.7万 — 30 天 JS 挑战。（适用阶：7）
+- **[awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)** ★4.7万 — 语言速查合集。（适用阶：3）
+- **[python-patterns](https://github.com/faif/python-patterns)** ★4.3万 — Python 设计模式。（适用阶：4·9）
+- **[Python 速查表](https://github.com/gto76/python-cheatsheet)** ★3.9万 — 一页 Python 全貌。（适用阶：3·5）
 - **[doocs/leetcode](https://github.com/doocs/leetcode)** ★3.7万 — 多语言题解大全。（适用阶：5·7）
 - **[LeetCode-Go](https://github.com/halfrost/LeetCode-Go)** ★3.4万 — LeetCode 题解合集。（适用阶：5·7）
+- **[交互式编程挑战](https://github.com/donnemartin/interactive-coding-challenges)** ★3.2万 — 边写边测的面试题。（适用阶：7）
 - **[90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)** ★3.0万 — 90 天 DevOps 打卡课程。（适用阶：7）
+- **[the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)** ★2.9万 — 200 行编译器。（适用阶：4·7）
 - **[30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React)** ★2.8万 — 30 天 React 挑战。（适用阶：7）
 - **[awesome-algorithms](https://github.com/tayllan/awesome-algorithms)** ★2.6万 — 算法学习资源。（适用阶：4）
+- **[javascript.info 源码](https://github.com/javascript-tutorial/en.javascript.info)** ★2.5万 — 最好的 JS 教程。（适用阶：4）
+- **[pytudes](https://github.com/norvig/pytudes)** ★2.4万 — Norvig 的编程练习集。（适用阶：4·7）
+- **[google/eng-practices](https://github.com/google/eng-practices)** ★2.3万 — 谷歌代码评审指南。（适用阶：9）
+- **[git-tips](https://github.com/git-tips/tips)** ★2.2万 — Git 小技巧集。（适用阶：3）
 - **[es6tutorial](https://github.com/ruanyf/es6tutorial)** ★2.1万 — 阮一峰 ES6 教程。（适用阶：4）
 - **[LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)** ★2.0万 — 大厂高频题统计。（适用阶：5）
+- **[Go 路线图](https://github.com/darius-khll/golang-developer-roadmap)** ★1.8万 — Go 学习路线。（适用阶：2）
+- **[learn-python](https://github.com/trekhleb/learn-python)** ★1.8万 — 游戏化 Python 互动课。（适用阶：7）
 - **[awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming)** ★1.4万 — 竞赛编程资源。（适用阶：7）
+- **[leetcode-patterns](https://github.com/seanprashad/leetcode-patterns)** ★1.4万 — 按套路刷题。（适用阶：5·7）
+- **[Crafting Interpreters](https://github.com/munificent/craftinginterpreters)** ★1.1万 — 手写解释器（经典书）。（适用阶：7·8）
+- **[Go by Example](https://github.com/mmcgrana/gobyexample)** ★8.2k — 示例驱动学 Go。（适用阶：4·7）
+- **[TS 入门教程](https://github.com/total-typescript/beginners-typescript-tutorial)** ★8.0k — TypeScript 初学练习。（适用阶：7）
 - **[Exercism](https://github.com/exercism/exercism)** ★7.6k — 带人类导师的练习题平台。（适用阶：7）
+- **[100 天算法](https://github.com/coells/100days)** ★7.5k — 100 天算法打卡。（适用阶：7）
+- **[Pro Git](https://github.com/progit/progit2)** ★6.6k — Git 官方书（中文可读）。（适用阶：3·4）
 - **[Loopy](https://github.com/ncase/loopy)** ★1.7k — 系统思考画布。（适用阶：3·9）
 - **[reverse-interview](https://github.com/perkfly/reverse-interview)** ★0 — 反向面试问题集。（适用阶：7）
 
@@ -131,10 +161,14 @@
 - **[SymPy](https://github.com/sympy/sympy)** ★1.5万 — 符号计算，学数学的验算器。（适用阶：4·7）
 - **[LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL)** ★1.3万 — 现代 OpenGL 教程。（适用阶：4·7）
 - **[3b1b/videos](https://github.com/3b1b/videos)** ★1.1万 — 3Blue1Brown 视频源码。（适用阶：4·9）
+- **[Ray Tracing 三周](https://github.com/RayTracing/raytracing.github.io)** ★1.1万 — 从零写光追渲染器。（适用阶：7·8）
+- **[Stellarium](https://github.com/Stellarium/stellarium)** ★1.0万 — 开源虚拟天文馆。（适用阶：7）
 - **[Lean 4](https://github.com/leanprover/lean4)** ★9.4k — 定理证明语言。（适用阶：7）
 - **[The Book of Shaders](https://github.com/patriciogonzalezvivo/thebookofshaders)** ★7.0k — 着色器图形学入门。（适用阶：4·8）
+- **[WebGL Fundamentals](https://github.com/gfxfundamentals/webgl-fundamentals)** ★5.0k — WebGL 从零教程。（适用阶：4·7）
 - **[SICP (HTML5版)](https://github.com/sarabander/sicp)** ★4.5k — 计算机程序的构造与解释。（适用阶：4·9）
 - **[Mathlib4](https://github.com/leanprover-community/mathlib4)** ★4.2k — Lean 数学形式化库。（适用阶：7）
+- **[Vulkan Tutorial](https://github.com/Overv/VulkanTutorial)** ★3.7k — Vulkan 图形 API 教程。（适用阶：7）
 - **[SageMath](https://github.com/sagemath/sage)** ★2.6k — 开源数学软件系统。（适用阶：7）
 - **[The Nature of Code](https://github.com/nature-of-code/noc-book-2)** ★1.9k — 用代码模拟自然系统。（适用阶：7·8）
 - **[Mathics](https://github.com/Mathics3/mathics-core)** ★1.2k — 开源 Mathematica 替代。（适用阶：4·7）
@@ -151,21 +185,26 @@
 - **[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** ★7.6万 — 微软 AI 智能体课。（适用阶：7·8）
 - **[openai-cookbook](https://github.com/openai/openai-cookbook)** ★7.6万 — OpenAI 官方示例集。（适用阶：8）
 - **[AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)** ★6.9万 — 微软 AI 入门课。（适用阶：7）
+- **[标注论文实现集](https://github.com/labmlai/annotated_deep_learning_paper_implementations)** ★6.8万 — 逐行注释的论文实现。（适用阶：4·8）
 - **[nanoGPT](https://github.com/karpathy/nanoGPT)** ★6.4万 — 从零训练 GPT（干中学巅峰）。（适用阶：7·8）
 - **[DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions)** ★5.8万 — 深度学习 500 问。（适用阶：5）
 - **[anthropic-cookbook](https://github.com/anthropics/claude-cookbooks)** ★5.3万 — Claude 官方示例集。（适用阶：8）
 - **[PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)** ★5.0万 — Python 数据科学手册。（适用阶：4·7）
 - **[Made-With-ML](https://github.com/GokuMohandas/Made-With-ML)** ★5.0万 — MLOps 全流程教程。（适用阶：7·8）
 - **[Fabric](https://github.com/danielmiessler/Fabric)** ★4.4万 — AI 提示模式集。（适用阶：8）
+- **[TF Examples](https://github.com/aymericdamien/TensorFlow-Examples)** ★4.4万 — TF 经典示例集。（适用阶：4·7）
 - **[AiLearning](https://github.com/apachecn/ailearning)** ★4.3万 — 中文 ML 入门资料集。（适用阶：3·4）
 - **[prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)** ★3.8万 — 交互式提示工程课。（适用阶：8）
 - **[Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)** ★3.8万 — 吴恩达课程中文笔记。（适用阶：4·5）
 - **[LLM101n](https://github.com/karpathy/LLM101n)** ★3.7万 — 从零构建 LLM 课程。（适用阶：7·8）
 - **[Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners)** ★3.7万 — 数据科学入门。（适用阶：7）
+- **[HuggingFace Agents 课](https://github.com/huggingface/agents-course)** ★3.3万 — 官方智能体课程。（适用阶：7·8）
 - **[self-llm](https://github.com/datawhalechina/self-llm)** ★3.2万 — 开源大模型食用指南。（适用阶：7·8）
 - **[llm.c](https://github.com/karpathy/llm.c)** ★3.1万 — 纯 C 训练 LLM。（适用阶：7·8）
 - **[applied-ml](https://github.com/eugeneyan/applied-ml)** ★3.0万 — 工业界 ML 实践文集。（适用阶：2·9）
 - **[d2l-en](https://github.com/d2l-ai/d2l-en)** ★3.0万 — 同书英文版，持续更新。（适用阶：3·4·7）
+- **[RAG 技法集](https://github.com/NirDiamant/RAG_Techniques)** ★3.0万 — RAG 技术大全。（适用阶：8）
+- **[数据科学笔记本集](https://github.com/donnemartin/data-science-ipython-notebooks)** ★2.9万 — 数据科学实战笔记。（适用阶：4·7）
 - **[fastai](https://github.com/fastai/fastai)** ★2.8万 — 自上而下的深度学习课。（适用阶：7·8）
 - **[南瓜书](https://github.com/datawhalechina/pumpkin-book)** ★2.6万 — 《机器学习》西瓜书公式详解。（适用阶：4·5）
 - **[fastbook](https://github.com/fastai/fastbook)** ★2.5万 — fastai 教材笔记本。（适用阶：4·7）
@@ -173,21 +212,31 @@
 - **[minGPT](https://github.com/karpathy/minGPT)** ★2.5万 — 极简 GPT 实现。（适用阶：4·7）
 - **[llm-cookbook](https://github.com/datawhalechina/llm-cookbook)** ★2.5万 — 面向开发者的大模型手册。（适用阶：7·8）
 - **[nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero)** ★2.5万 — Karpathy 神经网络课。（适用阶：4·7）
+- **[pytorch/examples](https://github.com/pytorch/examples)** ★2.4万 — PyTorch 官方示例。（适用阶：4·7）
 - **[NLP-progress](https://github.com/sebastianruder/NLP-progress)** ★2.3万 — NLP 任务进展追踪。（适用阶：2·4）
 - **[RL 实战教程](https://github.com/dennybritz/reinforcement-learning)** ★2.2万 — 强化学习教程与实现。（适用阶：7）
+- **[OpenAI Swarm](https://github.com/openai/swarm)** ★2.2万 — 多智能体编排教学库。（适用阶：7·8）
+- **[Keras 书配套](https://github.com/fchollet/deep-learning-with-python-notebooks)** ★2.0万 — Keras 作者书代码。（适用阶：4·7）
 - **[pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning)** ★1.9万 — PyTorch 深度学习课。（适用阶：7）
 - **[micrograd](https://github.com/karpathy/micrograd)** ★1.8万 — 手搓自动微分（入门必看）。（适用阶：4·7）
 - **[ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)** ★1.7万 — ML 视频课索引。（适用阶：2·7）
 - **[leedl-tutorial](https://github.com/datawhalechina/leedl-tutorial)** ★1.7万 — 李宏毅深度学习教程。（适用阶：4·7）
 - **[MML Book](https://github.com/mml-book/mml-book.github.io)** ★1.6万 — 机器学习数学基础。（适用阶：3·4）
+- **[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)** ★1.5万 — 免费 MLOps 训练营。（适用阶：7·8）
+- **[llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch)** ★1.5万 — 从零实现 Llama3。（适用阶：7·8）
+- **[RL 导论代码](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)** ★1.5万 — 《RL 导论》实现。（适用阶：4·7）
 - **[handson-ml3](https://github.com/ageron/handson-ml3)** ★1.4万 — 《机器学习实战》配套。（适用阶：7）
 - **[awesome-mlops](https://github.com/visenger/awesome-mlops)** ★1.4万 — MLOps 资源集。（适用阶：2）
 - **[pytorch-book](https://github.com/chenyuntc/pytorch-book)** ★1.3万 — 《深度学习框架 PyTorch》。（适用阶：4·7）
 - **[Spinning Up](https://github.com/openai/spinningup)** ★1.2万 — 强化学习入门。（适用阶：3·7）
+- **[Transformers Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)** ★1.2万 — HuggingFace 模型实战。（适用阶：7）
 - **[mlcourse.ai](https://github.com/Yorko/mlcourse.ai)** ★1.1万 — 开放机器学习课程。（适用阶：7）
 - **[UDL Book](https://github.com/udlbook/udlbook)** ★10.0k — Understanding Deep Learning。（适用阶：4·7）
+- **[pytorch/tutorials](https://github.com/pytorch/tutorials)** ★9.4k — PyTorch 官方教程。（适用阶：4·7）
 - **[莫烦 PyTorch](https://github.com/MorvanZhou/PyTorch-Tutorial)** ★8.5k — 莫烦 PyTorch 教程。（适用阶：4·7）
 - **[Probabilistic ML](https://github.com/probml/pyprobml)** ★7.2k — 概率机器学习教材代码。（适用阶：4·9）
+- **[TF 深度学习课](https://github.com/mrdbourke/tensorflow-deep-learning)** ★5.9k — TensorFlow 开发者课。（适用阶：7）
+- **[DeepLearningZeroToAll](https://github.com/hunkim/DeepLearningZeroToAll)** ★4.5k — TF 零基础到全栈。（适用阶：7）
 - **[莫烦 TensorFlow](https://github.com/MorvanZhou/Tensorflow-Tutorial)** ★4.3k — 莫烦 TF 教程。（适用阶：4·7）
 - **[HuggingFace Course](https://github.com/huggingface/course)** ★4.3k — Transformer/NLP 官方课。（适用阶：7）
 - **[arxiv-sanity-lite](https://github.com/karpathy/arxiv-sanity-lite)** ★1.7k — arXiv 论文推荐器。（适用阶：2·8）
@@ -198,6 +247,8 @@
 - **[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)** ★8.4万 — 全球 CS 视频公开课索引。（适用阶：2·7）
 - **[cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)** ★7.6万 — 计算机自学指南（中文）。（适用阶：1·2·3）
 - **[architect-awesome](https://github.com/xingshaocheng/architect-awesome)** ★6.1万 — 后端架构师图谱。（适用阶：2）
+- **[DE Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)** ★4.6万 — 免费数据工程训练营。（适用阶：7·8）
+- **[数据工程手册](https://github.com/DataExpert-io/data-engineer-handbook)** ★4.4万 — 数据工程师自学手册。（适用阶：2·3）
 - **[浙大课程资料](https://github.com/QSCTech/zju-icicles)** ★4.1万 — 浙大课程历年资料。（适用阶：2·3）
 - **[清华计算机课程](https://github.com/PKUanonym/REKCARC-TSC-UHT)** ★3.8万 — 清华 CS 培养方案资料合集。（适用阶：2·3）
 - **[interview_internal_reference](https://github.com/0voice/interview_internal_reference)** ★3.7万 — 大厂面经汇总。（适用阶：5）
@@ -206,10 +257,12 @@
 - **[CS-Base 图解](https://github.com/xiaolincoder/CS-Base)** ★1.8万 — 图解计算机基础（中文）。（适用阶：4·5）
 - **[toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer)** ★1.8万 — Java 学习指南。（适用阶：7）
 - **[USTC Course](https://github.com/USTC-Resource/USTC-Course)** ★1.6万 — 中科大课程资源。（适用阶：2·3）
+- **[CS231n 课程站](https://github.com/cs231n/cs231n.github.io)** ★1.1万 — 斯坦福视觉课资料。（适用阶：2·3）
 - **[Crash Course CS 中文](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)** ★1.1万 — 计算机速成课字幕。（适用阶：2·4）
 - **[Sioyek](https://github.com/ahrm/sioyek)** ★9.9k — 学术 PDF 专注阅读器。（适用阶：4·8）
 - **[OSSU Math](https://github.com/ossu/math)** ★9.2k — 自修数学学位。（适用阶：2·3）
 - **[The Missing Semester](https://github.com/missing-semester/missing-semester)** ★6.1k — MIT：计算机教育里缺的一课。（适用阶：4·7）
+- **[Nand2Tetris](https://github.com/nand2tetris/web-ide)** ★237 — 从与非门造计算机。（适用阶：4·7）
 
 ## ⑧ 阅读 · 文献 · 图书
 
@@ -222,10 +275,13 @@
 - **[Calibre](https://github.com/kovidgoyal/calibre)** ★2.6万 — 电子书管理全能工具。（适用阶：10）
 - **[Linkwarden](https://github.com/linkwarden/linkwarden)** ★2.0万 — 协作书签归档。（适用阶：8·10）
 - **[BookStack](https://github.com/BookStackApp/BookStack)** ★1.9万 — 自托管文档/wiki 系统。（适用阶：10）
+- **[Calibre-Web](https://github.com/janeczku/calibre-web)** ★1.8万 — 浏览器里的书库。（适用阶：10）
 - **[Zotero](https://github.com/zotero/zotero)** ★1.5万 — 文献管理标准工具。（适用阶：8·9）
 - **[Wallabag](https://github.com/wallabag/wallabag)** ★1.3万 — 稍后读自托管。（适用阶：8·10）
 - **[Foliate](https://github.com/johnfactotum/foliate)** ★8.8k — Linux 电子书阅读。（适用阶：4）
 - **[Better BibTeX](https://github.com/retorquere/zotero-better-bibtex)** ★7.2k — Zotero 学术引用插件。（适用阶：9）
+- **[Librum](https://github.com/Librum-Reader/Librum)** ★5.3k — 现代开源阅读器。（适用阶：4）
+- **[Thorium Reader](https://github.com/edrlab/thorium-reader)** ★2.9k — 开源 EPUB 阅读器。（适用阶：4）
 - **[scholarly](https://github.com/scholarly-python-package/scholarly)** ★1.9k — 脚本抓取学术资料。（适用阶：2·8）
 - **[Standard Ebooks](https://github.com/standardebooks/tools)** ★1.7k — 精校公有领域电子书工坊。（适用阶：4·10）
 
@@ -234,60 +290,2246 @@
 - **[awesome-python](https://github.com/vinta/awesome-python)** ★32.5万 — Python 生态大全。（适用阶：2）
 - **[Excalidraw](https://github.com/excalidraw/excalidraw)** ★13.3万 — 手绘风白板（本框架图表灵感）。（适用阶：9）
 - **[Mermaid](https://github.com/mermaid-js/mermaid)** ★9.1万 — 文本画流程图。（适用阶：3·8）
+- **[Hugo](https://github.com/gohugoio/hugo)** ★9.0万 — 最快静态站生成器。（适用阶：9）
 - **[OBS Studio](https://github.com/obsproject/obs-studio)** ★7.7万 — 录课直播全能。（适用阶：9）
 - **[reveal.js](https://github.com/hakimel/reveal.js)** ★7.2万 — HTML 演示框架。（适用阶：9）
 - **[Docusaurus](https://github.com/facebook/docusaurus)** ★6.6万 — 文档站框架。（适用阶：9）
 - **[MarkText](https://github.com/marktext/marktext)** ★6.2万 — 实时预览 Markdown 编辑器。（适用阶：3·9）
 - **[Penpot](https://github.com/penpot/penpot)** ★6.1万 — 开源设计协作。（适用阶：9）
 - **[Typst](https://github.com/typst/typst)** ★5.6万 — 新一代排版系统。（适用阶：9·10）
+- **[Jekyll](https://github.com/jekyll/jekyll)** ★5.2万 — GitHub Pages 经典引擎。（适用阶：9）
 - **[tldraw](https://github.com/tldraw/tldraw)** ★5.1万 — 高性能协作白板。（适用阶：9）
 - **[Slidev](https://github.com/slidevjs/slidev)** ★4.9万 — 为开发者做的幻灯片。（适用阶：9）
+- **[Pandoc](https://github.com/jgm/pandoc)** ★4.6万 — 万能文档转换器。（适用阶：9·10）
+- **[Hexo](https://github.com/hexojs/hexo)** ★4.2万 — 静态博客生成器。（适用阶：9）
+- **[ShareX](https://github.com/ShareX/ShareX)** ★4.0万 — 截图/录屏神器（做教程）。（适用阶：9）
 - **[Carbon](https://github.com/carbon-app/carbon)** ★3.6万 — 代码美化截图。（适用阶：9）
 - **[Docsify](https://github.com/docsifyjs/docsify)** ★3.2万 — 零构建文档站。（适用阶：9）
+- **[D2](https://github.com/d2lang/d2)** ★2.6万 — 现代图表语言。（适用阶：3·9）
 - **[MkDocs](https://github.com/mkdocs/mkdocs)** ★2.2万 — Markdown 文档站。（适用阶：9）
 - **[mdBook](https://github.com/rust-lang/mdBook)** ★2.2万 — Rust 文档书籍。（适用阶：9）
 - **[VitePress](https://github.com/vuejs/vitepress)** ★1.8万 — Vite 驱动文档站。（适用阶：9）
 - **[asciinema](https://github.com/asciinema/asciinema)** ★1.8万 — 终端会话录制。（适用阶：9）
 - **[JupyterLab](https://github.com/jupyterlab/jupyterlab)** ★1.5万 — 下一代 Jupyter。（适用阶：4·7）
 - **[Jupyter Notebook](https://github.com/jupyter/notebook)** ★1.3万 — 交互式计算笔记本。（适用阶：4·7）
+- **[PlantUML](https://github.com/plantuml/plantuml)** ★1.3万 — 文本画 UML。（适用阶：3·9）
+- **[Quartz](https://github.com/jackyzha0/quartz)** ★1.3万 — 把笔记发布成网站。（适用阶：9·10）
 - **[Markmap](https://github.com/markmap/markmap)** ★1.3万 — Markdown 一键变思维导图。（适用阶：3·9）
 - **[Marp](https://github.com/marp-team/marp)** ★1.3万 — Markdown 做幻灯片。（适用阶：9）
+- **[MathJax](https://github.com/mathjax/MathJax)** ★1.1万 — 网页数学公式。（适用阶：9）
 - **[Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)** ★7.7k — 在笔记里画草图。（适用阶：3·9）
+- **[Vale](https://github.com/vale-cli/vale)** ★6.2k — 写作风格检查器。（适用阶：9）
 - **[Quarto](https://github.com/quarto-dev/quarto-cli)** ★6.0k — 学术/技术出版系统。（适用阶：9·10）
 - **[Tectonic](https://github.com/tectonic-typesetting/tectonic)** ★5.1k — 现代化 LaTeX 引擎。（适用阶：9）
+- **[textlint](https://github.com/textlint/textlint)** ★3.2k — 文本 lint（中文可配）。（适用阶：9）
 - **[Hypothesis](https://github.com/hypothesis/h)** ★3.2k — 网页标注讨论。（适用阶：4·8）
 
 ## ⑩ 汇总榜 · Awesome 系列
 
 - **[Awesome](https://github.com/sindresorhus/awesome)** ★51.4万 — 所有 awesome 列表的目录。（适用阶：2）
+- **[public-apis](https://github.com/public-apis/public-apis)** ★48.6万 — 免费 API 大全。（适用阶：8）
 - **[awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** ★32.4万 — 自托管项目大全。（适用阶：10）
+- **[awesome-go](https://github.com/avelino/awesome-go)** ★18.7万 — Go 资源大全。（适用阶：2）
 - **[HelloGitHub](https://github.com/521xueweihan/HelloGitHub)** ★18.0万 — 月刊：有趣开源项目（中文）。（适用阶：2）
 - **[awesome-chatgpt-prompts](https://github.com/f/prompts.chat)** ★17.2万 — 提示词合集。（适用阶：8）
 - **[free-for-dev](https://github.com/ripienaar/free-for-dev)** ★13.9万 — 开发者免费资源。（适用阶：2·10）
 - **[阮一峰周刊](https://github.com/ruanyf/weekly)** ★10.5万 — 科技爱好者周刊（中文）。（适用阶：2·10）
 - **[awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)** ★7.5万 — 机器学习资源大全。（适用阶：2）
+- **[awesome-cpp](https://github.com/fffaraz/awesome-cpp)** ★7.4万 — C++ 资源大全。（适用阶：2）
 - **[awesome-courses](https://github.com/prakhar1989/awesome-courses)** ★7.2万 — 全球高校课程清单。（适用阶：2）
+- **[TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)** ★6.6万 — Java 算法教学库。（适用阶：4·7）
+- **[awesome-rust](https://github.com/rust-unofficial/awesome-rust)** ★6.0万 — Rust 资源大全。（适用阶：2）
+- **[awesome-java](https://github.com/akullpp/awesome-java)** ★4.9万 — Java 资源大全。（适用阶：2）
 - **[GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)** ★4.8万 — 每日精选开源项目（中文）。（适用阶：2）
+- **[awesome-docker](https://github.com/veggiemonk/awesome-docker)** ★3.7万 — Docker 资源大全。（适用阶：2）
 - **[AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)** ★3.1万 — AI 专家路线图。（适用阶：2）
 - **[awesome-datascience](https://github.com/academic/awesome-datascience)** ★3.0万 — 数据科学资源。（适用阶：2）
 - **[awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)** ★2.9万 — 深度学习资源。（适用阶：2）
+- **[Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)** ★2.7万 — 大模型论文与工具。（适用阶：2）
+- **[Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)** ★2.6万 — 深度学习经典论文榜。（适用阶：2·4）
+- **[TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)** ★2.6万 — Rust 算法教学库。（适用阶：4·7）
 - **[awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision)** ★2.4万 — 计算机视觉资源。（适用阶：2）
+- **[awesome-nlp](https://github.com/keon/awesome-nlp)** ★1.9万 — NLP 资源大全。（适用阶：2）
 - **[Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)** ★1.8万 — ML 教程合集。（适用阶：2）
 - **[Learn Anything](https://github.com/linsa-io/linsa)** ★1.7万 — 万物学习路径地图。（适用阶：1·2）
 - **[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)** ★1.7万 — PyTorch 资源列表。（适用阶：2·4）
+- **[awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)** ★1.6万 — K8s 资源大全。（适用阶：2）
 - **[LMMS](https://github.com/LMMS/lmms)** ★1.0万 — 开源数字音频工作站。（适用阶：7）
+- **[awesome-data-engineering](https://github.com/igorbarinov/awesome-data-engineering)** ★9.1k — 数据工程资源。（适用阶：2）
+- **[awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps)** ★7.4k — 各领域路线图合集。（适用阶：2）
+- **[awesome-devops](https://github.com/wmariuss/awesome-devops)** ★4.4k — DevOps 资源集。（适用阶：2）
 - **[awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science)** ★3.6k — Python 数据科学资源。（适用阶：2）
 
 ## ⑪ 兴趣与创作技能
 
 - **[Godot](https://github.com/godotengine/godot)** ★11.8万 — 开源游戏引擎（GDScript 友好）。（适用阶：7·8）
+- **[Upscayl](https://github.com/upscayl/upscayl)** ★5.0万 — AI 图像放大。（适用阶：7）
+- **[raylib](https://github.com/raysan5/raylib)** ★3.5万 — 极简游戏编程库。（适用阶：7·8）
+- **[FreeCAD](https://github.com/FreeCAD/FreeCAD)** ★3.4万 — 开源三维 CAD。（适用阶：7）
+- **[HandBrake](https://github.com/HandBrake/HandBrake)** ★2.5万 — 视频转码标准工具。（适用阶：7）
 - **[Blender](https://github.com/blender/blender)** ★2.1万 — 3D 创作全家桶。（适用阶：7·8）
+- **[Lichess](https://github.com/lichess-org/lila)** ★1.9万 — 开源国际象棋平台。（适用阶：7）
 - **[Audacity](https://github.com/audacity/audacity)** ★1.9万 — 音频编辑入门。（适用阶：7）
+- **[Shotcut](https://github.com/mltframework/shotcut)** ★1.5万 — 跨平台视频剪辑。（适用阶：7）
 - **[MuseScore](https://github.com/musescore/MuseScore)** ★1.5万 — 开源制谱软件。（适用阶：7）
 - **[darktable](https://github.com/darktable-org/darktable)** ★1.3万 — 开源摄影后期。（适用阶：7）
 - **[Sonic Pi](https://github.com/sonic-pi-net/sonic-pi)** ★1.2万 — 用代码做音乐。（适用阶：7·8）
 - **[Krita](https://github.com/KDE/krita)** ★1.0万 — 开源数字绘画（KDE 官方镜像）。（适用阶：7）
+- **[Pygame](https://github.com/pygame/pygame)** ★9.0k — Python 游戏入门。（适用阶：7·8）
+- **[LÖVE](https://github.com/love2d/love)** ★8.8k — Lua 游戏框架。（适用阶：7·8）
+- **[Mixxx](https://github.com/mixxxdj/mixxx)** ★7.2k — 开源 DJ 软件。（适用阶：7）
 - **[OpenShot](https://github.com/OpenShot/openshot-qt)** ★6.6k — 开源视频剪辑。（适用阶：7）
 - **[GIMP](https://github.com/GNOME/gimp)** ★6.5k — 开源图像处理。（适用阶：7）
+- **[Kdenlive](https://github.com/KDE/kdenlive)** ★5.8k — 专业开源剪辑。（适用阶：7）
 - **[Ardour](https://github.com/Ardour/ardour)** ★5.3k — 专业级开源 DAW。（适用阶：7）
 - **[Inkscape](https://github.com/inkscape/inkscape)** ★4.0k — 开源矢量绘图。（适用阶：7）
+- **[Synfig](https://github.com/synfig/synfig)** ★2.3k — 2D 矢量动画。（适用阶：7）
+- **[Pencil2D](https://github.com/pencil2d/pencil)** ★1.8k — 手绘 2D 动画。（适用阶：7）
+
+## ⑫ 系统 · 网络 · 安全
+
+- **[awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin)** ★3.5万 — 系统管理资源大全。（适用阶：2）
+- **[OWASP 速查表](https://github.com/OWASP/CheatSheetSeries)** ★3.3万 — 应用安全速查。（适用阶：7）
+- **[h4cker](https://github.com/The-Art-of-Hacking/h4cker)** ★3.0万 — 安全自学资源库。（适用阶：2·7）
+- **[awesome-hacking](https://github.com/carpedm20/awesome-hacking)** ★1.7万 — 安全学习清单。（适用阶：2）
+- **[awesome-ctf](https://github.com/apsdehal/awesome-ctf)** ★1.2万 — CTF 资源大全。（适用阶：2）
+- **[CTF Wiki](https://github.com/ctf-wiki/ctf-wiki)** ★9.7k — CTF 竞赛百科（中文）。（适用阶：7）
+- **[LKMPG](https://github.com/sysprog21/lkmpg)** ★8.6k — Linux 内核模块编程指南。（适用阶：4·7）
+- **[Linux 内核知识库](https://github.com/0voice/linux_kernel_wiki)** ★7.8k — 内核学习资料（中文）。（适用阶：4）
+
+---
+
+## 自动采集区 · 国际开源项目与书籍
+
+> 由 `generator/harvest_awesome.py` 通过 GitHub Search API 自动采集并核验（采集日期：2026-10-03）：全部条目可点击、可加载。
+
+## ⑬ 国际开源书籍 · Free Books & Textbooks
+
+- **[free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)** ★11.9万 — :books: 免费的计算机编程类中文书籍，欢迎投稿
+- **[ai-agent-book](https://github.com/bojieli/ai-agent-book)** ★5.2万 — 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+- **[pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)** ★4.2万 — A collection of pure bash alternatives to external processes.
+- **[wtfjs](https://github.com/denysdovhan/wtfjs)** ★3.8万 — A list of funny and tricky JavaScript examples
+- **[the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN)** ★3.5万 — 《The Way to Go》中文译本，中文正式名《Go 入门指南》
+- **[rust-course](https://github.com/sunface/rust-course)** ★3.1万 — 什么？你敢放心的把后背交给 AI? 我赌你不敢，那就来学学 AI 时代最酷、最安全、最快的语言吧。本书拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，这可能是目前最用心的 Rust 中文学习教程 / Book
+- **[python-guide](https://github.com/realpython/python-guide)** ★3.0万 — Python best practices guidebook, written for humans.
+- **[Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)** ★2.9万 — Official code repo for the O'Reilly Book - "Hands-On Large Language Models"
+- **[cs249r_book](https://github.com/harvard-edge/cs249r_book)** ★2.9万 — Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | htt
+- **[docker_practice](https://github.com/yeasy/docker_practice)** ★2.6万 — 最新Docker容器技术，从真实案例中学习最佳实践！| Learn and understand Docker&Container technologies, with real DevOps practice!
+- **[readest](https://github.com/readest/readest)** ★2.5万 — Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform acce
+- **[CV](https://github.com/AccumulateMore/CV)** ★2.4万 — （已完结）超级全面的 深度学习 笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】
+- **[ddia](https://github.com/Vonng/ddia)** ★2.4万 — 《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译
+- **[ethereumbook](https://github.com/ethereumbook/ethereumbook)** ★2.2万 — Mastering Ethereum: 2nd Edition, by Andreas M. Antonopoulos, Gavin Wood, Carlo Parisi, Alessandro Mazza, Nicco
+- **[security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)** ★2.1万 — Security Guide for Developers
+- **[advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book)** ★2.0万 — :books: 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿)
+- **[GoBooks](https://github.com/dariubs/GoBooks)** ★2.0万 — List of Golang books
+- **[nndl](https://github.com/nndl/nndl)** ★1.9万 — 邱锡鹏《神经网络与深度学习》第二版与通识版：电子书、章节目录、学习资源与勘误。
+- **[book](https://github.com/rust-lang/book)** ★1.8万 — The Rust Programming Language
+- **[Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)** ★1.8万 — This is the homepage of a new book entitled "Mathematical Foundations of Reinforcement Learning."
+- **[Functional-Light-JS](https://github.com/getify/Functional-Light-JS)** ★1.7万 — Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.
+- **[free-books](https://github.com/ruanyf/free-books)** ★1.6万 — 互联网上的免费书籍
+- **[Learn-Vim](https://github.com/iggredible/Learn-Vim)** ★1.5万 — Learning Vim and Vimscript doesn't have to be hard. This is the guide that you're looking for
+- **[ultimate-go](https://github.com/hoanhan101/ultimate-go)** ★1.5万 — The Ultimate Go Study Guide
+- **[awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading)** ★1.5万 — A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.
+- **[Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books)** ★1.4万 — :books: Find your next book to read!
+- **[mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf)** ★1.4万 — MIT Deep Learning Book in PDF format (complete and parts) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
+- **[os01](https://github.com/tuhdo/os01)** ★1.4万 — Bootstrap yourself to write an OS from scratch. A book for self-learner.
+- **[react-in-patterns](https://github.com/krasimir/react-in-patterns)** ★1.4万 — A free book that talks about design patterns/techniques used while developing with React.
+- **[Deep-Learning-with-TensorFlow-book](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book)** ★1.3万 — 深度学习入门开源书，基于TensorFlow 2.0案例实战。Open source Deep Learning book, based on TensorFlow 2.0 framework.
+- **[expert_readed_books](https://github.com/0voice/expert_readed_books)** ★1.3万 — 2021年最新总结，推荐工程师合适读本，计算机科学，软件技术，创业，思想类，数学类，人物传记书籍
+- **[rust-learning](https://github.com/ctjhoa/rust-learning)** ★1.2万 — A bunch of links to blog posts, articles, videos, etc for learning Rust
+- **[CS-Book](https://github.com/iamshuaidi/CS-Book)** ★1.2万 — 计算机类常用电子书整理，并且附带下载链接，包括Java，Python，Linux，Go，C，C++，数据结构与算法，人工智能，计算机基础，面试，设计模式，数据库，前端等书籍
+- **[scientific-visualization-book](https://github.com/rougier/scientific-visualization-book)** ★1.2万 — An open access book on scientific visualization using python and matplotlib
+- **[software-architecture-books](https://github.com/mhadidg/software-architecture-books)** ★1.1万 — A comprehensive list of books on Software Architecture.
+- **[github](https://github.com/phodal/github)** ★1.1万 — GitHub 漫游指南- a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some 
+- **[awesome-database-learning](https://github.com/pingcap/awesome-database-learning)** ★1.1万 — A list of learning materials to understand databases internals
+- **[eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb)** ★1.1万 — Sample ASP.NET Core 8.0 reference application, now community supported: https://github.com/NimblePros/eShopOnW
+- **[typescript-book](https://github.com/gibbok/typescript-book)** ★1.0万 — The Concise TypeScript Book: A Concise Guide to Effective Development in TypeScript. Free and Open Source.
+- **[Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing)** ★1.0万 — :zap: From finding text to search and replace, from sorting to beautifying text and more :art:
+- **[Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)** ★1.0万 — :octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、求职面试等）
+- **[Game-Programmer-Study-Notes](https://github.com/QianMo/Game-Programmer-Study-Notes)** ★1.0万 — :anchor: 我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog。涉及图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。Keep Reading , Keep Writing , K
+- **[awesome-compilers](https://github.com/aalhour/awesome-compilers)** ★9.9k — :sunglasses: Curated list of awesome resources on Compilers, Interpreters and Runtimes
+- **[ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops)** ★9.9k — Ansible for DevOps examples.
+- **[awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources)** ★9.0k — ‍ 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM
+- **[you-dont-know-js-ru](https://github.com/azat-io/you-dont-know-js-ru)** ★8.8k — Russian translation of "You Don't Know JS" book series
+- **[EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow)** ★8.6k — TensorFlow tutorials and best practices.
+- **[so-novel](https://github.com/freeok/so-novel)** ★8.3k — 小说下载｜网文下载 | 网络小说
+- **[algorithms](https://github.com/jeffgerickson/algorithms)** ★8.1k — Bug-tracking for Jeff's algorithms book, notes, etc.
+- **[100-go-mistakes](https://github.com/teivah/100-go-mistakes)** ★8.0k — 100 Go Mistakes and How to Avoid Them
+- **[go-internals](https://github.com/teh-cmc/go-internals)** ★7.9k — A book about the internals of the Go programming language.
+- **[thejsway](https://github.com/thejsway/thejsway)** ★7.9k — The JavaScript Way book
+- **[machine-learning-yearning-cn](https://github.com/deeplearning-ai/machine-learning-yearning-cn)** ★7.8k — Machine Learning Yearning 中文版 - 《机器学习训练秘籍》 - Andrew Ng 著
+- **[growth-ebook](https://github.com/phodal/growth-ebook)** ★7.8k — Growth Engineering: The Definitive Guide。全栈增长工程师指南
+- **[dsa.js-data-structures-algorithms-javascript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript)** ★7.8k — Data Structures and Algorithms explained and implemented in JavaScript + eBook
+- **[pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible)** ★7.7k — A collection of pure POSIX sh alternatives to external processes.
+- **[From-0-to-Research-Scientist-resources-guide](https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide)** ★7.7k — Detailed and tailored guide for undergraduate students or anybody want to dig deep into the field of AI with s
+- **[books](https://github.com/linsa-io/books)** ★7.7k — Awesome Books
+- **[one-python-craftsman](https://github.com/piglei/one-python-craftsman)** ★7.3k — 来自一位 Pythonista 的编程经验分享，内容涵盖编码技巧、最佳实践与思维模式等方面。
+- **[blockchain_guide](https://github.com/yeasy/blockchain_guide)** ★7.1k — Introduce technologies on blockchain and distributed ledger, from theory to practice with bitcoin, ethereum an
+- **[BookReader](https://github.com/smuyyh/BookReader)** ★7.0k — :closed_book: "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~
+- **[openlibrary](https://github.com/internetarchive/openlibrary)** ★6.7k — One webpage for every book ever published!
+- **[magic-of-css](https://github.com/adamschwartz/magic-of-css)** ★6.7k — A CSS course to turn you into a magician.
+- **[java-books-collections](https://github.com/RongleXie/java-books-collections)** ★6.7k — :books:Java编程书籍收集分享。Java programming books collection to share.:rocket:
+- **[typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese)** ★6.6k — TypeScript Deep Dive 中文版
+- **[zero-to-production](https://github.com/LukeMathWalker/zero-to-production)** ★6.5k — Code for "Zero To Production In Rust", a book on API development using Rust.
+- **[Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks)** ★6.5k — Top 100 Hacking & Security E-Books (Free Download)
+- **[interpy-zh](https://github.com/eastlakeside/interpy-zh)** ★6.5k — 《Python进阶》（Intermediate Python - Chinese Version）
+- **[go-questions](https://github.com/golang-design/go-questions)** ★6.4k — Go 程序员面试笔试宝典 | 从问题切入，串连 Go 语言相关的所有知识，融会贯通。 https://golang.design/go-questions
+- **[Calibre-Web-Automated](https://github.com/crocodilestick/Calibre-Web-Automated)** ★6.4k — Calibre-Web but Automated and with tons of New Features! Fully automate and simplify your eBook set up!
+- **[introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)** ★6.4k — Free Introduction to Bash Scripting eBook
+- **[pdf-craft](https://github.com/oomol-lab/pdf-craft)** ★6.3k — PDF craft can convert PDF files into various other formats. This project will focus on processing PDF files of
+- **[Lihang](https://github.com/SmirkCao/Lihang)** ★6.3k — Statistical learning methods, 统计学习方法(第2版)（李航） （笔记, 代码, notebook, 参考文献, Errata, lihang）
+- **[Thief](https://github.com/cteamx/Thief)** ★6.1k — 一款创新跨平台摸鱼神器，支持小说、股票、网页、视频、直播、PDF、游戏等摸鱼模式，为上班族打造的上班必备神器，使用此软件可以让上班倍感轻松，远离 ICU。
+- **[Clean-Code-Notes](https://github.com/JuanCrg90/Clean-Code-Notes)** ★6.1k — My notes of Clean Code book
+- **[bash-handbook](https://github.com/denysdovhan/bash-handbook)** ★6.1k — :book: For those who wanna learn Bash
+- **[abogen](https://github.com/denizsafak/abogen)** ★6.1k — Generate audiobooks from EPUBs, PDFs and text with synchronized captions.
+- **[go101](https://github.com/go101/go101)** ★6.0k — An up-to-date (unofficial) knowledge base for Go programming self learning
+- **[progit](https://github.com/progit/progit)** ★6.0k — Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at （progit2）(https://github.co
+- **[You-Dont-Know-JS](https://github.com/nao-sabemos-js/You-Dont-Know-JS)** ★5.8k — (PT-Br translation) JS Book Series.
+- **[novel](https://github.com/201206030/novel)** ★5.8k — novel 是一套基于时下最新 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分离学习型小说项目，配备保姆级教程手把手教你从零开始开发上线一套生产级别的 Java 系统，由小说门户系统、作家后
+- **[ai-infra-book](https://github.com/bojieli/ai-infra-book)** ★5.8k — 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验
+- **[kubernetes-handbook](https://github.com/feiskyer/kubernetes-handbook)** ★5.5k — Kubernetes Handbook （Kubernetes指南） https://kubernetes.feisky.xyz
+- **[go-ast-book](https://github.com/chai2010/go-ast-book)** ★5.5k — :books: 《Go语言定制指南》(原名：Go语法树入门/开源免费图书/Go语言进阶/掌握抽象语法树/Go语言AST)
+- **[understandinges6](https://github.com/nzakas/understandinges6)** ★5.4k — Content for the ebook "Understanding ECMAScript 6"
+- **[r4ds](https://github.com/hadley/r4ds)** ★5.2k — R for data science: a book
+- **[Go42](https://github.com/ffhelicopter/Go42)** ★5.2k — 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
+- **[microservices](https://github.com/DocsHome/microservices)** ★5.2k — Microservices from Design to Deployment 中文版 《微服务：从设计到部署》
+- **[awesome-scifi](https://github.com/sindresorhus/awesome-scifi)** ★5.1k — Sci-Fi worth consuming
+- **[css-animation-101](https://github.com/cssanimation/css-animation-101)** ★5.1k — Learn how to bring animation to your web projects
+- **[golang101](https://github.com/golang101/golang101)** ★5.0k — Go语言101 : 一个与时俱进的Go编程知识库
+- **[openmlsys](https://github.com/openmlsys/openmlsys)** ★4.9k — 《Machine Learning Systems: Design and Implementation》 (V2 is launching soon）
+- **[pdf](https://github.com/GrindGold/pdf)** ★4.8k — 计算机经典编程书籍、大黑书、编程电子书、电子书、编程书籍，包括计算机基础、C/C++、Java、Python、面试题、架构设计、算法系列等经典电子书。
+- **[novel-plus](https://github.com/201206030/novel-plus)** ★4.7k — novel-plus 是一个多端（PC、WAP）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说评论、小说爬虫、会员中心、作家专区、充值订阅、新闻发布等功能。
+- **[game-programming-patterns](https://github.com/munificent/game-programming-patterns)** ★4.6k — Source repo for the book
+- **[awesome-books](https://github.com/guanpengchn/awesome-books)** ★4.5k — :books: 开发者推荐阅读的书籍
+- **[CTF-All-In-One](https://github.com/firmianay/CTF-All-In-One)** ★4.5k — CTF竞赛权威指南
+- **[TensorFlow-Book](https://github.com/BinRoot/TensorFlow-Book)** ★4.4k — Accompanying source code for Machine Learning with TensorFlow. Refer to the book for step-by-step explanations
+- **[d2l-pytorch](https://github.com/dsgiitr/d2l-pytorch)** ★4.4k — This project reproduces the book Dive Into Deep Learning (https://d2l.ai/), adapting the code from MXNet into 
+- **[awesome-python-books](https://github.com/junnplus/awesome-python-books)** ★4.3k — :books: Directory of Python books
+- **[claude-code-book](https://github.com/lintsinghua/claude-code-book)** ★4.3k — 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站
+- **[work_crawler](https://github.com/kanasimi/work_crawler)** ★4.3k — Download comics novels 小说漫画下载工具 小説漫画のダウンローダ 小說漫畫下載:腾讯漫画 大角虫漫画 有妖气 咪咕 SF漫画 哦漫画 看漫画 漫画柜 汗汗酷漫 動漫伊甸園 快看漫画 微博动漫 733
+- **[jshistory-cn](https://github.com/doodlewind/jshistory-cn)** ★4.2k — 《JavaScript 二十年》中文版
+- **[book-notes](https://github.com/mgp/book-notes)** ★4.1k — Notes from books and other interesting things that I've read. Table of contents at the end
+- **[front-end-handbook-2019](https://github.com/FrontendMasters/front-end-handbook-2019)** ★4.1k — （Book） 2019 edition of our front-end development handbook
+- **[bookdown](https://github.com/rstudio/bookdown)** ★4.1k — Authoring Books and Technical Documents with R Markdown
+- **[full-speed-python](https://github.com/joaoventura/full-speed-python)** ★4.1k — Full Speed Python: a book for self-learners
+- **[data-science-at-the-command-line](https://github.com/jeroenjanssens/data-science-at-the-command-line)** ★4.0k — Data Science at the Command Line
+- **[mastering-modular-javascript](https://github.com/mjavascript/mastering-modular-javascript)** ★4.0k — Module thinking, principles, design patterns and best practices.
+- **[DockerCheatSheet](https://github.com/eon01/DockerCheatSheet)** ★4.0k — Docker Cheat Sheet
+- **[Practical-Cryptography-for-Developers-Book](https://github.com/nakov/Practical-Cryptography-for-Developers-Book)** ★3.8k — Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Pu
+- **[Dive-into-DL-TensorFlow2.0](https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0)** ★3.8k — 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为TensorFlow 2.0实现，项目已得到李沐老师的认可
+- **[hands-on-ml-zh](https://github.com/apachecn/hands-on-ml-zh)** ★3.8k — :book: （译） Sklearn 与 TensorFlow 机器学习实用指南【版权问题，网站已下线！！】
+- **[ideabook](https://github.com/phodal/ideabook)** ★3.8k — 一个全栈增长工程师的练手项目集. A Growth Engineering Idea in Action.
+- **[cpp-game-engine-book](https://github.com/ThisisGame/cpp-game-engine-book)** ★3.6k — 从零编写游戏引擎教程 Writing a game engine tutorial from scratch
+- **[technical_books](https://github.com/TIM168/technical_books)** ★3.6k — :books:收集全网最热门的技术书籍 (GO、黑客、Android、计算机原理、人工智能、大数据、机器学习、数据库、PHP、java、架构、消息队列、算法、python、爬虫、操作系统、linux、C语言)，不间断更新
+- **[Introduction-to-Autonomous-Robots](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots)** ★3.5k — Introduction to Autonomous Robots
+- **[honkit](https://github.com/honkit/honkit)** ★3.5k — :book: HonKit is building beautiful books using Markdown - Fork of GitBook
+- **[hadoop-book](https://github.com/tomwhite/hadoop-book)** ★3.5k — Example source code accompanying O'Reilly's "Hadoop: The Definitive Guide" by Tom White
+- **[write-you-a-haskell](https://github.com/sdiehl/write-you-a-haskell)** ★3.5k — Building a modern functional compiler from first principles. (http://dev.stephendiehl.com/fun/)
+- **[migration](https://github.com/phodal/migration)** ★3.5k — 《系统重构与迁移指南》手把手教你分析、评估现有系统、制定重构策略、探索可行重构方案、搭建测试防护网、进行系统架构重构、服务架构重构、模块重构、代码重构、数据库重构、重构后的架构守护
+- **[Readarr](https://github.com/Readarr/Readarr)** ★3.5k — Book Manager and Automation (Sonarr for Ebooks)
+- **[CS-Books](https://github.com/huihut/CS-Books)** ★3.3k — Computer Science Books 计算机技术类书籍 PDF
+- **[prometheus-book](https://github.com/yunlzheng/prometheus-book)** ★3.3k — Prometheus操作指南
+- **[nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book)** ★3.3k — :hammer_and_wrench: :heart: Want to know NixOS & Flakes in detail? Looking for a beginner-friendly tutorial? T
+- **[terraform-up-and-running-code](https://github.com/brikis98/terraform-up-and-running-code)** ★3.3k — Code samples for the book "Terraform: Up & Running" by Yevgeniy Brikman
+- **[web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)** ★3.3k — Learn how to write webapps without a framework in Go.
+- **[booknotes](https://github.com/presmihaylov/booknotes)** ★3.1k — A collection of my book notes on various subjects, mainly computer science
+- **[practical-modern-javascript](https://github.com/mjavascript/practical-modern-javascript)** ★3.1k — Dive into ES6 and the future of JavaScript
+- **[owllook](https://github.com/howie6879/owllook)** ★2.9k — owllook-小说搜索引擎
+- **[computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action)** ★2.9k — A computer vision closed-loop learning platform where code can be run interactively online. 学习闭环《计算机视觉实战演练：算法与
+- **[the-road-to-learn-react](https://github.com/the-road-to-learn-react/the-road-to-learn-react)** ★2.8k — The Road to learn React: Your journey to master plain yet pragmatic React.js
+- **[bookwyrm](https://github.com/bookwyrm-social/bookwyrm)** ★2.8k — Social reading and reviewing, decentralized with ActivityPub
+- **[stump](https://github.com/stumpapp/stump)** ★2.7k — A free and open source comics, manga and digital book server with OPDS support
+- **[zig-book](https://github.com/pedropark99/zig-book)** ★2.7k — An open, technical and introductory book for the Zig programming language
+- **[books-collection](https://github.com/waylau/books-collection)** ★2.7k — To the programmer's open source and free books collection 给程序员的开源、免费书籍收集，图书集合。
+- **[Kotlin-for-Android-Developers](https://github.com/antoniolg/Kotlin-for-Android-Developers)** ★2.7k — Companion App for the book
+- **[Real-Time-Rendering-3rd-CN-Summary-Ebook](https://github.com/QianMo/Real-Time-Rendering-3rd-CN-Summary-Ebook)** ★2.7k — :blue_book: 电子书 -《Real-Time Rendering 3rd》提炼总结 | 全书共9万7千余字。你可以把它看做中文通俗版的《Real-Time Rendering 3rd》，也可以把它看做《Real
+- **[dasarpemrogramangolang](https://github.com/novalagung/dasarpemrogramangolang)** ★2.6k — Source Code Website/Ebook Dasar Pemrograman Golang
+- **[ElegantBook](https://github.com/ElegantLaTeX/ElegantBook)** ★2.6k — Elegant LaTeX Template for Books
+- **[fe4ml-zh](https://github.com/apachecn/fe4ml-zh)** ★2.6k — :book: （译） 面向机器学习的特征工程
+- **[terraform-best-practices](https://github.com/antonbabenko/terraform-best-practices)** ★2.5k — Terraform Best Practices free ebook translated into
+- **[bitcoin-on-nodejs](https://github.com/imfly/bitcoin-on-nodejs)** ★2.5k — 《Node.js区块链开发》，注：新版代码已开源！请star支持哦-^-：
+- **[dotnetbook](https://github.com/sidristij/dotnetbook)** ★2.5k — .NET Platform Architecture book (English, Chinese, Russian)
+- **[byte-of-python](https://github.com/swaroopch/byte-of-python)** ★2.5k — Beginners book on Python - start here if you don't know programming
+- **[BezierInfo-2](https://github.com/Pomax/BezierInfo-2)** ★2.5k — The development repo for the Primer on Bézier curves, https://pomax.github.io/bezierinfo
+- **[Openlib](https://github.com/dstark5/Openlib)** ★2.5k — An Open source app to download and read books from shadow library (Anna’s Archive)
+- **[growth-in-action](https://github.com/phodal/growth-in-action)** ★2.5k — 全栈增长工程师实战
+- **[adv-r](https://github.com/hadley/adv-r)** ★2.5k — Advanced R: a book
+- **[algorithm-archive](https://github.com/algorithm-archivists/algorithm-archive)** ★2.5k — A collaborative book on algorithms
+- **[CSS-Secrets](https://github.com/cssmagic/CSS-Secrets)** ★2.4k — Chinese edition of *CSS Secrets* |《CSS 揭秘》这本书的大本营
+- **[awesome-visual-slam](https://github.com/tzutalin/awesome-visual-slam)** ★2.4k — :books: The list of vision-based SLAM / Visual Odometry open source, blogs, and papers
+- **[js-primer](https://github.com/js-primer/js-primer)** ★2.4k — :book: JavaScript Primer - 迷わないための入門書
+- **[webpack-book](https://github.com/survivejs/webpack-book)** ★2.4k — From apprentice to master (CC BY-NC-ND)
+- **[bevy-cheatbook](https://github.com/bevy-cheatbook/bevy-cheatbook)** ★2.4k — Unofficial Reference Book for the Bevy Game Engine
+- **[awesome-llm-books](https://github.com/Jason2Brownlee/awesome-llm-books)** ★2.4k — Awesome LLM Books: Curated list of books on Large Language Models
+- **[webrtc-for-the-curious](https://github.com/webrtc-for-the-curious/webrtc-for-the-curious)** ★2.3k — WebRTC for the Curious: Go beyond the APIs
+- **[sicp-py-zh](https://github.com/wizardforcel/sicp-py-zh)** ★2.3k — :book:【译】UCB CS61a SICP Python
+- **[http2-explained](https://github.com/bagder/http2-explained)** ★2.3k — A detailed document explaining and documenting HTTP/2, the successor to the widely popular HTTP/1.1 protocol
+- **[free-science-books](https://github.com/EbookFoundation/free-science-books)** ★2.3k — Inspired by free-programming-books, here's free-science-books
+- **[Fanqie-novel-Downloader](https://github.com/POf-L/Fanqie-novel-Downloader)** ★2.3k — 番茄小说下载器 | 支持Windows/macOS/Linux/android
+- **[everything-curl](https://github.com/curl/everything-curl)** ★2.3k — The book documenting the curl project, the curl tool, libcurl and more. Simply put: everything curl.
+- **[books-pdf](https://github.com/huyubing/books-pdf)** ★2.3k — books pdf
+- **[Awesome-Books-Notes](https://github.com/wx-chevalier/Awesome-Books-Notes)** ★2.2k — :books: Awesome CS Books(with Digests)/Series(.pdf by git lfs) Warehouse for Geeks, ProgrammingLanguage, Softw
+- **[PL-Compiler-Resource](https://github.com/shining1984/PL-Compiler-Resource)** ★2.2k — 程序语言与编译技术相关资料（持续更新中）
+- **[from-python-to-numpy](https://github.com/rougier/from-python-to-numpy)** ★2.2k — An open-access book on numpy vectorization techniques, Nicolas P. Rougier, 2017
+- **[code](https://github.com/rust-in-action/code)** ★2.1k — Source code for the book Rust in Action
+- **[CleverAlgorithms](https://github.com/Jason2Brownlee/CleverAlgorithms)** ★2.1k — Clever Algorithms: Nature-Inspired Programming Recipes
+- **[awesome-programming-books](https://github.com/zero-equals-false/awesome-programming-books)** ★2.1k — A curated list of awesome programming books (Algorithms and data structures, Artificial intelligence, Software
+- **[book](https://github.com/3masterplus/book)** ★2.0k — Book PDF
+- **[ebook](https://github.com/weaiken/ebook)** ★2.0k — classic books of computer science!
+- **[theMLbook](https://github.com/aburkov/theMLbook)** ★2.0k — The Python code to reproduce the illustrations from The Hundred-Page Machine Learning Book.
+- **[PBR-White-Paper](https://github.com/QianMo/PBR-White-Paper)** ★2.0k — 基于物理的渲染（PBR）白皮书 | White Paper of Physically Based Rendering(PBR)
+- **[react-book](https://github.com/survivejs/react-book)** ★2.0k — From apprentice to master (CC BY-NC-ND)
+- **[fe](https://github.com/phodal/fe)** ★2.0k — 《我的职业是前端工程师》 - Ebook：I'm a FrontEnd Developer
+- **[machine-learning-visualized](https://github.com/gavinkhung/machine-learning-visualized)** ★2.0k — ML algorithms implemented and derived from first-principles in Jupyter Notebooks and NumPy
+- **[napkin](https://github.com/vEnhance/napkin)** ★2.0k — An Infinitely Large Napkin
+- **[gobyexample](https://github.com/gobyexample-cn/gobyexample)** ★2.0k — Go by Example 通过例子学 Golang
+- **[computer-book-list](https://github.com/Kalmaegi/computer-book-list)** ★2.0k — 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+- **[Novel](https://github.com/tickmao/Novel)** ★1.9k — Novle setting | 小说书源及软件整理 爱阅书香 / 香色闺阁 / 阅读（含字体、净化规则、TTS配置）
+- **[Node.js-Design-Patterns-Third-Edition](https://github.com/PacktPublishing/Node.js-Design-Patterns-Third-Edition)** ★1.9k — Node.js Design Patterns Third Edition, published by Packt
+- **[thinking-in-spring-boot-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples)** ★1.9k — 小马哥书籍《Spring Boot 编程思想》示例工程
+- **[ArchLinuxTutorial](https://github.com/ArchLinuxStudio/ArchLinuxTutorial)** ★1.9k — Arch Linux安装使用教程 每日实时更新！ | 包含ArchLinux从安装到日常使用、娱乐、编程、媒体制作的各个方面，让Arch成为你的常用系统吧！ | 提供在线网页文档
+- **[lit](https://github.com/camoverride/lit)** ★1.9k — Literature for the self-taught AI practitioner!
+- **[42](https://github.com/cfgerr/42)** ★1.9k — @rsapkf's wiki. （Merged into rsapkf/www）
+- **[learn-nodejs-hard-way](https://github.com/ishtms/learn-nodejs-hard-way)** ★1.9k — Learn NodeJS and master the art of server-side programming by creating a backend framework with 0 dependencies
+- **[effective-typescript](https://github.com/danvk/effective-typescript)** ★1.9k — Effective TypeScript 2nd Edition: 83 Specific Ways to Improve Your TypeScript
+- **[openaudible](https://github.com/openaudible/openaudible)** ★1.8k — Audiobook Manager for Audible Users
+- **[py_regular_expressions](https://github.com/learnbyexample/py_regular_expressions)** ★1.8k — Learn Python Regular Expressions step by step from beginner to advanced levels
+- **[simpleui.koplugin](https://github.com/doctorhetfield-cmd/simpleui.koplugin)** ★1.8k — A highly customizable UI plugin for KOReader that features a home screen, bottom navigation bar, top bar and d
+- **[Game-Programming-Patterns-CN](https://github.com/tkchu/Game-Programming-Patterns-CN)** ★1.8k — 《游戏编程模式》中文版
+- **[awesome-AI-books](https://github.com/zslucky/awesome-AI-books)** ★1.8k — Some awesome AI related books and pdfs for learning and downloading, also apply some playground models for lea
+- **[go2-book](https://github.com/golang-china/go2-book)** ★1.8k — :books: 《Go2编程指南》开源图书，重点讲解Go2新特性，以及Go1教程中较少涉及的特性
+- **[NovelReader](https://github.com/newbiechen1024/NovelReader)** ★1.8k — 仿照"任阅"的追书、看书的小说阅读器。重写"任阅"的代码，优化代码逻辑和代码结构，降低内存使用率。重写小说阅读器，支持网络阅读、本地阅读(支持分章，虚拟分章)。支持仿真翻页、上下滚动翻页等翻页效果。支持小说断点续传功能。
+- **[ethereum-development-with-go-book](https://github.com/miguelmota/ethereum-development-with-go-book)** ★1.8k — A little guide book on Ethereum Development with Go (golang)
+- **[geocompr](https://github.com/geocompx/geocompr)** ★1.8k — Geocomputation with R: an open source book
+- **[RustPrimer](https://github.com/rustcc/RustPrimer)** ★1.8k — The Rust primer for beginners. We need native English speaker help us modify the translation.
+- **[awesome-resources](https://github.com/lyfeyaj/awesome-resources)** ★1.8k — Awesome resources for coding and learning: open source projects, websites, books e.g.
+- **[rust-boom](https://github.com/rust-boom/rust-boom)** ★1.7k — Awesome Rust (Rust 资源 | 学习 | 书 ).
+- **[learn-vim](https://github.com/dofy/learn-vim)** ★1.7k — Learning Vim. A Hands-On Tutorial of Vim.
+- **[serverless](https://github.com/phodal/serverless)** ★1.7k — Serverless 架构应用开发指南 - Serverless Architecture Application Development Guide with Serverless Framework.
+- **[EffectivePyTorch](https://github.com/vahidk/EffectivePyTorch)** ★1.7k — PyTorch tutorials and best practices.
+- **[Programming-Books](https://github.com/CodesdaLu/Programming-Books)** ★1.7k — Repositorio com livros de programação
+- **[the-engineering-managers-booklist](https://github.com/jesselpalmer/the-engineering-managers-booklist)** ★1.7k — Books for people who are or aspire to manage/lead team(s) of software engineers
+- **[UnityPerformanceTuningBible](https://github.com/CyberAgentGameEntertainment/UnityPerformanceTuningBible)** ★1.7k — Unity Performance Tuning knowledge book
+- **[aigc](https://github.com/phodal/aigc)** ★1.6k — 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以
+- **[springer_free_books](https://github.com/alexgand/springer_free_books)** ★1.6k — Python script to download all Springer books released for free during the 2020 COVID-19 quarantine
+- **[openreads](https://github.com/mateusz-bak/openreads)** ★1.6k — A mobile books tracker written in Flutter that respects your privacy.
+- **[state-of-open-source-ai](https://github.com/premAI-io/state-of-open-source-ai)** ★1.6k — :closed_book: Clarity in the current fast-paced mess of Open Source innovation
+- **[Programming_learning_resource](https://github.com/tolerious/Programming_learning_resource)** ★1.6k — 学习计算机科学的电子书
+- **[Lector](https://github.com/BasioMeusPuga/Lector)** ★1.6k — Qt based ebook reader
+- **[apache-spark-internals](https://github.com/japila-books/apache-spark-internals)** ★1.6k — The Internals of Apache Spark
+- **[sdn-handbook](https://github.com/feiskyer/sdn-handbook)** ★1.5k — SDN网络指南（SDN Handbook）
+- **[Myne](https://github.com/Pool-Of-Tears/Myne)** ★1.5k — An android app to download & read ebooks from Project Gutenberg, built with Jetpack Compose.
+- **[Book-list-of-computational-geometry-and-computer-graphics](https://github.com/HW140701/Book-list-of-computational-geometry-and-computer-graphics)** ★1.5k — Must-read and classic books of computational geometry and computer graphics
+- **[python-parallel-programming-cookbook-cn](https://github.com/laixintao/python-parallel-programming-cookbook-cn)** ★1.5k — 《Python Parallel Programming Cookbook》中文版
+- **[plfa.github.io](https://github.com/plfa/plfa.github.io)** ★1.5k — An introduction to programming language theory in Agda
+- **[dlcv_for_beginners](https://github.com/yeyun111/dlcv_for_beginners)** ★1.5k — 《深度学习与计算机视觉》配套代码
+- **[cops](https://github.com/seblucas/cops)** ★1.5k — Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to s
+- **[ElixirBooks](https://github.com/sger/ElixirBooks)** ★1.5k — List of Elixir books
+- **[sofp](https://github.com/winitzki/sofp)** ★1.5k — A free book: "The Science of Functional Programming"
+- **[ComputerScienceBooks](https://github.com/AatmikJain/ComputerScienceBooks)** ★1.5k — Some Useful books for Computer Science
+- **[GoLangBooks](https://github.com/diptomondal007/GoLangBooks)** ★1.5k — A Curated Collection of Go Programming Books
+- **[ai-hands-on](https://github.com/Ramakm/ai-hands-on)** ★1.5k — A group of notebooks and other files which can help you learn AI from scratch.
+- **[yii2-cookbook](https://github.com/samdark/yii2-cookbook)** ★1.4k — Yii 2.0 Community Cookbook
+- **[high-assurance-rust](https://github.com/tnballo/high-assurance-rust)** ★1.4k — A free book about developing secure and robust systems software.
+- **[go-tutorial](https://github.com/jincheng9/go-tutorial)** ★1.4k — Go learning materials，涵盖基础、中级和高级教程
+- **[epr](https://github.com/wustho/epr)** ★1.4k — CLI Epub Reader
+- **[front-end-handbook-2024](https://github.com/FrontendMasters/front-end-handbook-2024)** ★1.4k — A guide to modern front-end web development / engineering.
+- **[the-power-of-prolog](https://github.com/triska/the-power-of-prolog)** ★1.4k — The Power of Prolog: Introduction to modern Prolog
+- **[jvm_book](https://github.com/fenixsoft/jvm_book)** ★1.4k — 《深入理解Java虚拟机（第3版）》样例代码&勘误
+- **[books](https://github.com/MichealWayne/books)** ★1.4k — 一些前端/设计相关的书籍（电子书）
+- **[mastering-shiny](https://github.com/hadley/mastering-shiny)** ★1.4k — Mastering Shiny: a book
+- **[geektime_dl](https://github.com/jachinlin/geektime_dl)** ★1.4k — 把极客时间装进 Kindle
+- **[pi-textbook](https://github.com/hahhforest/pi-textbook)** ★1.4k — 《动手学 Pi》：沿 15 个真实 checkpoint 从零构建 Pi-style Agent
+- **[promises-book](https://github.com/azu/promises-book)** ★1.4k — JavaScript Promiseの本
+- **[HRConvert2](https://github.com/zelon88/HRConvert2)** ★1.4k — A self-hosted, respource aware file conversion server supporting 488 formats in 26 languages.
+- **[tidy-text-mining](https://github.com/juliasilge/tidy-text-mining)** ★1.4k — Manuscript of the book "Tidy Text Mining with R" by Julia Silge and David Robinson
+- **[book](https://github.com/hardhackerlabs/book)** ★1.4k — 「硬地骇客 - 两个月 $12000 ARR 实践之路」是由 硬地骇客 团队编著，本书是关于 Podwise 产品历程的忠实记录：内容包含 灵感 - 构建 - 发布 - 增长 - 复盘 五个章节。如果你觉得一个人读不够过
+- **[pbrtbook](https://github.com/kanition/pbrtbook)** ★1.4k — pbrt 中文整合翻译 基于物理的渲染：从理论到实现 Physically Based Rendering: From Theory To Implementation
+- **[react-book](https://github.com/softchris/react-book)** ★1.4k — Free book on React. Beginner to intermediate.
+- **[MouseTooltipTranslator](https://github.com/ttop32/MouseTooltipTranslator)** ★1.3k — Mouseover Translate Any Language At Once - Chrome Extension: PDF Translator, EBOOK, EPUB, OCR, TTS, NETFLIX, Y
+- **[ebook-to-mindmap](https://github.com/SSShooter/ebook-to-mindmap)** ★1.3k — AI-powered Summaries by Extracting Content from EPUB and PDF. epub、pdf 拆书 AI 总结
+- **[PolyglotPDF](https://github.com/OmniDocX/PolyglotPDF)** ★1.3k — (eBook，PDFs Translation) A multilingual eBook processing tool supporting all eBook formats. Features online an
+- **[byrne-euclid](https://github.com/jemmybutton/byrne-euclid)** ★1.3k — MetaPost + TeX rendition of Oliver Byrne's "The first six books of the Elements of Euclid"
+- **[ods](https://github.com/patmorin/ods)** ★1.3k — Mission: To provide a high-quality open content data structures textbook that is both mathematically rigorous 
+- **[citadel](https://github.com/everydaythingssoftware/citadel)** ★1.3k — Manage your ebook library without frustrations. Calibre compatible.
+- **[heap-exploitation](https://github.com/DhavalKapil/heap-exploitation)** ★1.3k — This book on heap exploitation is a guide to understanding the internals of glibc's heap and various attacks p
+- **[Tkinter-By-Example](https://github.com/Dvlv/Tkinter-By-Example)** ★1.3k — Learn Tkinter By Example - a free book
+- **[netkiller.github.io](https://github.com/netkiller/netkiller.github.io)** ★1.3k — Netkiller Free ebook - 免费电子书
+- **[single-cell-best-practices](https://github.com/theislab/single-cell-best-practices)** ★1.3k — https://www.sc-best-practices.org
+- **[episteme](https://github.com/Aryan-Raj3112/episteme)** ★1.3k — A multi-platform document and e-book reader.
+- **[sdn-handbook](https://github.com/tonydeng/sdn-handbook)** ★1.3k — SDN手册
+- **[ml-yearning-vi](https://github.com/mlbvn/ml-yearning-vi)** ★1.2k — Một cuốn sách tập trung vào hướng dẫn cách cấu trúc các dự án Học Máy và phân tích cách làm cho các thuật toán
+- **[JBook](https://github.com/qcha/JBook)** ★1.2k — Алгоритмы, паттерны, подготовка к собеседованиям, статьи и материалы по Java
+- **[A-Philosophy-of-Software-Design-zh](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh)** ★1.2k — 《软件设计的哲学》中文翻译 | Chinese translation of A Philosophy of Software Design
+- **[university](https://github.com/nwuzmedoutlook/university)** ★1.2k — :octocat:120+国内高校课程资源纯手工整理，欢迎补充、修订
+- **[homehost](https://github.com/ridhwaans/homehost)** ★1.2k — self-hosted, Netflix-like app made for streaming
+- **[101-linux-commands](https://github.com/bobbyiliev/101-linux-commands)** ★1.2k — 101 Linux commands Open-source eBook and CLI tool
+- **[svgpocketguide](https://github.com/jonitrythall/svgpocketguide)** ★1.2k — All original content of A Pocket Guide to Writing SVG by Joni Trythall
+- **[50-projects-for-react-and-the-static-web](https://github.com/colbyfayock/50-projects-for-react-and-the-static-web)** ★1.1k — 50 project ideas to learn by doing complete with project briefs, layout ideas, and resources!
+- **[ClassicComputerScienceProblemsInPython](https://github.com/davecom/ClassicComputerScienceProblemsInPython)** ★1.1k — Source Code for the Book Classic Computer Science Problems in Python
+- **[save-as-ebook](https://github.com/alexadam/save-as-ebook)** ★1.1k — Save a web page/selection as an eBook (.epub format) - a Chrome/Firefox/Opera Web Extension
+- **[foliate-js](https://github.com/johnfactotum/foliate-js)** ★1.1k — Render e-books in the browser
+- **[terminal-velocity](https://github.com/mind-protocol/terminal-velocity)** ★1.1k — A novel created autonomously by a team of 10 AI agents
+- **[Buka](https://github.com/oguzhaninan/Buka)** ★1.1k — Buka is a modern software that helps you manage your ebook at ease.
+- **[kaobook](https://github.com/fmarotta/kaobook)** ★1.1k — A LaTeX class for books, reports or theses based on https://github.com/kenohori/thesis and https://github.com/
+- **[FanFicFare](https://github.com/JimmXinu/FanFicFare)** ★1.1k — FanFicFare is a tool for making eBooks from stories on fanfiction and other web sites.
+- **[introduction-to-git-and-github-ebook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook)** ★1.1k — Free Introduction to Git and GitHub eBook
+- **[UnityBookPageCurl](https://github.com/Dandarawy/UnityBookPageCurl)** ★1.1k — Page curl effect for Unity3d using UGUI
+- **[GitInPractice](https://github.com/MikeMcQuaid/GitInPractice)** ★1.1k — An opinionated intermediate/advanced Git book
+- **[pyda-2e-zh](https://github.com/apachecn/pyda-2e-zh)** ★1.1k — :book: （译） 利用 Python 进行数据分析 · 第 2 版
+- **[refactor-like-a-superhero](https://github.com/bespoyasov/refactor-like-a-superhero)** ★1.1k — How to refactor code efficiently and without pain.
+- **[metapatterns](https://github.com/denyspoltorak/metapatterns)** ★1.1k — Architectural Metapatterns book and wiki
+- **[The-complete-guide-to-modern-JavaScript](https://github.com/AlbertoMontalesi/The-complete-guide-to-modern-JavaScript)** ★1.1k — A comprehensive, easy-to-follow ebook to learn everything from the basics of JavaScript to ES2022. Read more o
+- **[send2ereader](https://github.com/daniel-j/send2ereader)** ★1.1k — A service for sending ebooks to a Kobo or Kindle ereader through the built-in browser
+- **[designwithfontforge.com](https://github.com/fontforge/designwithfontforge.com)** ★1.1k — A book about how to design new typefaces with FontForge
+- **[STLSourceCodeNote](https://github.com/SilverMaple/STLSourceCodeNote)** ★1.0k — SGI STL source code analysis and note from 《STL源码剖析》 by 侯捷（包含电子书、源码注释及测试代码）
+- **[book-cn](https://github.com/rust-lang-cn/book-cn)** ★1.0k — Rust 程序设计语言 中文版——Chinese translation of The Rust Programming Language (Book)
+- **[sicp](https://github.com/source-academy/sicp)** ★1.0k — XML sources of SICP and SICP JS, and support for generating Interactive SICP JS, PDF, e-book and comparison ed
+- **[iBooks](https://github.com/woooowen/iBooks)** ★1.0k — 计算机图书,java,mysql,架构类,web
+- **[The-Little-Book-of-ML-Metrics](https://github.com/NannyML/The-Little-Book-of-ML-Metrics)** ★1.0k — The book every data scientist needs on their desk.
+- **[devbooks](https://github.com/samayun/devbooks)** ★1.0k — Open Source Resources
+- **[awesome-devbook](https://github.com/738/awesome-devbook)** ★999 — 국내 개발 도서 리스트
+- **[BlockchainHome](https://github.com/Eternaldeath/BlockchainHome)** ★997 — 构建区块链学习的知识体系合集，汇聚各种区块链资源
+- **[REPL](https://github.com/world-class/REPL)** ★987 — The Learning Hub for UoL's Online CS Students
+- **[JavaSE6Tutorial](https://github.com/JustinSDK/JavaSE6Tutorial)** ★983 — Java SE 6 技術手冊
+- **[graham-essays](https://github.com/ofou/graham-essays)** ★982 — Download the full collection of Paul Graham essays in EPUB, PDF & Markdown for easy reading.
+- **[ebooks](https://github.com/cunyu1943/ebooks)** ★975 — 编程书籍资源库
+- **[book](https://github.com/foundry-rs/book)** ★964 — A book on all things Foundry, available at https://getfoundry.sh.
+- **[Booktype](https://github.com/booktype/Booktype)** ★961 — Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon, 
+- **[The-Book-of-VIPER](https://github.com/strongself/The-Book-of-VIPER)** ★958 — the one and the only
+- **[create-your-own-lang-with-rust](https://github.com/ehsanmok/create-your-own-lang-with-rust)** ★954 — Create your own programming language with Rust
+- **[Modern-CMake-zh_CN](https://github.com/Modern-CMake-CN/Modern-CMake-zh_CN)** ★953 — CMake 教程 Modern-CMake 的简体中文翻译，中文版 Gitbook ：https://modern-cmake-cn.github.io/Modern-CMake-zh_CN/ Chinese(simpl
+- **[coding-for-economists](https://github.com/aeturrell/coding-for-economists)** ★944 — This repository hosts the code behind the online book, Coding for Economists.
+- **[radare2-book](https://github.com/radareorg/radare2-book)** ★918 — The Official Radare2 Book
+- **[uncurled](https://github.com/bagder/uncurled)** ★916 — Uncurled - everything I know and learned about running and maintaining Open Source projects for three decades.
+- **[ai-self-coding-book](https://github.com/easychen/ai-self-coding-book)** ★915 — 《方糖AI自编程入门》用自然语言和 AI 写出复杂的商业应用。Here’s how.
+- **[goodbooks-10k](https://github.com/zygmuntz/goodbooks-10k)** ★906 — Ten thousand books, six million ratings
+- **[clean-code](https://github.com/jnguyen095/clean-code)** ★900 — Book review: A Handbook of Agile Software Craftsmanship
+- **[Ebook](https://github.com/jingyuexing/Ebook)** ★897 — 各类图书
+- **[vimllearn](https://github.com/lymslive/vimllearn)** ★889 — A book for VimL Script language
+- **[kepubify](https://github.com/pgaskin/kepubify)** ★889 — Fast, standalone EPUB to Kobo EPUB conversion tool.
+- **[webrtc-book-cn](https://github.com/a-wing/webrtc-book-cn)** ★887 — 中文翻译 《 Real-Time Communication with WebRTC 》
+- **[Packt-Publishing-Free-Learning](https://github.com/luk6xff/Packt-Publishing-Free-Learning)** ★871 — Scripts that automatically claim and download free daily eBooks from https://www.packtpub.com/packt/offers/fre
+- **[learn-ruby](https://github.com/fpsvogel/learn-ruby)** ★854 — Learning resources for Ruby, Rails, and related skills.
+- **[awesome-algorithm-books](https://github.com/bat67/awesome-algorithm-books)** ★840 — awesome algorithm books I've collected 【不定期更新】 搜集整理的算法书籍（经典算法、ML/DL算法、面试算法、比赛算法等）
+- **[weread-hot-booklists](https://github.com/able8/weread-hot-booklists)** ★840 — 微信读书 热门书单榜 热门笔记
+- **[bunken](https://github.com/laxyapahuja/bunken)** ★826 — A chrome extension to download ebooks directly from Goodreads.
+- **[lue](https://github.com/paulilaaso/lue)** ★817 — Terminal eBook Reader with Audiobook-Quality Text-to-Speech — Supports EPUB, PDF, DOCX, HTML, RTF, TXT, and MD
+- **[My-CyberSecurity-Store](https://github.com/Raunaksplanet/My-CyberSecurity-Store)** ★810 — This repository contains a comprehensive collection of learning resources and notes that I've gathered on vari
+- **[Python-for-Probability-Statistics-and-Machine-Learning](https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning)** ★809 — Jupyter Notebooks for Springer book "Python for Probability, Statistics, and Machine Learning"
+- **[running-elasticsearch-fun-profit](https://github.com/fdv/running-elasticsearch-fun-profit)** ★804 — A book about running Elasticsearch
+- **[ebookcoin](https://github.com/Ebookcoin/ebookcoin)** ★794 — Ebookcoin has been updated to DDN Blockchain，please get it from https://github.com/ddnlink/ddn
+- **[zlibrary.koplugin](https://github.com/ZlibraryKO/zlibrary.koplugin)** ★793 — Home of the KOReader Zlibrary plugin
+- **[quill](https://github.com/Quill-OS/quill)** ★790 — An open-source, Qt-based eBook reader for Kobos (and other devices).
+- **[awesome-mobile-robotics](https://github.com/mathiasmantelli/awesome-mobile-robotics)** ★786 — Useful links of different content related to AI, Computer Vision, and Robotics.
+- **[ai-developer-resources](https://github.com/RoseCityRobotics/ai-developer-resources)** ★764 — I am Duncan, a cofounder at Rose City Robotics. This public repository is used as an easy to update list of re
+- **[Ultimate-Python-Resource-Hub](https://github.com/ayushi7rawat/Ultimate-Python-Resource-Hub)** ★761 — The Ultimate resource hub of Python: All at one place
+- **[leetcode](https://github.com/ls1248659692/leetcode)** ★750 — python 数据结构与算法 leetcode 算法题与书籍 刷算法全靠套路与总结！Crack LeetCode, not only how, but also why.
+- **[jelu](https://github.com/bayang/jelu)** ★745 — Self hosted read and to-read list book tracker
+- **[medical-books](https://github.com/scienceasdf/medical-books)** ★737 — Open sourece medical books in LaTeX. LaTeX写的中文开源医学书籍
+- **[Utilities](https://github.com/farag2/Utilities)** ★734 — Useful things
+- **[awesome-ios-books](https://github.com/bystritskiy/awesome-ios-books)** ★731 — Directory of iOS books
+- **[bookdash-android-app](https://github.com/bookdash/bookdash-android-app)** ★712 — An Android app that lets you download free children's books in different languages from non-profit publisher B
+- **[Node.js_Design_Patterns_Second_Edition_Code](https://github.com/PacktPublishing/Node.js_Design_Patterns_Second_Edition_Code)** ★707 — Code repository for Node.js Design Patterns Second Edition, published by Packt
+- **[cli-computing](https://github.com/learnbyexample/cli-computing)** ★701 — :penguin: Linux command line and Scripting guide for beginner to intermediate users
+- **[devops-roadmap](https://github.com/raycad/devops-roadmap)** ★695 — DevOps methodology & roadmap for a devops developer in 2019. Interesting books to learn new technologies.
+- **[FileMasta](https://github.com/ohhsodead/FileMasta)** ★671 — A search application to explore, discover and share online files
+- **[cyber-security-books](https://github.com/DoS0x99/cyber-security-books)** ★664 — A collection of FREE cyber security books
+- **[3d-book-image-css-generator](https://github.com/scastiel/3d-book-image-css-generator)** ★659 — Generate a 3D image from a book cover and export to HTML/CSS to embed on your website.
+- **[markdeep](https://github.com/morgan3d/markdeep)** ★642 — Official public Markdeep source archive
+- **[ui-ux-design-library](https://github.com/justinhartman/ui-ux-design-library)** ★634 — A collection of free eBooks and PDFs related to UI, UX and Interaction Design.
+- **[booklogr](https://github.com/Mozzo1000/booklogr)** ★629 — A simple, self-hosted service to keep track of your personal library
+- **[ps4ds](https://github.com/cfgranda/ps4ds)** ★626 — Probability and Statistics for Data Science: A self-contained introduction to probability and statistics for d
+- **[Books](https://github.com/ThisIsSakshi/Books)** ★621 — Books and other resources
+- **[epub-press-clients](https://github.com/haroldtreen/epub-press-clients)** ★618 — Clients for building books with EpubPress.
+- **[The_Economist](https://github.com/Monkfishare/The_Economist)** ★616 — The Economist (audio/epub/pdf)
+- **[ultimate-resources-zh-hans](https://github.com/duanluan/ultimate-resources-zh-hans)** ★615 — 电子书、软件、Chrome 扩展、网站等推荐。
+- **[Novel-Grabber](https://github.com/Flameish/Novel-Grabber)** ★614 — Novel-Grabber can download novels from pretty much any webnovel and lightnovel site.
+- **[Python_Basics](https://github.com/learnbyexample/Python_Basics)** ★610 — :snake: Syntax, working with Shell commands, Files, Text Processing, and more...
+- **[FreeBook](https://github.com/80945540/FreeBook)** ★595 — 基于MVP模式开发的带缓存网络爬虫,采用最流行框架搭建,干货多多
+- **[laravel-book](https://github.com/driade/laravel-book)** ★583 — Up to date Epub, Mobi and PDF versions from the official Laravel Docs
+- **[books](https://github.com/program-think-mirrors/books)** ★579 — 编程随想的电子书 Github + IPFS 墙内镜像，每天同步
+- **[kindle-highlights](https://github.com/speric/kindle-highlights)** ★577 — Get your Kindle highlights.
+- **[eBook](https://github.com/AnMnv/eBook)** ★573 — LaTeX book with examples, open-source eBook
+- **[Book-SocialMediaMiningPython](https://github.com/bonzanini/Book-SocialMediaMiningPython)** ★567 — Companion code for the book "Mastering Social Media Mining with Python"
+- **[converter](https://github.com/TruthHun/converter)** ★563 — 通过calibre将html转成epub、mobi、PDF等
+- **[dev-livros](https://github.com/J0a00liveira/dev-livros)** ★559 — Livros que gostaria de ler durante minha graduação e carreira
+- **[BOOKS](https://github.com/rishabhmodi03/BOOKS)** ★559 — collection of books 48 laws of power, meditations, Atomic habits and many more
+- **[oho-reader](https://github.com/ShanaMaid/oho-reader)** ★557 — 【停止维护】哦豁阅读器！API源自追书神器，免费使用！填坑完成！使用react
+- **[crifan_ebook_readme](https://github.com/crifan/crifan_ebook_readme)** ★551 — Crifan的电子书的使用说明
+- **[zlib](https://github.com/heartleo/zlib)** ★543 — A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents.
+- **[AI-ML-Book-References](https://github.com/Ramakm/AI-ML-Book-References)** ★541 — This repository is for all those AI enthusiastics who actually loves to read books and learn.
+- **[flutter_books](https://github.com/q805699513/flutter_books)** ★535 — Panda看书，Flutter 小说阅读 App
+- **[WordDumb](https://github.com/xxyzz/WordDumb)** ★534 — A calibre plugin that generates Kindle Word Wise and X-Ray files for KFX, AZW3, MOBI and EPUB eBook.
+- **[Awesome-Black-Friday-Cyber-Monday-deals](https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals)** ★529 — 2025 Deals Live - Black Friday & Cyber Monday, Christmas & Holidays Deals for Developers, Techies, & Entrepren
+- **[baca](https://github.com/wustho/baca)** ★527 — TUI Ebook Reader
+- **[EconometricsWithR](https://github.com/mca91/EconometricsWithR)** ★527 — An interactive companion to the well-received textbook 'Introduction to Econometrics' by Stock & Watson (2015)
+- **[book-project](https://github.com/Project-Books/book-project)** ★516 — Book tracker web app for book lovers
+- **[cnp3](https://github.com/obonaventure/cnp3)** ★513 — Computer Networking : Principles, Protocols and Practice (first and second edition, third edition is being wri
+- **[nes_ebook](https://github.com/bugzmanov/nes_ebook)** ★513 — A mini book on writing NES emulator using rust lang
+- **[OpenlibExtended](https://github.com/warreth/OpenlibExtended)** ★510 — An Open source app to download and read books from shadow library's (Anna’s Archive, libgen, zlib)
+- **[category-theory-illustrated](https://github.com/abuseofnotation/category-theory-illustrated)** ★488 — A book about category theory
+- **[stc](https://github.com/nexus-stc/stc)** ★484 — Distributed free search engine and AI tools that grant access to knowledge
+- **[awesome-book-collection](https://github.com/devxhub/awesome-book-collection)** ★482 — A curated list of the best books for software engineers, with links to legal and free sources. Covers programm
+- **[reeden-app](https://github.com/reeden-org/reeden-app)** ★472 — Reeden 是一款功能强大的纯本地电子书阅读器，支持多种格式，提供丰富的阅读体验和个性化设置。 支持 Windows、Mac、Linux、iOS、Android 平台。
+- **[pretext](https://github.com/PreTeXtBook/pretext)** ★464 — PreTeXt: an authoring and publishing system for scholarly documents
+- **[inventaire](https://github.com/inventaire/inventaire)** ★463 — a libre collaborative book mapper, powered by open-knowledge :books:
+- **[bookmarks](https://github.com/CodeverDotDev/bookmarks)** ★461 — :bookmark: :star: Collection of public dev bookmarks, shared with :heart: from www.codever.dev
+- **[CS-Books](https://github.com/AB1908/CS-Books)** ★460 — A list of textbooks for a Computer Science curriculum.
+- **[awesome-biology](https://github.com/raivivek/awesome-biology)** ★459 — Curated (meta)list of resources for Biology.
+- **[openintro-statistics](https://github.com/OpenIntroStat/openintro-statistics)** ★454 — An open-source textbook written at the college level. OpenIntro also offers a second college-level intro stat 
+- **[machine-learning-reference](https://github.com/Halfish/machine-learning-reference)** ★446 — 常见的机器学习参考资料，包括书籍、公开课等
+- **[Light-Novel-Yuedu-Source](https://github.com/ZWolken/Light-Novel-Yuedu-Source)** ★444 — 轻小说阅读书源合集 輕小説閲讀書源合集
+- **[machine-learning-resources](https://github.com/datascienceid/machine-learning-resources)** ★444 — A curated list of awesome machine learning frameworks, libraries, courses, books and many more.
+- **[awesome-Python-data-science-books](https://github.com/khuyentran1401/awesome-Python-data-science-books)** ★441 — Probably the best curated list of data science books in Python
+- **[FirstCourseNetworkScience](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience)** ★436 — Tutorials, datasets, and other material associated with textbook "A First Course in Network Science" by Mencze
+- **[free-programming-books](https://github.com/meibin08/free-programming-books)** ★431 — 码农周报 免费的编程书籍，leetcode(力扣)题解、前端算法题，牛客网前端大厂面试题题解、提升工作效率的常用工具等
+- **[the-elements-of-statistical-learning](https://github.com/maitbayev/the-elements-of-statistical-learning)** ★430 — My notes and codes (jupyter notebooks) for the "The Elements of Statistical Learning" by Trevor Hastie, Robert
+- **[ccc](https://github.com/JLospinoso/ccc)** ★427 — Companion code for C++ Crash Course.
+- **[mostly-free-resources-for-almost-everyone](https://github.com/chasedooley/mostly-free-resources-for-almost-everyone)** ★425 — A list of mostly free resources for almost anyone.
+- **[FreeBook--](https://github.com/NicholasBxt/FreeBook--)** ★423 — 免费书籍，不定期更新
+- **[ebooks](https://github.com/BlankRain/ebooks)** ★417 — Some E-books From Internet~
+- **[bindery](https://github.com/evnbr/bindery)** ★415 — Book layout in the browser
+- **[some-books-and-note](https://github.com/stonycat/some-books-and-note)** ★409 — :books: Book lists and Notes
+- **[GoodLib-Zlib-Goodreads-extension](https://github.com/NubPlayz/GoodLib-Zlib-Goodreads-extension)** ★396 — An extension that open Books in Zlib Or Anna's Archive with a button on Goodreads in one click. Available on C
+- **[Kafka](https://github.com/vipulyaara/Kafka)** ★396 — Read, play, and download millions of books; served by archive.org.
+- **[learn-rails](https://github.com/RailsApps/learn-rails)** ★395 — An example Rails 5.1 app to accompany the "Learn Ruby on Rails" book.
+- **[FossenHandbook](https://github.com/cybergalactic/FossenHandbook)** ★388 — Handbook of Marine Craft Hydrodynamics and Motion Control is an extensive study of the latest research in mari
+- **[moyu](https://github.com/online-books/moyu)** ★382 — 在线摸鱼减压，今天你摸鱼了吗？
+- **[cs-field-guide](https://github.com/uccser/cs-field-guide)** ★380 — A free online interactive resource/textbook for high school students learning about computer science.
+- **[cs61b-textbook-zh](https://github.com/apachecn/cs61b-textbook-zh)** ★371 — :book: （译） UCB CS61b Java 中的数据结构
+- **[Philosophy](https://github.com/Jfaler/Philosophy)** ★369 — :octocat: A list of philosophy books and resources.
+- **[awesome-illustrated-guides](https://github.com/cloudycotton/awesome-illustrated-guides)** ★356 — Awesome illustrated guides or children's books on technical topics.
+- **[data8-textbook-zh](https://github.com/Kivy-CN/data8-textbook-zh)** ★353 — :book: （译） UCB DATA8 计算与推断思维
+- **[study-blockchain-referrence](https://github.com/cancerts/study-blockchain-referrence)** ★352 — 区块链学习路上的一些资料作为参考
+- **[neural_network_chess](https://github.com/asdfjkl/neural_network_chess)** ★349 — Free Book about Deep-Learning approaches for Chess (like AlphaZero, Leela Chess Zero and Stockfish NNUE)
+- **[on-lisp](https://github.com/DalekBaldwin/on-lisp)** ★340 — A modernized and annotated code companion to Paul Graham's "On Lisp".
+- **[SciCompforChemists](https://github.com/weisscharlesj/SciCompforChemists)** ★340 — Scientific Computing for Chemists with Python is a free book for teaching basic coding skills to chemists usin
+- **[.CodeBits](https://github.com/nairuzabulhul/.CodeBits)** ★334 — :books: List of resources for Algorithms and Data Structures in Python & other CS topics @2017
+- **[Kali-Linux-Ebooks](https://github.com/yeahhub/Kali-Linux-Ebooks)** ★331 — Top 20 Kali Linux Related E-books (Free Download)
+- **[AI-pdf-books](https://github.com/MinhNguyenDS/AI-pdf-books)** ★324 — The AI/Data book repository for AI Engineers, ML Engineers, LLMOps, MLOps, and Data Scientists
+- **[Intro-Cultural-Analytics](https://github.com/melaniewalsh/Intro-Cultural-Analytics)** ★304 — Introduction to Cultural Analytics & Python, course website and online textbook powered by Jupyter Book
+- **[hands-on-elixir-and-otp-cryptocurrency-trading-bot](https://github.com/Cinderella-Man/hands-on-elixir-and-otp-cryptocurrency-trading-bot)** ★300 — Source code to generate the "Hands-on Elixir & OTP: Cryptocurrency trading bot" book
+- **[gobyexample](https://github.com/inancgumus/gobyexample)** ★296 — Go by Example: Programmer's Guide to Idiomatic and Testable Code
+- **[the-elements-of-statistical-learning-notebooks](https://github.com/dgkim5360/the-elements-of-statistical-learning-notebooks)** ★296 — Jupyter notebooks for summarizing and reproducing the textbook "The Elements of Statistical Learning" 2/E by H
+- **[books-ML-and-DL](https://github.com/ec2ainun/books-ML-and-DL)** ★294 — .pdf Format Books for Machine and Deep Learning
+- **[notes](https://github.com/pkardas/notes)** ★294 — My software engineering notes - books, courses, conferences
+- **[IT-eBOOK](https://github.com/maguowei/IT-eBOOK)** ★292 — 所有内容仅为编程练习使用，内容抓取自互联网，如有侵权，将及时清理删除
+- **[LiX](https://github.com/NicklasVraa/LiX)** ★291 — Compose papers, dissertations, textbooks, novels, newspapers etc. quicker using abstractions to the standard L
+- **[discrete-book](https://github.com/oscarlevin/discrete-book)** ★290 — An open textbook for Discrete Mathematics, as taught at the University of Northern Colorado
+- **[MyBooks](https://github.com/aopi1125/MyBooks)** ★289 — books-tech、PPT、or something
+- **[books](https://github.com/xckevin/books)** ★289 — some interesting books
+- **[librarr](https://github.com/JeremiahM37/librarr)** ★286 — Self-hosted book, audiobook, and manga search + download manager. 13 search sources, Torznab API, OPDS feed, r
+- **[typikon](https://github.com/auula/typikon)** ★284 — Typikon lets you use markdown to write your online books.
+- **[robotics-and-machine-vision-resources](https://github.com/ColinShaw/robotics-and-machine-vision-resources)** ★284 — Book, articles and interesting things related to robotics
+- **[debuggingbook](https://github.com/uds-se/debuggingbook)** ★282 — Project page for "The Debugging Book"
+- **[featureflags](https://github.com/launchdarkly/featureflags)** ★276 — The guide to decoupling feature rollout from code deployment for feature flag-driven development. Feature flag
+- **[programming-book-2](https://github.com/EvanLi/programming-book-2)** ★274 — Programming Book 2 ：C++、Go、JavaScript、Node.js
+- **[Books.jl](https://github.com/JuliaBooks/Books.jl)** ★273 — Create books with Julia
+- **[awesome-math-ru](https://github.com/uburuntu/awesome-math-ru)** ★272 — :books: Математичный список полезных книг
+- **[textbook](https://github.com/DS-100/textbook)** ★269 — Learning Data Science, a textbook.
+- **[NonlinearDynamicsTextbook](https://github.com/JuliaDynamics/NonlinearDynamicsTextbook)** ★268 — Nonlinear Dynamics: A concise introduction interlaced with code
+- **[Refactoring-summary-2nd-javascript](https://github.com/ittus/Refactoring-summary-2nd-javascript)** ★266 — Summary of "Refactoring: Improving the Design of Existing Code (2nd Edition)" by Martin Fowler
+- **[libgen.py](https://github.com/adolfosilva/libgen.py)** ★263 — Download books from gen.lib.rus.ec, libgen.io, libgen.pw, b-ok.org and bookfi.net
+- **[Biblioteca](https://github.com/alexanyernas/Biblioteca)** ★253 — Colección de libros recomendados en formato PDF que he realizado para ti y así puedas mejorar tus habilidades 
+- **[reading-books-for-programmers](https://github.com/Coveong/reading-books-for-programmers)** ★253 — 개발 전공 서적 읽고 정리하는 레포
+- **[openlibrary-search](https://github.com/LibrariesHacked/openlibrary-search)** ★247 — Searching Open Library by keywords to return ISBNs
+- **[maths_book](https://github.com/pelegs/maths_book)** ★245 — Planning for an entire maths LaTeX book
+- **[reading-material](https://github.com/agrim123/reading-material)** ★240 — List of some useful blogs, books, courses, papers etc. :books:
+- **[Embedded-Systems-Fundamentals](https://github.com/arm-education/Embedded-Systems-Fundamentals)** ★240 — Textbook on embedded systems fundamentals using Arm Cortex-M microcontrollers with hands-on labs (educational)
+- **[curated_resources](https://github.com/learnbyexample/curated_resources)** ★237 — :books: Curated lists for programming, books, movies, music, games, etc
+- **[complex-analysis.github.io](https://github.com/complex-analysis/complex-analysis.github.io)** ★235 — Complex Analysis: A Visual and Interactive Introduction
+- **[Book_List](https://github.com/mukeshmithrakumar/Book_List)** ★234 — Python, Machine Learning, Deep Learning and Data Science Books
+- **[CyberSecurity-and-Pentesting-Exam-Resources](https://github.com/cybergeekgyan/CyberSecurity-and-Pentesting-Exam-Resources)** ★221 — Top 5 ethical hacking books to get started? Top 5 practical hacking books? Top 5 cybersecurity books to get st
+- **[shu](https://github.com/shjwudp/shu)** ★220 — 中文书籍收录整理, Collection of Chinese Books
+- **[web3-decoder](https://github.com/uwctcjnwlk/web3-decoder)** ★216 — Web3 Decoder
+- **[reasoning-kingdom](https://github.com/datawhalechina/reasoning-kingdom)** ★216 — 推理王国：关于 AI 推理机制的思想实验手册。从信息论、符号逻辑与表示学习出发，系统剖析大模型“智能”的本质。
+- **[LaTeX-KOMA-template](https://github.com/novoid/LaTeX-KOMA-template)** ★213 — Generic template for midsize and larger documents based on KOMA script classes.
+- **[data-science-resources](https://github.com/LTS-tech-community/data-science-resources)** ★206 — Data science, machine learning books and resources
+- **[Great-Deep-Learning-Books](https://github.com/ahkarami/Great-Deep-Learning-Books)** ★205 — A Great Collection of Deep Learning (e)Books
+- **[KindleClippings](https://github.com/robertmartin8/KindleClippings)** ★200 — Extract kindle highlights into organised text files
+- **[book-note](https://github.com/lcp0578/book-note)** ★195 — :open_book: book note,读书笔记
+- **[smartedu-dl-go](https://github.com/hantang/smartedu-dl-go)** ★195 — 多平台的国家中小学智慧教育平台资源下载工具（已支持PDF教材、课件、音频、视频等下载）
+- **[Intro_to_LinAlg_Earth](https://github.com/BenjaminGor/Intro_to_LinAlg_Earth)** ★192 — An applied Linear Algebra textbook flavored with Earth Science topics.
+- **[BookHeaven.Server](https://github.com/BookHeaven/BookHeaven.Server)** ★189 — BookHeaven Server is a web app to manage your ebook library. Compatible with OPDS, Koreader Sync and a custom 
+- **[The-Math-Behind-Artificial-Intelligence-A-Guide-to-AI-Foundations](https://github.com/tiagomonteiro0715/The-Math-Behind-Artificial-Intelligence-A-Guide-to-AI-Foundations)** ★186 — A book on the mathematical foundations of AI from an engineering perspective.
+- **[delta-lake-internals](https://github.com/japila-books/delta-lake-internals)** ★186 — The Internals of Delta Lake
+- **[JavaInterview](https://github.com/joyang1/JavaInterview)** ★180 — 最全的Java技术知识点，以及Java源码分析；Just learn it。
+- **[released-pdfs](https://github.com/raspberrypipress/released-pdfs)** ★180 — Official copies of out of print Raspberry Pi Press books.
+- **[SuperLibrary](https://github.com/MrM8BRH/SuperLibrary)** ★180 — A massive, curated collection of information security books, study guides, cheat sheets, and resources. This l
+- **[emdash](https://github.com/dmotz/emdash)** ★179 — ‍ Wisdom indexer — use AI to organize text snippets so you can actually remember & learn from what you read
+- **[The-Python-Standard-Library-by-Example](https://github.com/bat67/The-Python-Standard-Library-by-Example)** ★175 — 《Python3 标准库》电子书和配套代码 "The Python Standard Library by Example" ebook and source code 一本又厚又全的讲解Python3标准库的书籍（10
+- **[sicp-js-zh](https://github.com/apachecn/sicp-js-zh)** ★175 — :book: 【译】NUS CS1101s SICP JavaScript 描述
+- **[awesome-space-books](https://github.com/Hunter-Github/awesome-space-books)** ★173 — A list of space exploration related books (some are online, some are on paper)
+- **[Learning_Python](https://github.com/rsokl/Learning_Python)** ★173 — Source material for Python Like You Mean it
+- **[Annual-Reading-List](https://github.com/davidskeck/Annual-Reading-List)** ★171 — A list of things to read every year.
+- **[all-human-knowledge](https://github.com/emijrp/all-human-knowledge)** ★170 — Like all persons of the Library, I have traveled in my youth; I have wandered in search of a book, perhaps the
+- **[book-fullstack-react](https://github.com/johannlilly/book-fullstack-react)** ★169 — Fullstack React: The Complete Guide to ReactJS and Friends by Anthony Accomazzo
+- **[appliedstats](https://github.com/daviddalpiaz/appliedstats)** ★169 — :bar_chart: Methods of Applied Statistics Course Textbook Repository
+- **[kindle-clippings](https://github.com/mammuth/kindle-clippings)** ★168 — :books: Web application for managing your kindle highlights
+- **[NeverTooManyBooks](https://github.com/tfonteyn/NeverTooManyBooks)** ★168 — A book collection app for Android
+- **[ScPoEconometrics](https://github.com/ScPoEcon/ScPoEconometrics)** ★167 — Undergraduate textbook for Econometrics with R
+- **[bookhive](https://github.com/nperez0111/bookhive)** ★164 — Track your books, share your shelves, see what others are reading
+- **[books](https://github.com/awesee/books)** ★162 — Programming books
+- **[Clean-code-in-Python](https://github.com/rmariano/Clean-code-in-Python)** ★161 — Resources for the book Clean code in Python, and material for the talk at EuroPython 2016
+- **[Biblioteca](https://github.com/rbmelolima/Biblioteca)** ★161 — Disponibilização de livros de TI em PDF
+- **[Feynman](https://github.com/steveyeow/Feynman)** ★160 — Read books the way Feynman did — along with a continuously evolving network of agent-simulated great minds
+- **[Qc_book_list](https://github.com/poig/Qc_book_list)** ★159 — A book list for those who want to self-study quantum computing
+- **[Free-programming-books](https://github.com/avinash201199/Free-programming-books)** ★159 — Free programming books pdf
+- **[CalibreLibgenStore](https://github.com/fallaciousreasoning/CalibreLibgenStore)** ★159 — A Libgen Fiction store plugin for Calibre
+- **[Books](https://github.com/VaradBelwalkar/Books)** ★159 — Useful Books and Research Papers
+- **[plotto](https://github.com/garykac/plotto)** ★158 — Plot suggestions for writers of creative fiction
+- **[LINUX-BASICS-FOR-HACKERS-Book](https://github.com/FADL285/LINUX-BASICS-FOR-HACKERS-Book)** ★155 — Summary for Linux Basics For Hackers Book
+- **[LibraryBookSearchEngine](https://github.com/fenwii/LibraryBookSearchEngine)** ★154 — LibraryBookSearchEngine，link librarys of all 197 Countries, search all resources of books，for student, researc
+- **[whatsbook](https://github.com/pbeck/whatsbook)** ★154 — Create books from WhatsApp group chats with Python and LaTeX
+- **[AwesomeAllInOne](https://github.com/duzhi5368/AwesomeAllInOne)** ★152 — Sort.
+- **[programming-books-and-resources](https://github.com/xSavitar/programming-books-and-resources)** ★151 — :book: Collection of programming related books & their frameworks.
+- **[code-like-a-pro-in-rust-book](https://github.com/brndnmtthws/code-like-a-pro-in-rust-book)** ★151 — Source code for Code Like a Pro in Rust
+- **[GoodreadsScraper](https://github.com/havanagrawal/GoodreadsScraper)** ★148 — Scrape data from Goodreads using Scrapy and Selenium :books:
+- **[PEP-Primary-School-Chinese-2001](https://github.com/chenzhixuanfy/PEP-Primary-School-Chinese-2001)** ★148 — 人教版小学语文教科书2001版（人民教育出版社义务教育课程标准实验教科书，人教新课标版）
+- **[curated-fullstack-books](https://github.com/haidar47x/curated-fullstack-books)** ★147 — A curated list of full-stack development books.
+- **[calc4b-zh](https://github.com/apachecn/calc4b-zh)** ★147 — :book: （译） MIT 18.03 面向初学者的微积分
+- **[ocamlbook.org](https://github.com/dmbaturin/ocamlbook.org)** ★145 — A free (as in freedom) OCaml textbook
+- **[Trading-Curriculum](https://github.com/mikinty/Trading-Curriculum)** ★144 — Curating resources for learning how to trade
+- **[computer-science-and-computer-engineering-books-and-resources](https://github.com/Besnn/computer-science-and-computer-engineering-books-and-resources)** ★143 — Free Access Books/Resources for Computer Engineering (and Computer Science) Students
+- **[awesome-internals](https://github.com/ghaiklor/awesome-internals)** ★142 — A curated list of awesome resources and learning materials in the field of X internals
+- **[markdownslides](https://github.com/asanzdiego/markdownslides)** ★142 — MarkdownSlides is a Reveal.js and PDF slides generator from MARKDOWN files, that also generate HTML, EPUB and 
+- **[comp_arch_list](https://github.com/last-genius/comp_arch_list)** ★141 — List of required readings for three-semester course in Computer Architecture at UCU (Principles of Computer Or
+- **[AtCoderClans](https://github.com/KATO-Hiro/AtCoderClans)** ★141 — 【非公式】AtCoderがもっと楽しくなるリンク集です。有志による非公式サービス・ツール・ライブラリ・記事などをまとめています。
+- **[Books](https://github.com/ice1000/Books)** ★140 — My slides and notes
+- **[NESC_3505_textbook](https://github.com/neural-data-science/NESC_3505_textbook)** ★140 — Textbook for NESC 3505, Neural Data Science, at Dalhousie University
+- **[ThinkC](https://github.com/tscheffl/ThinkC)** ★140 — Think C-Book by Thomas Scheffler, based on work by Allen Downey
+- **[satori](https://github.com/yuxino/satori)** ★140 — AI PDF reader for macOS and Windows: ask about pages, diagrams and code, with local reading history. AI PDF 阅读
+- **[badarguments](https://github.com/almossawi/badarguments)** ★139 — Book of Bad Arguments & Mr. Rabbit's Guide to Sneaky Rhetoric
+- **[bookserver](https://github.com/internetarchive/bookserver)** ★138 — Archive.org OPDS Bookserver - A standard for digital book distribution
+- **[awesome-programming-books](https://github.com/yanbinghu/awesome-programming-books)** ★138 — 计算机领域经典书籍
+- **[blinkist-m4a-downloader](https://github.com/luckylittle/blinkist-m4a-downloader)** ★138 — Grabs all of the audio files from all of the Blinkist books
+- **[Geometry-Scenic-Intro](https://github.com/abogatskiy/Geometry-Scenic-Intro)** ★138 — Comprehensive open source book on basic topology, smooth manifolds, differential geometry, Lie theory, homolog
+- **[programming-book](https://github.com/EvanLi/programming-book)** ★137 — Programming Book ：Algorithm、Back-end、Database、Front-end、Git
+- **[cv-book-svg](https://github.com/capjamesg/cv-book-svg)** ★134 — Turn an image of a bookshelf into an interactive SVG.
+- **[csharp-12-in-a-nutshell-persian](https://github.com/hheydarian/csharp-12-in-a-nutshell-persian)** ★131 — Persian translation of "C# 12 in a Nutshell: The Definitive Reference" by Joseph Albahari.
+- **[Agda](https://github.com/HoTT-Intro/Agda)** ★129 — Agda formalisation of the Introduction to Homotopy Type Theory
+- **[A-Beginners-Guide-to-Designing-Embedded-System-Applications-on-Arm-Cortex-M-Microcontrollers](https://github.com/arm-education/A-Beginners-Guide-to-Designing-Embedded-System-Applications-on-Arm-Cortex-M-Microcontrollers)** ★126 — Archived: retained for reference; no active development. Beginner-friendly textbook for designing embedded sys
+- **[cppbook_companion](https://github.com/mdadams/cppbook_companion)** ★120 — C++ Book Companion Repository (With Code Examples and Exercises)
+- **[noteworthy](https://github.com/sihooleebd/noteworthy)** ★120 — A powerful academic framework for typst
+- **[ds100-textbook-zh](https://github.com/apachecn/ds100-textbook-zh)** ★116 — :book: （译） UCB DS100 数据科学的原理与技巧
+- **[Introduction_to_Data_Mining_R_Examples](https://github.com/mhahsler/Introduction_to_Data_Mining_R_Examples)** ★115 — R Code to accompany the book Introduction to Data Mining by Tan, Steinbach and Kumar (Code by Michael Hahsler)
+- **[cuc-ns](https://github.com/c4pr1c3/cuc-ns)** ★109 — 网络安全课本
+- **[ml-lecture](https://github.com/abap34/ml-lecture)** ★106 — 東京工業大学 traP Kaggle班「機械学習講習会」の資料
+- **[Digital-Signal-Processing-using-Arm-Cortex-M-based-Microcontrollers](https://github.com/arm-education/Digital-Signal-Processing-using-Arm-Cortex-M-based-Microcontrollers)** ★103 — Textbook introducing DSP fundamentals using Arm Cortex-M microcontrollers with hands-on labs (educational)
+- **[AWESOME-Operating-System-Resources](https://github.com/Francesco601/AWESOME-Operating-System-Resources)** ★98 — A collection of Operating System Resources for students and teachers
+- **[LibraryGenesis](https://github.com/MartinStamenkovski/LibraryGenesis)** ★66 — Library Genesis iOS Client
+- **[CS-and-Programming-Books](https://github.com/Pavith19/CS-and-Programming-Books)** ★65 — A collection of free CS books , complete with code examples and project guidelines for learners and developers
+- **[free-resources-books-papers](https://github.com/TatevKaren/free-resources-books-papers)** ★61 — Books and Papers in Mathematics, Econometrics, Machine Learning, Finance etc for different levels that can be 
+- **[awesome-cybersecurity-books](https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books)** ★52 — A curated collection of 70+ free cybersecurity books organized by domain and difficulty ( Beginner Intermediat
+- **[Data-Science-Books](https://github.com/minhaj-313/Data-Science-Books)** ★33 — Welcome to the Data Science Books repository! Dive into a curated collection of resources covering various asp
+- **[livros-desenvolvedor](https://github.com/allankildare/livros-desenvolvedor)** ★32 — Repositório com livros gratuitos para a comunidade
+- **[filipino-online-resources-for-students](https://github.com/Programming-PH/filipino-online-resources-for-students)** ★26 — Made in with - Mga Collection ng Free Resources, Tutorials and Videos For Filipino IT Students and Aspiring De
+
+## ⑭ 国际课程与教程 · Courses & Tutorials
+
+- **[FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)** ★20.2万 — Free domain registration and practical DNS learning resources for everyone.
+- **[hello-agents](https://github.com/datawhalechina/hello-agents)** ★8.2万 — 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+- **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** ★7.8万 — Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1
+- **[awesome-react](https://github.com/enaqx/awesome-react)** ★7.5万 — A collection of awesome things regarding React ecosystem
+- **[up](https://github.com/byoungd/up)** ★6.7万 — An advanced guide which might benefit you a lot . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学
+- **[ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** ★6.3万 — Learn it. Build it. Ship it for others.
+- **[100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)** ★5.2万 — 100 Days of ML Coding
+- **[claude-howto](https://github.com/luongnv89/claude-howto)** ★4.2万 — A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templa
+- **[DeepTutor](https://github.com/HKUDS/DeepTutor)** ★4.1万 — DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+- **[open-notebook](https://github.com/lfnovo/open-notebook)** ★4.0万 — An Open Source implementation of Notebook LM with more flexibility and features
+- **[freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn)** ★3.8万 — FCC China open source codebase and curriculum. Learn to code and help nonprofits.
+- **[Hello-Python](https://github.com/mouredev/Hello-Python)** ★3.8万 — Curso para aprender el lenguaje de programación Python desde cero y para principiantes. 100 clases, 44 horas e
+- **[gold-miner](https://github.com/xitu/gold-miner)** ★3.4万 — 掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：
+- **[comprehensive-rust](https://github.com/google/comprehensive-rust)** ★3.3万 — This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust
+- **[Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)** ★3.0万 — A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.
+- **[SpringAll](https://github.com/wuyouzhuguli/SpringAll)** ★2.9万 — 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring
+- **[android_guides](https://github.com/codepath/android_guides)** ★2.8万 — Extensive Open-Source Guides for Android Developers
+- **[GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** ★2.4万 — 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to comple
+- **[p5.js](https://github.com/processing/p5.js)** ★2.4万 — p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and
+- **[mostly-adequate-guide](https://github.com/MostlyAdequate/mostly-adequate-guide)** ★2.4万 — Mostly adequate guide to FP (in javascript)
+- **[C](https://github.com/TheAlgorithms/C)** ★2.2万 — Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented 
+- **[100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code)** ★2.2万 — 100-Days-Of-ML-Code中文版
+- **[TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN)** ★2.2万 — TeachYourselfCS 的中文翻译 | A Chinese translation of TeachYourselfCS
+- **[IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)** ★2.2万 — IntelliJ IDEA 简体中文专题教程
+- **[recommenders](https://github.com/recommenders-team/recommenders)** ★2.2万 — Best Practices on Recommendation Systems
+- **[agents-towards-production](https://github.com/NirDiamant/agents-towards-production)** ★2.2万 — End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise depl
+- **[learngo](https://github.com/inancgumus/learngo)** ★2.0万 — 1000+ Hand-Crafted Go Examples, Exercises, and Quizzes. Learn Go by fixing 1000+ tiny programs.
+- **[js-stack-from-scratch](https://github.com/verekia/js-stack-from-scratch)** ★2.0万 — Step-by-step tutorial to build a modern JavaScript stack.
+- **[easy-vibe](https://github.com/datawhalechina/easy-vibe)** ★2.0万 — vibe coding 101｜The first course for AI-native product builders.
+- **[functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon)** ★1.9万 — Jargon from the functional programming world in simple terms!
+- **[awesome-python-applications](https://github.com/mahmoud/awesome-python-applications)** ★1.8万 — Free software that works great, and also happens to be open-source Python.
+- **[spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev)** ★1.8万 — A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
+- **[architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record)** ★1.7万 — Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
+- **[vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn)** ★1.7万 — Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南
+- **[7days-golang](https://github.com/geektutu/7days-golang)** ★1.7万 — 7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping 
+- **[java8-tutorial](https://github.com/winterbe/java8-tutorial)** ★1.7万 — Modern Java - A Guide to Java 8
+- **[digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction)** ★1.6万 — A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding). 
+- **[HowToBeAProgrammer](https://github.com/braydie/HowToBeAProgrammer)** ★1.6万 — A guide on how to be a Programmer - originally published by Robert L Read
+- **[Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide)** ★1.6万 — （Lumina具身智能社区） 具身智能技术指南 Embodied-AI-Guide
+- **[Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming)** ★1.6万 — Modern C++ Programming Course (C++03/11/14/17/20/23/26)
+- **[30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css)** ★1.6万 — Short CSS code snippets for all your development needs
+- **[opensource.guide](https://github.com/github/opensource.guide)** ★1.6万 — Community guides for open source creators
+- **[N-blog](https://github.com/nswbmw/N-blog)** ★1.5万 — 《一起学 Node.js》
+- **[Virgilio](https://github.com/virgili0/Virgilio)** ★1.5万 — Your new Mentor for Data Science E-Learning.
+- **[nlp-tutorial](https://github.com/graykode/nlp-tutorial)** ★1.5万 — Natural Language Processing Tutorial for Deep Learning Researchers
+- **[rust-by-practice](https://github.com/origin-brain/rust-by-practice)** ★1.5万 — Rust By Practice will evolve into Origin.
+- **[git-recipes](https://github.com/zhongyi-tong/git-recipes)** ★1.5万 — Git recipes in Chinese by Zhongyi Tong. 高质量的Git中文教程.
+- **[rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)** ★1.5万 — :books: Learn to write an embedded OS in Rust :crab:
+- **[machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)** ★1.5万 — Learn ML engineering for free in 4 months! Register here
+- **[hacker101](https://github.com/Hacker0x01/hacker101)** ★1.5万 — Source code for Hacker101.com - a free online web and mobile security class.
+- **[raspberry-pi-os](https://github.com/s-matyukevich/raspberry-pi-os)** ★1.4万 — Learning operating system development using Linux kernel and Raspberry Pi
+- **[show-me-the-code](https://github.com/Yixiaohan/show-me-the-code)** ★1.4万 — Python 练习册，每天一个小程序
+- **[js-must-watch](https://github.com/bolshchikov/js-must-watch)** ★1.4万 — Must-watch videos about javascript
+- **[python-mastery](https://github.com/dabeaz-course/python-mastery)** ★1.3万 — Advanced Python Mastery (course by @dabeaz)
+- **[cmake-examples](https://github.com/ttroy50/cmake-examples)** ★1.3万 — Useful CMake Examples
+- **[wifi-cracking](https://github.com/brannondorsey/wifi-cracking)** ★1.3万 — Crack WPA/WPA2 Wi-Fi Routers with Airodump-ng and Aircrack-ng/Hashcat
+- **[Share-SSR-V2ray](https://github.com/selierlin/Share-SSR-V2ray)** ★1.3万 — 机场推荐、Clash / V2ray 客户端配置与代理工具指南
+- **[night](https://github.com/talkgo/night)** ★1.2万 — Weekly Go Online Meetup via Bilibili｜Go 夜读｜通过 bilibili 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术
+- **[Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)** ★1.2万 — A list of resources for those interested in getting started in bug bounties
+- **[noodle](https://github.com/noodle-run/noodle)** ★1.2万 — Rethinking Student Productivity
+- **[30-seconds-of-interviews](https://github.com/Chalarangelo/30-seconds-of-interviews)** ★1.2万 — A curated collection of common interview questions to help you prepare for your next interview.
+- **[ludwig](https://github.com/ludwig-ai/ludwig)** ★1.2万 — Low-code framework for building custom LLMs, neural networks, and other AI models
+- **[awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)** ★1.1万 — :notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about u
+- **[ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial)** ★1.1万 — FFmpeg libav tutorial - learn how media works from basic to transmuxing, transcoding and more. Translations:
+- **[content](https://github.com/mdn/content)** ★1.1万 — The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, 
+- **[practical-python](https://github.com/dabeaz-course/practical-python)** ★1.1万 — Practical Python Programming (course by @dabeaz)
+- **[zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)** ★1.1万 — 现代 JavaScript 教程（The Modern JavaScript Tutorial），以最新的 ECMAScript 规范为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知
+- **[typescript-tutorial](https://github.com/xcatliu/typescript-tutorial)** ★1.1万 — TypeScript 入门教程
+- **[stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials)** ★1.0万 — This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.
+- **[AgentGuide](https://github.com/adongwanai/AgentGuide)** ★1.0万 — https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 
+- **[hello-sql](https://github.com/mouredev/hello-sql)** ★1.0万 — Curso para aprender los fundamentos del lenguaje SQL y bases de datos relacionales desde cero y para principia
+- **[computervision-recipes](https://github.com/microsoft/computervision-recipes)** ★9.9k — Best Practices, code samples, and documentation for Computer Vision.
+- **[notebooks](https://github.com/roboflow/notebooks)** ★9.7k — A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from f
+- **[SJTU-Courses](https://github.com/kxxwz/SJTU-Courses)** ★9.7k — 上海交通大学课程资料分享
+- **[coursera-dl](https://github.com/coursera-dl/coursera-dl)** ★9.7k — Script for downloading Coursera.org videos and naming them.
+- **[Reinforcement-learning-with-tensorflow](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)** ★9.5k — Simple Reinforcement learning tutorials, 莫烦Python 中文AI教学
+- **[TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials)** ★9.3k — TensorFlow Tutorials with YouTube Videos
+- **[sre-interview-prep-guide](https://github.com/mxssl/sre-interview-prep-guide)** ★9.2k — Site Reliability Engineer Interview Preparation Guide
+- **[catboost](https://github.com/catboost/catboost)** ★9.1k — A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classificati
+- **[FlutterUnit](https://github.com/toly1994328/FlutterUnit)** ★8.8k — All Platform Flutter Experience App
+- **[30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python)** ★8.8k — Short Python code snippets for all your development needs
+- **[howtographql](https://github.com/howtographql/howtographql)** ★8.7k — The Fullstack Tutorial for GraphQL
+- **[hello-javascript](https://github.com/mouredev/hello-javascript)** ★8.4k — Curso para aprender el lenguaje de programación JavaScript desde cero y para principiantes. +120 lecciones, 14
+- **[Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)** ★8.1k — A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programmin
+- **[Machine-Learning-Specialization-Coursera](https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)** ★8.0k — Contains Solutions and Notes for the Machine Learning Specialization By Stanford University and Deeplearning.a
+- **[Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering)** ★7.9k — 22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanc
+- **[blog](https://github.com/jawil/blog)** ★7.8k — Too young, too simple. Sometimes, naive & stupid
+- **[logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)** ★7.7k — Digital logic design tool and simulator
+- **[Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects)** ★7.7k — Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a refere
+- **[learning-area](https://github.com/mdn/learning-area)** ★7.6k — GitHub repo for the MDN Learning Area.
+- **[HowToHunt](https://github.com/KathanP19/HowToHunt)** ★7.4k — Collection of methodology and test case for various web vulnerabilities.
+- **[52-technologies-in-2016](https://github.com/shekhargulati/52-technologies-in-2016)** ★7.3k — Let's learn a new technology every week. A new technology blog every Sunday in 2016.
+- **[awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh)** ★7.2k — A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with
+- **[guides.railsgirls.com](https://github.com/railsgirls/guides.railsgirls.com)** ★7.2k — Rails Girls Guides
+- **[js-code-to-svg-flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart)** ★7.1k — js2flowchart - a visualization library to convert any JavaScript code into beautiful SVG flowchart. Learn othe
+- **[About-SwiftUI](https://github.com/Juanpe/About-SwiftUI)** ★7.1k — Gathering all info published, both by Apple and by others, about new framework SwiftUI.
+- **[ES6-for-humans](https://github.com/metagrover/ES6-for-humans)** ★7.0k — A kickstarter guide to writing ES6
+- **[react-gh-pages](https://github.com/gitname/react-gh-pages)** ★7.0k — Deploying a React App (created using create-react-app) to GitHub Pages
+- **[rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)** ★6.9k — Tutorials for using RabbitMQ in various ways
+- **[CTFd](https://github.com/CTFd/CTFd)** ★6.9k — CTFs as you need them
+- **[oppia](https://github.com/oppia/oppia)** ★6.8k — A free, online learning platform to make quality education accessible for all.
+- **[plain-app](https://github.com/plainhub/plain-app)** ★6.8k — PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, medi
+- **[Practical_RL](https://github.com/yandexdataschool/Practical_RL)** ★6.6k — A course in reinforcement learning in the wild
+- **[courses](https://github.com/SkalskiP/courses)** ★6.5k — This repository is a curated collection of links to various courses and resources about Artificial Intelligenc
+- **[node-in-debugging](https://github.com/nswbmw/node-in-debugging)** ★6.4k — 《Node.js 调试指南》
+- **[server-survival](https://github.com/pshenok/server-survival)** ★6.4k — Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
+- **[codeparkshare](https://github.com/Yixiaohan/codeparkshare)** ★6.4k — Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
+- **[projectlearn-project-based-learning](https://github.com/Xtremilicious/projectlearn-project-based-learning)** ★6.3k — A curated list of project tutorials for project-based learning.
+- **[machine-learning-mindmap](https://github.com/dformoso/machine-learning-mindmap)** ★6.3k — A mindmap summarising Machine Learning concepts, from Data Analysis to Deep Learning.
+- **[udacity-nanodegrees](https://github.com/mikesprague/udacity-nanodegrees)** ★6.2k — :mortar_board: List of Udacity Nanodegree programs with links to the free courses in their curricula
+- **[markor](https://github.com/gsantner/markor)** ★6.2k — Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+- **[Student-resources](https://github.com/ivmm/Student-resources)** ★6.2k — 本文介绍的是利用学生、教职工身份可以享受到的相关学生优惠、教育优惠或教师优惠的权益，但也希望各位享受权利的同时不要忘记自己的义务，不要售卖、转手自己的学生优惠、教育优惠的资格，使得其他同学无法受益。
+- **[most-frequent-technology-english-words](https://github.com/Wei-Xia/most-frequent-technology-english-words)** ★6.1k — 程序员工作中常见的英语词汇
+- **[docker-curriculum](https://github.com/prakhar1989/docker-curriculum)** ★6.1k — :dolphin: A comprehensive tutorial on getting started with Docker!
+- **[claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** ★6.1k — The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and producti
+- **[Digital](https://github.com/hneemann/Digital)** ★6.1k — A digital logic designer and circuit simulator.
+- **[k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials)** ★6.0k — k8s tutorials | k8s 教程
+- **[ultimate-python](https://github.com/huangsam/ultimate-python)** ★6.0k — Ultimate Python study guide
+- **[awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)** ★5.9k — A tiny list limited to the best JavaScript Learning Resources
+- **[how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent)** ★5.9k — A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Winds
+- **[awesome-certificates](https://github.com/PanXProject/awesome-certificates)** ★5.8k — Curated list of 20,000+ hours and 200+ free courses with certificates in IT, CS, Design and Business.
+- **[learn-to-cloud](https://github.com/learntocloud/learn-to-cloud)** ★5.8k — A courseware built on the belief that anyone can learn foundational cloud engineering skills with the right gu
+- **[awesome-infosec](https://github.com/onlurking/awesome-infosec)** ★5.8k — A curated list of awesome infosec courses and training resources.
+- **[website-archive](https://github.com/CodingTrain/website-archive)** ★5.7k — Archive of the Coding Train website (first version)
+- **[pointers-for-software-engineers](https://github.com/vicoyeh/pointers-for-software-engineers)** ★5.7k — A curated list of topics to start learning software engineering
+- **[1earn](https://github.com/ffffffff0x/1earn)** ★5.7k — ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
+- **[pytorch-seq2seq](https://github.com/bentrevett/pytorch-seq2seq)** ★5.7k — Tutorials on implementing a few sequence-to-sequence (seq2seq) models with PyTorch and TorchText.
+- **[ClashX-V2Ray-TopFreeProxy](https://github.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy)** ★5.6k — Top free VPN (ClashX & V2Ray proxy) with subscription links. （免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray 
+- **[awesome](https://github.com/nuxt/awesome)** ★5.5k — A curated list of awesome things related to Nuxt.js
+- **[nginx-tutorial](https://github.com/dunwu/nginx-tutorial)** ★5.5k — 这是一个 Nginx 极简教程，目的在于帮助新手快速入门 Nginx。
+- **[OpenCat-Quadruped-Robot](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot)** ★5.4k — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are 
+- **[awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)** ★5.4k — This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new l
+- **[sports](https://github.com/roboflow/sports)** ★5.4k — computer vision and sports
+- **[Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples)** ★5.4k — One stop solution for all Vulkan samples
+- **[Pluto.jl](https://github.com/JuliaPluto/Pluto.jl)** ★5.4k — Simple reactive notebooks for Julia
+- **[tinyraytracer](https://github.com/ssloy/tinyraytracer)** ★5.4k — A brief computer graphics / rendering course
+- **[free-project-course](https://github.com/resumejob/free-project-course)** ★5.4k — Free course for Resume, 整理和搜集网络免费的项目实战课程，包括 Java 项目实战，Python 项目实战，C++ 项目实战等
+- **[DevOps-Projects](https://github.com/NotHarshhaa/DevOps-Projects)** ★5.3k — Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/C
+- **[start-machine-learning](https://github.com/louisfb01/start-machine-learning)** ★5.3k — A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2026 without A
+- **[robotics-coursework](https://github.com/mithi/robotics-coursework)** ★5.3k — Places where you can learn robotics (and stuff like that) online
+- **[build-linux](https://github.com/MichielDerhaeg/build-linux)** ★5.2k — A short tutorial about building Linux based operating systems.
+- **[Front-End-Web-Development-Resources](https://github.com/RitikPatni/Front-End-Web-Development-Resources)** ★5.2k — This repository contains content which will be helpful in your journey as a front-end Web Developer
+- **[learnapollo](https://github.com/learnapollo/learnapollo)** ★5.1k — ‍ Learn Apollo - A hands-on tutorial for Apollo GraphQL Client (created by Graphcool)
+- **[have-fun-with-machine-learning](https://github.com/humphd/have-fun-with-machine-learning)** ★5.1k — An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks
+- **[algorithmica](https://github.com/algorithmica-org/algorithmica)** ★5.1k — A computer science textbook
+- **[30-seconds-of-react](https://github.com/Chalarangelo/30-seconds-of-react)** ★5.1k — Short React code snippets for all your development needs
+- **[ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)** ★5.0k — 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径 + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dif
+- **[python-cheatsheet](https://github.com/labex-labs/python-cheatsheet)** ★5.0k — Python Cheatsheet - interactive hands-on course by LabEx.
+- **[bare-metal-programming-guide](https://github.com/cpq/bare-metal-programming-guide)** ★4.9k — A bare metal programming guide (ARM microcontrollers)
+- **[QuantumKatas](https://github.com/microsoft/QuantumKatas)** ★4.9k — Tutorials and programming exercises for learning Q# and quantum computing
+- **[RxJava2-Android-Samples](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples)** ★4.9k — RxJava 2 Android Examples - How to use RxJava 2 in Android
+- **[course-v3](https://github.com/fastai/course-v3)** ★4.9k — The 3rd edition of course.fast.ai
+- **[ai-agents-from-scratch](https://github.com/pguso/ai-agents-from-scratch)** ★4.8k — Demystify AI agents by building them yourself. Local LLMs, no black boxes, real understanding of function call
+- **[DeepLearningProject](https://github.com/Spandan-Madan/DeepLearningProject)** ★4.8k — An in-depth machine learning tutorial introducing readers to a whole machine learning pipeline from scratch.
+- **[flutter-tutorials](https://github.com/FilledStacks/flutter-tutorials)** ★4.8k — The repo contains the source code for all the tutorials on the FilledStacks Youtube channel.
+- **[python-web](https://github.com/mouredev/python-web)** ★4.8k — Curso para aprender desarrollo frontend Web con Python puro desde cero. Elaborado durante las emisiones en dir
+- **[golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers)** ★4.8k — Examples of Golang compared to Node.js for learning By @miguelmota
+- **[tiny-llm](https://github.com/skyzh/tiny-llm)** ★4.7k — learn LLM inference system on Apple Silicon for systems engineers: build a tiny vLLM + Qwen
+- **[awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security)** ★4.7k — A curated list of resources for learning about vehicle security and car hacking.
+- **[hello-java](https://github.com/mouredev/hello-java)** ★4.7k — Curso para aprender el lenguaje de programación Java y Programación Orientada a Objetos (POO) desde cero y par
+- **[arkade](https://github.com/alexellis/arkade)** ★4.6k — Open Source Marketplace For Developer Tools
+- **[flink-training-course](https://github.com/flink-china/flink-training-course)** ★4.6k — Flink 中文视频课程（持续更新...）
+- **[pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)** ★4.6k — Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
+- **[ActionRoguelike](https://github.com/tomlooman/ActionRoguelike)** ★4.6k — Co-op Action Roguelike in Unreal Engine C++
+- **[react-from-zero](https://github.com/kay-is/react-from-zero)** ★4.6k — A simple (99% ES2015 less) tutorial for React
+- **[Awesome-AIGC-Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)** ★4.5k — Curated tutorials and resources for Large Language Models, AI Painting, and more.
+- **[DashPlayer](https://github.com/solidSpoon/DashPlayer)** ★4.5k — 为英语学习者量身打造的视频播放器，助你通过观看视频、沉浸真实语境，轻松提升英语水平。#美剧 #播放器 #听力
+- **[hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)** ★4.5k — An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanc
+- **[Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills)** ★4.5k — A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 
+- **[Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch)** ★4.4k — :bouncing_ball_person: Pytorch ReID: A tiny, friendly, strong pytorch implement of person re-id / vehicle re-i
+- **[miniob](https://github.com/oceanbase/miniob)** ★4.4k — MiniOB is a compact database that assists developers in understanding the fundamental workings of a database.
+- **[write-a-hash-table](https://github.com/jamesroutley/write-a-hash-table)** ★4.4k — Learn how to write a hash table in C
+- **[4noobs](https://github.com/he4rt/4noobs)** ★4.4k — Repositório listando 4noobs de todas as categorias e funcionalidades possíveis.
+- **[llm-twin-course](https://github.com/decodingai-magazine/llm-twin-course)** ★4.4k — 𝗟𝗲𝗮𝗿𝗻 for 𝗳𝗿𝗲𝗲 how to 𝗯𝘂𝗶𝗹𝗱 an end-to-end 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗿𝗲𝗮𝗱𝘆 𝗟𝗟𝗠 & 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺 using 𝗟𝗟𝗠𝗢𝗽𝘀 best practices: ~ 𝘴𝘰𝘶
+- **[Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)** ★4.4k — In this repository, I will share some useful notes and references about deploying deep learning-based models i
+- **[web-design-in-4-minutes](https://github.com/jgthms/web-design-in-4-minutes)** ★4.4k — Learn the basics of web design in 4 minutes
+- **[bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial)** ★4.3k — eBPF Developer Tutorial: Learning eBPF Step by Step with Examples
+- **[aws-serverless-workshops](https://github.com/aws-samples/aws-serverless-workshops)** ★4.3k — Code and walkthrough labs to set up serverless applications for Wild Rydes workshops
+- **[AI-ML-Roadmap-from-scratch](https://github.com/aadi1011/AI-ML-Roadmap-from-scratch)** ★4.2k — Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natur
+- **[course](https://github.com/parallel101/course)** ★4.2k — 高性能并行编程与优化 - 课件
+- **[front-end-handbook-2018](https://github.com/FrontendMasters/front-end-handbook-2018)** ★4.2k — 2018 edition of our front-end development handbook
+- **[mini-lsm](https://github.com/skyzh/mini-lsm)** ★4.2k — learn database internals by building a storage engine in Rust
+- **[awesome-computer-science-opportunities](https://github.com/anu0012/awesome-computer-science-opportunities)** ★4.2k — An awesome list of events and fellowship opportunities for Computer Science students
+- **[Blog](https://github.com/berwin/Blog)** ★4.2k — 记录成长的过程
+- **[Linux-Bash-Commands](https://github.com/trinib/Linux-Bash-Commands)** ★4.1k — :godmode: Ultimate list of Linux bash commands, cheatsheets and resources
+- **[regexlearn.com](https://github.com/aykutkardas/regexlearn.com)** ★4.1k — Learn RegEx step by step, from zero to advanced.
+- **[uestc-course](https://github.com/Xovee/uestc-course)** ★4.1k — 电子科技大学 课程资料
+- **[android-developer-roadmap](https://github.com/mobile-roadmap/android-developer-roadmap)** ★4.1k — Android Developer Roadmap 2020
+- **[Kotlin-Tutorials](https://github.com/bennyhuo/Kotlin-Tutorials)** ★4.1k — 仓库持续记录以 Kotlin 为基础的视频内容的制作过程
+- **[Echo-Loop](https://github.com/echo-loop/Echo-Loop)** ★4.1k — Echo Loop 是一款科学、高效的 AI 英语听说训练 App，通过精听、跟读、盲听、复述和间隔复习，自动驱动学习者把每一段音频真正练懂、练熟、练到会说。
+- **[ru.javascript.info](https://github.com/javascript-tutorial/ru.javascript.info)** ★4.1k — Современный учебник JavaScript
+- **[free-python-games](https://github.com/grantjenks/free-python-games)** ★4.0k — Free Python Games
+- **[free-gophers-pack](https://github.com/MariaLetta/free-gophers-pack)** ★4.0k — This pack of 100+ gopher pictures and elements will help you to build own design of almost anything related to
+- **[nix.dev](https://github.com/NixOS/nix.dev)** ★4.0k — Official documentation for getting things done with Nix.
+- **[rust-algorithms](https://github.com/EbTech/rust-algorithms)** ★4.0k — Common data structures and algorithms in Rust
+- **[Hackintosh-Installer-University](https://github.com/huangyz0918/Hackintosh-Installer-University)** ★4.0k — Open source tutorial & information collector for hackintosh installation.
+- **[PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)** ★4.0k — Simple PyTorch Tutorials Zero to ALL!
+- **[eattheblocks](https://github.com/jklepatch/eattheblocks)** ★4.0k — Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers
+- **[Ethical-Hacking-Labs](https://github.com/Samsar4/Ethical-Hacking-Labs)** ★3.9k — Practical Ethical Hacking Labs
+- **[Fuzzing101](https://github.com/antonio-morales/Fuzzing101)** ★3.9k — An step by step fuzzing tutorial. A GitHub Security Lab initiative
+- **[noboilerplate](https://github.com/0atman/noboilerplate)** ★3.9k — Code for my talks on the No Boilerplate channel
+- **[awesome-css-learning](https://github.com/micromata/awesome-css-learning)** ★3.9k — A tiny list limited to the best CSS Learning Resources
+- **[learn-react-app](https://github.com/tyroprogrammer/learn-react-app)** ★3.8k — Application that will help you learn React fundamentals. Install this application locally - there's tutorial, 
+- **[scikit-learn-videos](https://github.com/justmarkham/scikit-learn-videos)** ★3.8k — Jupyter notebooks from the scikit-learn video series
+- **[flutter-ui-nice](https://github.com/FlutterOpen/flutter-ui-nice)** ★3.8k — More than 130+ pages in this beautiful app and more than 45 developers has contributed to it.
+- **[Play-with-Algorithms](https://github.com/liuyubobobo/Play-with-Algorithms)** ★3.7k — Codes of my MOOC Course <Play with Algorithms>, Both in C++ and Java language. Updated contents and practices 
+- **[cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)** ★3.7k — CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load bal
+- **[javascript](https://github.com/GitbookIO/javascript)** ★3.7k — GitBook teaching programming basics with Javascript
+- **[ByteLegend](https://github.com/ByteLegend/ByteLegend)** ★3.7k — Enjoy programming while playing a game.
+- **[elixirschool](https://github.com/elixirschool/elixirschool)** ★3.7k — The content behind Elixir School, the premier destination for people seeking to learn and master the Elixir pr
+- **[egos-2000](https://github.com/yhzhang0128/egos-2000)** ★3.6k — Envision a future where everyone can read all the code of an educational operating system.
+- **[how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt)** ★3.6k — Build a modern LLM from scratch. Every line commented. Explained like we are five.
+- **[PyQt-Chinese-tutorial](https://github.com/maicss/PyQt-Chinese-tutorial)** ★3.6k — PyQt6中文教程
+- **[awesome-cyber-security-university](https://github.com/brootware/awesome-cyber-security-university)** ★3.6k — Because Education should be free. Contributions welcome!
+- **[rathena](https://github.com/rathena/rathena)** ★3.6k — rAthena is an open-source cross-platform MMORPG server.
+- **[ml-course](https://github.com/girafe-ai/ml-course)** ★3.6k — Open Machine Learning course
+- **[CppDeveloperRoadmap](https://github.com/salmer/CppDeveloperRoadmap)** ★3.6k — The roadmap for learning the C++ programming language for beginners and experienced devs.
+- **[awesome-learn-gamedev](https://github.com/dawdle-deer/awesome-learn-gamedev)** ★3.6k — A curated collection of game development learning resources
+- **[Index](https://github.com/HowProgrammingWorks/Index)** ★3.5k — Metarhia educational program index
+- **[nndl-practice](https://github.com/nndl/nndl-practice)** ★3.5k — 《神经网络与深度学习：案例与实践》第二版：10 章 PyTorch 实践、Notebook、测试与电子书。
+- **[OpenBot](https://github.com/ob-f/OpenBot)** ★3.5k — OpenBot leverages smartphones as brains for low-cost robots. We have designed a small electric vehicle that co
+- **[redux-in-chinese](https://github.com/nefe/redux-in-chinese)** ★3.5k — Redux 中文文档
+- **[OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)** ★3.4k — OpenCV问答群不再维护。有问题，自己去搜索。Google能找到大部分答案。
+- **[llvm-tutor](https://github.com/banach-space/llvm-tutor)** ★3.4k — A collection of out-of-tree LLVM passes for teaching and learning
+- **[go_command_tutorial](https://github.com/hyper0x/go_command_tutorial)** ★3.4k — Golang command tutorial in Chinese.
+- **[Ripes](https://github.com/mortbopet/Ripes)** ★3.4k — A graphical processor simulator and assembly editor for the RISC-V ISA
+- **[teach-rs](https://github.com/trifectatechfoundation/teach-rs)** ★3.4k — A modular, reusable university course for Rust
+- **[coding-problems](https://github.com/MTrajK/coding-problems)** ★3.4k — Solutions for various coding/algorithmic problems and many useful resources for learning algorithms and data s
+- **[EpicSurvivalGame](https://github.com/tomlooman/EpicSurvivalGame)** ★3.4k — Third-person Survival Game for Unreal Engine (Sample Project)
+- **[gridgarden](https://github.com/thomaspark/gridgarden)** ★3.4k — A game for learning CSS grid layout
+- **[MinecraftDeveloperGuide](https://github.com/mouse0w0/MinecraftDeveloperGuide)** ★3.4k — Minecraft developer Chinese guide，我的世界开发者中文指南
+- **[blog](https://github.com/a327ex/blog)** ★3.3k — gamedev blog
+- **[learning-cmake](https://github.com/Akagi201/learning-cmake)** ★3.3k — learning cmake
+- **[machine-learning](https://github.com/teddylee777/machine-learning)** ★3.3k — 머신러닝 입문자 혹은 스터디를 준비하시는 분들에게 도움이 되고자 만든 repository입니다. (This repository is intented for helping whom are intere
+- **[lms](https://github.com/frappe/lms)** ★3.3k — Easy to Use, 100% Open Source Learning Management System
+- **[GoGuide](https://github.com/Weikezi-AI/GoGuide)** ★3.2k — 「Go语言学习指南」一份涵盖大部分 Golang 程序员所需要掌握的核心知识，拥有 Go语言教程、Go开源书籍、Go语言入门教程、Go语言学习路线。零基础学习 Go语言、Go编程，首选 GoGuide。
+- **[learn-to-send-email-via-google-script-html-no-server](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server)** ★3.2k — :email: An Example of using an HTML form (e.g: "Contact Us" on a website) to send Email without a Backend Serv
+- **[uvadlc_notebooks](https://github.com/phlippe/uvadlc_notebooks)** ★3.2k — Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam 
+- **[Guides](https://github.com/TRaSH-Guides/Guides)** ★3.2k — TRaSH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applicat
+- **[matplotlib-tutorial](https://github.com/rougier/matplotlib-tutorial)** ★3.2k — Matplotlib tutorial for beginner
+- **[go-collection](https://github.com/jiujuan/go-collection)** ★3.2k — :tulip: awesome awesome go, study golang from basic to proficient。Go Study Guide。从学习 Go 基础语法和高级特性，到实战项目，再到架构微服
+- **[awesome-katas](https://github.com/gamontal/awesome-katas)** ★3.2k — A curated list of code katas
+- **[articles](https://github.com/Wscats/articles)** ★3.2k — My Learning Notes and Memories - 分享我的学习片段和与你的回忆
+- **[break-the-ice-with-python](https://github.com/darkprinx/break-the-ice-with-python)** ★3.1k — The repository is about 100+ python programming exercise problem discussed, explained, and solved in different
+- **[Deep-Learning-with-PyTorch-Tutorials](https://github.com/dragen1860/Deep-Learning-with-PyTorch-Tutorials)** ★3.1k — 深度学习与PyTorch入门实战视频教程 配套源代码和PPT
+- **[a-PyTorch-Tutorial-to-Object-Detection](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection)** ★3.1k — SSD: Single Shot MultiBox Detector | a PyTorch Tutorial to Object Detection
+- **[py4e](https://github.com/csev/py4e)** ★3.1k — Web site for www.py4e.com and source to the Python 3.0 textbook
+- **[fastapi-realworld-example-app](https://github.com/nsidnev/fastapi-realworld-example-app)** ★3.1k — Backend logic implementation for https://github.com/gothinkster/realworld with awesome FastAPI
+- **[Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know)** ★3.1k — A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, sl
+- **[Presentation](https://github.com/hyperoslo/Presentation)** ★3.1k — :bookmark_tabs: Presentation helps you to make tutorials, release notes and animated pages.
+- **[ios-learning-materials](https://github.com/eleev/ios-learning-materials)** ★3.1k — Curated list of articles, tutorials and repos that may help you dig a little bit deeper into iOS （and Apple Pl
+- **[infect](https://github.com/noob-hackers/infect)** ★3.0k — Infect Any Android Device With Virus From Link In Termux
+- **[study-path](https://github.com/joebew42/study-path)** ★3.0k — A curated, open, and ever-evolving learning path focused on practices of software development, principles of s
+- **[pythoncode-tutorials](https://github.com/x4nth055/pythoncode-tutorials)** ★3.0k — The Python Code Tutorials
+- **[digital-forensics-lab](https://github.com/frankwxu/digital-forensics-lab)** ★3.0k — Free hands-on digital forensics labs for students and faculty
+- **[xdp-tutorial](https://github.com/xdp-project/xdp-tutorial)** ★3.0k — XDP tutorial
+- **[openclaw101](https://github.com/mengjian-github/openclaw101)** ★3.0k — OpenClaw 101 — 从零开始，7天掌握你的AI私人助理 | 全网资源聚合站
+- **[deep-learning-keras-tensorflow](https://github.com/leriomaggio/deep-learning-keras-tensorflow)** ★3.0k — Introduction to Deep Neural Networks with Keras and Tensorflow
+- **[fullstackpython.com](https://github.com/mattmakai/fullstackpython.com)** ★3.0k — Full Stack Python source with Pelican, Bootstrap and Markdown.
+- **[oh-my-git](https://github.com/git-learning-game/oh-my-git)** ★2.9k — An interactive Git learning game!
+- **[android-developer-roadmap](https://github.com/amitshekhariitbhu/android-developer-roadmap)** ★2.9k — Android Developer Roadmap - A complete roadmap to learn Android App Development
+- **[awesome-android-complete-reference](https://github.com/amitshekhariitbhu/awesome-android-complete-reference)** ★2.9k — Here I list down all of the high-quality blogs that I publish on my website.
+- **[ClassIsland](https://github.com/ClassIsland/ClassIsland)** ★2.8k — 一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。
+- **[computational-thinking](https://github.com/mitmath/computational-thinking)** ★2.8k — Course 18.S191 at MIT, Fall 2022 - Introduction to computational thinking with Julia
+- **[typescript-tutorial](https://github.com/wangdoc/typescript-tutorial)** ★2.8k — TypeScript 教程
+- **[NJUCS](https://github.com/JackeyLea/NJUCS)** ★2.8k — 2025南京大学计算机科学与技术845考研公共课和专业课资料：数学一、英语一、政治、数据结构、计算机网络、计算机系统基础、操作系统教程、算法设计与分析-包括真题、期末考试、PPT、模拟题、专业课参考书及课后答案、报录比、
+- **[learn-gdscript](https://github.com/GDQuest/learn-gdscript)** ★2.8k — Learn Godot's GDScript programming language from zero, right in your browser, for free.
+- **[Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion)** ★2.8k — FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111, Forge WebUI, SwarmU
+- **[front-end-roadmap](https://github.com/ObjTube/front-end-roadmap)** ★2.8k — Tell you how to learn front end development ~
+- **[aicodeguide](https://github.com/automata/aicodeguide)** ★2.7k — AI Code Guide is a roadmap to start coding with AI
+- **[claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch)** ★2.7k — Build your own Claude Code from scratch. Claude Code 开源了 50 万行代码，读不动？用 ~5000 行 TypeScript / Python 从零复现核心架构，11
+- **[mindforger](https://github.com/dvorka/mindforger)** ★2.7k — Thinking notebook and Markdown editor.
+- **[codecrumbs](https://github.com/CodecrumbsIO/codecrumbs)** ★2.7k — Learn, design or document codebase by putting breadcrumbs in source code. Live updates, multi-language support
+- **[danghuangshang](https://github.com/wanikua/danghuangshang)** ★2.7k — Open-source multi-agent collaboration system inspired by Chinese governance — deploy and coordinate specialize
+- **[Hypervisor-From-Scratch](https://github.com/SinaKarvandi/Hypervisor-From-Scratch)** ★2.7k — Source code of a multiple series of tutorials about the hypervisor. Available at: https://rayanfam.com/tutoria
+- **[whitebophir](https://github.com/lovasoa/whitebophir)** ★2.7k — Online collaborative Whiteboard that is simple, free, easy to use and to deploy
+- **[robotics_essentials_ros2](https://github.com/henki-robotics/robotics_essentials_ros2)** ★2.6k — Learn the basics of robotics through hands-on experience using ROS 2 and Gazebo simulation.
+- **[scala-exercises](https://github.com/scala-exercises/scala-exercises)** ★2.6k — The easy way to learn Scala.
+- **[PPOxFamily](https://github.com/opendilab/PPOxFamily)** ★2.6k — PPO x Family DRL Tutorial Course（决策智能入门级公开课：8节课帮你盘清算法理论，理顺代码逻辑，玩转决策AI应用实践 ）
+- **[cryptozombies-lesson-code](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code)** ★2.6k — cryptozomebie lesson code
+- **[hackclub](https://github.com/hackclub/hackclub)** ★2.6k — Hack Club is a worldwide community of high school hackers. We make things. We help one another. We have fun.
+- **[redux-simple-tutorial](https://github.com/kenberkeley/redux-simple-tutorial)** ★2.6k — Redux 简明教程。本教程深入浅出，配套入门、进阶源码解读以及文档注释丰富的 Demo 等一条龙服务
+- **[kube-ladder](https://github.com/caicloud/kube-ladder)** ★2.6k — Learning Kubernetes, The Chinese Taoist Way
+- **[Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub)** ★2.6k — Central repository for tools, tutorials, resources, and documentation for robotics simulation in Unity.
+- **[Golang_Puzzlers](https://github.com/hyper0x/Golang_Puzzlers)** ★2.6k — An example project, for my column named "Core Golang - 36 lessons"
+- **[deepagents-in-action](https://github.com/datawhalechina/deepagents-in-action)** ★2.6k — 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南
+- **[rag-cookbooks](https://github.com/athina-ai/rag-cookbooks)** ★2.6k — This repository contains various advanced techniques for Retrieval-Augmented Generation (RAG) systems.
+- **[Contribute-To-This-Project](https://github.com/Syknapse/Contribute-To-This-Project)** ★2.6k — This project is waiting for your contribution. If you have never contributed code on GitHub before, this is th
+- **[AdvancedAndroid](https://github.com/SusionSuc/AdvancedAndroid)** ★2.6k — Android 进阶
+- **[transferlearning-tutorial](https://github.com/jindongwang/transferlearning-tutorial)** ★2.6k — 《迁移学习简明手册》LaTex源码
+- **[handy-ollama](https://github.com/datawhalechina/handy-ollama)** ★2.5k — 动手学Ollama，CPU玩转大模型部署，在线阅读地址：https://datawhalechina.github.io/handy-ollama/
+- **[qiskit-tutorials](https://github.com/Qiskit/qiskit-tutorials)** ★2.5k — A collection of Jupyter notebooks showing how to use the Qiskit SDK
+- **[30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python)** ★2.5k — Learn Python for the next 30 (or so) Days.
+- **[Getting-Things-Done-with-Pytorch](https://github.com/curiousily/Getting-Things-Done-with-Pytorch)** ★2.5k — Jupyter Notebook tutorials on solving real-world problems with Machine Learning & Deep Learning using PyTorch.
+- **[flutter-study](https://github.com/yang7229693/flutter-study)** ★2.5k — Flutter Study
+- **[Bayesian-Modelling-in-Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)** ★2.5k — A python tutorial on bayesian modeling techniques (PyMC3)
+- **[hello-bash-shell](https://github.com/mouredev/hello-bash-shell)** ★2.5k — Curso para aprender a trabajar con Bash (Bourne-again shell), línea de comandos, terminal y scripting desde ce
+- **[opencog](https://github.com/opencog/opencog)** ★2.5k — A framework for integrated Artificial Intelligence & Artificial General Intelligence (AGI)
+- **[30-seconds-of-php](https://github.com/Chalarangelo/30-seconds-of-php)** ★2.5k — Short PHP code snippets for all your development needs
+- **[ThatProject](https://github.com/0015/ThatProject)** ★2.5k — *That Project's project repository
+- **[blockchain-tutorial](https://github.com/liuchengxu/blockchain-tutorial)** ★2.5k — :ear_of_rice: A step-by-step blockchain tutorial in simplified Chinese
+- **[SwiftUI-Tutorials](https://github.com/WillieWangWei/SwiftUI-Tutorials)** ★2.5k — A code example and translation project of SwiftUI. / 一个 SwiftUI 的示例、翻译的教程项目。
+- **[AutonomousDrivingCookbook](https://github.com/microsoft/AutonomousDrivingCookbook)** ★2.4k — Scenarios, tutorials and demos for Autonomous Driving
+- **[penecho](https://github.com/penecho/penecho)** ★2.4k — Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning
+- **[react-native-copilot](https://github.com/mohebifar/react-native-copilot)** ★2.4k — Step-by-step walkthrough tooltip for your react native app
+- **[python-for-absolute-beginners-course](https://github.com/talkpython/python-for-absolute-beginners-course)** ★2.4k — Code samples and other handouts for our course.
+- **[tinykaboom](https://github.com/ssloy/tinykaboom)** ★2.4k — A brief computer graphics / rendering course
+- **[spacy-course](https://github.com/explosion/spacy-course)** ★2.4k — ‍ Advanced NLP with spaCy: A free online course
+- **[learnstorybook.com](https://github.com/chromaui/learnstorybook.com)** ★2.4k — Static site and content for Storybook tutorials
+- **[NeuroKit](https://github.com/neuropsychology/NeuroKit)** ★2.4k — NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
+- **[ai-tech-interview](https://github.com/boost-devs/ai-tech-interview)** ★2.4k — ‍‍ AI 엔지니어 기술 면접 스터디 ( 2k+)
+- **[semana-javascript-expert07](https://github.com/ErickWendel/semana-javascript-expert07)** ★2.4k — JS Expert Week 7.0 - Controlling Streaming Platforms using Eye and Hand Detection
+- **[oeasy-python-tutorial](https://github.com/overmind1980/oeasy-python-tutorial)** ★2.4k — 良心的 Python 教程，面向零基础初学者简明易懂的 Python3 入门基础课程。在linux+vim生产力环境下，从浅入深，从简单程序学到网络爬虫。可以配合蓝桥云上实验环境操作。
+- **[sqa-wiki](https://github.com/ligurio/sqa-wiki)** ★2.3k — My own notes (drafts mostly) about software quality
+- **[learnhouse](https://github.com/learnhouse/learnhouse)** ★2.3k — The Next-gen Open Source learning platform for everyone
+- **[cmake-demo](https://github.com/wzpan/cmake-demo)** ★2.3k — 《CMake入门实战》源码
+- **[ansible-tuto](https://github.com/leucos/ansible-tuto)** ★2.3k — Ansible tutorial
+- **[switching-to-contracting-uk](https://github.com/tadast/switching-to-contracting-uk)** ★2.3k — A step by step guide of how to start contracting in United Kingdom
+- **[sp-dev-fx-webparts](https://github.com/pnp/sp-dev-fx-webparts)** ★2.3k — SharePoint Framework web part, Teams tab, personal app, app page samples
+- **[oh-my-backend](https://github.com/bzick/oh-my-backend)** ★2.3k — Что нужно знать бэкенд-разработчику web-приложений. Backend Roadmap (from Junior to Senior).
+- **[pandas-videos](https://github.com/justmarkham/pandas-videos)** ★2.3k — Jupyter notebook and datasets from the pandas video series
+- **[30-days-of-react](https://github.com/fullstackreact/30-days-of-react)** ★2.2k — 30 Days of React Content and Source Code
+- **[OSINT-Cheat-sheet](https://github.com/Jieyab89/OSINT-Cheat-sheet)** ★2.2k — OSINT cheat sheet, list OSINT tools, wiki, dataset, article, book , red team OSINT for hackers and OSINT tips 
+- **[hello-claw](https://github.com/datawhalechina/hello-claw)** ★2.2k — 哈喽！龙虾 ‍ Adopt from scratch and build your first claw 来领养你的第一只龙虾！
+- **[100daysofcode-with-python-course](https://github.com/talkpython/100daysofcode-with-python-course)** ★2.2k — Course materials and handouts for #100DaysOfCode in Python course
+- **[Awesome-Chatbot](https://github.com/fendouai/Awesome-Chatbot)** ★2.2k — Awesome Chatbot Projects,Corpus,Papers,Tutorials.Chinese Chatbot =>:
+- **[intellij-idea-tutorial](https://github.com/guobinhit/intellij-idea-tutorial)** ★2.2k — This is a tutorial of IntelliJ IDEA, you can know how to use IntelliJ IDEA better and better.
+- **[the-turing-way](https://github.com/the-turing-way/the-turing-way)** ★2.2k — Book repository for The Turing Way: a how to guide for reproducible, ethical and collaborative data science
+- **[intro-to-apis-course](https://github.com/craigsdennis/intro-to-apis-course)** ★2.2k — Introduction to APIs course
+- **[cookbook.fish](https://github.com/jorgebucaran/cookbook.fish)** ★2.2k — From Shell to Plate: Savor the Zest of Fish
+- **[Weekly-Challenge-2022-Kotlin](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin)** ★2.2k — Ejercicios de código semanales en 2022 de la comunidad MoureDev para practicar lógica en cualquier lenguaje de
+- **[evaluation-guidebook](https://github.com/huggingface/evaluation-guidebook)** ★2.1k — Sharing both practical insights and theoretical knowledge about LLM evaluation that we gathered while managing
+- **[gpiozero](https://github.com/gpiozero/gpiozero)** ★2.1k — A simple interface to GPIO devices with Raspberry Pi
+- **[Introduction_to_Machine_Learning](https://github.com/SharifiZarchi/Introduction_to_Machine_Learning)** ★2.1k — Machine Learning Course, Sharif University of Technology
+- **[pytorch-cpp](https://github.com/prabhuomkar/pytorch-cpp)** ★2.1k — C++ Implementation of PyTorch Tutorials for Everyone
+- **[taniarascia.com](https://github.com/taniarascia/taniarascia.com)** ★2.1k — ‎ Personal website running on Gatsby, React, and Node.js.
+- **[TensorFlow-Tutorials](https://github.com/golbin/TensorFlow-Tutorials)** ★2.1k — 텐서플로우를 기초부터 응용까지 단계별로 연습할 수 있는 소스 코드를 제공합니다
+- **[study-is-wonderful](https://github.com/xioacd99/study-is-wonderful)** ★2.1k — awesome public courses and wonderful study resource
+- **[lc3-vm](https://github.com/justinmeiners/lc3-vm)** ★2.1k — Write your own virtual machine for the LC-3 computer!
+- **[Code2Video](https://github.com/showlab/Code2Video)** ★2.1k — （ICML 2026） Video generation via code
+- **[vim-go-tutorial](https://github.com/fatih/vim-go-tutorial)** ★2.1k — Tutorial for vim-go
+- **[Awesome-Cybersecurity-Datasets](https://github.com/shramos/Awesome-Cybersecurity-Datasets)** ★2.1k — A curated list of amazingly awesome Cybersecurity datasets
+- **[py2rs](https://github.com/rochacbruno/py2rs)** ★2.1k — A quick reference guide for the Pythonista in the process of becoming a Rustacean
+- **[LearnRust](https://github.com/ImplFerris/LearnRust)** ★2.1k — Rust Learning Resources
+- **[elasticsearch-gmail](https://github.com/oliver006/elasticsearch-gmail)** ★2.1k — Index your Gmail Inbox with Elasticsearch
+- **[langchain-kr](https://github.com/teddylee777/langchain-kr)** ★2.1k — LangChain 공식 Document, Cookbook, 그 밖의 실용 예제를 바탕으로 작성한 한국어 튜토리얼입니다. 본 튜토리얼을 통해 LangChain을 더 쉽고 효과적으로 사용하는 방법을 배
+- **[tinyraycaster](https://github.com/ssloy/tinyraycaster)** ★2.0k — 486 lines of C++: old-school FPS in a weekend
+- **[PageLM](https://github.com/CaviraOSS/PageLM)** ★2.0k — PageLM is a community driven version of NotebookLM & a education platform that transforms study materials into
+- **[42_CheatSheet](https://github.com/agavrel/42_CheatSheet)** ★2.0k — A comprehensive guide to 50 years of evolution of strict C programming, a tribute to Dennis Ritchie's language
+- **[Play-with-Data-Structures](https://github.com/liuyubobobo/Play-with-Data-Structures)** ★2.0k — Codes of my MOOC Course <Play Data Structures in Java>. Updated contents and practices are also included. 我在慕课
+- **[stethoscope](https://github.com/Netflix-Skunkworks/stethoscope)** ★2.0k — Personalized, user-focused recommendations for employee information security.
+- **[awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents)** ★2.0k — A comprehensive list of 1,500+ resources and tools related to AI agents.
+- **[awesome-data-analysis](https://github.com/PavelGrigoryevDS/awesome-data-analysis)** ★2.0k — 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheat
+- **[learn365](https://github.com/harsh-bothra/learn365)** ★2.0k — This repository is about @harshbothra_'s 365 days of Learning Tweets & Mindmaps collection.
+- **[ko.javascript.info](https://github.com/javascript-tutorial/ko.javascript.info)** ★2.0k — 모던 JavaScript 튜토리얼(The Modern JavaScript Tutorial in Korean )
+- **[learn-x-by-doing-y](https://github.com/aquadzn/learn-x-by-doing-y)** ★2.0k — Learn a technology X by doing a project - Search engine of project-based learning
+- **[JPlag](https://github.com/jplag/JPlag)** ★2.0k — State-of-the-Art Source Code Plagiarism & Collusion Detection. Check for plagiarism in a set of programs.
+- **[iiab](https://github.com/iiab/iiab)** ★2.0k — Internet-in-a-Box - Build your own LIBRARY OF ALEXANDRIA with a Raspberry Pi !
+- **[HypeScript](https://github.com/ronami/HypeScript)** ★2.0k — A simplified implementation of TypeScript's type system written in TypeScript's type system
+- **[less_slow.cpp](https://github.com/ashvardanian/less_slow.cpp)** ★1.9k — Playing around "Less Slow" coding practices in C++ 20, C, CUDA, PTX, & Assembly, from numerics & SIMD to corou
+- **[kubernetes-learning](https://github.com/cnych/kubernetes-learning)** ★1.9k — 《从Docker到Kubernetes进阶课程》在线文档
+- **[obfus.h](https://github.com/DosX-dev/obfus.h)** ★1.9k — Macro-header for compile-time C obfuscation (tcc, win x86/x64)
+- **[usaco-guide](https://github.com/cpinitiative/usaco-guide)** ★1.9k — A free collection of curated, high-quality resources to take you from Bronze to Platinum and beyond.
+- **[risinglight](https://github.com/risinglightdb/risinglight)** ★1.8k — An educational OLAP database system.
+- **[Awesome-pytorch-list-CNVersion](https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion)** ★1.8k — Awesome-pytorch-list 翻译工作进行中......
+- **[Free-Courses-For-Everyone](https://github.com/MasterBrian99/Free-Courses-For-Everyone)** ★1.8k — Download or get free coupons from famous course websites.
+- **[Practical_DL](https://github.com/yandexdataschool/Practical_DL)** ★1.8k — DL course co-developed by YSDA, HSE and Skoltech
+- **[d2mcpp](https://github.com/mcpp-community/d2mcpp)** ★1.8k — D2X | Modern C++ Core Language Features - "A C++ tutorial project focused on practical"
+- **[watlings](https://github.com/EmNudge/watlings)** ★1.8k — Learn WebAssembly by writing small programs!
+- **[ai-infra-engineer-learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning)** ★1.8k — AI Infrastructure Engineer Learning Track - Production ML infrastructure curriculum (2-4 years experience)
+- **[chaoxing-signin](https://github.com/cxOrz/chaoxing-signin)** ★1.7k — 超星学习通签到：支持普通签到、拍照签到、手势签到、位置签到、二维码签到，支持自动监测、QQ机器人签到与推送。
+- **[awesome-economics](https://github.com/antontarasenko/awesome-economics)** ★1.7k — A curated collection of links for economists
+- **[key-book](https://github.com/datawhalechina/key-book)** ★1.7k — 《机器学习理论导引》（宝箱书）的证明、案例、概念补充与参考文献讲解。
+- **[awesome-cn](https://github.com/icopy-site/awesome-cn)** ★1.7k — 超赞列表合集
+- **[awesome-neuroscience](https://github.com/analyticalmonk/awesome-neuroscience)** ★1.7k — A curated list of awesome neuroscience libraries, software and any content related to the domain.
+- **[skid-homework](https://github.com/cubewhy/skid-homework)** ★1.7k — Ergonomically designed, AI-powered homework solver. | 符合人体工程学设计、人工智能驱动的作业助手 | 平庸者的苦工到此为止，这是来自外星的效率补丁 (by Gemin
+- **[golang-examples](https://github.com/SimonWaldherr/golang-examples)** ★1.7k — Go(lang) examples - (explain the basics of #golang)
+- **[vimmaster](https://github.com/renzorlive/vimmaster)** ★1.7k — VIM Master: in-browser game that teaches core Vim motions and editing commands through short, focused levels.
+- **[classroomio](https://github.com/classroomio/classroomio)** ★1.7k — The Open Source Education Platform for Companies. A Simple and Beautiful Alternative to Moodle LMS, EdX, Think
+- **[deeplearning-mindmap](https://github.com/dformoso/deeplearning-mindmap)** ★1.7k — A mindmap summarising Deep Learning concepts.
+- **[hedy](https://github.com/hedyorg/hedy)** ★1.7k — Hedy is a gradual programming language to teach children programming. Gradual languages use different language
+- **[ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)** ★1.7k — A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without
+- **[awesome-learning](https://github.com/Lets-DevOps/awesome-learning)** ★1.7k — A curated list for DevOps learning resources. Join the slack channel to discuss more.
+- **[rars](https://github.com/TheThirdOne/rars)** ★1.6k — RARS -- RISC-V Assembler and Runtime Simulator
+- **[rustfinity](https://github.com/rustfinity/rustfinity)** ★1.6k — Learn and Practice the Rust programming language the effective way.
+- **[CS-Awesome-Courses](https://github.com/jackwener/CS-Awesome-Courses)** ★1.6k — 计算机的优秀课程
+- **[Technical-Interview-Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo)** ★1.6k — Study materials for SE/CS technical interviews
+- **[DAT8](https://github.com/justmarkham/DAT8)** ★1.6k — General Assembly's 2015 Data Science course in Washington, DC
+- **[pypose](https://github.com/pypose/pypose)** ★1.6k — A library for differentiable robotics on manifolds.
+- **[Flexbox30](https://github.com/samanthaming/Flexbox30)** ★1.6k — Learn Flexbox in 30 days with 30 code tidbits
+- **[ELI5](https://github.com/DreambigOu/ELI5)** ★1.6k — ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, 
+- **[HybridRenderingEngine](https://github.com/Angelo1211/HybridRenderingEngine)** ★1.6k — Clustered Forward/Deferred renderer with Physically Based Shading, Image Based Lighting and a whole lot of Ope
+- **[computer-science-cn](https://github.com/ossu/computer-science-cn)** ★1.6k — 计算机技术与科学自学之旅
+- **[meta-typing](https://github.com/ronami/meta-typing)** ★1.6k — Functions and algorithms implemented purely with TypeScript's type system
+- **[top-github-repositories-which-everyone-should-look](https://github.com/sachin-source/top-github-repositories-which-everyone-should-look)** ★1.6k — This repository contains a list of important and useful github repos which a developer, coder, a student shoul
+- **[course-plan](https://github.com/haskell-beginners-2022/course-plan)** ★1.6k — Haskell course info, plan, video lectures, slides
+- **[python-tutorial](https://github.com/Akuli/python-tutorial)** ★1.6k — A Python 3 programming tutorial for beginners.
+- **[earthengine-py-notebooks](https://github.com/giswqs/earthengine-py-notebooks)** ★1.6k — A collection of 360+ Jupyter Python notebook examples for using Google Earth Engine with interactive mapping
+- **[futurecoder](https://github.com/alexmojaki/futurecoder)** ★1.5k — 100% free and interactive Python course for beginners
+- **[CMakeTutorial](https://github.com/BrightXiaoHan/CMakeTutorial)** ★1.5k — CMake中文实战教程
+- **[type-exercise-in-rust](https://github.com/skyzh/type-exercise-in-rust)** ★1.5k — Learn advanced Rust by building a type-safe, auto-vectorized database expression engine
+- **[mu](https://github.com/mu-editor/mu)** ★1.5k — A small, simple editor for beginner Python programmers. Written in Python and Qt5.
+- **[rest-apis-flask-python](https://github.com/tecladocode/rest-apis-flask-python)** ★1.5k — Projects and e-book for our course, REST APIs with Flask and Python
+- **[contribute-to-open-source](https://github.com/danthareja/contribute-to-open-source)** ★1.5k — （STILL ACTIVE） Learn the GitHub workflow by contributing code in a fun simulation project
+- **[spring-boot-3-spring-6-hibernate-for-beginners](https://github.com/darbyluv2code/spring-boot-3-spring-6-hibernate-for-beginners)** ★1.5k — Source code for the course: Spring Boot 3, Spring 6 and Hibernate for Beginners
+- **[modern-embedded-programming-course](https://github.com/QuantumLeaps/modern-embedded-programming-course)** ★1.5k — Companion repository to the "Modern Embedded Systems Programming" video course.
+- **[CADL](https://github.com/pkmital/CADL)** ★1.5k — ARCHIVED: Contains historical course materials/Homework materials for the FREE MOOC course on "Creative Applic
+- **[Cpp_houjie](https://github.com/harvestlamb/Cpp_houjie)** ★1.5k — 侯捷C++课程PPT及代码,动手学起来
+- **[knowledge](https://github.com/KnowledgeCanvas/knowledge)** ★1.5k — Knowledge is a tool for saving, searching, accessing, exploring and chatting with all of your favorite website
+- **[RenderHelp](https://github.com/skywind3000/RenderHelp)** ★1.5k — :zap: 可编程渲染管线实现，帮助初学者学习渲染
+- **[vvedenie-mashinnoe-obuchenie](https://github.com/demidovakatya/vvedenie-mashinnoe-obuchenie)** ★1.5k — :memo: Подборка ресурсов по машинному обучению
+- **[Coding-Guide](https://github.com/ecmadao/Coding-Guide)** ★1.5k — 自己随手记录的东西
+- **[ctf](https://github.com/trailofbits/ctf)** ★1.4k — CTF Field Guide
+- **[engram](https://github.com/nagisanzenin/engram)** ★1.4k — Evidence-based learning engine — first-principles curricula, free-recall verification with receipts, FSRS-sche
+- **[thimble.mozilla.org](https://github.com/mozilla/thimble.mozilla.org)** ★1.4k — UPDATE: This project is no longer maintained. Please check out Glitch.com instead.
+- **[scikit-learn-mooc](https://github.com/INRIA/scikit-learn-mooc)** ★1.4k — Machine learning in Python with scikit-learn MOOC
+- **[mentoria](https://github.com/training-center/mentoria)** ★1.4k — Conectando pessoas que desejam aprender com pessoas que tiram os obstáculos do caminho
+- **[go-hardware](https://github.com/rakyll/go-hardware)** ★1.4k — A directory of hardware related libs, tools, and tutorials for Go
+- **[classroom](https://github.com/github-education-resources/classroom)** ★1.4k — GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute s
+- **[k8sgames](https://github.com/rohitg00/k8sgames)** ★1.4k — Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands: 3D browser game, n
+- **[algorithm-php](https://github.com/m9rco/algorithm-php)** ★1.4k — uniting the internal work in a way that is in PHP
+- **[learn-go](https://github.com/karanpratapsingh/learn-go)** ★1.4k — Master the fundamentals and advanced features of the Go programming language
+- **[GitHub-Tutorial](https://github.com/CatOneTwo/GitHub-Tutorial)** ★1.4k — Getting started tutorial on GitHub
+- **[dev-resources](https://github.com/marcelscruz/dev-resources)** ★1.3k — A collaborative list of resources for developers
+- **[go-in-5-minutes](https://github.com/arschles/go-in-5-minutes)** ★1.3k — Code and website for Go in 5 Minutes Screencasts
+- **[C-CrashCourse](https://github.com/hairrrrr/C-CrashCourse)** ★1.3k — C语言教程+博客+代码演示+课程设计。 帮助初学者更好的理解 C 难点，提升代码量！ For beginners:C tuition/self-learning
+- **[learn](https://github.com/gyuho/learn)** ★1.3k — learn
+- **[uneebee](https://github.com/zoonk/uneebee)** ★1.3k — Platform for creating interactive courses.
+- **[GenP](https://github.com/Cur10s1tyByt3/GenP)** ★1.3k — This repository preserves source materials and related documentation about GenP. For archival and research pur
+- **[ROS-Academy-for-Beginners](https://github.com/sychaichangkun/ROS-Academy-for-Beginners)** ★1.3k — 中国大学MOOC《机器人操作系统入门》代码示例 ROS tutorial
+- **[Burritos](https://github.com/guillermomuntaner/Burritos)** ★1.3k — A collection of Swift Property Wrappers (formerly "Property Delegates")
+- **[AI-Study-Group](https://github.com/ArturoNereu/AI-Study-Group)** ★1.3k — Resources to learn AI
+- **[HUST-Invictus](https://github.com/lyandut/HUST-Invictus)** ★1.3k — 华中科技大学研究生课程资料
+- **[ppde642](https://github.com/gboeing/ppde642)** ★1.3k — USC urban data science course series in Python
+- **[ChatTutor](https://github.com/HugeCatLab/ChatTutor)** ★1.3k — ‍ ChatTutor: Visual and Interactive AI Tutor
+- **[articles](https://github.com/quchen/articles)** ★1.3k — Miscellaneous articles. The readme is the table of contents.
+- **[IntroductionToVulkan](https://github.com/GameTechDev/IntroductionToVulkan)** ★1.3k — Source code examples for "API without Secrets: Introduction to Vulkan" tutorial
+- **[courses](https://github.com/linsa-io/courses)** ★1.3k — Awesome Courses
+- **[Play-with-Machine-Learning-Algorithms](https://github.com/liuyubobobo/Play-with-Machine-Learning-Algorithms)** ★1.3k — Code of my MOOC Course <Play with Machine Learning Algorithms>. Updated contents and practices are also includ
+- **[OpenMMLabCourse](https://github.com/open-mmlab/OpenMMLabCourse)** ★1.3k — OpenMMLab course index and stuff
+- **[free-resources](https://github.com/barnamenevisi/free-resources)** ★1.3k — آرشیو منابع رایگان آموزش برنامه نویسی به زبان فارسی ( هر کسی باید بتونه برنامه نویسی رو یاد بگیره، مهم نیست پو
+- **[awesome-learning](https://github.com/mfaisalkhatri/awesome-learning)** ★1.3k — A curated list of awesome learning resources for a Software Test Automation Engineer
+- **[notebooks](https://github.com/dataflowr/notebooks)** ★1.3k — code for deep learning courses
+- **[courselit](https://github.com/codelitdev/courselit)** ★1.3k — Create/Sell courses and digital downloads and publish blogs on your own branded website. An open source altern
+- **[codeworld](https://github.com/google/codeworld)** ★1.3k — Educational computer programming environment using Haskell
+- **[athena](https://github.com/Athena-OS/athena)** ★1.3k — Athena OS is a Arch/Nix-based distro focused on Cybersecurity. Learn, practice and enjoy with any hacking tool
+- **[AD-Pentest-Notes](https://github.com/chriskaliX/AD-Pentest-Notes)** ★1.3k — 用于记录内网渗透(域渗透)学习 :-)
+- **[examples](https://github.com/ArjanCodes/examples)** ★1.2k — All the code examples I use in my videos
+- **[dsp-theory](https://github.com/hukenovs/dsp-theory)** ★1.2k — Theory of digital signal processing (DSP): signals, filtration (IIR, FIR, CIC, MAF), transforms (FFT, DFT, Hil
+- **[sakai](https://github.com/sakaiproject/sakai)** ★1.2k — Sakai is a freely available, feature-rich technology solution for learning, teaching, research and collaborati
+- **[Tai-e-assignments](https://github.com/pascal-lab/Tai-e-assignments)** ★1.2k — Tai-e assignments for static program analysis
+- **[List-of-all-Research-Internship-Program-for-IIT-and-NITs](https://github.com/vvignesh17/List-of-all-Research-Internship-Program-for-IIT-and-NITs)** ★1.2k — This contains the list of almost all the internship available for Indian college students.
+- **[frontend](https://github.com/kottans/frontend)** ★1.2k — :octocat: Kottans frontend course
+- **[mastering-pycharm-course](https://github.com/talkpython/mastering-pycharm-course)** ★1.2k — Course demos and handouts for Talk Python's Effective PyCharm course
+- **[breakscale](https://github.com/xevrion/breakscale)** ★1.2k — Build a system, load it until it breaks, and watch why. A system design simulator for learning distributed sys
+- **[Your-Journey-To-Fluent-Python](https://github.com/pro1code1hack/Your-Journey-To-Fluent-Python)** ★1.2k — Your Journey To Fluent Python
+- **[machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation)** ★1.2k — All the handwritten notes and source code files used in my YouTube Videos on Machine Learning & Simulation (ht
+- **[R](https://github.com/TheAlgorithms/R)** ★1.2k — Collection of various algorithms implemented in R.
+- **[reinforcement_learning_course_materials](https://github.com/upb-lea/reinforcement_learning_course_materials)** ★1.2k — Lecture notes, tutorial tasks including solutions as well as online videos for the reinforcement learning cour
+- **[variational-autoencoder](https://github.com/altosaar/variational-autoencoder)** ★1.2k — Variational autoencoder implemented in tensorflow and pytorch (including inverse autoregressive flow)
+- **[awesome-educational-games](https://github.com/yrgo/awesome-educational-games)** ★1.2k — A curated list of awesome educational games to learn editors, languages, programming, etc
+- **[learn-php](https://github.com/odan/learn-php)** ★1.2k — :elephant: Learn modern PHP
+- **[swot](https://github.com/leereilly/swot)** ★1.2k — Archived — SWOT delighted millions of students with GitHub discounts and saved bazillions of review hours. Fol
+- **[course-tencent-cloud](https://github.com/xiaochong0302/course-tencent-cloud)** ★1.2k — 专注于网课系统，网校系统，在线教育系统，知识付费系统。docker容器化部署，名符其实的开源，可免费商用。
+- **[Offensive-Resources](https://github.com/Zeyad-Azima/Offensive-Resources)** ★1.2k — A Huge Learning Resources with Labs For Offensive Security Players
+- **[Machine-Learning-Book](https://github.com/yuanxiaosc/Machine-Learning-Book)** ★1.2k — 《机器学习宝典》包含：谷歌机器学习速成课程（招式）+机器学习术语表（口诀）+机器学习规则（心得）+机器学习中的常识性问题 （内功）。该资源适用于机器学习、深度学习研究人员和爱好者参考！
+- **[Avalonia.Samples](https://github.com/AvaloniaUI/Avalonia.Samples)** ★1.2k — Avalonia.Samples aims to provide some minimal samples focusing on a particular issue at a time. This should he
+- **[pointfreeco](https://github.com/pointfreeco/pointfreeco)** ★1.2k — The source for www.pointfree.co, a hub for advanced Swift programming.
+- **[ai-engineering-from-scratch-zh](https://github.com/fancyboi999/ai-engineering-from-scratch-zh)** ★1.2k — Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南
+- **[shark](https://github.com/Bhaviktutorials/shark)** ★1.2k — Future Of Phishing With less delay
+- **[bhban_rpa](https://github.com/needleworm/bhban_rpa)** ★1.2k — <6개월 치 업무를 하루 만에 끝내는 업무 자동화(생능출판사, 2020)>의 예제 코드입니다. 파이썬을 한 번도 배워본 적 없는 분들을 위한 예제이며, 엑셀부터 디자인, 매크로, 크롤링까지 업무 자
+- **[the-littlest-jupyterhub](https://github.com/jupyterhub/the-littlest-jupyterhub)** ★1.1k — Simple JupyterHub distribution for 1-100 users on a single server
+- **[code2vec](https://github.com/tech-srl/code2vec)** ★1.1k — TensorFlow code for the neural network presented in the paper: "code2vec: Learning Distributed Representations
+- **[school-management-system](https://github.com/hrshadhin/school-management-system)** ★1.1k — Another School Management System
+- **[Tutorials](https://github.com/Auquan/Tutorials)** ★1.1k — Ipython notebooks for math and finance tutorials
+- **[tiny-vllm](https://github.com/jmaczan/tiny-vllm)** ★1.1k — Build your own high performance LLM inference engine in C++ and CUDA - a smaller version of vLLM
+- **[machine-learning-curriculum](https://github.com/offchan42/machine-learning-curriculum)** ★1.1k — :computer: Learn to make machines learn so that you don't have to struggle to program them; The ultimate list
+- **[pyret-lang](https://github.com/brownplt/pyret-lang)** ★1.1k — The Pyret language.
+- **[kolibri](https://github.com/learningequality/kolibri)** ★1.1k — Kolibri Learning Platform: the offline app for universal education
+- **[antivibe](https://github.com/mohi-devhub/antivibe)** ★1.1k — Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational de
+- **[skyrim-community-shaders](https://github.com/community-shaders/skyrim-community-shaders)** ★1.1k — Community-driven advanced graphics modifications for AE, SE and VR.
+- **[Free-Certifications](https://github.com/ArslanYM/Free-Certifications)** ★1.1k — This repository contains the list of all the development courses available with free certifications.
+- **[tutorials](https://github.com/catboost/tutorials)** ★1.1k — CatBoost tutorials repository
+- **[sprig](https://github.com/hackclub/sprig)** ★1.1k — Learn to code by making games in a JavaScript web-based game editor.
+- **[Play-with-Algorithm-Interview](https://github.com/liuyubobobo/Play-with-Algorithm-Interview)** ★1.1k — Codes of my MOOC Course <Play with Algorithm Interviews>. Updated contents and practices are also included. 我在
+- **[Scala](https://github.com/TheAlgorithms/Scala)** ★1.1k — All Algorithms implemented in Scala
+- **[Termux-Command-Handbook](https://github.com/BlackTechX011/Termux-Command-Handbook)** ★1.1k — Termux Command Handbook, your comprehensive guide to Termux commands organized into various chapters for easy 
+- **[estudy](https://github.com/rlaope/estudy)** ★1.1k — AI and engineering reinforcement learning for human
+- **[Notebooks](https://github.com/PythonFreeCourse/Notebooks)** ★1.1k — Learn Python for free using open-source notebooks in Hebrew.
+- **[genki-study-resources](https://github.com/SethClydesdale/genki-study-resources)** ★1.1k — A collection of exercises for practicing what is taught in Genki: An Integrated Course in Elementary Japanese.
+- **[algorithms-and-data-structures](https://github.com/kelvins/algorithms-and-data-structures)** ★1.1k — :abacus: Algorithms and Data Structures in several Programming Languages
+- **[prehistoric-animal-museum](https://github.com/s010s/prehistoric-animal-museum)** ★1.1k — A free, open-source bilingual 3D museum where young children and their grown-ups explore prehistoric animals a
+- **[data-analyst-roadmap](https://github.com/mtahiraslan/data-analyst-roadmap)** ★1.1k — Based on my own experience, I believe this roadmap provides clear answers to all the key questions about becom
+- **[rapping-neural-network](https://github.com/robbiebarrat/rapping-neural-network)** ★1.1k — Rap song writing recurrent neural network trained on Kanye West's entire discography
+- **[learning-roadmap](https://github.com/FrontendMasters/learning-roadmap)** ★1.1k — The Front-End Developer Learning Roadmap by Frontend Masters
+- **[Awesome-Marp](https://github.com/favourhong/Awesome-Marp)** ★1.1k — An open-source presentation theme ecosystem for Marp/Markdown users.
+- **[learn-javascript](https://github.com/sumn2u/learn-javascript)** ★1.0k — A book that teaches JavaScript
+- **[verl-tool](https://github.com/TIGER-AI-Lab/verl-tool)** ★1.0k — A version of verl to support diverse tool use （TMLR 2026）
+- **[lav_sms](https://github.com/4jean/lav_sms)** ★1.0k — Laravel School Management System (LAVSMS)
+- **[Razzia](https://github.com/Ralex91/Razzia)** ★1.0k — A self-hosted, open-source quiz platform for smaller events.
+- **[education-online](https://github.com/WanyueKJ/education-online)** ★1.0k — 万岳教育的web+后台管理系统。万岳教育系统(wanyue-education)，自主研发集知识付费、直播授课、在线教育功能为一体的在线/直播/题库/考试(exam)的教育平台系统
+- **[datascience-box](https://github.com/tidyverse/datascience-box)** ★1.0k — Data Science Course in a Box
+- **[qdk](https://github.com/microsoft/qdk)** ★1.0k — Microsoft Quantum Development Kit, including the Q# programming language, resource estimator, and Quantum Kata
+- **[Trading-Interview-Questions](https://github.com/mikinty/Trading-Interview-Questions)** ★1.0k — Guide on how to prepare for quant trading roles out of college
+- **[awesome-android-things](https://github.com/amitshekhariitbhu/awesome-android-things)** ★1.0k — A curated list of awesome android things tutorials, libraries and much more at one place
+- **[cs6120](https://github.com/sampsyo/cs6120)** ★997 — advanced compilers
+- **[TJU-CourseSharing](https://github.com/superpung/TJU-CourseSharing)** ★988 — 天津大学课程共享计划
+- **[ML-University](https://github.com/d0r1h/ML-University)** ★955 — Machine Learning Open Source University
+- **[aws-certified-solutions-architect-associate-brasil](https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil)** ★941 — Guia completo em PT-BR para a certificação AWS Solutions Architect (SAA-C03), com resumo dos domínios, labs pr
+- **[community](https://github.com/scrimba/community)** ★918 — Repository for public issue-tracking and discussions
+- **[T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV)** ★910 — T-414-ÁFLV: A Competitive Programming Course
+- **[khan-dl](https://github.com/rand-net/khan-dl)** ★896 — Download courses from khanacademy.org
+- **[Free-courses-with-Certificates](https://github.com/avinash201199/Free-courses-with-Certificates)** ★895 — Collection of free courses with certificates
+- **[free-courses](https://github.com/alinebastos/free-courses)** ★879 — Free IT courses
+- **[typescript-fundamentals](https://github.com/mike-works/typescript-fundamentals)** ★869 — Mike North's 2018 TypeScript Fundamentals Course
+- **[Natural-Language-Processing-Specialization](https://github.com/amanjeetsahu/Natural-Language-Processing-Specialization)** ★860 — This repo contains my coursework, assignments, and Slides for Natural Language Processing Specialization by de
+- **[live-study](https://github.com/whiteship/live-study)** ★843 — 온라인 스터디
+- **[CPP-Crash-Course](https://github.com/rougier/CPP-Crash-Course)** ★821 — C++ Crash Course
+- **[rest-with-spring-boot](https://github.com/Baeldung/rest-with-spring-boot)** ★821 — The new "REST With Spring Boot" Course:
+- **[BUPT-SCS-Courses](https://github.com/oneliey/BUPT-SCS-Courses)** ★813 — BUPT SCS 选修课指北
+
+## ⑮ Awesome 清单扩展 · More Awesome Lists
+
+- **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** ★14.1万 — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- **[Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)** ★12.2万 — A collection of various awesome lists for hackers, pentesters and security researchers
+- **[awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** ★11.9万 — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let c
+- **[awesome-mac](https://github.com/jaywcjlove/awesome-mac)** ★11.5万 —  This project is dedicated to collecting high-quality macOS software and organizing them systematically by di
+- **[RuView](https://github.com/ruvnet/RuView)** ★9.6万 — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence
+- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** ★9.6万 — A collection of MCP servers.
+- **[awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)** ★8.5万 — :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:
+- **[awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)** ★7.9万 — A topic-centric list of HQ open datasets.
+- **[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)** ★7.7万 — The iconic SVG, font, and CSS toolkit
+- **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** ★7.6万 — A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+- **[awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)** ★7.4万 — The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+- **[awesome-vue](https://github.com/vuejs/awesome-vue)** ★7.4万 — A curated list of awesome things related to Vue.js
+- **[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)** ★6.7万 — :zap: Delightful Node.js packages and resources （BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISS
+- **[awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)** ★6.3万 — ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
+- **[awesome-flutter](https://github.com/Solido/awesome-flutter)** ★6.1万 — An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
+- **[github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)** ★5.9万 — A list of cool features of Git and GitHub.
+- **[awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)** ★5.8万 — A curated list of awesome Android UI/UX libraries
+- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** ★5.5万 — A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute
+- **[awesome-ios](https://github.com/vsouza/awesome-ios)** ★5.4万 — A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
+- **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** ★5.3万 — The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw S
+- **[open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps)** ★5.2万 — :iphone: Collaborative List of Open-Source iOS Apps
+- **[open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** ★5.1万 — Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
+- **[awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)** ★4.9万 — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+- **[awesome-react-components](https://github.com/brillout/awesome-react-components)** ★4.9万 — Curated List of React Components & Libraries.
+- **[frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)** ★4.8万 — Manually curated collection of resources for frontend web developers.
+- **[agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** ★4.7万 — AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack 
+- **[awesome-compose](https://github.com/docker/awesome-compose)** ★4.6万 — Awesome Docker Compose samples
+- **[awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)** ★4.2万 — Learn System Design concepts and prepare for interviews using free resources.
+- **[Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)** ★4.1万 — The best design tools and plugins for everything
+- **[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)** ★4.1万 — Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** ★4.0万 — Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Cop
+- **[awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)** ★3.9万 — Integrate the DeepSeek API into popular software
+- **[awesome-shell](https://github.com/alebcay/awesome-shell)** ★3.8万 — A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+- **[awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)** ★3.7万 — 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
+- **[500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)** ★3.7万 — 500 AI Machine learning Deep learning Computer vision NLP Projects with code
+- **[awesome-react-native](https://github.com/jondot/awesome-react-native)** ★3.6万 — Awesome React Native components, news, tools, and learning material!
+- **[awesome-cto](https://github.com/kuchin/awesome-cto)** ★3.6万 — A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
+- **[awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** ★3.5万 — A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude C
+- **[awesome-javascript](https://github.com/sorrycc/awesome-javascript)** ★3.5万 — A collection of awesome browser-side JavaScript libraries, resources and shiny things.
+- **[awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)** ★3.5万 — Elevate your AI research writing, no more tedious polishing
+- **[awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)** ★3.4万 — Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
+- **[awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)** ★3.4万 — A curated list of awesome awesomeness
+- **[awesome-php](https://github.com/ziadoz/awesome-php)** ★3.3万 — A curated list of amazingly awesome PHP libraries, resources and shiny things.
+- **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** ★3.2万 — A community collection of OpenClaw use cases for making life easier.
+- **[weekly](https://github.com/ascoders/weekly)** ★3.1万 — 前端精读周刊。帮你理解最前沿、实用的技术。
+- **[awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)** ★3.1万 — A curated list of awesome GitHub Profile which updates in real time
+- **[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)** ★3.1万 — Use your macOS terminal shell to do awesome things.
+- **[awesome-python-cn](https://github.com/jobbole/awesome-python-cn)** ★3.1万 — Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由「开源前哨」和「Python开发者」微信公号团队维护更新。
+- **[css-protips](https://github.com/AllThingsSmitty/css-protips)** ★3.0万 — A collection of tips to help take your CSS skills pro.
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** ★3.0万 — A list of AI autonomous agents
+- **[Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)** ★3.0万 — 直播源相关资源汇总 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵
+- **[awesome-quant](https://github.com/wilsonfreitas/awesome-quant)** ★3.0万 — A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
+- **[awesome-osint](https://github.com/jivoi/awesome-osint)** ★3.0万 — :scream: A curated list of amazingly awesome OSINT
+- **[awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)** ★3.0万 — A one stop repository for generative AI research updates, interview resources, notebooks and much more!
+- **[awesome-vscode](https://github.com/viatsko/awesome-vscode)** ★2.9万 — A curated list of delightful VS Code packages and resources.
+- **[Awesome-CV](https://github.com/posquit0/Awesome-CV)** ★2.9万 — :page_facing_up: Awesome CV is LaTeX template for your outstanding job application
+- **[awesome-actions](https://github.com/sdras/awesome-actions)** ★2.8万 — A curated list of awesome actions to use on GitHub
+- **[go-patterns](https://github.com/tmrts/go-patterns)** ★2.8万 — Curated list of Go design patterns, recipes and idioms
+- **[awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood)** ★2.8万 — Falsehoods Programmers Believe in
+- **[awesome-pentest](https://github.com/enaqx/awesome-pentest)** ★2.7万 — A collection of awesome penetration testing resources and tools
+- **[awesome-electron](https://github.com/sindresorhus/awesome-electron)** ★2.7万 — Useful resources for creating apps with Electron （SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE I'M TIRED OF REVI
+- **[awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)** ★2.7万 — Learn Low Level Design (LLD) and prepare for interviews using free resources.
+- **[awesome-piracy](https://github.com/Igglybuff/awesome-piracy)** ★2.7万 — A curated list of awesome warez and piracy links
+- **[dashy](https://github.com/lissy93/dashy)** ★2.7万 — A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI 
+- **[awesome-swift](https://github.com/matteocrippa/awesome-swift)** ★2.6万 — A collaborative list of awesome Swift libraries and resources. Feel free to contribute!
+- **[awesome-design-systems](https://github.com/alexpate/awesome-design-systems)** ★2.6万 — A collection of awesome design systems
+- **[awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates)** ★2.6万 — 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Goo
+- **[Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)** ★2.6万 — A list of awesome Linux softwares
+- **[awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** ★2.5万 — A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
+- **[iptv-api](https://github.com/Guovin/iptv-api)** ★2.5万 — IPTV直播源自动更新工具：自动采集、校验、测速并生成可播放结果，支持 M3U/TXT/API 输出、自定义频道、IPv4/IPv6、Docker、GitHub Actions、CLI 与 GUI 多端部署
+- **[awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero)** ★2.4万 — A collection of awesome resources for the Flipper Zero device.
+- **[awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)** ★2.4万 — A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
+- **[Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images)** ★2.4万 — A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro, Gemini-2.5-fla
+- **[Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)** ★2.3万 — Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software 
+- **[Awesome-Chinese-LLM](https://github.com/AiHubCN/Awesome-Chinese-LLM)** ★2.3万 — 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
+- **[personal-security-checklist](https://github.com/lissy93/personal-security-checklist)** ★2.2万 — A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
+- **[A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students)** ★2.2万 — Curated list of resources for developers
+- **[awesome-tunneling](https://github.com/anderspitman/awesome-tunneling)** ★2.2万 — List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and servic
+- **[Interview_Question_for_Beginner](https://github.com/jbee37142/Interview_Question_for_Beginner)** ★2.2万 — :boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all
+- **[awesome-dotnet](https://github.com/quozd/awesome-dotnet)** ★2.2万 — A collection of awesome .NET libraries, tools, frameworks and software
+- **[awesome-readme](https://github.com/matiassingers/awesome-readme)** ★2.2万 — A curated list of awesome READMEs
+- **[awesome-neovim](https://github.com/rockerBOO/awesome-neovim)** ★2.1万 — Collections of awesome neovim plugins.
+- **[awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)** ★2.1万 — :honeybee: A collection of awesome .NET core libraries, tools, frameworks and software
+- **[awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt)** ★2.1万 — 免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
+- **[awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)** ★2.1万 — A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
+- **[ciencia-da-computacao](https://github.com/Universidade-Livre/ciencia-da-computacao)** ★2.1万 — Um caminho para a educação autodidata em Ciência da Computação!
+- **[awesome-tuis](https://github.com/rothgar/awesome-tuis)** ★2.1万 — List of projects that provide terminal user interfaces
+- **[awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui)** ★2.1万 — A curated list of awesome things related to shadcn/ui.
+- **[awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)** ★2.0万 — A curated list of command line apps
+- **[HarmonyOS](https://github.com/Awesome-HarmonyOS/HarmonyOS)** ★2.0万 — A curated list of awesome things related to HarmonyOS. 华为鸿蒙操作系统。
+- **[awesome-privacy](https://github.com/pluja/awesome-privacy)** ★2.0万 — Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTER
+- **[awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)** ★2.0万 — Awesome list of open-source startup alternatives to well-known SaaS products
+- **[awesome-macOS](https://github.com/iCHAIT/awesome-macOS)** ★1.9万 —  A curated list of awesome applications, softwares, tools and shiny things for macOS.
+- **[awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn)** ★1.9万 — 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+- **[path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)** ★1.8万 — All the resources you need to get to Senior Engineer and beyond
+- **[awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)** ★1.8万 — A collection of ZSH frameworks, plugins, themes and tutorials.
+- **[Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)** ★1.8万 — :sparkles::sparkles:Latest Advances on Multimodal Large Language Models
+- **[vim-galore](https://github.com/mhinz/vim-galore)** ★1.8万 — :mortar_board: All things Vim!
+- **[awesome-leetcode-resources](https://github.com/ashishps1/awesome-leetcode-resources)** ★1.8万 — Awesome LeetCode resources to learn Data Structures and Algorithms and prepare for Coding Interviews.
+- **[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)** ★1.8万 — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
+- **[awesome-design](https://github.com/gztchan/awesome-design)** ★1.8万 — Curated design resources from all over the world.
+- **[awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow)** ★1.8万 — TensorFlow - A curated list of dedicated resources http://tensorflow.org
+- **[Awesome-Hacking-Resources](https://github.com/vitalysim/Awesome-Hacking-Resources)** ★1.7万 — A collection of hacking / penetration testing resources to make you better!
+- **[magictools](https://github.com/ellisonleao/magictools)** ★1.7万 — :video_game: :pencil: A list of Game Development resources to make magic happen.
+- **[Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)** ★1.7万 — 收集整理 GitHub 上高质量、有趣的开源项目。
+- **[awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts)** ★1.7万 — GPT-Image-2 API and Prompts
+- **[awesome-vite](https://github.com/vitejs/awesome-vite)** ★1.7万 — A curated list of awesome things related to Vite.js
+- **[awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)** ★1.7万 — A curated list of awesome Raspberry Pi tools, projects, images and resources
+- **[awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills)** ★1.7万 — A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
+- **[awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)** ★1.7万 — A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.
+- **[awesome-python-login-model](https://github.com/Kr1s77/awesome-python-login-model)** ★1.6万 — python模拟登陆一些大型网站，还有一些简单的爬虫，希望对你们有所帮助，如果喜欢记得给个star哦
+- **[awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)** ★1.6万 — A collection of projects showcasing RAG, agents, workflows, and other AI use cases
+- **[public-api-lists](https://github.com/public-api-lists/public-api-lists)** ★1.6万 — A curated list of free public APIs — searchable, community-maintained, with a free JSON API.
+- **[awesome-java-cn](https://github.com/jobbole/awesome-java-cn)** ★1.6万 — Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+- **[awesome-programming-books](https://github.com/jobbole/awesome-programming-books)** ★1.6万 — 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+- **[open-source-games](https://github.com/bobeff/open-source-games)** ★1.6万 — A list of open source games.
+- **[awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)** ★1.5万 — 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ A curated list of Cloudflare tools, open source projects, guides, blogs 
+- **[awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding)** ★1.5万 — Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
+- **[awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** ★1.5万 — A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particular
+- **[SwifterSwift](https://github.com/SwifterSwift/SwifterSwift)** ★1.5万 — A handy collection of more than 500 native Swift extensions to boost your productivity.
+- **[Qix](https://github.com/ty4z2008/Qix)** ★1.5万 — Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang
+- **[awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)** ★1.5万 — Awesome things related to Tailwind CSS
+- **[awesome-graphql](https://github.com/chentsulin/awesome-graphql)** ★1.5万 — Awesome list of GraphQL
+- **[awesome-security](https://github.com/sbilly/awesome-security)** ★1.5万 — A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
+- **[static-analysis](https://github.com/analysis-tools-dev/static-analysis)** ★1.5万 — A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build 
+- **[awesome-lowcode](https://github.com/taowen/awesome-lowcode)** ★1.5万 — 国内低代码平台从业者交流
+- **[awesome-bigdata](https://github.com/oxnr/awesome-bigdata)** ★1.5万 — A curated list of awesome big data frameworks, ressources and other awesomeness.
+- **[awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources)** ★1.5万 — :city_sunrise: A collection of links for free stock photography, video and Illustration websites
+- **[awesome-microservices](https://github.com/mfornos/awesome-microservices)** ★1.5万 — A curated list of Microservice Architecture related principles and technologies.
+- **[awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis)** ★1.4万 — Defund the Police.
+- **[awesome-aws](https://github.com/donnemartin/awesome-aws)** ★1.4万 — A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other res
+- **[awesome-ruby](https://github.com/markets/awesome-ruby)** ★1.4万 — A collection of awesome Ruby libraries, tools, frameworks and software
+- **[awesome-web-security](https://github.com/qazbnm456/awesome-web-security)** ★1.4万 — A curated list of Web Security materials and resources.
+- **[awesome-sre](https://github.com/dastergon/awesome-sre)** ★1.4万 — A curated list of Site Reliability and Production Engineering resources.
+- **[awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts)** ★1.4万 — World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Go
+- **[Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)** ★1.3万 — :octocat: Improve your README.md profile with these amazing badges.
+- **[Marketing-for-Engineers](https://github.com/goabstract/Marketing-for-Engineers)** ★1.3万 — A curated collection of marketing articles & tools to grow your product.
+- **[htaccess](https://github.com/phanan/htaccess)** ★1.3万 — A collection of useful .htaccess snippets.
+- **[awesome-modern-cpp](https://github.com/rigtorp/awesome-modern-cpp)** ★1.3万 — A collection of resources on modern C++
+- **[awesome-elixir](https://github.com/h4cc/awesome-elixir)** ★1.3万 — A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
+- **[awesome-nestjs](https://github.com/nestjs/awesome-nestjs)** ★1.3万 — A curated list of awesome things related to NestJS
+- **[Awesome_APIs](https://github.com/TonnyL/Awesome_APIs)** ★1.3万 — :octocat: A collection of APIs
+- **[awesome-laravel](https://github.com/chiraggude/awesome-laravel)** ★1.3万 — A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem
+- **[awesome-podcasts](https://github.com/rShetty/awesome-podcasts)** ★1.3万 — Collection of awesome podcasts
+- **[awesome-github-vue](https://github.com/opendigg/awesome-github-vue)** ★1.3万 — Vue相关开源项目库汇总
+- **[awesome-flask](https://github.com/humiaozuzu/awesome-flask)** ★1.3万 — A curated list of awesome Flask resources and plugins
+- **[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)** ★1.3万 — Swiper component for @vuejs
+- **[awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai)** ★1.3万 — A curated list of modern Generative Artificial Intelligence projects and services
+- **[awesome-system-design](https://github.com/madd86/awesome-system-design)** ★1.3万 — A curated list of awesome System Design (A.K.A. Distributed Systems) resources.
+- **[awesome-iptv](https://github.com/iptv-org/awesome-iptv)** ★1.3万 — A curated list of resources related to IPTV
+- **[awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)** ★1.3万 — 超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 :zap:
+- **[awesome-adb](https://github.com/mzlogin/awesome-adb)** ★1.2万 — ADB Usage Complete / ADB 用法大全
+- **[awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems)** ★1.2万 — A curated list to learn about distributed systems
+- **[awesome-ddd](https://github.com/heynickc/awesome-ddd)** ★1.2万 — A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing,
+- **[Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models)** ★1.2万 — A collection of resources and papers on Diffusion Models
+- **[awesome-android](https://github.com/JStumpp/awesome-android)** ★1.2万 — A curated list of awesome Android packages and resources.
+- **[awesome-redux](https://github.com/xgrommx/awesome-redux)** ★1.2万 — Awesome list of Redux examples and middlewares
+- **[awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)** ★1.2万 — A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
+- **[MyIP](https://github.com/jason5ng32/MyIP)** ★1.2万 — The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quali
+- **[movies-for-hackers](https://github.com/k4m4/movies-for-hackers)** ★1.2万 — A curated list of movies every hacker & cyberpunk must watch.
+- **[grist-core](https://github.com/gristlabs/grist-core)** ★1.2万 — Grist is the evolution of spreadsheets.
+- **[awesome-indie](https://github.com/mezod/awesome-indie)** ★1.2万 — Resources for independent developers to make money
+- **[awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting)** ★1.2万 — AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等） Stable diffusion、AnimateDiff、Stable Cascade 、Stable SDXL Turbo
+- **[awesome-chatgpt-zh](https://github.com/EmbraceAGI/awesome-chatgpt-zh)** ★1.2万 — ChatGPT 中文指南，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up!
+- **[awesome-fastapi](https://github.com/mjhea0/awesome-fastapi)** ★1.2万 — A curated list of awesome things related to FastAPI
+- **[awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture)** ★1.2万 — A curated list of awesome articles, videos, and other resources to learn and practice software architecture, p
+- **[awesome-c](https://github.com/oz123/awesome-c)** ★1.2万 — A curated list of awesome C frameworks, libraries, resources and other shiny things. Inspired by all the other
+- **[golang-open-source-projects](https://github.com/hackstoic/golang-open-source-projects)** ★1.2万 — 为互联网IT人打造的中文版awesome-go
+- **[lists](https://github.com/jnv/lists)** ★1.2万 — The definitive list of lists (of lists) curated on GitHub and elsewhere
+- **[awesome-kotlin](https://github.com/Heapy/awesome-kotlin)** ★1.1万 — A curated list of awesome Kotlin related stuff Inspired by awesome-java.
+- **[awesome-django](https://github.com/wsvincent/awesome-django)** ★1.1万 — A curated list of awesome things related to Django
+- **[awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines)** ★1.1万 — A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blu
+- **[awesome-ios-ui](https://github.com/cjwirth/awesome-ios-ui)** ★1.1万 — A curated list of awesome iOS UI/UX libraries
+- **[awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn)** ★1.1万 — C++ 资源大全中文版，标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。由「开源前哨」和「CPP开发者」微信公号团队维护更新。
+- **[Awesome-Profile-README-templates](https://github.com/kautukkundan/Awesome-Profile-README-templates)** ★1.1万 — A collection of awesome readme templates to display on your profile
+- **[awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision)** ★1.1万 — A curated list of deep learning resources for computer vision
+- **[awesome-guidelines](https://github.com/Kristories/awesome-guidelines)** ★1.1万 — Programming style, best practices, and coding conventions.
+- **[DotNetGuide](https://github.com/YSGStudyHards/DotNetGuide)** ★1.1万 — 【C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、技术前沿周刊
+- **[awesome-hyper](https://github.com/bnb/awesome-hyper)** ★1.1万 — Delightful Hyper plugins, themes, and resources
+- **[awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)** ★1.1万 — A curated list of dotfiles resources.
+- **[awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free)** ★1.1万 — 免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。
+- **[DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map)** ★1.1万 — DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps devel
+- **[awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)** ★1.1万 — :metal: awesome-semantic-segmentation
+- **[awesome-godot](https://github.com/Calinou/awesome-godot)** ★1.1万 — A curated list of free/libre plugins, scripts and add-ons for Godot
+- **[Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)** ★1.1万 — 分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows.
+- **[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)** ★1.1万 — A curated list of Awesome Threat Intelligence resources
+- **[awesome-honeypots](https://github.com/paralax/awesome-honeypots)** ★1.1万 — an awesome list of honeypot resources
+- **[awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)** ★1.0万 — A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai
+- **[awesome-tmux](https://github.com/rothgar/awesome-tmux)** ★1.0万 — A list of awesome resources for tmux
+- **[awesome-shizuku](https://github.com/timschneeb/awesome-shizuku)** ★1.0万 — Curated list of awesome Android apps making use of Shizuku
+- **[awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro)** ★1.0万 — An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engi
+- **[awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks)** ★1.0万 — Awesome React Hooks
+- **[awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills)** ★1.0万 — A curated list of Claude Skills.
+- **[awesome-bash](https://github.com/awesome-lists/awesome-bash)** ★1.0万 — A curated list of delightful Bash scripts and resources.
+- **[deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas)** ★1.0万 — List of "only yours" cloud services for everyday needs :black_flag:
+- **[awesome-angular](https://github.com/PatrickJS/awesome-angular)** ★1.0万 — :page_facing_up: A curated list of awesome Angular resources
+- **[awesome-rl](https://github.com/aikorea/awesome-rl)** ★1.0万 — Reinforcement learning resources curated
+- **[awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2)** ★10.0k — World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 lang
+- **[GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)** ★10.0k — :octocat: Dark GitHub style
+- **[awesomo](https://github.com/lk-geimfari/awesomo)** ★9.9k — Cool open source projects. Choose your project and get involved in Open Source development now.
+- **[awesome-privacy](https://github.com/lissy93/awesome-privacy)** ★9.9k — A curated list of privacy & security-focused software and services
+- **[be-a-professional-programmer](https://github.com/stanzhai/be-a-professional-programmer)** ★9.9k — 成为专业程序员路上用到的各种优秀资料、神器及框架
+- **[BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts)** ★9.8k — List of free GPTs that doesn't require plus subscription
+- **[spark-joy](https://github.com/swyxio/spark-joy)** ★9.8k — Archived — Spark Joy now lives on Forge.
+- **[android-security-awesome](https://github.com/ashishb/android-security-awesome)** ★9.7k — A collection of android security related resources
+- **[awesome-wasm](https://github.com/mbasso/awesome-wasm)** ★9.6k — Curated list of awesome things regarding the WebAssembly (wasm) ecosystem.
+- **[awesome-java](https://github.com/CodingDocs/awesome-java)** ★9.6k — Collection of awesome Java project on Github(非常棒的 Java 开源项目集合).
+- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** ★9.6k — Awesome list of tools and projects with the awesome LangChain framework
+- **[awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks)** ★9.5k — List of awesome CSS frameworks in 2026
+- **[public-apis](https://github.com/marcelscruz/public-apis)** ★9.5k — A collaborative list of public APIs for developers
+- **[awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)** ★9.5k — A Collection of Awesome Jellyfin Plugins, Themes, Guides and More!
+- **[awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian)** ★9.4k — Awesome stuff for Obsidian
+- **[awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)** ★9.4k — :octocat: Machine Learning for Cyber Security
+- **[awesome-incident-response](https://github.com/meirwah/awesome-incident-response)** ★9.4k — A curated list of tools for incident response
+- **[anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources)** ★9.4k — Anomaly detection related books, papers, videos, and toolboxes. Last update late 2025 for LLM and VLM works!
+- **[awesome-emacs](https://github.com/emacs-tw/awesome-emacs)** ★9.4k — A community driven list of useful Emacs packages, libraries and other items.
+- **[awesome-blazor](https://github.com/AdrienTorris/awesome-blazor)** ★9.4k — Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.
+- **[awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas)** ★9.3k — Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas
+- **[awesome-scala](https://github.com/lauris/awesome-scala)** ★9.2k — A community driven list of useful Scala libraries, frameworks and software.
+- **[alternative-front-ends](https://github.com/mendel5/alternative-front-ends)** ★9.2k — Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+- **[ai-collection](https://github.com/ai-collection/ai-collection)** ★9.2k — The Generative AI Landscape - A Collection of Awesome Generative AI Applications
+- **[Awesome-Embedded](https://github.com/nhivp/Awesome-Embedded)** ★9.2k — A curated list of awesome embedded programming.
+- **[awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo)** ★9.1k — A curated list of Web Performance Optimization.
+- **[awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis)** ★9.1k — List of Permanent Free LLM API (API Keys)
+- **[awesome-prompts](https://github.com/ai-boost/awesome-prompts)** ★9.0k — Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack &
+- **[Android_Data](https://github.com/Freelander/Android_Data)** ★9.0k — Some Android learning materials, hoping to help you learn Android development.
+- **[osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection)** ★8.9k — A collection of several hundred online tools for OSINT
+- **[Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)** ★8.7k — A library for debugging android databases and shared preferences - Make Debugging Great Again
+- **[awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)** ★8.6k — :beers: awesome cheatsheet
+- **[awesome-home-assistant](https://github.com/frenck/awesome-home-assistant)** ★8.5k — A curated list of amazingly awesome Home Assistant resources.
+- **[awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc)** ★8.4k — A curated list of useful resources for gRPC
+- **[awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts)** ★8.2k — Collection of Prometheus alerting rules
+- **[awesome-electronics](https://github.com/kitspace/awesome-electronics)** ★8.2k — A curated list of awesome resources for Electronic Engineers and hobbyists
+- **[awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)** ★8.2k — Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated vis
+- **[awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)** ★8.1k — Curated list of resources for Embedded and Low-level development in the Rust programming language
+- **[awesome-tauri](https://github.com/tauri-apps/awesome-tauri)** ★8.1k — Awesome Tauri Apps, Plugins and Resources
+- **[awesome-developer-streams](https://github.com/bnb/awesome-developer-streams)** ★8.0k — ‍‍‍‍‍ Awesome Developers, Streaming
+- **[awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)** ★7.8k — An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer sc
+- **[Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills)** ★7.8k — 将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。
+- **[awesome-free-apps](https://github.com/Axorax/awesome-free-apps)** ★7.8k — Curated list of the best free apps for PC and mobile
+- **[awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries)** ★7.8k — A collection of interesting, funny, and depressing search queries to plug into shodan.io ‍
+- **[PlacesToPostYourStartup](https://github.com/mmccaff/PlacesToPostYourStartup)** ★7.8k — Compiled list of links from "Ask HN: Where can I post my startup to get beta users?"
+- **[awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable)** ★7.7k — A curated list of projects related to the reMarkable tablet
+- **[API-mega-list](https://github.com/cporter202/API-mega-list)** ★7.7k — This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from s
+- **[Awesome-WAF](https://github.com/0xInfection/Awesome-WAF)** ★7.6k — Everything about Web Application Firewalls (WAFs) from Security Standpoint!
+- **[frontend-case-studies](https://github.com/andrew--r/frontend-case-studies)** ★7.4k — A curated list of talks and articles about real world frontend development
+- **[awesome-blender](https://github.com/agmmnn/awesome-blender)** ★7.4k — A curated list of awesome Blender addons, tools, tutorials; and 3D resources for everyone.
+- **[awesome-test-automation](https://github.com/atinfo/awesome-test-automation)** ★7.2k — A curated list of awesome test automation frameworks, tools, libraries, and software for different programming
+- **[awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)** ★7.2k — Awesome tooling and resources in the Chrome DevTools & DevTools Protocol ecosystem
+- **[must-watch-javascript](https://github.com/AllThingsSmitty/must-watch-javascript)** ★7.1k — JavaScript talks you have to see on functional programming, performance, frameworks, React, debugging, levelin
+- **[awesome-cryptography](https://github.com/sobolevn/awesome-cryptography)** ★7.1k — A curated list of cryptography resources and links.
+- **[awesome-unity](https://github.com/RyanNielson/awesome-unity)** ★7.1k — A curated list of awesome Unity assets, resources, and more.
+- **[Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models)** ★7.1k — Largest list of models for Core ML (for iOS 11+)
+- **[awesome-solidity](https://github.com/bkrem/awesome-solidity)** ★7.1k — ⟠ A curated list of awesome Solidity resources, libraries, tools and more
+
+## ⑯ 学科学习精选 · Subject Learning
+
+- **[ECC](https://github.com/affaan-m/ECC)** ★27.2万 — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first dev
+- **[hermes-agent](https://github.com/NousResearch/hermes-agent)** ★25.1万 — The agent that grows with you
+- **[tensorflow](https://github.com/tensorflow/tensorflow)** ★20.1万 — An Open Source Machine Learning Framework for Everyone
+- **[firecrawl](https://github.com/firecrawl/firecrawl)** ★18.8万 — Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence.
+- **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ★18.8万 — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the too
+- **[ollama](https://github.com/ollama/ollama)** ★18.2万 — Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- **[transformers](https://github.com/huggingface/transformers)** ★16.7万 — Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, aud
+- **[stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** ★16.5万 — Stable Diffusion web UI
+- **[dify](https://github.com/langgenius/dify)** ★15.8万 — Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. De
+- **[open-webui](https://github.com/open-webui/open-webui)** ★15.4万 — User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- **[ponytail](https://github.com/DietrichGebert/ponytail)** ★15.2万 — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+- **[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)** ★14.9万 — A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+- **[langchain](https://github.com/langchain-ai/langchain)** ★14.7万 — The agent engineering platform.
+- **[kubernetes](https://github.com/kubernetes/kubernetes)** ★12.8万 — Production-Grade Container Scheduling and Management
+- **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)** ★12.8万 — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workf
+- **[rustdesk](https://github.com/rustdesk/rustdesk)** ★12.5万 — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+- **[graphify](https://github.com/Graphify-Labs/graphify)** ★12.3万 — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphif
+- **[node](https://github.com/nodejs/node)** ★12.2万 — Node.js JavaScript runtime
+- **[browser-use](https://github.com/browser-use/browser-use)** ★11.7万 — Agents that use the browser.
+- **[supabase](https://github.com/supabase/supabase)** ★11.1万 — The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile,
+- **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** ★11.0万 — TradingAgents: Multi-Agents LLM Financial Trading Framework
+- **[caveman](https://github.com/JuliusBrussee/caveman)** ★10.9万 — why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by t
+- **[pytorch](https://github.com/pytorch/pytorch)** ★10.4万 — Tensors and Dynamic neural networks in Python with strong GPU acceleration
+- **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** ★9.3万 — #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
+- **[sherlock](https://github.com/sherlock-project/sherlock)** ★9.3万 — Hunt down social media accounts by username across social networks
+- **[vllm](https://github.com/vllm-project/vllm)** ★9.3万 — A high-throughput and memory-efficient inference and serving engine for LLMs
+- **[uptime-kuma](https://github.com/louislam/uptime-kuma)** ★9.2万 — A fancy self-hosted monitoring tool
+- **[opencv](https://github.com/opencv/opencv)** ★9.1万 — Open Source Computer Vision Library
+- **[OpenHands](https://github.com/OpenHands/OpenHands)** ★9.0万 — OpenHands: AI-Driven Development
+- **[mall](https://github.com/macrozheng/mall)** ★8.5万 — mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心
+- **[crawl4ai](https://github.com/unclecode/crawl4ai)** ★8.5万 — Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it
+- **[deer-flow](https://github.com/bytedance/deer-flow)** ★8.3万 — An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes
+- **[rtk](https://github.com/rtk-ai/rtk)** ★8.2万 — CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero depend
+- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)** ★8.1万 — A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+- **[netdata](https://github.com/netdata/netdata)** ★8.1万 — The fastest path to AI-powered full stack observability, even for lean teams.
+- **[hackingtool](https://github.com/Z4nzu/hackingtool)** ★8.0万 — ALL IN ONE Hacking Tool For Hackers
+- **[Ventoy](https://github.com/ventoy/Ventoy)** ★8.0万 — A new bootable USB solution.
+- **[unsloth](https://github.com/unslothai/unsloth)** ★7.7万 — Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gem
+- **[tesseract](https://github.com/tesseract-ocr/tesseract)** ★7.7万 — Tesseract Open Source OCR Engine (main repository)
+- **[redis](https://github.com/redis/redis)** ★7.7万 — For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most
+- **[imgui](https://github.com/ocornut/imgui)** ★7.6万 — Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
+- **[caddy](https://github.com/caddyserver/caddy)** ★7.6万 — Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)** ★7.5万 — Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+- **[superset](https://github.com/apache/superset)** ★7.5万 — Apache Superset is a Data Visualization and Data Exploration Platform
+- **[Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)** ★7.4万 — The essential checklist for modern web development, for humans and AI agents
+- **[headroom](https://github.com/headroomlabs-ai/headroom)** ★7.4万 — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen
+- **[OpenBB](https://github.com/openbq-org/OpenBB)** ★7.4万 — Open Data Platform for analysts, quants and AI agents.
+- **[union](https://github.com/unionlabs/union)** ★7.4万 — The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high secu
+- **[moby](https://github.com/moby/moby)** ★7.2万 — The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+- **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** ★7.1万 — The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+- **[system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** ★6.9万 — Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - Ch
+- **[vaultwarden](https://github.com/dani-garcia/vaultwarden)** ★6.8万 — Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+- **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** ★6.7万 — scikit-learn: machine learning in Python
+- **[anything-llm](https://github.com/Mintplex-Labs/anything-llm)** ★6.7万 — Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent 
+- **[mem0](https://github.com/mem0ai/mem0)** ★6.7万 — The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. 
+- **[strix](https://github.com/usestrix/strix)** ★6.6万 — Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+- **[alacritty](https://github.com/alacritty/alacritty)** ★6.6万 — A cross-platform, OpenGL terminal emulator.
+- **[daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)** ★6.6万 — LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-so
+- **[warp](https://github.com/warpdotdev/warp)** ★6.5万 — Warp is an agentic development environment, born out of the terminal.
+- **[traefik](https://github.com/traefik/traefik)** ★6.5万 — The Cloud Native Application Proxy
+- **[keras](https://github.com/keras-team/keras)** ★6.4万 — Deep Learning for humans
+- **[tldr](https://github.com/tldr-pages/tldr)** ★6.4万 — Collaborative cheatsheets for console commands .
+- **[openpilot](https://github.com/commaai/openpilot)** ★6.4万 — openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ sup
+- **[TrendRadar](https://github.com/sansan0/TrendRadar)** ★6.3万 — AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts. 告别信息过载，你的 AI 
+- **[context7](https://github.com/upstash/context7)** ★6.3万 — Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
+- **[coolify](https://github.com/coollabsio/coolify)** ★6.3万 — An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static 
+- **[ultralytics](https://github.com/ultralytics/ultralytics)** ★6.2万 — Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, i
+- **[Pake](https://github.com/tw93/Pake)** ★6.2万 — Turn any webpage into a desktop app with one command.
+- **[termux-app](https://github.com/termux/termux-app)** ★6.2万 — Termux - a terminal emulator application for Android OS extendible by variety of packages.
+- **[minio](https://github.com/minio/minio)** ★6.1万 — MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
+- **[atom](https://github.com/atom/atom)** ★6.1万 — :atom: The hackable text editor
+- **[plane](https://github.com/makeplane/plane)** ★6.0万 — Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to ma
+- **[Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** ★6.0万 — Clone a voice in 5 seconds to generate arbitrary speech in real-time
+- **[litellm](https://github.com/BerriAI/litellm)** ★6.0万 — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format wit
+- **[mkcert](https://github.com/FiloSottile/mkcert)** ★6.0万 — A simple zero-config tool to make locally trusted development certificates with any names you'd like.
+- **[meilisearch](https://github.com/meilisearch/meilisearch)** ★5.9万 — A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.
+- **[mempalace](https://github.com/MemPalace/mempalace)** ★5.9万 — The best-benchmarked open-source AI memory system. And it's free.
+- **[llm-app](https://github.com/pathwaycom/llm-app)** ★5.9万 — Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. Docker-friendly.Alwa
+- **[yolov5](https://github.com/ultralytics/yolov5)** ★5.8万 — Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and expor
+- **[faceswap](https://github.com/deepfakes/faceswap)** ★5.8万 — Deepfakes Software For All
+- **[appwrite](https://github.com/appwrite/appwrite)** ★5.8万 — Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage
+- **[fuel-core](https://github.com/FuelLabs/fuel-core)** ★5.7万 — Rust full node implementation of the Fuel v2 protocol.
+- **[face_recognition](https://github.com/ageitgey/face_recognition)** ★5.7万 — The world's simplest facial recognition api for Python and the command line
+- **[Motrix](https://github.com/agalwood/Motrix)** ★5.6万 — A full-featured download manager.
+- **[PowerShell](https://github.com/PowerShell/PowerShell)** ★5.6万 — PowerShell for every system!
+- **[ImHex](https://github.com/WerWolv/ImHex)** ★5.5万 — A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+- **[dive](https://github.com/wagoodman/dive)** ★5.5万 — A tool for exploring each layer in a docker image
+- **[ChatGPT](https://github.com/lencx/ChatGPT)** ★5.5万 — ChatGPT Desktop Application (Mac, Windows and Linux)
+- **[humanizer](https://github.com/blader/humanizer)** ★5.4万 — Agent skill that removes signs of AI-generated writing from text
+- **[windows](https://github.com/dockur/windows)** ★5.3万 — Windows inside a Docker container.
+- **[Docker-OSX](https://github.com/sickcodes/Docker-OSX)** ★5.3万 — Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research!
+- **[llama_index](https://github.com/run-llama/llama_index)** ★5.2万 — LlamaIndex is the document processing platform for AI
+- **[etcd](https://github.com/etcd-io/etcd)** ★5.2万 — Distributed reliable key-value store for the most critical data of a distributed system
+- **[hiring-without-whiteboards](https://github.com/poteto/hiring-without-whiteboards)** ★5.2万 — Companies that don't have a broken hiring process
+- **[dbeaver](https://github.com/dbeaver/dbeaver)** ★5.2万 — Free universal database tool and SQL client
+- **[go-ethereum](https://github.com/ethereum/go-ethereum)** ★5.1万 — Go implementation of the Ethereum protocol
+- **[supervision](https://github.com/roboflow/supervision)** ★5.1万 — We write your reusable computer vision tools.
+- **[mastodon](https://github.com/mastodon/mastodon)** ★5.0万 — Your self-hosted, globally interconnected microblogging community
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** ★5.0万 — ClickHouse® is a real-time analytics database management system
+- **[pandas](https://github.com/pandas-dev/pandas)** ★5.0万 — Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures simil
+- **[x64dbg](https://github.com/x64dbg/x64dbg)** ★5.0万 — An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.
+- **[spotube](https://github.com/team-spotube/spotube)** ★5.0万 — Open source music streaming app! Available for both desktop & mobile!
+- **[metabase](https://github.com/metabase/metabase)** ★5.0万 — The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with dat
+- **[LocalAI](https://github.com/mudler/LocalAI)** ★4.9万 — LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No 
+- **[julia](https://github.com/JuliaLang/julia)** ★4.9万 — The Julia Programming Language
+- **[qlib](https://github.com/microsoft/qlib)** ★4.9万 — Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from expl
+- **[bevy](https://github.com/bevyengine/bevy)** ★4.9万 — A refreshingly simple data-driven game engine built in Rust
+- **[shannon](https://github.com/KeygraphHQ/shannon)** ★4.9万 — Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vect
+- **[JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** ★4.8万 — 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件
+- **[gogs](https://github.com/gogs/gogs)** ★4.8万 — The painless way to host your own Git service
+- **[Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships)** ★4.8万 — Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship posting
+- **[orm](https://github.com/prisma/orm)** ★4.8万 — Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and Coc
+- **[CowAgent](https://github.com/zhayujie/CowAgent)** ★4.7万 — Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memor
+- **[airflow](https://github.com/apache/airflow)** ★4.7万 — Apache Airflow - A platform to programmatically author, schedule, and monitor workflows
+- **[system-design](https://github.com/karanpratapsingh/system-design)** ★4.6万 — Learn how to design systems at scale and prepare for system design interviews
+- **[milvus](https://github.com/milvus-io/milvus)** ★4.6万 — Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
+- **[TTS](https://github.com/coqui-ai/TTS)** ★4.6万 — - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+- **[streamlit](https://github.com/streamlit/streamlit)** ★4.6万 — Streamlit — A faster way to build and share data apps.
+- **[full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)** ★4.6万 — Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, 
+- **[mitmproxy](https://github.com/mitmproxy/mitmproxy)** ★4.5万 — An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+- **[edex-ui](https://github.com/GitSquared/edex-ui)** ★4.5万 — A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen suppor
+- **[jan](https://github.com/janhq/jan)** ★4.5万 — Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+- **[hyper](https://github.com/vercel/hyper)** ★4.5万 — A terminal built on web technologies
+- **[EasySpider](https://github.com/NaiboWang/EasySpider)** ★4.5万 — A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrappe
+- **[cobalt](https://github.com/imputnet/cobalt)** ★4.5万 — best way to save what you love
+- **[kong](https://github.com/Kong/kong)** ★4.4万 — The API and AI Gateway
+- **[spark](https://github.com/apache/spark)** ★4.4万 — Apache Spark - A unified analytics engine for large-scale data processing
+- **[front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)** ★4.4万 — Front End interview preparation materials for busy engineers (updated for 2026)
+- **[ray](https://github.com/ray-project/ray)** ★4.4万 — Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelera
+- **[gradio](https://github.com/gradio-app/gradio)** ★4.4万 — Build and share delightful machine learning apps, all in Python. Star to support our work!
+- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** ★4.3万 — DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficien
+- **[langgraph](https://github.com/langchain-ai/langgraph)** ★4.3万 — Build resilient agents.
+- **[yazi](https://github.com/sxyazi/yazi)** ★4.3万 — Blazing fast terminal file manager written in Rust, based on async I/O.
+- **[Alamofire](https://github.com/Alamofire/Alamofire)** ★4.2万 — Elegant HTTP Networking in Swift
+- **[BettaFish](https://github.com/666ghj/BettaFish)** ★4.2万 — 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。
+- **[duckdb](https://github.com/duckdb/duckdb)** ★4.2万 — DuckDB is an analytical in-process SQL database management system
+- **[Sunshine](https://github.com/LizardByte/Sunshine)** ★4.2万 — Self-hosted game stream host for Moonlight.
+- **[ColossalAI](https://github.com/hpcaitech/ColossalAI)** ★4.1万 — Making large AI models cheaper, faster and more accessible
+- **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** ★4.1万 — AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature,
+- **[sniffnet](https://github.com/GyulyVGC/sniffnet)** ★4.1万 — Comfortably monitor your network traffic ‍
+- **[ToolJet](https://github.com/ToolJet/ToolJet)** ★4.1万 — Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, 
+- **[tidb](https://github.com/pingcap/tidb)** ★4.1万 — TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for trans
+- **[openhuman](https://github.com/tinyhumansai/openhuman)** ★4.0万 — OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust
+- **[phaser](https://github.com/phaserjs/phaser)** ★4.0万 — Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, s
+- **[photoprism](https://github.com/photoprism/photoprism)** ★4.0万 — AI-Powered Photos App
+- **[bert](https://github.com/google-research/bert)** ★4.0万 — TensorFlow code and pre-trained models for BERT
+- **[LightRAG](https://github.com/HKUDS/LightRAG)** ★4.0万 — （EMNLP2025） LightRAG: Simple and Fast Retrieval-Augmented Generation
+- **[ChatTTS](https://github.com/2noise/ChatTTS)** ★4.0万 — A generative speech model for daily dialogue.
+- **[drawdb](https://github.com/drawdb-io/drawdb)** ★4.0万 — Free, simple, and intuitive online database diagram editor and SQL generator.
+- **[quivr](https://github.com/The-Vibe-Company/quivr)** ★4.0万 — Opiniated RAG for integrating GenAI in your apps Focus on your product rather than the RAG. Easy integration i
+- **[Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)** ★4.0万 — Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech!
+- **[umami](https://github.com/umami-software/umami)** ★3.9万 — Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one pla
+- **[langextract](https://github.com/google/langextract)** ★3.9万 — A Python library for extracting structured information from unstructured text using LLMs with precise source g
+- **[google-research](https://github.com/google-research/google-research)** ★3.9万 — Google Research
+- **[tesseract.js](https://github.com/naptha/tesseract.js)** ★3.9万 — Pure Javascript OCR for more than 100 Languages
+- **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** ★3.9万 — Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-C
+- **[portainer](https://github.com/portainer/portainer)** ★3.9万 — Making Docker and Kubernetes management easy.
+- **[sqlmap](https://github.com/sqlmapproject/sqlmap)** ★3.9万 — Automatic SQL injection and database takeover tool
+- **[PageIndex](https://github.com/VectifyAI/PageIndex)** ★3.9万 — PageIndex: Document Index for Vectorless, Reasoning-based RAG
+- **[harness](https://github.com/harness/harness)** ★3.8万 — Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hoste
+- **[istio](https://github.com/istio/istio)** ★3.8万 — Connect, secure, control, and observe services.
+- **[compose](https://github.com/docker/compose)** ★3.8万 — Define and run multi-container applications with Docker
+- **[interview](https://github.com/huihut/interview)** ★3.8万 — C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowl
+- **[maigret](https://github.com/soxoj/maigret)** ★3.8万 — ‍ Collect a dossier on a person by username from 6K websites
+- **[trivy](https://github.com/aquasecurity/trivy)** ★3.8万 — Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds an
+- **[ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** ★3.8万 — In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
+- **[directus](https://github.com/directus/directus)** ★3.8万 — The flexible backend for all your projects Turn your DB into a headless CMS, admin panels, or apps with a cust
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** ★3.8万 — The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Pr
+- **[GFPGAN](https://github.com/TencentARC/GFPGAN)** ★3.8万 — GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.
+- **[dokploy](https://github.com/Dokploy/dokploy)** ★3.8万 — Open Source Alternative to Vercel, Netlify and Heroku.
+- **[llmfit](https://github.com/AlexsJones/llmfit)** ★3.7万 — Hundreds of models & providers. One command to find what runs on your hardware.
+- **[chatwoot](https://github.com/chatwoot/chatwoot)** ★3.7万 — Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Servi
+- **[Open-Assistant](https://github.com/LAION-AI/Open-Assistant)** ★3.7万 — OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and ret
+- **[PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)** ★3.7万 — （EMNLP 2025 Demo） PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Goog
+- **[glance](https://github.com/glanceapp/glance)** ★3.7万 — A self-hosted dashboard that puts all your feeds in one place
+- **[CasaOS](https://github.com/IceWhaleTech/CasaOS)** ★3.7万 — CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+- **[mediapipe](https://github.com/google-ai-edge/mediapipe)** ★3.7万 — Cross-platform, customizable ML solutions for live and streaming media.
+- **[1Panel](https://github.com/1Panel-dev/1Panel)** ★3.7万 — 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.
+- **[linux-command](https://github.com/jaywcjlove/linux-command)** ★3.7万 — Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
+- **[JavaFamily](https://github.com/AobingJava/JavaFamily)** ★3.7万 — 【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
+- **[Vane](https://github.com/ItzCrazyKns/Vane)** ★3.7万 — Vane is an AI-powered answering engine.
+- **[MockingBird](https://github.com/babysor/MockingBird)** ★3.7万 — Clone a voice in 5 seconds to generate arbitrary speech in real-time
+- **[sglang](https://github.com/sgl-project/sglang)** ★3.7万 — SGLang is a high-performance serving framework for large language models and multimodal models.
+- **[typeorm](https://github.com/typeorm/typeorm)** ★3.7万 — TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and
+- **[HanLP](https://github.com/hankcs/HanLP)** ★3.7万 — 中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理
+- **[wails](https://github.com/wailsapp/wails)** ★3.6万 — Create beautiful applications using Go
+- **[sheetjs](https://github.com/SheetJS/sheetjs)** ★3.6万 — SheetJS Spreadsheet Data Toolkit -- New home https://git.sheetjs.com/SheetJS/sheetjs
+- **[AgentGPT](https://github.com/reworkd/AgentGPT)** ★3.6万 — Assemble, configure, and deploy autonomous AI Agents in your browser.
+- **[graphrag](https://github.com/microsoft/graphrag)** ★3.6万 — A modular graph-based Retrieval-Augmented Generation (RAG) system
+- **[prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)** ★3.6万 — An AI prompt optimizer for writing better prompts and getting better AI results.
+- **[hello-algorithm](https://github.com/geekxh/hello-algorithm)** ★3.6万 — 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图（项目花了上百小时，希望可以点 star 支持，感谢~）推荐免费ChatGPT使用网站
+- **[drizzle-orm](https://github.com/drizzle-team/drizzle-orm)** ★3.6万 — ORM
+- **[DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** ★3.6万 — A reliable coding agent for complex software engineering tasks.
+- **[langfuse](https://github.com/langfuse/langfuse)** ★3.5万 — Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.
+- **[airllm](https://github.com/lyogavin/airllm)** ★3.5万 — AirLLM 70B inference with single 4GB GPU
+- **[nativefier](https://github.com/nativefier/nativefier)** ★3.5万 — Make any web page a desktop application
+- **[seaweedfs](https://github.com/seaweedfs/seaweedfs)** ★3.5万 — SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed 
+- **[web-check](https://github.com/lissy93/web-check)** ★3.5万 — ‍ All-in-one OSINT tool for analysing any website
+- **[qdrant](https://github.com/qdrant/qdrant)** ★3.5万 — Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of A
+- **[C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus)** ★3.5万 — Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in
+- **[k9s](https://github.com/derailed/k9s)** ★3.5万 — Kubernetes CLI To Manage Your Clusters In Style!
+- **[diffusers](https://github.com/huggingface/diffusers)** ★3.5万 — Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.
+- **[caffe](https://github.com/BVLC/caffe)** ★3.5万 — Caffe: a fast open framework for deep learning.
+- **[openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)** ★3.4万 — OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
+- **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ★3.4万 — "Vibe-Trading: Your Personal Trading Agent"
+- **[CLIP](https://github.com/openai/CLIP)** ★3.4万 — CLIP (Contrastive Language-Image Pretraining), Predict the most relevant text snippet given an image
+- **[JavaScript](https://github.com/TheAlgorithms/JavaScript)** ★3.4万 — Algorithms and Data Structures implemented in JavaScript for beginners, following best practices.
+- **[happy-llm](https://github.com/datawhalechina/happy-llm)** ★3.4万 — 从零开始构建大模型
+- **[oh-my-pi](https://github.com/can1357/oh-my-pi)** ★3.4万 — ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+- **[k3s](https://github.com/k3s-io/k3s)** ★3.4万 — Lightweight Kubernetes
+- **[SillyTavern](https://github.com/SillyTavern/SillyTavern)** ★3.4万 — LLM Frontend for Power Users.
+- **[spaCy](https://github.com/explosion/spaCy)** ★3.4万 — Industrial-strength Natural Language Processing (NLP) in Python
+- **[paper-reading](https://github.com/mli/paper-reading)** ★3.4万 — 深度学习经典、新论文逐段精读
+- **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** ★3.4万 — 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE 
+- **[pear-desktop](https://github.com/pear-devs/pear-desktop)** ★3.4万 — Pear is extension for music player
+- **[linux-insides](https://github.com/0xAX/linux-insides)** ★3.4万 — A book-in-progress about the Linux kernel and its insides.
+- **[anoma](https://github.com/anoma/anoma)** ★3.4万 — Reference implementation of Anoma
+- **[netron](https://github.com/lutzroeder/netron)** ★3.4万 — Visualizer for neural network, deep learning and machine learning models
+- **[nacos](https://github.com/alibaba/nacos)** ★3.3万 — an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud 
+- **[remix](https://github.com/remix-run/remix)** ★3.3万 — The fully-stacked web framework
+- **[book-to-skill](https://github.com/virgiliojr94/book-to-skill)** ★3.3万 — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+- **[YesPlayMusic](https://github.com/qier222/YesPlayMusic)** ★3.3万 — 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:
+- **[tokio](https://github.com/tokio-rs/tokio)** ★3.3万 — A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, time
+- **[AionUi](https://github.com/iOfficeAI/AionUi)** ★3.3万 — Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Custom
+- **[surrealdb](https://github.com/surrealdb/surrealdb)** ★3.3万 — A scalable, distributed, collaborative, document-graph database, for the realtime web
+- **[shadPS4](https://github.com/shadps4-emu/shadPS4)** ★3.3万 — PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++
+- **[podman](https://github.com/podman-container-tools/podman)** ★3.3万 — Podman: A tool for managing OCI containers and pods.
+- **[homepage](https://github.com/gethomepage/homepage)** ★3.3万 — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations
+- **[heretic](https://github.com/p-e-w/heretic)** ★3.3万 — Fully automatic censorship removal for language models
+- **[ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)** ★3.3万 — Machine Learning From Scratch. Bare bones NumPy implementations of machine learning models and algorithms with
+- **[agentscope](https://github.com/agentscope-ai/agentscope)** ★3.3万 — Build and run agents you can see, understand and trust.
+- **[cockroach](https://github.com/cockroachdb/cockroach)** ★3.3万 — CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and
+- **[pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)** ★3.2万 — PyTorch Tutorial for Deep Learning Researchers
+- **[WindTerm](https://github.com/kingToolbox/WindTerm)** ★3.2万 — A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.
+- **[onyx](https://github.com/onyx-dot-app/onyx)** ★3.2万 — Open Source AI Platform - AI Chat with advanced features that works with every LLM
+- **[Recordly](https://github.com/webadderallorg/Recordly)** ★3.2万 — Create polished demo videos without editing skills. Mac/Windows/Linux
+- **[minikube](https://github.com/kubernetes/minikube)** ★3.2万 — Run Kubernetes locally
+- **[dokku](https://github.com/dokku/dokku)** ★3.2万 — A docker-powered PaaS that helps you build and manage the lifecycle of applications
+- **[rocksdb](https://github.com/facebook/rocksdb)** ★3.2万 — A library that provides an embeddable, persistent key-value store for fast storage.
+- **[FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)** ★3.2万 — FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and e
+- **[linera-protocol](https://github.com/linera-io/linera-protocol)** ★3.2万 — Main repository for the Linera protocol
+- **[DevToys](https://github.com/DevToys-app/DevToys)** ★3.2万 — A Swiss Army knife for developers.
+- **[code-review-graph](https://github.com/tirth8205/code-review-graph)** ★3.2万 — Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding too
+- **[WeKnora](https://github.com/Tencent/WeKnora)** ★3.2万 — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, an
+- **[nginx](https://github.com/nginx/nginx)** ★3.2万 — The official NGINX Open Source repository.
+- **[influxdb](https://github.com/influxdata/influxdb)** ★3.2万 — Scalable datastore for metrics, events, and real-time analytics
+- **[How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)** ★3.2万 — An evolving how-to guide for securing a Linux server.
+- **[dragonfly](https://github.com/dragonflydb/dragonfly)** ★3.2万 — A modern replacement for Redis and Memcached
+- **[nuclei](https://github.com/projectdiscovery/nuclei)** ★3.2万 — Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a s
+- **[Avalonia](https://github.com/AvaloniaUI/Avalonia)** ★3.2万 — Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI
+- **[storm](https://github.com/stanford-oval/storm)** ★3.2万 — An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citat
+- **[Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** ★3.2万 — Python scraper based on AI
+- **[meetily](https://github.com/Zackriya-Solutions/meetily)** ★3.1万 — Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, a
+- **[pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning)** ★3.1万 — Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.
+- **[shardeum](https://github.com/shardeum/shardeum)** ★3.1万 — Shardeum is an EVM based autoscaling blockchain
+- **[hosts](https://github.com/StevenBlack/hosts)** ★3.1万 — Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn
+- **[colima](https://github.com/abiosoft/colima)** ★3.1万 — Container runtimes on macOS (and Linux) with minimal setup
+- **[DeepFaceLive](https://github.com/iperov/DeepFaceLive)** ★3.1万 — Real-time face swap for PC streaming or video calls
+- **[leetcode-company-wise-problems](https://github.com/liquidslr/leetcode-company-wise-problems)** ★3.1万 — Lists of company wise questions. Every csv file in the companies directory corresponds to a list of questions 
+- **[egui](https://github.com/emilk/egui)** ★3.1万 — egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+- **[PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)** ★3.1万 — Python sample codes and textbook for robotics algorithms.
+- **[spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)** ★3.0万 — about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。
+- **[composio](https://github.com/ComposioHQ/composio)** ★3.0万 — Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to 
+- **[algo](https://github.com/trailofbits/algo)** ★3.0万 — Set up a personal VPN in the cloud
+- **[sequelize](https://github.com/sequelize/sequelize)** ★3.0万 — Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQ
+- **[laya](https://github.com/NandhaKishorM/laya)** ★3.0万 — Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a singl
+- **[helm](https://github.com/helm/helm)** ★3.0万 — The Kubernetes Package Manager
+- **[HEAD](https://github.com/joshbuchea/HEAD)** ★3.0万 — A simple guide to HTML <head> elements
+- **[stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)** ★3.0万 — Code and documentation to train Stanford's Alpaca models, and generate the data.
+- **[9router](https://github.com/decolua/9router)** ★3.0万 — Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/G
+- **[librepods](https://github.com/librepods-org/librepods)** ★3.0万 — AirPods liberated from Apple's ecosystem.
+- **[consul](https://github.com/hashicorp/consul)** ★3.0万 — Consul is a distributed, highly available, and data center aware solution to connect and configure application
+- **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** ★3.0万 — Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic
+- **[modular](https://github.com/modular/modular)** ★3.0万 — The Modular Platform (includes MAX & Mojo)
+- **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** ★3.0万 — Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender F
+- **[openai-agents-python](https://github.com/openai/openai-agents-python)** ★3.0万 — A lightweight, powerful framework for multi-agent workflows
+- **[FastGPT](https://github.com/labring/FastGPT)** ★3.0万 — FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabi
+- **[ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)** ★3.0万 — Proxmox VE Helper-Scripts (Community Edition)
+- **[gitleaks](https://github.com/gitleaks/gitleaks)** ★3.0万 — Find secrets with Gitleaks
+- **[infisical](https://github.com/Infisical/infisical)** ★3.0万 — Infisical is the open-source platform for secrets, certificates, and privileged access management.
+- **[nautilus_trader](https://github.com/nautechsystems/nautilus_trader)** ★3.0万 — Production-grade Rust-native trading engine with deterministic event-driven architecture
+- **[harbor](https://github.com/goharbor/harbor)** ★2.9万 — An open source trusted cloud native registry project that stores, signs, and scans content.
+- **[chroma](https://github.com/chroma-core/chroma)** ★2.9万 — Search infrastructure for AI
+- **[hey.xyz](https://github.com/slymnoyann/hey.xyz)** ★2.9万 — Hey is a decentralized and permissionless social media app built with Lens Protocol
+- **[analytics](https://github.com/plausible/analytics)** ★2.9万 — Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted o
+- **[authelia](https://github.com/authelia/authelia)** ★2.9万 — The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.
+- **[swift-algorithm-club](https://github.com/kodecocodes/swift-algorithm-club)** ★2.9万 — Algorithms and data structures in Swift, with explanations!
+- **[keepassxc](https://github.com/keepassxreboot/keepassxc)** ★2.9万 — KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.
+- **[reflex](https://github.com/reflex-dev/reflex)** ★2.9万 — Web apps in pure Python
+- **[machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)** ★2.9万 — A complete daily plan for studying to become a machine learning engineer.
+- **[xgboost](https://github.com/dmlc/xgboost)** ★2.9万 — Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, 
+- **[repomix](https://github.com/yamadashy/repomix)** ★2.9万 — Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when
+- **[setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn)** ★2.9万 — Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2. Supports Ubunt
+- **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** ★2.9万 — Integrate cutting-edge LLM technology quickly and easily into your apps
+- **[mongo](https://github.com/mongodb/mongo)** ★2.9万 — The MongoDB Database
+- **[Resume-Matcher](https://github.com/srbhr/Resume-Matcher)** ★2.9万 — The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.
+- **[mastra](https://github.com/mastra-ai/mastra)** ★2.9万 — Mastra is the modern TypeScript framework for AI-powered applications and agents.
+- **[spleeter](https://github.com/deezer/spleeter)** ★2.8万 — Deezer source separation library including pretrained models.
+- **[label-studio](https://github.com/HumanSignal/label-studio)** ★2.8万 — Label Studio is a multi-type data labeling and annotation tool with standardized output format
+- **[InvokeAI](https://github.com/invoke-ai/InvokeAI)** ★2.8万 — Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthus
+- **[Chat2DB](https://github.com/OtterMind/Chat2DB)** ★2.8万 — Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analyst
+- **[qwen-code](https://github.com/QwenLM/qwen-code)** ★2.8万 — An open-source AI coding agent that lives in your terminal.
+- **[nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)** ★2.8万 — NGINX config generator on steroids
+- **[trufflehog](https://github.com/trufflesecurity/trufflehog)** ★2.8万 — Find, verify, and analyze leaked credentials
+- **[mlflow](https://github.com/mlflow/mlflow)** ★2.8万 — The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to 
+- **[Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)** ★2.8万 — aka "Bayesian Methods for Hackers": An introduction to Bayesian methods + probabilistic programming with a com
+- **[so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)** ★2.8万 — SoftVC VITS Singing Voice Conversion
+- **[postgrest](https://github.com/PostgREST/postgrest)** ★2.8万 — REST API for any Postgres database
+- **[CS-Books](https://github.com/forthespada/CS-Books)** ★2.7万 — 超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计
+- **[Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question)** ★2.7万 — 我是依扬（木易杨），公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。
+- **[valkey](https://github.com/valkey-io/valkey)** ★2.7万 — A flexible distributed key-value database that is optimized for caching and other realtime workloads.
+- **[openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)** ★2.7万 — OpenZeppelin Contracts is a library for secure smart contract development.
+- **[libuv](https://github.com/libuv/libuv)** ★2.7万 — Cross-platform asynchronous I/O
+- **[GDevelop](https://github.com/4ian/GDevelop)** ★2.7万 — Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.
+- **[OI-wiki](https://github.com/OI-wiki/OI-wiki)** ★2.7万 — :star2: Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
+- **[DeepSpeech](https://github.com/mozilla/DeepSpeech)** ★2.7万 — DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on
+- **[cool-retro-term](https://github.com/Swordfish90/cool-retro-term)** ★2.6万 — A good looking terminal emulator which mimics the old cathode display...
+- **[ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui)** ★2.6万 — GUI for a Vocal Remover that uses Deep Neural Networks.
+- **[deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)** ★2.6万 — deep learning for image processing including classification and object-detection etc.
+- **[flink](https://github.com/apache/flink)** ★2.6万 — Apache Flink
+- **[nixpkgs](https://github.com/NixOS/nixpkgs)** ★2.6万 — Nix Packages collection & NixOS
+- **[fe-interview](https://github.com/haizlin/fe-interview)** ★2.6万 — 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/
+- **[floci](https://github.com/floci-io/floci)** ★2.6万 — Light, fluffy, and always free - The AWS Local Emulator alternative
+- **[faas](https://github.com/openfaas/faas)** ★2.6万 — OpenFaaS - Serverless Functions Made Simple
+- **[spotify-downloader](https://github.com/spotDL/spotify-downloader)** ★2.6万 — Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found)
+- **[Babylon.js](https://github.com/BabylonJS/Babylon.js)** ★2.6万 — Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScr
+- **[dapr](https://github.com/dapr/dapr)** ★2.6万 — Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven
+- **[rancher](https://github.com/rancher/rancher)** ★2.6万 — Complete container management platform
+- **[authentik](https://github.com/goauthentik/authentik)** ★2.6万 — The authentication glue you need.
+- **[shap](https://github.com/shap/shap)** ★2.6万 — A game theoretic approach to explain the output of any machine learning model.
+- **[Rocket](https://github.com/rwf2/Rocket)** ★2.6万 — A web framework for Rust.
+- **[pulumi](https://github.com/pulumi/pulumi)** ★2.6万 — Pulumi - Infrastructure as Code in any programming language
+- **[solidity](https://github.com/argotorg/solidity)** ★2.6万 — Solidity, the Smart Contract Programming Language
+- **[Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)** ★2.6万 — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination s
+- **[faster-whisper](https://github.com/SYSTRAN/faster-whisper)** ★2.6万 — Faster Whisper transcription with CTranslate2
+- **[handson-ml](https://github.com/ageron/handson-ml)** ★2.6万 — DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.
+- **[cilium](https://github.com/cilium/cilium)** ★2.6万 — eBPF-based Networking, Security, and Observability
+- **[algorithms](https://github.com/keon/algorithms)** ★2.6万 — Minimal examples of data structures and algorithms in Python
+- **[vit-pytorch](https://github.com/lucidrains/vit-pytorch)** ★2.6万 — Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single
+- **[libgdx](https://github.com/libgdx/libgdx)** ★2.5万 — Desktop/Android/HTML5/iOS Java game development framework
+- **[JARVIS](https://github.com/microsoft/JARVIS)** ★2.5万 — JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf
+- **[WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)** ★2.5万 — Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics
+- **[bitcoinbook](https://github.com/bitcoinbook/bitcoinbook)** ★2.5万 — Mastering Bitcoin 3rd Edition - Programming the Open Blockchain
+- **[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)** ★2.5万 — Image-to-Image Translation in PyTorch
+- **[SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)** ★2.5万 — Development at the speed of light
+- **[kuboard-press](https://github.com/eip-work/kuboard-press)** ★2.5万 — Kuboard v4 官方文档（zh/en 双语）：Kuboard 是基于 Kubernetes 的微服务管理界面。本仓库为 v4 版本文档站源码，涵盖安装升级、集群管理、工作负载、网络、存储、Kuboard MCP 等
+- **[responsively-app](https://github.com/responsively-org/responsively-app)** ★2.5万 — A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
+- **[TDengine](https://github.com/taosdata/TDengine)** ★2.5万 — High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios
+- **[labelImg](https://github.com/HumanSignal/labelImg)** ★2.5万 — LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is n
+- **[games](https://github.com/leereilly/games)** ★2.5万 — Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
+- **[radare2](https://github.com/radareorg/radare2)** ★2.5万 — UNIX-like reverse engineering framework and command-line toolset
+- **[actix-web](https://github.com/actix/actix-web)** ★2.5万 — Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.
+- **[homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning)** ★2.5万 — Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained
+- **[firefly-iii](https://github.com/firefly-iii/firefly-iii)** ★2.5万 — Firefly III: a personal finances manager
+- **[fhevm](https://github.com/zama-ai/fhevm)** ★2.5万 — FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications
+- **[lvgl](https://github.com/lvgl/lvgl)** ★2.5万 — LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by 
+- **[cli](https://github.com/spicetify/cli)** ★2.5万 — Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux.
+- **[nylas-mail](https://github.com/nylas/nylas-mail)** ★2.5万 — :love_letter: An extensible desktop mail app built on the modern web. Forks welcome!
+- **[sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser)** ★2.5万 — Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "
+- **[watchtower](https://github.com/containrrr/watchtower)** ★2.5万 — A process for automating Docker container base image updates.
+- **[dolt](https://github.com/dolthub/dolt)** ★2.5万 — Dolt – Git for Data
+- **[dockge](https://github.com/louislam/dockge)** ★2.5万 — A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
+- **[turso](https://github.com/tursodatabase/turso)** ★2.5万 — A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.
+- **[dash](https://github.com/plotly/dash)** ★2.4万 — Data Apps & Dashboards for Python. No JavaScript Required.
+- **[argo-cd](https://github.com/argoproj/argo-cd)** ★2.4万 — Declarative Continuous Deployment for Kubernetes
+- **[eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers)** ★2.4万 — Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS.
+- **[dbx](https://github.com/t8y2/dbx)** ★2.4万 — 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redi
+- **[Paddle](https://github.com/PaddlePaddle/Paddle)** ★2.4万 — PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能
+- **[pytorch_geometric](https://github.com/pyg-team/pytorch_geometric)** ★2.4万 — Graph Neural Network Library for PyTorch
+- **[gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)** ★2.4万 — Original reference implementation of "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+- **[air](https://github.com/air-verse/air)** ★2.4万 — Live reload for Go apps
+- **[prefect](https://github.com/PrefectHQ/prefect)** ★2.4万 — Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
+- **[navidrome](https://github.com/navidrome/navidrome)** ★2.4万 — Your Personal Streaming Service
+- **[DSA-Bootcamp-Java](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java)** ★2.4万 — This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms
+- **[ncnn](https://github.com/Tencent/ncnn)** ★2.4万 — ncnn is a high-performance neural network inference framework optimized for the mobile platform
+- **[best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python)** ★2.4万 — A ranked list of awesome machine learning Python libraries. Updated weekly.
+- **[system-design-interview](https://github.com/checkcheckzz/system-design-interview)** ★2.4万 — System design interview for IT companies
+- **[vanna](https://github.com/vanna-ai/vanna)** ★2.4万 — Chat with your SQL database . Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval .
+- **[pandas-ai](https://github.com/sinaptik-ai/pandas-ai)** ★2.4万 — Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational usin
+- **[brave-browser](https://github.com/brave/brave-browser)** ★2.4万 — Brave browser for Android, iOS, Linux, macOS, Windows.
+- **[BongoCat](https://github.com/ayangweb/BongoCat)** ★2.4万 — BongoCat — A cross-platform interactive desktop pet that brings fun to your desktop!
+- **[beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)** ★2.4万 — Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows
+- **[timescaledb](https://github.com/timescale/timescaledb)** ★2.4万 — A time-series database for high-performance real-time analytics packaged as a Postgres extension
+- **[osquery](https://github.com/osquery/osquery)** ★2.4万 — SQL powered operating system instrumentation, monitoring, and analytics.
+- **[MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights)** ★2.4万 — 《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.
+- **[deepface](https://github.com/serengil/deepface)** ★2.4万 — A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Pytho
+- **[slim](https://github.com/slimtoolkit/slim)** ★2.3万 — Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled lang
+- **[rxdb](https://github.com/pubkey/rxdb)** ★2.3万 — The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, 
+- **[wechaty](https://github.com/wechaty/wechaty)** ★2.3万 — Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
+- **[API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist)** ★2.3万 — Checklist of the most important security countermeasures when designing, testing, and releasing your API
+- **[matplotlib](https://github.com/matplotlib/matplotlib)** ★2.3万 — matplotlib: plotting with Python
+- **[sops](https://github.com/getsops/sops)** ★2.3万 — Simple and flexible tool for managing secrets
+- **[lens](https://github.com/lensapp/lens)** ★2.3万 — Lens - The way the world runs Kubernetes
+- **[learnopencv](https://github.com/spmallick/learnopencv)** ★2.3万 — Learn OpenCV : C++ and Python Examples
+- **[neon](https://github.com/neondatabase/neon)** ★2.3万 — Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching
+- **[distroless](https://github.com/GoogleContainerTools/distroless)** ★2.3万 — Language focused docker images, minus the operating system.
+- **[winboat](https://github.com/winboat-org/winboat)** ★2.3万 — Run Windows apps on Linux with seamless integration
+- **[anubis](https://github.com/TecharoHQ/anubis)** ★2.3万 — Weighs the soul of incoming HTTP requests to stop AI crawlers
+- **[marimo](https://github.com/marimo-team/marimo)** ★2.3万 — A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as 
+- **[chartdb](https://github.com/chartdb/chartdb)** ★2.3万 — Database diagrams editor that allows you to visualize and design your DB with a single query.
+- **[CVPR2026-Papers-with-Code](https://github.com/amusi/CVPR2026-Papers-with-Code)** ★2.3万 — CVPR 2026 论文和开源项目合集
+- **[akshare](https://github.com/akfamily/akshare)** ★2.3万 — AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口
+- **[spiderfoot](https://github.com/smicallef/spiderfoot)** ★2.3万 — SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+- **[SafeLine](https://github.com/chaitin/SafeLine)** ★2.3万 — SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks 
+- **[lowdb](https://github.com/typicode/lowdb)** ★2.3万 — Simple and fast JSON database
+- **[witr](https://github.com/pranshuparmar/witr)** ★2.3万 — Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
+- **[docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)** ★2.3万 — Docker Cheat Sheet
+- **[macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)** ★2.3万 — Community guide to securing and improving privacy on macOS.
+- **[super-productivity](https://github.com/super-productivity/super-productivity)** ★2.2万 — Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It 
+- **[generator-jhipster](https://github.com/jhipster/generator-jhipster)** ★2.2万 — JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservi
+- **[neko](https://github.com/m1k1o/neko)** ★2.2万 — A self hosted virtual browser that runs in docker and uses WebRTC.
+- **[waveterm](https://github.com/wavetermdev/waveterm)** ★2.2万 — An open-source, AI-integrated, cross-platform terminal for seamless workflows
+- **[unilm](https://github.com/microsoft/unilm)** ★2.2万 — Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
+- **[micropython](https://github.com/micropython/micropython)** ★2.2万 — MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems
+- **[datasets](https://github.com/huggingface/datasets)** ★2.2万 — The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation 
+- **[onnxruntime](https://github.com/microsoft/onnxruntime)** ★2.2万 — ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator
+- **[video2x](https://github.com/k4yt3x/video2x)** ★2.2万 — A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 20
+- **[matomo](https://github.com/matomo-org/matomo)** ★2.2万 — Empowering People Ethically — Matomo is hiring! Join us https://matomo.org/jobs Matomo is the leading open-sou
+- **[serve](https://github.com/jina-ai/serve)** ★2.2万 — Build multimodal AI applications with cloud-native stack
+- **[teable](https://github.com/teableio/teable)** ★2.2万 — AI Spreadsheet for Business
+- **[dgraph](https://github.com/dgraph-io/dgraph)** ★2.2万 — high-performance graph database for real-time use cases
+- **[chezmoi](https://github.com/twpayne/chezmoi)** ★2.2万 — Manage your dotfiles across multiple diverse machines, securely.
+- **[screenpipe](https://github.com/screenpipe/screenpipe)** ★2.2万 — YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help yo
+- **[Atlas](https://github.com/Atlas-OS/Atlas)** ★2.2万 — An open and lightweight modification to Windows, designed to optimize performance, privacy and usability.
+- **[pytorch-handbook](https://github.com/zergtant/pytorch-handbook)** ★2.2万 — pytorch handbook是一本开源的书籍，目标是帮助那些希望和使用PyTorch进行深度学习开发和研究的朋友快速入门，其中包含的Pytorch教程全部通过测试保证可以成功运行
+- **[L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S)** ★2.2万 — TOTALLY HARMLESS LIBERATION PROMPTS FOR GOOD LIL AI'S! <NEW_PARADIGM> （DISREGARD PREV. INSTRUCTS） {*CLEAR YOUR
+- **[macos](https://github.com/dockur/macos)** ★2.2万 — MacOS inside a Docker container.
+- **[HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)** ★2.2万 — HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。
+- **[onnx](https://github.com/onnx/onnx)** ★2.2万 — Open standard for machine learning interoperability
+- **[containerd](https://github.com/containerd/containerd)** ★2.1万 — An open and reliable container runtime
+- **[vitess](https://github.com/vitessio/vitess)** ★2.1万 — Vitess is a database clustering system for horizontal scaling of MySQL.
+- **[sonic](https://github.com/valeriansaliou/sonic)** ★2.1万 — Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
+- **[cosmopolitan](https://github.com/jart/cosmopolitan)** ★2.1万 — build-once run-anywhere c library
+- **[rasa](https://github.com/RasaHQ/rasa)** ★2.1万 — Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue manageme
+- **[vulhub](https://github.com/vulhub/vulhub)** ★2.1万 — Pre-Built Vulnerable Environments Based on Docker-Compose
+- **[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)** ★2.1万 — FinGPT: Open-Source Financial Large Language Models! Revolutionize We release the trained model on HuggingFace
+- **[xbmc](https://github.com/xbmc/xbmc)** ★2.1万 — Kodi is an award-winning free and open source home theater/media center software and entertainment hub for dig
+- **[machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading)** ★2.1万 — Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.
+- **[wasmer](https://github.com/wasmerio/wasmer)** ★2.1万 — Fast and lightweight sandboxes for your apps and AI agents
+- **[microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo)** ★2.1万 — Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.
+- **[teleport](https://github.com/gravitational/teleport)** ★2.1万 — The easiest, and most secure way to access and protect all of your infrastructure.
+- **[excelize](https://github.com/qax-os/excelize)** ★2.1万 — Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets
+- **[cube](https://github.com/cube-js/cube)** ★2.1万 — Cube Core is open-source semantic layer for AI, BI and embedded analytics
+- **[shardingsphere](https://github.com/apache/shardingsphere)** ★2.1万 — Empowering Data Intelligence with Distributed SQL for Sharding, Scalability, and Security Across All Databases
+- **[DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)** ★2.1万 — DevOps Roadmap for 2026. with learning resources
+- **[ai-guide](https://github.com/liyupi/ai-guide)** ★2.1万 — 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Pr
+- **[PEASS-ng](https://github.com/peass-ng/PEASS-ng)** ★2.1万 — PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+- **[ish](https://github.com/ish-app/ish)** ★2.1万 — Linux shell for iOS
+- **[RustScan](https://github.com/bee-san/RustScan)** ★2.0万 — The Modern Port Scanner
+- **[SWE-agent](https://github.com/SWE-agent/SWE-agent)** ★2.0万 — SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be empl
+- **[mybatis-3](https://github.com/mybatis/mybatis-3)** ★2.0万 — MyBatis SQL mapper framework for Java
+- **[KaTeX](https://github.com/KaTeX/KaTeX)** ★2.0万 — Fast math typesetting for the web.
+- **[animeko](https://github.com/open-ani/animeko)** ★2.0万 — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
+- **[knex](https://github.com/knex/knex)** ★2.0万 — A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, p
+- **[stanford-cs-229-machine-learning](https://github.com/afshinea/stanford-cs-229-machine-learning)** ★2.0万 — VIP cheatsheets for Stanford's CS 229 Machine Learning
+- **[ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)** ★2.0万 — Generate audiobooks from e-books, voice cloning & 1158+ languages!
+- **[server](https://github.com/bitwarden/server)** ★2.0万 — Bitwarden infrastructure/backend (API, database, Docker, etc).
+- **[Obtainium](https://github.com/ImranR98/Obtainium)** ★2.0万 — Get Android app updates straight from the source.
+- **[popmotion](https://github.com/Popmotion/popmotion)** ★2.0万 — Simple animation libraries for delightful user interfaces
+- **[DB-GPT](https://github.com/eosphoros-ai/DB-GPT)** ★2.0万 — open-source agentic AI data assistant for the next generation of AI + Data products.
+- **[bettercap](https://github.com/bettercap/bettercap)** ★2.0万 — The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.
+- **[kubectx](https://github.com/ahmetb/kubectx)** ★2.0万 — Faster way to switch between clusters and namespaces in kubectl
+- **[3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners)** ★2.0万 — A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game
+- **[qinglong](https://github.com/whyour/qinglong)** ★2.0万 — 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript
+- **[nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)** ★2.0万 — Automated Nginx Reverse Proxy for Docker
+- **[cutter](https://github.com/rizinorg/cutter)** ★2.0万 — Free and Open Source Reverse Engineering Platform powered by rizin
+- **[90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity)** ★2.0万 — This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning va
+- **[ml-agents](https://github.com/Unity-Technologies/ml-agents)** ★2.0万 — The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulat
+- **[simplex-chat](https://github.com/simplex-chat/simplex-chat)** ★2.0万 — SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!
+- **[Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch)** ★2.0万 — 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
+- **[gvisor](https://github.com/google/gvisor)** ★1.9万 — Application Kernel for Containers
+- **[ingress-nginx](https://github.com/kubernetes/ingress-nginx)** ★1.9万 — Ingress NGINX Controller for Kubernetes
+- **[pot-desktop](https://github.com/pot-app/pot-desktop)** ★1.9万 — 一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.
+- **[agent-zero](https://github.com/agent0ai/agent-zero)** ★1.9万 — Agent Zero AI framework
+- **[paseo](https://github.com/getpaseo/paseo)** ★1.9万 — Orchestrate multiple coding agents from desktop and mobile
+- **[DeepFaceLab](https://github.com/iperov/DeepFaceLab)** ★1.9万 — DeepFaceLab is the leading software for creating deepfakes.
+- **[web-llm](https://github.com/mlc-ai/web-llm)** ★1.9万 — High-performance In-browser LLM Inference Engine
+- **[cocos2d-x](https://github.com/cocos2d/cocos2d-x)** ★1.9万 — Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers
+- **[tfjs](https://github.com/tensorflow/tfjs)** ★1.9万 — A WebGL accelerated JavaScript library for training and deploying ML models.
+- **[gun](https://github.com/amark/gun)** ★1.9万 — An open source cybersecurity protocol for syncing decentralized graph data.
+- **[kivy](https://github.com/kivy/kivy)** ★1.9万 — Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
+- **[komi-store](https://github.com/komi-store/komi-store)** ★1.9万 — A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and i
+- **[migrate](https://github.com/golang-migrate/migrate)** ★1.9万 — Database migrations. CLI and Golang library.
+- **[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)** ★1.9万 — 中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)
+- **[kubespray](https://github.com/kubernetes-sigs/kubespray)** ★1.9万 — Deploy a Production Ready Kubernetes Cluster
+- **[algorithms](https://github.com/williamfiset/algorithms)** ★1.9万 — A collection of algorithms and data structures
+- **[fail2ban](https://github.com/fail2ban/fail2ban)** ★1.9万 — Daemon to ban hosts that cause multiple authentication errors
+- **[magika](https://github.com/google/magika)** ★1.9万 — Fast and accurate AI powered file content types detection
+- **[nuclear](https://github.com/nukeop/nuclear)** ★1.9万 — Streaming music player that finds free music for you
+- **[Qbot](https://github.com/UFund-Me/Qbot)** ★1.9万 — （updating ...） AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. online docs: https:/
+- **[agent-lightning](https://github.com/microsoft/agent-lightning)** ★1.9万 — The absolute trainer to light up AI agents.
+- **[AirSim](https://github.com/microsoft/AirSim)** ★1.9万 — Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research
+- **[reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh)** ★1.9万 — 技术面试最后反问面试官的话
+- **[matter-js](https://github.com/liabru/matter-js)** ★1.8万 — a 2D rigid body physics engine for the web ▲● ■
+- **[Dapper](https://github.com/DapperLib/Dapper)** ★1.8万 — Dapper - a simple object mapper for .Net
+- **[docker-elk](https://github.com/deviantony/docker-elk)** ★1.8万 — The Elastic stack (ELK) powered by Docker and Compose.
+- **[interview](https://github.com/Olshansk/interview)** ★1.8万 — Everything you need to prepare for your technical interview
+- **[sealos](https://github.com/labring/sealos)** ★1.8万 — Deploy real projects from GitHub or your AI coding agent, then keep them running with AI-powered operations.
+- **[pyxel](https://github.com/kitao/pyxel)** ★1.8万 — A retro game engine for Python
+- **[sqlmodel](https://github.com/fastapi/sqlmodel)** ★1.8万 — SQL databases in Python, designed for simplicity, compatibility, and robustness.
+- **[sqlc](https://github.com/sqlc-dev/sqlc)** ★1.8万 — Generate type-safe code from SQL
+- **[Go](https://github.com/TheAlgorithms/Go)** ★1.8万 — Algorithms and Data Structures implemented in Go for beginners, following best practices.
+- **[CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map)** ★1.8万 — Build the best interview map. The current content includes JS, network, browser related, performance optimizat
+- **[ab-download-manager](https://github.com/amir1376/ab-download-manager)** ★1.8万 — A Download Manager that speeds up your downloads
+- **[dxvk](https://github.com/doitsujin/dxvk)** ★1.8万 — Vulkan-based implementation of D3D8, 9, 10 and 11 for Linux / Wine
+- **[vision](https://github.com/pytorch/vision)** ★1.8万 — Datasets, Transforms and Models specific to Computer Vision
+- **[verdaccio](https://github.com/verdaccio/verdaccio)** ★1.8万 — A lightweight Node.js private proxy registry
+- **[Mailspring](https://github.com/Foundry376/Mailspring)** ★1.8万 — :love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.
+- **[ctop](https://github.com/bcicen/ctop)** ★1.8万 — Top-like interface for container metrics
+- **[ML-NLP](https://github.com/NLP-LOVE/ML-NLP)** ★1.8万 — 此项目是机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现，也是作为一个算法工程师必会的理论基础知识。
+- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** ★1.8万 — VictoriaMetrics: fast, cost-effective monitoring solution and time series database
+- **[camel](https://github.com/camel-ai/camel)** ★1.8万 — CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.o
+- **[WrenAI](https://github.com/Canner/WrenAI)** ★1.8万 — GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that t
+- **[rqlite](https://github.com/rqlite/rqlite)** ★1.8万 — The lightweight, fault-tolerant database built on SQLite. Designed to keep your data highly available with min
+- **[aframe](https://github.com/aframevr/aframe)** ★1.8万 — :a: Web framework for building virtual reality experiences.
+- **[pouchdb](https://github.com/apache/pouchdb)** ★1.8万 — :kangaroo: - PouchDB is a pocket-sized database.
+- **[tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)** ★1.8万 — 신입 개발자 전공 지식 & 기술 면접 백과사전
+- **[nvidia-docker](https://github.com/NVIDIA/nvidia-docker)** ★1.8万 — Build and run Docker containers leveraging NVIDIA GPUs
+- **[hydra](https://github.com/ory/hydra)** ★1.8万 — Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user managemen
+- **[instant-ngp](https://github.com/NVlabs/instant-ngp)** ★1.8万 — Instant neural graphics primitives: lightning fast NeRF and more
+- **[sqlx](https://github.com/transact-rs/sqlx)** ★1.8万 — The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supp
+- **[tensor2tensor](https://github.com/tensorflow/tensor2tensor)** ★1.7万 — Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML 
+- **[DOMPurify](https://github.com/cure53/DOMPurify)** ★1.7万 — DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with
+- **[questdb](https://github.com/questdb/questdb)** ★1.7万 — QuestDB is a high performance, open-source, time-series database
+- **[Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)** ★1.7万 — The only Front-End Performance Checklist that runs faster than the others
+- **[neo4j](https://github.com/neo4j/neo4j)** ★1.7万 — Graphs for Everyone
+- **[koel](https://github.com/koel/koel)** ★1.7万 — Music streaming solution that works.
+- **[libsql](https://github.com/tursodatabase/libsql)** ★1.7万 — libSQL is a fork of SQLite that is both Open Source, and Open Contributions.
+- **[apisix](https://github.com/apache/apisix)** ★1.7万 — The Cloud-Native API Gateway and AI Gateway
+- **[ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** ★1.7万 — A Smart Ethernet Switch for Earth
+- **[ceph](https://github.com/ceph/ceph)** ★1.7万 — Ceph is a distributed object, block, and file storage platform
+- **[termux-packages](https://github.com/termux/termux-packages)** ★1.7万 — A package build system for Termux.
+- **[wazuh](https://github.com/wazuh/wazuh)** ★1.7万 — Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.
+- **[kubesphere](https://github.com/kubesphere/kubesphere)** ★1.7万 — The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈
+- **[argo-workflows](https://github.com/argoproj/argo-workflows)** ★1.7万 — Workflow Engine for Kubernetes
+- **[engine](https://github.com/playcanvas/engine)** ★1.7万 — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF
+- **[AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer)** ★1.7万 — 一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制
+- **[BoostNote-Legacy](https://github.com/BoostIO/BoostNote-Legacy)** ★1.7万 — This repository is outdated and new Boost Note app is available! We've launched a new Boost Note app which sup
+- **[cvat](https://github.com/cvat-ai/cvat)** ★1.7万 — Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vis
+- **[ipython](https://github.com/ipython/ipython)** ★1.7万 — Official repository for IPython itself. Other repos in the IPython organization contain things like the websit
+- **[systemd](https://github.com/systemd/systemd)** ★1.7万 — The systemd System and Service Manager
+- **[presto](https://github.com/prestodb/presto)** ★1.7万 — The official home of the Presto distributed SQL query engine for big data
+- **[GhostTrack](https://github.com/HunxByts/GhostTrack)** ★1.7万 — Useful tool to track location or mobile number
+- **[fabric](https://github.com/hyperledger/fabric)** ★1.7万 — Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions a
+- **[kops](https://github.com/kubernetes/kops)** ★1.7万 — Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management
+- **[zephyr](https://github.com/zephyrproject-rtos/zephyr)** ★1.7万 — Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS fo
+- **[diem](https://github.com/diem/diem)** ★1.7万 — Diem’s mission is to build a trusted and innovative financial network that empowers people and businesses arou
+- **[realm-swift](https://github.com/realm/realm-swift)** ★1.7万 — Realm is a mobile database: a replacement for Core Data & SQLite
+- **[redox](https://github.com/redox-os/redox)** ★1.7万 — Mirror of https://gitlab.redox-os.org/redox-os/redox
+- **[text-to-cad](https://github.com/earthtojake/text-to-cad)** ★1.7万 — Give your agent CAD superpowers.
+- **[memvid](https://github.com/memvid/memvid)** ★1.7万 — Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give yo
+- **[mcp-toolbox](https://github.com/googleapis/mcp-toolbox)** ★1.7万 — MCP Toolbox for Databases is an open source MCP server for databases.
+- **[ChatALL](https://github.com/ai-shifu/ChatALL)** ★1.7万 — Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, d
+- **[gensim](https://github.com/piskvorky/gensim)** ★1.6万 — Topic Modelling for Humans
+- **[TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader)** ★1.6万 — 抖音 / TikTok 平台作品下载/数据采集工具
+- **[rofi](https://github.com/davatorium/rofi)** ★1.6万 — Rofi: A window switcher, application launcher and dmenu replacement
+- **[lynis](https://github.com/CISOfy/lynis)** ★1.6万 — Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPA
+- **[quickemu](https://github.com/quickemu-project/quickemu)** ★1.6万 — Quickly create and run optimised Windows, macOS and Linux virtual machines
+- **[prisma1](https://github.com/prisma/prisma1)** ★1.6万 — Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB) （deprecated）
+- **[numpy-ml](https://github.com/ddbourgin/numpy-ml)** ★1.6万 — Machine learning, in numpy
+- **[dagger](https://github.com/dagger/dagger)** ★1.6万 — Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
+- **[javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)** ★1.6万 — A powerful obfuscator for JavaScript and Node.js
+- **[OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)** ★1.6万 — An open source re-implementation of RollerCoaster Tycoon 2
+- **[dots-hyprland](https://github.com/end-4/dots-hyprland)** ★1.6万 — Usability-first dotfiles
+- **[nicegui](https://github.com/zauberzeug/nicegui)** ★1.6万 — Create web-based user interfaces with Python. The nice way.
+- **[cryptomator](https://github.com/cryptomator/cryptomator)** ★1.6万 — Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring priv
+- **[dagster](https://github.com/dagster-io/dagster)** ★1.6万 — An orchestration platform for the development, production, and observation of data assets.
+- **[labelme](https://github.com/wkentaro/labelme)** ★1.6万 — Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation.
+- **[systeminformer](https://github.com/winsiderss/systeminformer)** ★1.6万 — A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malwar
+- **[pglite](https://github.com/electric-sql/pglite)** ★1.6万 — Embeddable Postgres with real-time, reactive bindings.
+- **[zvec](https://github.com/alibaba/zvec)** ★1.6万 — A lightweight, lightning-fast, in-process vector database
+- **[winapps](https://github.com/winapps-org/winapps)** ★1.6万 — Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part 
+- **[doris](https://github.com/apache/doris)** ★1.6万 — Apache Doris is a real-time analytics and hybrid search database for AI agents.
+- **[ardupilot](https://github.com/ArduPilot/ardupilot)** ★1.6万 — ArduPlane, ArduCopter, ArduRover, ArduSub source
+- **[docker-android](https://github.com/budtmo/docker-android)** ★1.6万 — Android in docker solution with noVNC supported, video recording, mcp server and AI-agent
+- **[quarkus](https://github.com/quarkusio/quarkus)** ★1.6万 — Quarkus: Supersonic Subatomic Java.
+- **[dvc](https://github.com/treeverse/dvc)** ★1.6万 — Data Versioning and ML Experiments
+- **[kubeflow](https://github.com/kubeflow/kubeflow)** ★1.6万 — The Cloud Native AI Platform
+- **[transfer.sh](https://github.com/dutchcoders/transfer.sh)** ★1.6万 — Easy and fast file sharing from the command-line.
+- **[skaffold](https://github.com/GoogleContainerTools/skaffold)** ★1.6万 — Easy and Repeatable Kubernetes Development
+- **[zaproxy](https://github.com/zaproxy/zaproxy)** ★1.6万 — The ZAP by Checkmarx Core project
+- **[lectures](https://github.com/oxford-cs-deepnlp-2017/lectures)** ★1.6万 — Oxford Deep NLP 2017 course
+- **[bentopdf](https://github.com/alam00000/bentopdf)** ★1.6万 — The Privacy First PDF Toolkit
+- **[scylladb](https://github.com/scylladb/scylladb)** ★1.6万 — NoSQL data store using the Seastar framework, compatible with Apache Cassandra and Amazon DynamoDB
+- **[badger](https://github.com/dgraph-io/badger)** ★1.6万 — Fast key-value DB in Go.
+- **[kaniko](https://github.com/GoogleContainerTools/kaniko)** ★1.6万 — Build Container Images In Kubernetes
+- **[FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)** ★1.6万 — Proxy server to bypass Cloudflare protection
+- **[beets](https://github.com/beetbox/beets)** ★1.6万 — music library manager and MusicBrainz tagger
+- **[nano-vllm](https://github.com/GeeeekExplorer/nano-vllm)** ★1.6万 — Nano vLLM
+- **[gluetun](https://github.com/passteque/gluetun)** ★1.6万 — VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguar
+- **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** ★1.6万 — Secure, Fast, and Extensible Sandbox runtime for AI agents.
+- **[hacker-roadmap](https://github.com/sundowndev/hacker-roadmap)** ★1.6万 — A collection of hacking tools, resources and references to practice ethical hacking.
+- **[kind](https://github.com/kubernetes-sigs/kind)** ★1.6万 — Kubernetes IN Docker - local clusters for testing Kubernetes
+- **[unstructured](https://github.com/Unstructured-IO/unstructured)** ★1.6万 — Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming c
+- **[gpu.js](https://github.com/gpujs/gpu.js)** ★1.5万 — GPU Accelerated JavaScript
+- **[algorithm-pattern](https://github.com/greyireland/algorithm-pattern)** ★1.5万 — Algorithm Patterns — the most scientific way to practice, the fastest path to an offer. You deserve it~ 算法模板，最
+- **[mujoco](https://github.com/google-deepmind/mujoco)** ★1.5万 — Multi-Joint dynamics with Contact. A general purpose physics simulator.
+- **[charts](https://github.com/helm/charts)** ★1.5万 — (OBSOLETE) Curated applications for Kubernetes
+- **[Moya](https://github.com/Moya/Moya)** ★1.5万 — Network abstraction layer written in Swift.
+- **[Termix](https://github.com/Termix-SSH/Termix)** ★1.5万 — Self-hosted SSH and remote desktop management.
+- **[mysql](https://github.com/go-sql-driver/mysql)** ★1.5万 — Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package
+- **[reference](https://github.com/jaywcjlove/reference)** ★1.5万 — 面向开发者的技术速查清单（Cheat Sheets）集合，整理常见技术、工具与开发流程，帮助快速查阅关键信息，提高开发效率。
+- **[devpod](https://github.com/loft-sh/devpod)** ★1.5万 — Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kube
+- **[llm_interview_note](https://github.com/wdndev/llm_interview_note)** ★1.5万 — 主要记录大语言大模型（LLMs） 算法（应用）工程师相关的知识及面试题
+- **[caprover](https://github.com/caprover/caprover)** ★1.5万 — Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
+- **[mvt](https://github.com/mvt-project/mvt)** ★1.5万 — MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of 
+- **[mathjs](https://github.com/josdejong/mathjs)** ★1.5万 — An extensive math library for JavaScript and Node.js
+- **[scipy](https://github.com/scipy/scipy)** ★1.5万 — SciPy library main repository
+- **[crowdsec](https://github.com/crowdsecurity/crowdsec)** ★1.5万 — Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced bloc
+- **[tokei](https://github.com/XAMPPRocky/tokei)** ★1.5万 — Count your code, quickly.
+- **[solana](https://github.com/solana-labs/solana)** ★1.5万 — Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.
+- **[botpress](https://github.com/botpress/botpress)** ★1.5万 — The open-source hub to build & deploy GPT/LLM Agents
+- **[prowler](https://github.com/prowler-cloud/prowler)** ★1.5万 — Prowler is the world’s most widely used open-source cloud security platform that automates security and compli
+- **[dirsearch](https://github.com/maurosoria/dirsearch)** ★1.5万 — Web path scanner
+- **[wifiphisher](https://github.com/wifiphisher/wifiphisher)** ★1.5万 — The Rogue Access Point Framework
+- **[DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)** ★1.5万 — State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accura
+- **[RD-Agent](https://github.com/microsoft/RD-Agent)** ★1.5万 — Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI
+- **[efcore](https://github.com/dotnet/efcore)** ★1.5万 — EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and s
+- **[bullet3](https://github.com/bulletphysics/bullet3)** ★1.5万 — Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, 
+- **[Tone.js](https://github.com/Tonejs/Tone.js)** ★1.5万 — A Web Audio framework for making interactive music in the browser.
+
+## ⑰ 学习工具生态 · Learning Tools
+
+- **[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)** ★19.0万 — A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includ
+- **[markitdown](https://github.com/microsoft/markitdown)** ★18.8万 — Python tool for converting files and office documents to Markdown.
+- **[Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** ★8.5万 — Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, se
+- **[lobehub](https://github.com/lobehub/lobehub)** ★8.3万 — LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and r
+- **[docling](https://github.com/docling-project/docling)** ★6.8万 — Get your documents ready for gen AI
+- **[rich](https://github.com/Textualize/rich)** ★5.7万 — Rich is a Python library for rich text and beautiful formatting in the terminal.
+- **[i-have-adhd](https://github.com/ayghri/i-have-adhd)** ★5.3万 — A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+- **[prettier](https://github.com/prettier/prettier)** ★5.2万 — Prettier is an opinionated code formatter.
+- **[obsidian-skills](https://github.com/kepano/obsidian-skills)** ★4.9万 — Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JS
+- **[Files](https://github.com/files-community/Files)** ★4.6万 — A modern file manager that helps users organize their files and folders.
+- **[it-tools](https://github.com/CorentinTh/it-tools)** ★4.1万 — Collection of handy online tools for developers, with great UX.
+- **[marked](https://github.com/markedjs/marked)** ★3.7万 — A markdown parser and compiler. Built for speed.
+- **[next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)** ★3.6万 — A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create
+- **[invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp)** ★3.2万 — Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Fi
+- **[opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)** ★2.9万 — PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- **[gitbook](https://github.com/GitbookIO/gitbook)** ★2.9万 — The open source frontend for GitBook doc sites
+- **[platform](https://github.com/hcengineering/platform)** ★2.8万 — Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
+- **[glow](https://github.com/charmbracelet/glow)** ★2.8万 — Render markdown on the CLI, with pizzazz!
+- **[Wox](https://github.com/Wox-launcher/Wox)** ★2.7万 — A cross-platform launcher that simply works
+- **[github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator)** ★2.4万 — Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using min
+- **[stackedit](https://github.com/benweet/stackedit)** ★2.3万 — In-browser Markdown editor
+- **[nnn](https://github.com/jarun/nnn)** ★2.2万 — n³ The unorthodox terminal file manager
+- **[markdown-it](https://github.com/markdown-it/markdown-it)** ★2.2万 — Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed
+- **[mdx](https://github.com/mdx-js/mdx)** ★2.0万 — Markdown for the component era
+- **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** ★1.9万 — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs te
+- **[Kap](https://github.com/wulkano/Kap)** ★1.9万 — An open-source screen recorder built with web technology
+- **[LifeOS](https://github.com/danielmiessler/LifeOS)** ★1.9万 — LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.
+- **[activitywatch](https://github.com/ActivityWatch/activitywatch)** ★1.9万 — The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.
+- **[screenity](https://github.com/alyssaxuu/screenity)** ★1.9万 — The free and privacy-friendly screen recorder with no limits
+- **[deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open)** ★1.8万 — Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: ht
+- **[tui.editor](https://github.com/nhn/tui.editor)** ★1.8万 — Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.
+- **[rowboat](https://github.com/rowboatlabs/rowboat)** ★1.8万 — AI coworker with memory and collaboration
+- **[academicpages.github.io](https://github.com/academicpages/academicpages.github.io)** ★1.8万 — Github Pages template based upon HTML and Markdown for personal, portfolio-based websites.
+- **[zola](https://github.com/getzola/zola)** ★1.7万 — A fast static site generator in a single binary with everything built-in. https://www.getzola.org
+- **[markdown-badges](https://github.com/Ileriayo/markdown-badges)** ★1.7万 — The largest curated collection of markdown badges for your personal developer branding, profile, and projects.
+- **[docs](https://github.com/suitenumerique/docs)** ★1.7万 — Docs is an open-source text editor: web-native, made for real-time collaboration, cleanly structured documents
+- **[omnivore](https://github.com/omnivore-app/omnivore)** ★1.6万 — Omnivore is a complete, open source read-it-later solution for people who like reading.
+- **[quarkdown](https://github.com/iamgio/quarkdown)** ★1.6万 — Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
+- **[react-markdown](https://github.com/remarkjs/react-markdown)** ★1.6万 — Markdown component for React
+- **[chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)** ★1.6万 — Chinese copywriting guidelines for better written communication／中文文案排版指北
+- **[Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)** ★1.6万 — :mag: Quick file search & app launcher for Windows with community-made plugins
+- **[grav](https://github.com/getgrav/grav)** ★1.6万 — Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and
+- **[claudian](https://github.com/YishenTu/claudian)** ★1.6万 — An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
+- **[claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian)** ★1.5万 — Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files
+- **[seafile](https://github.com/haiwen/seafile)** ★1.5万 — Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible
+- **[onedev](https://github.com/theonedev/onedev)** ★1.5万 — The Unified and Autonomous Development Platform
+- **[bash-it](https://github.com/Bash-it/bash-it)** ★1.5万 — A community Bash framework.
+- **[parsedown](https://github.com/erusev/parsedown)** ★1.5万 — Better Markdown Parser in PHP
+- **[drawnix](https://github.com/plait-board/drawnix)** ★1.5万 — 开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and e
+- **[showdown](https://github.com/showdownjs/showdown)** ★1.5万 — A bidirectional Markdown to HTML to Markdown converter written in Javascript
+- **[espanso](https://github.com/espanso/espanso)** ★1.5万 — A Privacy-first, Cross-platform Text Expander written in Rust
+- **[editor.md](https://github.com/pandao/editor.md)** ★1.4万 — The open source embeddable online markdown editor (component).
+- **[til](https://github.com/jbranchaud/til)** ★1.4万 — :memo: Today I Learned
+- **[nextra](https://github.com/shuding/nextra)** ★1.4万 — Simple, powerful and flexible site generation framework with everything you love from Next.js.
+- **[shiki](https://github.com/shikijs/shiki)** ★1.4万 — A beautiful yet powerful syntax highlighter
+- **[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)** ★1.4万 — A markdown version emoji cheat sheet
+- **[tinacms](https://github.com/tinacms/tinacms)** ★1.4万 — TinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is sto
+- **[md](https://github.com/doocs/md)** ★1.3万 — WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
+- **[remark](https://github.com/gnab/remark)** ★1.3万 — A simple, in-browser, markdown-driven slideshow tool.
+- **[vnote](https://github.com/vnotex/vnote)** ★1.3万 — A pleasant note-taking platform in native C++.
+- **[note-gen](https://github.com/codexu/note-gen)** ★1.3万 — Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with A
+- **[beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)** ★1.3万 — This repository will assist you in creating a more beautiful and appealing github profile, and you will have a
+- **[typecho](https://github.com/typecho/typecho)** ★1.2万 — A PHP Blogging Platform. Simple and Powerful.
+- **[nebula](https://github.com/vesoft-inc/nebula)** ★1.2万 — A distributed, fast open-source graph database featuring horizontal scalability and high availability
+- **[inbox-zero](https://github.com/elie222/inbox-zero)** ★1.2万 — The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
+- **[shell_gpt](https://github.com/TheR1D/shell_gpt)** ★1.2万 — A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your
+- **[milkdown](https://github.com/Milkdown/milkdown)** ★1.2万 — Plugin driven WYSIWYG markdown editor framework.
+- **[Loop](https://github.com/mrkai77/Loop)** ★1.2万 — Window management made elegant.
+- **[slides](https://github.com/maaslalani/slides)** ★1.2万 — Terminal based presentation tool
+- **[mdx-deck](https://github.com/jxnblk/mdx-deck)** ★1.1万 — React MDX-based presentation decks
+- **[turndown](https://github.com/mixmark-io/turndown)** ★1.1万 — An HTML to Markdown converter written in JavaScript
+- **[vditor](https://github.com/Vanessa219/vditor)** ★1.1万 — 一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich 
+- **[blinko](https://github.com/blinkospace/blinko)** ★1.1万 — An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .
+- **[nyxt](https://github.com/atlas-engineer/nyxt)** ★1.1万 — Nyxt - the hacker's browser.
+- **[kodluyoruz-frontend-101-egitimi](https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi)** ★1.1万 — Kodluyoruz için Hazırladığım Video Eğitim Seti Repo'sudur. Tüm Eğitimlerime: https://linktr.ee/hakanyalcinkaya
+- **[reference](https://github.com/Fechin/reference)** ★1.1万 — Share quick reference cheat sheet for developers.
+- **[nodeppt](https://github.com/ksky521/nodeppt)** ★1.0万 — This is probably the best web presentation tool so far!
+- **[PandaWiki](https://github.com/chaitin/PandaWiki)** ★1.0万 — PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。
+- **[omni-tools](https://github.com/iib0011/omni-tools)** ★1.0万 — Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessi
+- **[Notepads](https://github.com/0x7c13/Notepads)** ★1.0万 — A modern, lightweight text editor with a minimalist design.
+- **[claude-code-tips](https://github.com/ykdojo/claude-code-tips)** ★1.0万 — 45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line scri
+- **[codimd](https://github.com/hackmdio/codimd)** ★1.0万 — CodiMD - Realtime collaborative markdown notes on all platforms.
+- **[vicinae](https://github.com/vicinaehq/vicinae)** ★1.0万 — A focused launcher for your desktop - native, fast, extensible
+- **[nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus)** ★9.9k — 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
+- **[macdown](https://github.com/MacDownApp/macdown)** ★9.8k — Open source Markdown editor for macOS.
+- **[defuddle](https://github.com/kepano/defuddle)** ★9.6k — Get the main content of any page as Markdown.
+- **[laverna](https://github.com/Laverna/laverna)** ★9.2k — Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like 
+- **[Mac-CLI](https://github.com/guarinogabriel/Mac-CLI)** ★9.1k —  macOS command line tool for developers – The ultimate tool to manage your Mac. It provides a huge set of com
+- **[remark](https://github.com/remarkjs/remark)** ★9.0k — markdown processor powered by plugins part of the @unifiedjs collective
+- **[html-anything](https://github.com/nexu-io/html-anything)** ★9.0k — The agentic HTML editor — your local AI agent writes the HTML, you ship it. 75 Skills × 9 Surfaces (magazine ·
+- **[presenterm](https://github.com/mfontanini/presenterm)** ★8.9k — A markdown terminal slideshow tool
+- **[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)** ★8.8k — Stop writing prompts from scratch — a searchable prompt library for ChatGPT, Claude, Gemini and Cursor · Русск
+- **[MiaoYan](https://github.com/tw93/MiaoYan)** ★8.7k — Lightweight Markdown app to help you write great sentences.
+- **[recipes](https://github.com/TandoorRecipes/recipes)** ★8.6k — Application for managing recipes, planning meals, building shopping lists and much much more!
+- **[reor](https://github.com/reorproject/reor)** ★8.5k — Private & local AI personal knowledge management app for high entropy people.
+- **[markdoc](https://github.com/markdoc/markdoc)** ★8.5k — A powerful, flexible, Markdown-based authoring framework.
+- **[dillinger](https://github.com/joemccann/dillinger)** ★8.3k — The last Markdown editor, ever.
+- **[zotero-better-notes](https://github.com/windingwind/zotero-better-notes)** ★8.3k — Everything about note management. All in Zotero.
+- **[ever-gauzy](https://github.com/ever-co/ever-gauzy)** ★8.2k — Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
+- **[sphinx](https://github.com/sphinx-doc/sphinx)** ★8.0k — The Sphinx documentation generator
+- **[utopia](https://github.com/deeplethe/utopia)** ★8.0k — World's first open-source enterprise world model.
+- **[markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)** ★8.0k — markdown preview plugin for (neo)vim
+- **[omni](https://github.com/alyssaxuu/omni)** ★7.9k — The all-in-one tool to supercharge your productivity ⌨
+- **[metalsmith](https://github.com/metalsmith/metalsmith)** ★7.8k — An extremely simple, pluggable static site generator for Node.js
+- **[oh-my-bash](https://github.com/ohmybash/oh-my-bash)** ★7.7k — A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that 
+- **[wxParse](https://github.com/icindy/wxParse)** ★7.7k — wxParse-微信小程序富文本解析自定义组件，支持HTML及markdown解析
+- **[opencommit](https://github.com/di-sukharev/opencommit)** ★7.5k — top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with 
+- **[github-changelog-generator](https://github.com/github-changelog-generator/github-changelog-generator)** ★7.5k — Automatically generate change log from your tags, issues, labels and pull requests on GitHub.
+- **[fsnotes](https://github.com/glushchenko/fsnotes)** ★7.5k — Fast Markdown note-taking app for Mac and iPhone
+- **[persepolis](https://github.com/persepolisdm/persepolis)** ★7.5k — Persepolis is a download manager written in Python.
+- **[hedgedoc](https://github.com/hedgedoc/hedgedoc)** ★7.5k — HedgeDoc - Ideas grow better together
+- **[pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template)** ★7.3k — A pandoc LaTeX template to convert markdown files to PDF or LaTeX.
+- **[Yuxi](https://github.com/xerrors/Yuxi)** ★7.3k — 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledg
+- **[jupytext](https://github.com/jupytext/jupytext)** ★7.3k — Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts
+- **[Dayflow](https://github.com/JerryZLiu/Dayflow)** ★7.2k — The automatic work journal/time tracker. Privately turns your screen into a timeline of what you actually acco
+- **[takenote](https://github.com/taniarascia/takenote)** ★7.1k — ‎ A web-based notes app for developers.
+- **[README](https://github.com/guodongxiaren/README)** ★7.1k — README文件语法解读，即Github Flavored Markdown语法介绍
+- **[massCode](https://github.com/massCodeIO/massCode)** ★7.0k — A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one lo
+- **[Backlog.md](https://github.com/MrLesk/Backlog.md)** ★6.9k — Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem
+- **[linearmouse](https://github.com/linearmouse/linearmouse)** ★6.9k — The mouse and trackpad utility for Mac.
+- **[Lorien](https://github.com/mbrlabs/Lorien)** ★6.8k — Infinite canvas drawing/whiteboarding app for Windows, Linux and macOS. Made with Godot.
+- **[yn](https://github.com/purocean/yn)** ★6.8k — A highly extensible Markdown editor featuring version control, AI Copilot, document annotations, mind maps, do
+- **[keep-a-changelog](https://github.com/olivierlacan/keep-a-changelog)** ★6.7k — If you build software, keep a changelog.
+- **[autoresearch](https://github.com/uditgoenka/autoresearch)** ★6.5k — Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autores
+- **[Kun](https://github.com/KunAgent/Kun)** ★6.3k — Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop
+- **[awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)** ★6.3k — Tutorials, Guides and Agent Skills Directories
+- **[DeskBox](https://github.com/Tianyu199509/DeskBox)** ★6.1k — A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.
+- **[passbolt_api](https://github.com/passbolt/passbolt_api)** ★6.1k — Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!
+- **[LobsterAI](https://github.com/netease-youdao/LobsterAI)** ★6.1k — Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web resear
+- **[jira-cli](https://github.com/ankitpokhrel/jira-cli)** ★6.0k — Feature-rich interactive Jira command line.
+- **[Clipboard](https://github.com/Slackadays/Clipboard)** ★5.9k — Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager
+- **[im-not-ai](https://github.com/epoko77-ai/im-not-ai)** ★5.8k — AI가 쓴 한글을 사람 글처럼 윤문하는 Claude 스킬 — Korean AI-text humanizer: detects and rewrites translationese, mechanical pa
+- **[tuist](https://github.com/tuist/tuist)** ★5.8k — Your platform team, as a service
+- **[ponzu](https://github.com/ponzu-cms/ponzu)** ★5.8k — Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexibl
+- **[planify](https://github.com/alainm23/planify)** ★5.7k — Task manager with Todoist, Nextcloud & CalDAV support designed for GNOME
+- **[openagent](https://github.com/the-open-agent/openagent)** ★5.7k — next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-us
+- **[tasks](https://github.com/tasks/tasks)** ★5.6k — Bringing Astrid Tasks back from the dead
+- **[pomotroid](https://github.com/Splode/pomotroid)** ★5.5k — :tomato: Simple and visually-pleasing Pomodoro timer
+- **[OctoLinker](https://github.com/OctoLinker/OctoLinker)** ★5.4k — OctoLinker — Links together, what belongs together
+- **[heynote](https://github.com/heyman/heynote)** ★5.4k — A dedicated scratchpad for power users
+- **[5ire](https://github.com/nanbingxyz/5ire)** ★5.4k — 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, support
+- **[floral-notepaper](https://github.com/Achilng/floral-notepaper)** ★5.4k — 花笺，轻量优雅的跨平台桌面便签工具，支持 Markdown 编辑与预览
+- **[MeetingBar](https://github.com/leits/MeetingBar)** ★5.4k — Your meetings at your fingertips in the macOS menu bar
+- **[PasteMD](https://github.com/RICHQAQ/PasteMD)** ★5.3k — 一键将 Markdown 和网页 AI 对话（ChatGPT/DeepSeek等）完美粘贴到 Word、WPS 和 Excel 的效率工具 | One-click paste Markdown and AI respon
+- **[tagspaces](https://github.com/tagspaces/tagspaces)** ★5.3k — TagSpaces is an offline, open source, document manager with tagging support
+- **[Mouser](https://github.com/TomBadash/Mouser)** ★5.3k — A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice.
+- **[writefreely](https://github.com/writefreely/writefreely)** ★5.3k — A clean, Markdown-based publishing platform made for writers. Write together and build a community.
+- **[colanode](https://github.com/colanode/colanode)** ★5.2k — Open-source and local-first Slack and Notion alternative that puts you in control of your data
+- **[finicky](https://github.com/johnste/finicky)** ★5.1k — A macOS app for customizing which browser to start
+- **[alex](https://github.com/get-alex/alex)** ★5.1k — Catch insensitive, inconsiderate writing
+- **[gitlogue](https://github.com/unhappychoice/gitlogue)** ★5.1k — A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.
+- **[notion-enhancer](https://github.com/notion-enhancer/notion-enhancer)** ★5.0k — An enhancer/customiser for the all-in-one productivity workspace Notion
+- **[chatgpt-prompts-for-academic-writing](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing)** ★5.0k — This list of writing prompts covers a range of topics and tasks, including brainstorming research ideas, impro
+- **[pomatez](https://github.com/zidoro/pomatez)** ★4.9k — Stay Focused. Take a Break.
+- **[xplr](https://github.com/sayanarijit/xplr)** ★4.8k — A hackable, minimal, fast TUI file explorer
+- **[avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)** ★4.8k — Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents includi
+- **[cheat-sheets](https://github.com/ChristianLempa/cheat-sheets)** ★4.8k — This is my personal knowledge-base. Here you'll find code-snippets, technical documentation, and command refer
+- **[digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners)** ★4.8k — Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs
+- **[franz](https://github.com/meetfranz/franz)** ★4.7k — Franz is a free messaging app for services like WhatsApp, Slack, Messenger and many more.
+- **[Memex](https://github.com/WorldBrain/Memex)** ★4.7k — Browser extension to curate, annotate, and discuss the most valuable content and ideas on the web. As individu
+- **[OpenKB](https://github.com/VectifyAI/OpenKB)** ★4.7k — OpenKB: Open LLM Knowledge Base
+- **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** ★4.7k — Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Sto
+- **[SwiftBar](https://github.com/swiftbar/SwiftBar)** ★4.6k — Powerful macOS menu bar customization tool
+- **[youtube](https://github.com/code-charity/youtube)** ★4.6k — YouTube / Video Browser-Extension. （Top1 FOSS.） Enrich your experience & choice! Smart featuresset & forget300
+- **[Knowledge-Base](https://github.com/slowmist/Knowledge-Base)** ★4.6k — Knowledge Base 慢雾安全团队知识库
+- **[ueli](https://github.com/oliverschwendener/ueli)** ★4.6k — Cross-Platform Keystroke Launcher
+- **[BlueTeam-Tools](https://github.com/A-poc/BlueTeam-Tools)** ★4.5k — Tools and Techniques for Blue Team / Incident Response
+- **[typedb](https://github.com/typedb/typedb)** ★4.5k — TypeDB: Built for systems, not records
+- **[zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode)** ★4.5k — A better and friendly vi(vim) mode plugin for ZSH.
+- **[awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh)** ★4.4k — OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好
+- **[wakapi](https://github.com/muety/wakapi)** ★4.4k — A minimalist, self-hosted WakaTime-compatible backend for coding statistics
+- **[kubero](https://github.com/kubero-dev/kubero)** ★4.4k — A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on 
+- **[freeplane](https://github.com/freeplane/freeplane)** ★4.4k — Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your
+- **[open-knowledge](https://github.com/inkeep/open-knowledge)** ★4.4k — Beautiful, AI-native markdown IDE and LLM wiki
+- **[UserScripts](https://github.com/hoothin/UserScripts)** ★4.3k — Greasemonkey scripts ( Pagetual / Picviewer CE+ / DownloadAllContent ) 油猴腳本集 ユーザースクリプト集
+- **[notes](https://github.com/nuttyartist/notes)** ★4.3k — Fast and beautiful note-taking app written in C++. Write down your thoughts.
+- **[quant-wiki](https://github.com/LLMQuant/quant-wiki)** ★4.3k — We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between the
+- **[GitJournal](https://github.com/GitJournal/GitJournal)** ★4.2k — Mobile first Note Taking integrated with Git
+- **[personal-management-system](https://github.com/Volmarg/personal-management-system)** ★4.2k — Your web application for managing personal data.
+- **[WritingAIPaper](https://github.com/hzwer/WritingAIPaper)** ★4.1k — Writing AI Conference Papers: A Handbook for Beginners
+- **[basic-memory](https://github.com/basicmachines-co/basic-memory)** ★4.1k — AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: htt
+- **[BoostNote-App](https://github.com/BoostIO/BoostNote-App)** ★4.0k — Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.
+- **[awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)** ★4.0k — 162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!
+- **[job-ops](https://github.com/DaKheera47/job-ops)** ★4.0k — job-ops: DevOps principles applied to job hunting. A self-hosted pipeline to track, analyze, and assist your a
+- **[mapnik](https://github.com/mapnik/mapnik)** ★4.0k — Mapnik is an open source toolkit for developing mapping applications
+- **[Windrecorder](https://github.com/yuka-friends/Windrecorder)** ★4.0k — Windrecorder is a memory search app by records everything on your screen in small size, to let you rewind what
+- **[moodist](https://github.com/remvze/moodist)** ★3.9k — Ambient sounds for focus and calm.
+- **[golutra](https://github.com/golutra/golutra)** ★3.9k — Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex
+- **[unlazy](https://github.com/Leonxlnx/unlazy)** ★3.8k — Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives ev
+- **[mm-wiki](https://github.com/phachon/mm-wiki)** ★3.8k — MM-Wiki 一个轻量级的企业知识分享与团队协同软件，可用于快速构建企业 Wiki 和团队知识分享平台。部署方便，使用简单，帮助团队构建一个信息共享、文档管理的协作环境。
+- **[GithubStarsManager](https://github.com/AmintaCCCP/GithubStarsManager)** ★3.6k — AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking
+- **[llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)** ★3.6k — A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads t
+- **[OpsManage](https://github.com/welliamcao/OpsManage)** ★3.6k — 自动化运维平台: 代码及应用部署CI/CD、资产管理CMDB、计划任务管理平台、SQL审核|回滚、任务调度、站内WIKI
+- **[surf](https://github.com/deta/surf)** ★3.6k — Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data,
+- **[chaskiq](https://github.com/chaskiq/chaskiq)** ★3.6k — A full featured Live Chat, Support & Marketing platform, alternative to Intercom, Drift, Crisp.
+- **[TomatoBar](https://github.com/ivoronin/TomatoBar)** ★3.6k — World's neatest Pomodoro timer for macOS menu bar
+- **[obsidian-wiki](https://github.com/Ar9av/obsidian-wiki)** ★3.5k — Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents
+- **[arscontexta](https://github.com/agenticnotetaking/arscontexta)** ★3.5k — Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you thi
+- **[kb](https://github.com/gnebbia/kb)** ★3.4k — A minimalist command line knowledge base manager
+- **[vault-ai](https://github.com/pashpashpash/vault-ai)** ★3.4k — OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload
+
+> 自动采集区共 2114 个条目；与上方精选合计 **2464 个**。
