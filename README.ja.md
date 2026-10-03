@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="docs/assets/fuxi-logo.svg" target="_blank"><img src="docs/assets/fuxi-logo.svg" alt="伏羲フレームワーク · LOGO" width="560"></a>
+<img src="docs/assets/fuxi-logo.svg" alt="伏羲フレームワーク · LOGO" width="560">
 
 # 伏羲フレームワーク · 万物は学べる
 
