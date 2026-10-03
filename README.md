@@ -13,7 +13,7 @@
 <a href="./docs/references.md"><img src="https://img.shields.io/badge/references-110%2B%20papers-6E4E9E.svg" alt="References"></a>
 <a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
 
-**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
+**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
 
 </div>
 
@@ -178,6 +178,7 @@ fuxi/
 │   ├── evidence.md          ← 证据库：30 条结论 + 73 条引用
 │   ├── references.md        ← 扩展文献库（C74–C110，37 条）
 │   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
+│   ├── awesome-learning.md  ← 学习友链目录（125 热门学习项目）
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
 │   ├── myths.md             ← 15 条误区辟谣
 │   ├── faq.md               ← 常见问题

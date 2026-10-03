@@ -2,6 +2,11 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.1.1] - 2026-10-03
+
+### Added
+- `docs/awesome-learning.md`：学习友链目录 —— 125 个经核验的热门学习项目（11 大类、含星数快照）；README 顶部导航、仓库导航树、工具链文档与站点页脚均已接入。
+
 ## [1.1.0] - 2026-10-03
 
 ### Changed
