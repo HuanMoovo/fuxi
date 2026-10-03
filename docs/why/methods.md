@@ -1,4 +1,4 @@
-# 姐妹篇（下）· 学习方法全景：40+ 个方法，挂在阶段上才有意义
+# 姐妹篇（下）· 学习方法全景：45+ 个方法，挂在阶段上才有意义
 
 > 方法只有挂到「阶段 × 条件 × 剂量」上才成立——这正是[方法碎片化](fragmentation.md)的解药。本页按十阶时间线组织全部主要方法：每个方法给出做法、证据等级与关键文献。
 > 系列 ①②③④ ｜ 姐妹篇：[上 · 理论框架全景](theories.md) ｜ **下 · 学习方法全景（本文）**
@@ -95,6 +95,11 @@
 | 元认知监控 | 校准练习：预测分数 vs 实际分数 | B | [C242][C220] |
 | 动机设计 | 给自主选择 + 胜任台阶 + 联结（组队） | B | [C250][C251] |
 | 分类学自检 | 用（记忆→理解→应用→分析→评价→创造）检查学到哪层 | B | [C255] |
+| 原理推导练习 | 拿熟悉的题回到原理层重推一遍，而不是背步骤 | B | [C264][C265] |
+| 类比编码 | 两个案例并排找共同**结构**（不是表面相似） | B | [C266] |
+| 批判性思维训练 | 用讨论/论辩处理争议内容（优于讲授） | A | [C271] |
+| 因果图梳理 | 画变量间的因果方向，区分相关与干预 | B | [C272] |
+| 判断复核 | 高风险判断先查基础率与替代解释（强制慢通道） | B | [C269][C270] |
 
 ## 方法选择的常见错误用法
 
@@ -156,3 +161,11 @@ flowchart LR
 - [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
 - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
 - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>
+- [C264] Chi, Feltovich & Glaser (1981)（同上一篇）
+- [C265] Larkin et al. (1980)（同上一篇）
+- [C266] Gentner (1983)（同上一篇）
+- [C268] Jones et al. (2011)（同上一篇）
+- [C269] Kahneman (2003)（同上一篇）
+- [C270] Evans & Stanovich (2013)（同上一篇）
+- [C271] Abrami et al. (2015)（同上一篇）
+- [C272] Sloman & Lagnado (2015)（同上一篇）

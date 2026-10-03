@@ -1,4 +1,4 @@
-# 姐妹篇（上）· 理论框架全景：32 个框架，把学习科学装进一张地图
+# 姐妹篇（上）· 理论框架全景：40 个框架，把学习与思考的科学装进一张地图
 
 > 「[方法碎片化](fragmentation.md)」的解药是框架层认知：单个技巧必须先挂到理论框架上，才知道**什么时候成立、为什么成立、何时失效**。本页把学习科学的主要理论框架一次收全：每个框架给出核心主张、代表文献与实践含义。
 > 系列：[① 方法碎片化](fragmentation.md) · [② 伪科学横行](pseudoscience.md) · [③ 爽感陷阱](fluency-trap.md) · [④ AI 时代的新风险](ai-risks.md) ｜ **姐妹篇：[上 · 理论框架全景（本文）](theories.md)** · [下 · 学习方法全景](methods.md)
@@ -70,7 +70,22 @@
 |---|---|---|---|
 | 关联主义 | 知识分布在网络中，学习 = 建立与维护连接（**主张有争议、实证薄弱，谨慎使用「理论」头衔**） | [C254] | 用作「学习网络化」的启发，不当作已验证规律 |
 
-## 旗舰框架深读（8 个）
+## G. 思维与推理（8）
+
+> 这一族回答「**怎么想**」而不只是「怎么记」。「第一性原理」等流行提法的学术对应物在此，同时给出证据边界。
+
+| 框架 | 一句话核心 | 代表文献 | 实践含义 |
+|---|---|---|---|
+| 第一性原理推理 | 流行提法；学术对应：专家以**深层原理**组织问题表征，从基本约束自下而上推导，而非套用类比 | [C{{CHI}}]；[C{{LARKIN}}]（专家-新手研究） | 遇到问题先问「这里适用哪些原理/约束」，再推导 |
+| 类比推理（结构映射） | 类比的关键是**关系结构**对齐，不是表面相似；类比可训练 | [C{{GENTNER83}}]；[C267]（类比编码训练） | 找「结构相同」的旧问题迁移过来 |
+| 心智模型 | 人用内部简化模型做预测；学习=不断预测-打脸-修正模型 | [C{{JONES}}] | 每学一个概念都先写下自己的预测 |
+| 双重加工（快/慢系统） | 直觉（快）与审慎（慢）两套系统；高风险判断需强制慢通道 | [C{{KAHNEMAN}}]；[C{{EVANS}}] | 重要决定写下来源、基础率与替代解释 |
+| 批判性思维 | 可教；**对话/论辩式**教学的效果优于单纯讲授 | [C{{ABRAMI}}]（元分析） | 用讨论与质疑处理有争议内容 |
+| 因果推理 | 人天然做因果推断，但常混淆相关与干预 | [C{{SLOMAN}}] | 画因果图：变量、方向、可干预点 |
+| 有限理性与启发式 | 简单规则在真实不确定环境中常表现优异——「偏差」不是全部故事 | [C{{GIGERENZER}}] | 信息少、时间紧时用简单规则而非硬建模 |
+| 科学方法论（假说-检验） | 知识靠可反驳的假设与检验前进 | [C113] Kuhn；[C114] Popper（既有编号） | 把自己的判断写成可被证伪的假设 |
+
+## 旗舰框架深读（9 个）
 
 - **认知负荷理论**：三类负荷——内在（材料本身的复杂度）、外在（表述与界面带来的额外负担）、相关（用于建构图式的有效投入）。教学原则：先管外在（去噪、给样例），再留出相关负荷的空间；新手与专家的最优设计相反，脚手架必须能撤掉 [C81][C15]。
 - **间隔效应**：最稳健的实证规律之一。解释理论包括「学习阶段提取」「加工不足说」等；实践参数（间隔长度）取决于目标保持时长，越长目标配越长间隔 [C04]。
@@ -80,6 +95,8 @@
 - **刻意练习**：四要素——明确子目标、能力边缘、即时反馈、重复修正；其解释力随领域变化（结构化领域高、职业领域低），别把「一万小时」当定律 [C31][C32]。
 - **自我调节学习（SRL）**：计划 → 执行 → 监控 → 反思；关键是「监控」环节的校准质量（用测验校准而非感觉），以及「反思」环节的策略更新 [C210]。
 - **自我决定理论（SDT）**：自主（我有选择）、胜任（我在变强）、联结（与他人一起）三需求满足程度决定动机质量——外部奖励用不好会侵蚀内在动机，设计学习时优先满足三需求 [C{{DECIRYAN}}]。
+
+- **第一性原理 × 类比（补注）**：两者互补——类比擅长快速迁移已知结构（如「这像上一个项目的哪部分」），第一性原理擅长在无先例时从约束重新推导（如「从物理极限倒推可行性」）。专家-新手研究表明：问题表征停留于表面特征的人靠类比碰运气，按深层原理表征的人能系统迁移 [C{{CHI}}][C{{LARKIN}}]；而类比若要可靠，需要「结构对齐」训练 [C{{GENTNER83}}]。
 
 ## 框架 → 方法的转换示例
 
@@ -118,3 +135,13 @@
 - [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
 - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
 - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>
+- [C264] Chi, Feltovich & Glaser (1981). Categorization and Representation of Physics Problems by Experts and Novices: <https://www.semanticscholar.org/paper/16ef4cc3a80ee7ba8f59e0a55b2ef134c31e18b3>
+- [C265] Larkin et al. (1980). Expert and Novice Performance in Solving Physics Problems（Science）: <https://pubmed.ncbi.nlm.nih.gov/17775709/>
+- [C266] Gentner (1983). Structure-Mapping: A Theoretical Framework for Analogy: <https://www.semanticscholar.org/paper/c0373426c8e5579dcff60cc0bd930277822edc7d>
+- [C267] Gentner, Loewenstein & Thompson (2003). Learning and Transfer: A General Role for Analogical Encoding: <https://www.semanticscholar.org/paper/7aa4bed86bc27cc0af681b229a136720aaa7d009>
+- [C268] Jones et al. (2011). Mental Models: An Interdisciplinary Synthesis（Ecology & Society）: <https://www.ecologyandsociety.org/vol16/iss1/art46/>
+- [C269] Kahneman (2003). Maps of Bounded Rationality: <https://www.semanticscholar.org/paper/674aae795b11a895e5fc2699a5b97fcb725cedfa>
+- [C270] Evans & Stanovich (2013). Dual-Process Theories of Higher Cognition: <https://pubmed.ncbi.nlm.nih.gov/26172965/>
+- [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically（元分析）: <https://www.semanticscholar.org/paper/652411c3fd70c5303249a925df5930c8ea2b36e7>
+- [C272] Sloman & Lagnado (2015). Causality in Thought（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/25061673/>
+- [C273] Gigerenzer & Gaissmaier (2011). Heuristic Decision Making（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/21126183/>

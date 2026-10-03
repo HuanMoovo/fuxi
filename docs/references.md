@@ -247,3 +247,16 @@
 - [C261] Rasch & Born (2013). About Sleep's Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
 - [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
 - [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>
+
+## 姐妹篇增补 · 思维与推理框架（C264–C273）
+
+- [C264] Chi, Feltovich & Glaser (1981). Categorization and Representation of Physics Problems: <https://www.semanticscholar.org/paper/16ef4cc3a80ee7ba8f59e0a55b2ef134c31e18b3>
+- [C265] Larkin et al. (1980). Expert and Novice Performance in Solving Physics Problems（Science）: <https://pubmed.ncbi.nlm.nih.gov/17775709/>
+- [C266] Gentner (1983). Structure-Mapping: A Theoretical Framework for Analogy: <https://www.semanticscholar.org/paper/c0373426c8e5579dcff60cc0bd930277822edc7d>
+- [C267] Gentner, Loewenstein & Thompson (2003). Learning and Transfer: Analogical Encoding: <https://www.semanticscholar.org/paper/7aa4bed86bc27cc0af681b229a136720aaa7d009>
+- [C268] Jones et al. (2011). Mental Models: An Interdisciplinary Synthesis: <https://www.ecologyandsociety.org/vol16/iss1/art46/>
+- [C269] Kahneman (2003). Maps of Bounded Rationality: <https://www.semanticscholar.org/paper/674aae795b11a895e5fc2699a5b97fcb725cedfa>
+- [C270] Evans & Stanovich (2013). Dual-Process Theories of Higher Cognition: <https://pubmed.ncbi.nlm.nih.gov/26172965/>
+- [C271] Abrami et al. (2015). Strategies for Teaching Students to Think Critically: <https://www.semanticscholar.org/paper/652411c3fd70c5303249a925df5930c8ea2b36e7>
+- [C272] Sloman & Lagnado (2015). Causality in Thought: <https://pubmed.ncbi.nlm.nih.gov/25061673/>
+- [C273] Gigerenzer & Gaissmaier (2011). Heuristic Decision Making: <https://pubmed.ncbi.nlm.nih.gov/21126183/>

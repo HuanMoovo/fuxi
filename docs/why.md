@@ -27,7 +27,7 @@
 | ③ | 爽感陷阱——「看懂了」的那一瞬间，遗忘已经开始 | [fluency-trap.md](why/fluency-trap.md) |
 | ④ | AI 时代的新风险——最危险的，是「练习感」被偷走 | [ai-risks.md](why/ai-risks.md) |
 
-**姐妹篇（「方法碎片化」配套双页）**：[上 · 理论框架全景（32 个框架）](why/theories.md) ｜ [下 · 学习方法全景（40+ 个方法）](why/methods.md)
+**姐妹篇（「方法碎片化」配套双页）**：[上 · 理论框架全景（40 个框架）](why/theories.md) ｜ [下 · 学习方法全景（45+ 个方法）](why/methods.md)
 
 ## 1. 处境诊断：三重不对称
 
