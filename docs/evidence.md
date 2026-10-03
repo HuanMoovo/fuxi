@@ -88,7 +88,7 @@
 - [C22] Freeman, S., et al. (2014). Active learning increases student performance in STEM. *PNAS*. <https://doi.org/10.1073/pnas.1319030111>；<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4018102/>
 - [C23] Fiorella, L., & Mayer, R. E. (2016). Eight Ways to Promote Generative Learning. *EPR*, 28(4). <https://eric.ed.gov/?id=EJ1120458>
 - [C24] Chase & Simon (1973). 专家以「组块」记忆棋局。 <https://doi.org/10.1016/0010-0285(73)90004-2>
-- [C25] Nestojko, J. F., et al. (2014). Expecting to teach enhances learning.  <https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall>
+- [C25] Nestojko, J. F., et al. (2014). Expecting to teach enhances learning.  <https://pubmed.ncbi.nlm.nih.gov/25084988/>
 - [C26] Ye, J., Su, J., & Cao, Y. (2022). A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling. *KDD*. <https://dl.acm.org/doi/10.1145/3534678.3539081>
 - [C27] FSRS 生态：FSRS4Anki 主仓与算法 wiki。 <https://github.com/open-spaced-repetition/fsrs4anki>；<https://github.com/open-spaced-repetition/fsrs4anki/wiki>
 - [C28] Arthur, W., et al. (1998). Factors that influence skill decay and retention. <https://doi.org/10.1207/s15327043hup1101_3>
@@ -134,7 +134,7 @@
 - [C68] Vygotsky (1978) 最近发展区；Wood, Bruner & Ross (1976) 脚手架。 <https://archive.org/details/mindinsocietydev0000vygo>；<https://doi.org/10.1111/j.1469-7610.1976.tb00381.x>
 - [C69] Krashen (1982) 输入假说；Nation (2006) 词汇覆盖率。 <https://www.sdkrashen.com/content/books/principles_and_practice.pdf>
 - [C70] Csikszentmihalyi (1990) 心流（CUNY 开放 PDF）。 <https://files.blogs.baruch.cuny.edu/wp/blogs.dir/2418/files/2013/04/Mihaly-Csikszentmihalyi-Flow.pdf>
-- [C71] Karpicke, J. D., & Blunt, J. R. (2011). Retrieval Practice Produces More Learning than Concept Mapping. *Science*. <https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf>；<https://doi.org/10.1126/science.1199327>
+- [C71] Karpicke, J. D., & Blunt, J. R. (2011). Retrieval Practice Produces More Learning than Concept Mapping. *Science*. <https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf>；<https://pubmed.ncbi.nlm.nih.gov/21252317/>
 - [C72] 延伸读物：Make It Stick / Peak / Ultralearning / Deep Work / Why We Sleep / A Mind for Numbers / How to Read a Book（各书官方页或书目页）。 <https://www.hup.harvard.edu/books/9780674729018>；<https://www.penguin.co.uk/books/421170/peak-by-anders-ericsson/9781473513143>；<https://www.scotthyoung.com/blog/ultralearning/>；<https://calnewport.com/books/deep-work/>；<https://www.penguinrandomhouse.com/books/550909/why-we-sleep-by-matthew-walker-phd/>；<https://www.penguinrandomhouse.com/books/314056/a-mind-for-numbers-by-barbara-oakley-phd/>；<https://archive.org/details/howtoreadabook1972edition>
 - [C73] Rasch, B., & Born, J. (2013). About Sleep's Role in Memory. *Physiological Reviews*. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3768102>
 

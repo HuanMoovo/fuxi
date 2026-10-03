@@ -130,7 +130,7 @@
 - [C57] Fan et al. (2025, BJET) — https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
 - [C58] Kosmyna et al. (2025, MIT Media Lab 预印本，未同行评审) — https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 - [C66] Ebbinghaus (1885)；Bjork & Bjork (2011)；Craik & Lockhart (1972)（文本引） <https://archive.org/details/memorycontributi00ebbiuoft>；<https://bjorklab.psych.ucla.edu/publication/bjork-e-l-bjork-r-a-2014-making-things-hard-on-yourself-but-in-a-good-way-creating-desirable-difficulties-to-enhance-learning-in-m-a-gernsbacher-and-j-pomerantz-eds-psycholo/>
-- [C71] Karpicke & Blunt (2011, Science) — https://doi.org/10.1126/science.1199327
+- [C71] Karpicke & Blunt (2011, Science) — https://pubmed.ncbi.nlm.nih.gov/21252317/
 
 ### 扩展阅读（v1.1 新增）
 - [C75] Roediger & Butler (2011) 检索练习的批判性回顾（TiCS）。 <https://doi.org/10.1016/j.tics.2011.07.002>

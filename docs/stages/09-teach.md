@@ -25,7 +25,7 @@
   4. 真的讲给一个人听（或对着录音讲），观察对方在哪皱眉、哪追问；
   5. 把最终版压缩成 5 句摘要 + 1 例 + 1 反例，存入素材库。
 - **最合适**：概念性知识、任何「感觉会了」的内容。**不适用**：完全没入门的领域——先建图再讲。注意：费曼技巧属流行方法、无原始文献出处，机制对应 [C19][C25]。
-- **证据**：B —— [C19](<https://eric.ed.gov/?id=EJ1186664>)（自我解释元分析）、[C25](<https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall>)（预期要教）。
+- **证据**：B —— [C19](<https://eric.ed.gov/?id=EJ1186664>)（自我解释元分析）、[C25](<https://pubmed.ncbi.nlm.nih.gov/25084988/>)（预期要教）。
 
 ### 教学预期效应（Expecting to Teach）
 - **机制**：知道「要教别人」会提高学习的组织度——自动去找结构、抓重点、想例子，编码更整齐。
@@ -36,7 +36,7 @@
   4. 讲完请听众提 3 个问题，问题清单就是盲区清单；
   5. 把「预期要教」当常规学习姿势，而不是偶尔事件。
 - **最合适**：需要长期保留的结构化知识。**不适用**：纯动作性技能的肌肉记忆训练——去第 7 阶。
-- **证据**：B —— [C25](https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall)。
+- **证据**：B —— [C25](https://pubmed.ncbi.nlm.nih.gov/25084988/)。
 
 ### 生成式学习八策略（Eight Generative Strategies）
 - **机制**：学习是从材料中「生成」意义的过程；写、画、演、教这类生成动作留下的痕迹深于被动接收。
@@ -121,7 +121,7 @@
 - [C13] Hatano & Inagaki (1986)：适应性专长。https://psycnet.apa.org/record/1986-97669-017
 - [C19] Bisra et al. (2018, EPR)：自我解释元分析。https://eric.ed.gov/?id=EJ1186664
 - [C23] Fiorella & Mayer (2016, EPR)：生成式学习八策略。https://eric.ed.gov/?id=EJ1120458
-- [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall
+- [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://pubmed.ncbi.nlm.nih.gov/25084988/
 - [C30] Shea & Morgan (1979)：情境干扰效应。https://gwern.net/doc/psychology/spaced-repetition/1979-shea.pdf
 - [C58] Kosmyna et al. (2025, MIT Media Lab 预印本)：LLM 辅助写作与「认知债务」。https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 

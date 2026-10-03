@@ -36,7 +36,7 @@
   4. 每季度把「被问倒的问题」列出来，回炉补课；
   5. 固定渠道与节奏（如每周三晚答疑），降低启动成本。
 - **最合适**：有活跃社区或有新人的环境。**不适用**：领域缺少社区时——用公开写作替代。
-- **证据**：B —— [C48](https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD)、[C25](https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall)。
+- **证据**：B —— [C48](https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD)、[C25](https://pubmed.ncbi.nlm.nih.gov/25084988/)。
 
 ### 数字花园维护（Digital Garden Upkeep）
 - **机制**：笔记是活系统：定期回链、更新、发布，旧内容才持续可检索、可迭代，否则会变成「数字废墟」。
@@ -116,7 +116,7 @@
 - [C06] Cepeda et al. (2008, Psychological Science)：最优间隔约为目标保持期的 10–20%。https://doi.org/10.1111/j.1467-9280.2008.02209.x
 - [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.sciencedirect.com/science/article/pii/0010028583900026
 - [C14] Murre & Dros (2015, PLOS ONE)：艾宾浩斯遗忘曲线复现。https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
-- [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://source.wustl.edu/2014/07/expecting-to-teach-enhances-learning-recall
+- [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://pubmed.ncbi.nlm.nih.gov/25084988/
 - [C26] Ye, Su & Cao (2022, KDD)：FSRS 调度器。https://dl.acm.org/doi/10.1145/3534678.3539081
 - [C28] （文本引）Arthur et al. (1998)：技能衰减元综述。 <https://doi.org/10.1207/s15327043hup1101_3>
 - [C37] Zimmerman (2002)：自我调节学习循环。https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf

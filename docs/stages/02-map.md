@@ -37,9 +37,9 @@
   1. 先把上位核心概念列出来（一屏之内），再连线，每条边写连接词（「包含」「导致」「对比于」）；
   2. 做连通性检查：从任一概念出发，能否沿连线走到其他主干概念；
   3. 第一版求快、宁糙勿美；地图是迭代品，不是作品；
-  4. 记住边界：概念图的长处在组织知识；要检验掌握，主动检索优于纯画图（[C71](<https://doi.org/10.1126/science.1199327>)）。
+  4. 记住边界：概念图的长处在组织知识；要检验掌握，主动检索优于纯画图（[C71](<https://pubmed.ncbi.nlm.nih.gov/21252317/>)）。
 - **最合适**：概念密集、关系复杂的学科。**不适用**：以程序与手感为主的技能——改用流程图或依赖图。
-- **证据**：B —— [C41]（Ausubel 1960 先行组织者；Novak 概念图，文本引）；边界条件见 [C71](https://doi.org/10.1126/science.1199327)。
+- **证据**：B —— [C41]（Ausubel 1960 先行组织者；Novak 概念图，文本引）；边界条件见 [C71](https://pubmed.ncbi.nlm.nih.gov/21252317/)。
 
 ### 门槛概念（Threshold Concepts）
 
@@ -112,7 +112,7 @@
 - [C42] Meyer & Land (2003)：门槛概念。https://www.research.ed.ac.uk/en/publications/threshold-concepts-and-troublesome-knowledge-linkages-to-ways-of-/
 - [C56] Bastani et al. (2025, PNAS)：撤除无护栏 AI 后独立表现更差。https://www.pnas.org/doi/10.1073/pnas.2422633122
 - [C57] Fan et al. (2025, BJET)：生成式 AI 的依赖与「元认知懒惰」风险。https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544
-- [C71] Karpicke & Blunt (2011)：检索练习优于概念图复习（迁移测验）。https://doi.org/10.1126/science.1199327
+- [C71] Karpicke & Blunt (2011)：检索练习优于概念图复习（迁移测验）。https://pubmed.ncbi.nlm.nih.gov/21252317/
 
 ### 扩展阅读（v1.1 新增）
 - [C102] Novak & Cañas：概念图的理论基础（PDF）。 <https://cmap.ihmc.us/publications/researchpapers/theoryunderlyingconceptmaps.pdf>
