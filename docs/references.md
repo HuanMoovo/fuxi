@@ -217,3 +217,33 @@
 - [C234] 膳食补充剂与健康成人认知表现的系统综述: <https://pubmed.ncbi.nlm.nih.gov/34370563/>
 - [C235] Peterson & Pennington (2012). Developmental Dyslexia（The Lancet）: <https://pubmed.ncbi.nlm.nih.gov/22513218/>
 - [C236] Hyde et al. (2008). Gender Similarities Characterize Math Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/18653867/>
+
+## 姐妹篇 · 理论框架与方法全景（C237–C263）
+
+- [C237] Skinner (1938). The Behavior of Organisms（行为主义基础）: <https://archive.org/details/behavioroforgani0000skin>
+- [C238] Cowan (2001). The Magical Number 4 in Short-Term Memory: <https://pubmed.ncbi.nlm.nih.gov/11515286/>
+- [C239] Baddeley (2012). Working Memory: Theories, Models, and Controversies（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/21961947/>
+- [C240] van Kesteren et al. (2012). How Schema and Novelty Augment Memory Formation（TiCS）: <https://pubmed.ncbi.nlm.nih.gov/22341211/>
+- [C241] Wittrock (1974). Learning as a Generative Process: <https://www.tandfonline.com/doi/abs/10.1080/00461527409529129>
+- [C242] Flavell (1979). Metacognition and Cognitive Monitoring（Am Psychol）: https://www.semanticscholar.org/paper/ee652f0f63ed5b0cfe0af4cb4ea76b2ecf790c8d
+- [C243] Rowland (2014). The Effect of Testing Versus Restudy on Retention: A Meta-Analytic Review: <https://pubmed.ncbi.nlm.nih.gov/25150680/>
+- [C244] Barnett & Ceci (2002). When and Where Do We Apply What We Learn?（迁移分类学）: <https://pubmed.ncbi.nlm.nih.gov/12081085/>
+- [C245] Brown, Collins & Duguid (1989). Situated Cognition and the Culture of Learning: <https://doi.org/10.3102/0013189X018001032>
+- [C246] Vygotsky (1978). Mind in Society（社会文化理论）: <https://archive.org/details/mindinsocietydev00vygo>
+- [C247] Wood, Bruner & Ross (1976). The Role of Tutoring in Problem Solving（脚手架）: <https://pubmed.ncbi.nlm.nih.gov/932126/>
+- [C248] VanLehn (2011). The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems…: <https://doi.org/10.1080/00461520.2011.611369>
+- [C249] Freeman et al. (2014). Active Learning Increases Student Performance（PNAS）: <https://pubmed.ncbi.nlm.nih.gov/24821756/>
+- [C250] Deci & Ryan (2000). The 「What」 and 「Why」 of Goal Pursuits（SDT）: <https://pubmed.ncbi.nlm.nih.gov/11392867/>
+- [C251] Wigfield & Eccles (2000). Expectancy-Value Theory of Achievement Motivation: <https://www.semanticscholar.org/paper/0a28c12a02140983603c7231ebae70564066f86b>
+- [C252] Locke & Latham (2002). Building a Practically Useful Theory of Goal Setting（Am Psychol）: <https://pubmed.ncbi.nlm.nih.gov/12237980/>
+- [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）: <https://www.semanticscholar.org/paper/c4deb3507fe725ce6363c1735f1ba83bab20d665>
+- [C254] Siemens (2005). Connectivism: A Learning Theory for the Digital Age（存档）: <https://web.archive.org/web/2024/https://www.itdl.org/Journal/Jan_05/article01.htm>
+- [C255] Krathwohl (2002). A Revision of Bloom『s Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
+- [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/19119232/>
+- [C257] Kyndt et al. (2013). A Meta-Analysis of the Effects of Face-to-Face Cooperative Learning: <https://www.semanticscholar.org/paper/82515246772d66d24ef855d7c23067355db269f3>
+- [C258] Hattie & Timperley (2007). The Power of Feedback: <https://doi.org/10.3102/003465430298487>
+- [C259] Wisniewski et al. (2020). The Power of Feedback Revisited（Frontiers）: <https://www.frontiersin.org/articles/10.3389/feduc.2019.00152/full>
+- [C260] Wood & Neal (2007). A New Look at Habits and the Habit–Goal Interface: <https://pubmed.ncbi.nlm.nih.gov/17907866/>
+- [C261] Rasch & Born (2013). About Sleep『s Role in Memory（Physiol Rev）: <https://pubmed.ncbi.nlm.nih.gov/23589831/>
+- [C262] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（Nat Rev Neurosci）: <https://pubmed.ncbi.nlm.nih.gov/18094706/>
+- [C263] Brunmair & Richter (2019). Similarity Matters: A Meta-Analysis on Interleaved Learning: <https://pubmed.ncbi.nlm.nih.gov/32027149/>
