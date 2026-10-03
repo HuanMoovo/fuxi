@@ -12,8 +12,10 @@
 
 <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg" alt="License"></a>
 <a href="./docs/evidence.md"><img src="https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg" alt="Evidence"></a>
-<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-110%2B%20papers-6E4E9E.svg" alt="References"></a>
+<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-280%2B%20papers-6E4E9E.svg" alt="References"></a>
 <a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
+<a href="https://github.com/HuanMoovo/fuxi/stargazers"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
+<a href="https://github.com/HuanMoovo/fuxi/forks"><img src="https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E" alt="Forks"></a>
 
 **[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
 
@@ -43,6 +45,7 @@
 - [常见误区](#常见误区)
 - [仓库导航](#仓库导航)
 - [迭代与贡献](#迭代与贡献)
+- [Star 记录](#star-记录)
 - [引用本框架](#引用本框架)
 - [English Summary](#english-summary)
 - [许可](#许可)
@@ -219,6 +222,19 @@ fuxi/
 - 本仓库采用 **持续迭代** 模式：发版记录见 [CHANGELOG.md](./CHANGELOG.md)，计划见 [docs/roadmap.md](./docs/roadmap.md)；
 - 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml>)，防止引用腐烂；
 - 欢迎三类贡献：**新文献**（附链接+结论+建议等级）、**新工具**（附链接+适用阶）、**纠错**（任何数字/引用错误）—— 用 [Issue 模板](https://github.com/HuanMoovo/fuxi/issues/new/choose) 或直接 PR，细则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+---
+
+## Star 记录
+
+> 本项目的 star 增长记录：数据由 GitHub Actions **每日自动抓取**（`generator/track_stars.py` → [data/stars.json](./data/stars.json)），图表由 `generator/build_stars_svg.py` 生成——全部公开、可审计、可复现。
+
+[![Star 记录](docs/assets/fuxi-stars.svg)](docs/assets/fuxi-stars.svg)
+
+- 实时徽章：![Stars](https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B) ![Forks](https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E)
+- 原始数据：[data/stars.json](./data/stars.json)（每个日期的 star / fork / watcher 快照）
+- 第三方对照：[star-history.com ↗](https://star-history.com/#HuanMoovo/fuxi&Date)
+- 记录起点：2026-10-03
 
 ---
 

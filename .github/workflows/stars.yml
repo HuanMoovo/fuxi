@@ -1,0 +1,27 @@
+name: Star Tracker
+on:
+  schedule:
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Track stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generator/track_stars.py
+      - name: Rebuild chart
+        run: python generator/build_stars_svg.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stars.json docs/assets/fuxi-stars.svg
+          if git diff --cached --quiet; then echo "no change"; else git commit -m "chore(stars): 每日记录 [skip ci]"; git push; fi
