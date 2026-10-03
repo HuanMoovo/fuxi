@@ -72,7 +72,7 @@
   4. 在新情境里先完整演练一次，哪怕笨拙，别等「准备好」；
   5. 记录迁移失败案例——失败比成功信息量更大。
 - **最合适**：希望知识跨界可用时。**不适用**：考试型短期目标——先把近迁移做透。
-- **证据**：B —— [C10](<https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf>)（近迁移强、远迁移有限）、[C12](<https://doi.org/10.1037/0033-2909.128.4.612>)（迁移距离越远越难；Perkins & Salomon 文本引）。
+- **证据**：B —— [C10](<https://pubmed.ncbi.nlm.nih.gov/29733621/>)（近迁移强、远迁移有限）、[C12](<https://doi.org/10.1037/0033-2909.128.4.612>)（迁移距离越远越难；Perkins & Salomon 文本引）。
 
 ### 适应性专长（Adaptive Expertise）
 - **机制**：常规专长只让流程更快；适应性专长理解「为什么」，遇到新问题能重组旧技能，而不是照搬套路。
@@ -115,7 +115,7 @@
 - 风险证据：[C58](https://www.media.mit.edu/publications/your-brain-on-chatgpt/) 为预印本、未同行评审：EEG 研究提示 LLM 辅助写作与更低的脑连通性、更弱的文本归属感相关（「认知债务」）。公开输出类任务尤其要保留自己的生成过程。
 
 ## 参考
-- [C10] Pan & Rickard (2018)：测试增强学习的迁移元分析。https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf
+- [C10] Pan & Rickard (2018)：测试增强学习的迁移元分析。https://pubmed.ncbi.nlm.nih.gov/29733621/
 - [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972
 - [C12] Barnett & Ceci (2002)：远迁移分类学。https://doi.org/10.1037/0033-2909.128.4.612
 - [C13] Hatano & Inagaki (1986)：适应性专长。https://psycnet.apa.org/record/1986-97669-017

@@ -73,7 +73,7 @@
 - [C07] Rohrer, D., Dedrick, R. F., Hartwig, M. K., & Cheung, C.-N. (2020). A randomized controlled trial of interleaved mathematics practice. *JEP: General*；另 Rohrer et al. (2015). <https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf>；<https://pubmed.ncbi.nlm.nih.gov/24578089/>
 - [C08] Brunmair, M., & Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning. *Psychological Bulletin*, 145(11). <https://psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf>
 - [C09] Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. *RER*. <https://journals.sagepub.com/doi/full/10.3102/00346543211019105>
-- [C10] Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. <https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf>
+- [C10] Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. <https://pubmed.ncbi.nlm.nih.gov/29733621/>
 - [C11] Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. *Cognitive Psychology*. <https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972>
 - [C12] Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? *Psychological Bulletin*, 128(4). <https://doi.org/10.1037/0033-2909.128.4.612>
 - [C13] Hatano, G., & Inagaki, K. (1986). Two courses of expertise. <https://psycnet.apa.org/record/1986-97669-017>
