@@ -69,7 +69,7 @@
   4. 带上上一轮的错误类型清单，同类错误少犯一轮；
   5. 明确「这轮不学什么」，避免无限扩张。
 - **最合适**：完成过一个领域的学习循环之后。**不适用**：上一个领域还在深水区时——先收尾。
-- **证据**：C —— [C11](https://www.sciencedirect.com/science/article/pii/0010028583900026)。
+- **证据**：C —— [C11](https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972)。
 
 ### 复利结构（Compounding Structure）
 - **机制**：知识网络的链接随节点增加而增长，旧内容因被引用而持续增值——维护的是网络，不是单个文件 [C49]。
@@ -114,7 +114,7 @@
 ## 参考
 - [C04] Cepeda et al. (2006, Psychological Bulletin)：分布练习元分析（254 项实验、约 1.4 万名被试）。https://pubmed.ncbi.nlm.nih.gov/16719566/
 - [C06] Cepeda et al. (2008, Psychological Science)：最优间隔约为目标保持期的 10–20%。https://doi.org/10.1111/j.1467-9280.2008.02209.x
-- [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.sciencedirect.com/science/article/pii/0010028583900026
+- [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972
 - [C14] Murre & Dros (2015, PLOS ONE)：艾宾浩斯遗忘曲线复现。https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
 - [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://pubmed.ncbi.nlm.nih.gov/25084988/
 - [C26] Ye, Su & Cao (2022, KDD)：FSRS 调度器。https://dl.acm.org/doi/10.1145/3534678.3539081

@@ -61,7 +61,7 @@
   4. 让对方自己找新类比，你能判断对错说明你真懂；
   5. 好类比入素材库，注明适用与失效场景。
 - **最合适**：抽象概念、陌生领域入门。**不适用**：只需记住的事实清单——直接用卡片。
-- **证据**：B —— [C11](<https://www.sciencedirect.com/science/article/pii/0010028583900026>)（图式归纳与类比迁移）。
+- **证据**：B —— [C11](<https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972>)（图式归纳与类比迁移）。
 
 ### 迁移设计（Transfer Design）
 - **机制**：近迁移（换同类题）证据强，远迁移（跨领域）证据有限且需要刻意设计——迁移是被设计出来的，不是自然发生的。
@@ -116,7 +116,7 @@
 
 ## 参考
 - [C10] Pan & Rickard (2018)：测试增强学习的迁移元分析。https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf
-- [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.sciencedirect.com/science/article/pii/0010028583900026
+- [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972
 - [C12] Barnett & Ceci (2002)：远迁移分类学。https://doi.org/10.1037/0033-2909.128.4.612
 - [C13] Hatano & Inagaki (1986)：适应性专长。https://psycnet.apa.org/record/1986-97669-017
 - [C19] Bisra et al. (2018, EPR)：自我解释元分析。https://eric.ed.gov/?id=EJ1186664
