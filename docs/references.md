@@ -197,7 +197,7 @@
 - [C218] Nickerson (1998). Confirmation Bias: <https://doi.org/10.1037/1089-2680.2.2.175>
 - [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way: <https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf>
 - [C220] Koriat & Bjork (2005). Illusions of Competence: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0278-7393.31.2.187>
-# [C2] Roediger & Karpicke (2006) 已在原数据库（见本文档前部）
+- [C02] Roediger & Karpicke (2006). Test-Enhanced Learning —— 原数据库既有条目（见本文档前部）。
 - [C221] Risko & Gilbert (2016). Cognitive Offloading（TiCS）: <https://pubmed.ncbi.nlm.nih.gov/27542527/>
 - [C222] Ji et al. (2023). Survey of Hallucination in NLG: <https://arxiv.org/abs/2202.03629>
 - [C223] Goddard, Roudsari & Wyatt (2012). Automation Bias（JAMIA）: <https://pubmed.ncbi.nlm.nih.gov/21685142/>

@@ -43,7 +43,7 @@ flowchart LR
 
 ## 4. 解毒剂：让「测验」成为默认动作
 
-1. **检索练习**（A 级）：学完立即合上材料，写下/说出你能回忆的全部内容，再对照补漏 [C01][C2]；
+1. **检索练习**（A 级）：学完立即合上材料，写下/说出你能回忆的全部内容，再对照补漏 [C01][C02]；
 2. **间隔重复**（A 级）：把复习交给调度算法（如 FSRS），在**快要忘记时**复习 [C04]；
 3. **延迟判断**：永远不要在这一刻判断「我学会了没有」——隔夜，或延迟至少数小时，再用测验判断 [C220]；
 4. **合意困难原则**：练习要设计得「有点费劲」——提取费力、变式交错的练习，短期分数可能更低、长期保持更高 [C219]；
@@ -63,4 +63,4 @@ flowchart LR
 - [C05] Dunlosky et al. (2013)（同前）
 - [C220] Koriat & Bjork (2005). Illusions of Competence in Monitoring One's Knowledge During Study: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0278-7393.31.2.187>
 - [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way: <https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf>
-- [C2] Roediger & Karpicke (2006). Test-Enhanced Learning: <https://doi.org/10.1111/j.1467-9280.2006.01693.x>
+- [C02] Roediger & Karpicke (2006). Test-Enhanced Learning: <https://doi.org/10.1111/j.1467-9280.2006.01693.x>
