@@ -164,8 +164,8 @@
 - [C273] Gigerenzer & Gaissmaier (2011). Heuristic Decision Making（Annu Rev Psychol）: <https://pubmed.ncbi.nlm.nih.gov/21126183/>
 - [C274] Johnson-Laird (2010). Mental Models and Human Reasoning（PNAS）: <https://pubmed.ncbi.nlm.nih.gov/20956326/>
 - [C275] Tenenbaum et al. (2011). How to Grow a Mind: Statistics, Structure, and Abstraction（Science）: <https://pubmed.ncbi.nlm.nih.gov/21393536/>
-- [C276] Gigerenzer & Hoffrage (1995). How to Improve Bayesian Reasoning Without Instruction（Psych Review）: <https://www.semanticscholar.org/search?q=How%20to%20improve%20Bayesian%20reasoning%20without%20instruction>
-- [C277] Kahneman & Tversky (1979). Prospect Theory: An Analysis of Decision under Risk（Econometrica）: <https://www.uzh.ch/cmsssl/suz/dam/jcr:00000000-64a0-5b1c-0000-00003b7ec704/10.05-kahneman-tversky-79.pdf>
+- [C276] Gigerenzer & Hoffrage (1995). How to Improve Bayesian Reasoning Without Instruction（Psych Review）: <https://www.semanticscholar.org/paper/49045496d186fec8ba8348a752de2a16b1739ef5>
+- [C277] Kahneman & Tversky (1979). Prospect Theory: An Analysis of Decision under Risk（Econometrica）: <https://onlinelibrary.wiley.com/doi/10.2307/1914185>
 - [C278] Axelrod & Hamilton (1981). The Evolution of Cooperation（Science）: <https://pubmed.ncbi.nlm.nih.gov/7466396/>
 - [C279] Sterman (2006). Learning from Evidence in a Complex World（AJPH）: <https://pubmed.ncbi.nlm.nih.gov/16030331/>
 - [C280] Runco & Acar (2012). Divergent Thinking as an Indicator of Creative Potential: <https://www.semanticscholar.org/paper/1a09e7f61e419693853281d8638c1feefdfe507e>
