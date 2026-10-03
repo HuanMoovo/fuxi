@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.12.0] - 2026-10-03
+
+### Added
+- **PDF 版（精简版）**：`docs/pdf/fuxi-handbook-lite-zh.pdf` —— 由书稿 `docs/book/fuxi-handbook-lite-zh.md` 经 `generator/build_book.py`（打印版 HTML + headless Chrome）可复现生成；含封面、目录、七章正文（十阶 / 方法卡 / 拓界 / 理论速查 / 误区 24 / 精选文献）。
+- README / 文档总目录 / 站点（含中英日按钮文案）新增 PDF 下载入口。
+
 ## [1.11.0] - 2026-10-03
 
 ### Changed

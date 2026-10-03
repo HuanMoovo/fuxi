@@ -25,6 +25,8 @@
 > 提示：点击任意图片可放大查看（打开原图）。
 
 > 📚 **全部文档一页导航 → [docs/README.md](./docs/README.md)**（十阶 / 拓界篇 / 深度剖析 / 文献库 / 资源目录 / 模板）
+>
+> 📄 **PDF 版**：[精读手册 · 精简版](https://raw.githubusercontent.com/HuanMoovo/fuxi/main/docs/pdf/fuxi-handbook-lite-zh.pdf)（40+ 页，适合离线 / 打印阅读）
 
 ---
 
@@ -187,6 +189,7 @@ fuxi/
 ├── README.md                ← 你在这里
 ├── docs/
 │   ├── README.md            ← 文档总目录（全部页面一页导航）
+│   ├── book/ pdf/           ← 精读手册书稿与 PDF 下载（精简版）
 │   ├── stages/              ← 十阶详解（01-orient → 11-expand）
 │   ├── why.md               ← 为什么需要这个框架（全解）
 │   ├── why/                 ← 深度剖析：四论点 + 理论框架全景（53） + 方法全景（50+）
