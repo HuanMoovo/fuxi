@@ -157,7 +157,7 @@ def svg_open(w, h, title):
 def build_hero():
     W, H = 1720, 960
     p = [svg_open(W, H, "伏羲框架：五纪十阶总览（复古笔记本风）")]
-    p.append(deco_page(W, H, 1))
+    p.append(deco_page(W, H, 1, 8))
     # 标题（黄色高亮 + 手写体）
     p.append(rect(58, 92, 560, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 132, "伏羲框架 · 万物皆可学", 52, INK, "700"))
@@ -230,7 +230,7 @@ def build_hero():
 def build_engine():
     W, H = 1560, 1030
     p = [svg_open(W, H, "伏羲引擎：十阶环 · 三恒 · 两把尺 · 一原则（复古笔记本风）")]
-    p.append(deco_page(W, H, 2))
+    p.append(deco_page(W, H, 2, 8))
     p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "伏羲引擎 · 十阶环", 36, INK, "700"))
     p.append(text(78, 168, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 18, INK2))
@@ -309,7 +309,7 @@ def build_engine():
 def build_paths():
     W, H = 1700, 970
     p = [svg_open(W, H, "三轨适配：探索 / 实战 / 冲刺（复古笔记本风）")]
-    p.append(deco_page(W, H, 3))
+    p.append(deco_page(W, H, 3, 8))
     p.append(rect(64, 96, 680, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "三轨适配 · 先选路线，再分配阶段权重", 36, INK, "700"))
     p.append(text(78, 168, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 18, INK2))
@@ -367,7 +367,7 @@ def build_paths():
 def build_spacing():
     W, H = 1560, 920
     p = [svg_open(W, H, "间隔：遗忘曲线与复习调度（复古笔记本风）")]
-    p.append(deco_page(W, H, 4))
+    p.append(deco_page(W, H, 4, 8))
     p.append(rect(64, 96, 600, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "间隔 · 在遗忘边缘复习", 36, INK, "700"))
     p.append(text(78, 168, "遗忘不是 bug；卡在 R≈0.9 复习，收益/成本最优", 18, INK2))
@@ -432,7 +432,7 @@ def build_spacing():
 def build_loop():
     W, H = 1440, 940
     p = [svg_open(W, H, "刻意练习闭环：定靶-练-测-诊-修（复古笔记本风）")]
-    p.append(deco_page(W, H, 5))
+    p.append(deco_page(W, H, 5, 8))
     p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "精练 · 刻意练习闭环", 36, INK, "700"))
     p.append(text(78, 168, "无反馈 = 无精练：每一次循环都要闭合", 18, INK2))
@@ -574,7 +574,7 @@ def _card(x, y, w, h, tapes=None):
 def build_expand():
     W, H = 1560, 880
     p = [svg_open(W, H, "拓界篇 · 五大赛道（复古笔记本风）")]
-    p.append(deco_page(W, H, 7, 7))
+    p.append(deco_page(W, H, 6, 8))
     p.append(rect(58, 92, 620, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "拓界篇 · 五大赛道", 44, INK, "700"))
     p.append(text(80, 200, "十阶之后：从学到创造 —— 每条赛道都有自己的方法论与证据体系", 19, INK2))
@@ -607,7 +607,7 @@ def build_expand():
 def build_longevity():
     W, H = 1560, 900
     p = [svg_open(W, H, "长寿 · 证据分级（复古笔记本风）")]
-    p.append(deco_page(W, H, 8, 9))
+    p.append(deco_page(W, H, 7, 8))
     p.append(rect(58, 92, 640, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "长寿 · 证据分级与关键数字", 42, INK, "700"))
     p.append(text(80, 200, "把筹码押在 A 级因素上：不伤害 × 运动 × 睡眠 × 饮食 × 社交", 19, INK2))
@@ -639,7 +639,7 @@ def build_longevity():
 def build_future():
     W, H = 1560, 920
     p = [svg_open(W, H, "未来纪元 · 前沿科学雷达与宏观趋势（复古笔记本风）")]
-    p.append(deco_page(W, H, 9, 9))
+    p.append(deco_page(W, H, 8, 8))
     p.append(rect(58, 92, 700, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 128, "未来纪元 · 前沿科学雷达 × 宏观趋势", 40, INK, "700"))
     p.append(text(80, 200, "先学会判断预测（超级预测 / 情景 / 预测市场），再读雷达与趋势 —— 每季度更新", 19, INK2))
@@ -674,7 +674,7 @@ def build_future():
         p.append(text(tx + 24, tb + 40, line, 20, INK, "700"))
         p.append(text(tx + 24, tb + 76, src, 14, INK2))
     p.append(text(96, H - 66, "2×2 情景（AI 快慢 × 全球化/碎片化）→ 找无后悔动作：健康 · 技能 · 社交 · 现金缓冲", 17, "#454C59", "500"))
-    p.append(text(96, H - 34, "详见 docs/expand/futures.md · 数据基线 ourworldindata.org", 14, "#8A8F7A"))
+    p.append(text(96, H - 34, "详见 docs/expand/futures.md · 数据基线 ourworldindata.org · 成熟度四格为项目综合判断", 14, "#8A8F7A"))
     p.append("</svg>")
     return "".join(p)
 
