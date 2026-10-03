@@ -237,7 +237,7 @@
 - [C251] Wigfield & Eccles (2000). Expectancy-Value Theory of Achievement Motivation: <https://www.semanticscholar.org/paper/0a28c12a02140983603c7231ebae70564066f86b>
 - [C252] Locke & Latham (2002). Building a Practically Useful Theory of Goal Setting（Am Psychol）: <https://pubmed.ncbi.nlm.nih.gov/12237980/>
 - [C253] Gollwitzer & Sheeran (2006). Implementation Intentions and Goal Achievement（元分析）: <https://www.semanticscholar.org/paper/c4deb3507fe725ce6363c1735f1ba83bab20d665>
-- [C254] Siemens (2005). Connectivism: A Learning Theory for the Digital Age（存档）: <https://web.archive.org/web/2024/https://www.itdl.org/Journal/Jan_05/article01.htm>
+- [C254] Siemens (2005). Connectivism: A Learning Theory for the Digital Age（存档）: <https://web.archive.org/web/20190301000000/http://www.itdl.org/Journal/Jan_05/article01.htm>
 - [C255] Krathwohl (2002). A Revision of Bloom's Taxonomy: <https://doi.org/10.1207/s15430421tip4104_2>
 - [C256] Smith et al. (2009). Why Peer Discussion Improves Student Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/19119232/>
 - [C257] Kyndt et al. (2013). A Meta-Analysis of the Effects of Face-to-Face Cooperative Learning: <https://www.semanticscholar.org/paper/82515246772d66d24ef855d7c23067355db269f3>
