@@ -205,3 +205,15 @@
 - [C225] UNESCO (2023). Guidance for Generative AI in Education and Research: <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
 - [C226] Gerlich (2025). AI Tools in Society: <https://www.mdpi.com/2075-4698/15/1/6>
 - [C227] OpenAI et al. (2023). GPT-4 Technical Report: <https://arxiv.org/abs/2303.08774>
+
+## 误区增补（C228–C236）
+
+- [C228] Pietschnig, Voracek & Formann (2010). Mozart effect–Shmozart effect: A Meta-analysis: <https://www.semanticscholar.org/paper/54b91ad8c150dae9857f86eda45bdd0ba06ae06e>
+- [C229] Perham & Currie (2014). Does Listening to Preferred Music Impair Comprehension?（Appl Cogn Psychol）: <https://onlinelibrary.wiley.com/doi/10.1002/acp.3018>
+- [C230] Hartshorne, Tenenbaum & Pinker (2018). A Critical Period for Second Language Acquisition（Cognition）: <https://pubmed.ncbi.nlm.nih.gov/29729947/>
+- [C231] Urry et al. (2021). Don't Ditch the Laptop Just Yet: A Direct Replication（Psych Science）: <https://pubmed.ncbi.nlm.nih.gov/33593174/>
+- [C232] Pan & Rickard (2018). Transfer of Test-Enhanced Learning: Meta-Analytic Review（Psych Bulletin）: <https://pubmed.ncbi.nlm.nih.gov/29733621/>
+- [C233] Butler (2010). Repeated Testing Produces Superior Transfer of Learning（JEP:LMC）: <https://pubmed.ncbi.nlm.nih.gov/20804289/>
+- [C234] 膳食补充剂与健康成人认知表现的系统综述（见文中说明）
+- [C235] Peterson & Pennington (2012). Developmental Dyslexia（The Lancet）: <https://pubmed.ncbi.nlm.nih.gov/22513218/>
+- [C236] Hyde et al. (2008). Gender Similarities Characterize Math Performance（Science）: <https://pubmed.ncbi.nlm.nih.gov/18653867/>
