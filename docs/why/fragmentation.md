@@ -97,3 +97,7 @@ flowchart TD
 - [C32] Macnamara et al. (2014). Deliberate Practice and Performance: A Meta-Analysis
 - [C210] Zimmerman (2002). Becoming a Self-Regulated Learner: <https://doi.org/10.1207/s15430421tip4102_2>
 - [C211] Rubinstein, Meyer & Evans (2001). Executive Control of Cognitive Processes in Task Switching: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0096-3445.130.4.763>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

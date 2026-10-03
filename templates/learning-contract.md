@@ -65,3 +65,7 @@
 - 签署：________，____ 年 __ 月 __ 日。
 
 > 依据：学习契约对应目标设定与反馈（B，[C36][C37]）；失败预案即执行意图（implementation intentions，if-then 计划；A/B，[C33]）。等级为本项目对现有证据的综合判断，非期刊官方评级。
+
+---
+
+**导航**：[📚 文档总目录](../docs/README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

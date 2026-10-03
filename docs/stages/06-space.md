@@ -153,3 +153,7 @@ flowchart LR
   H --> I[留存率与预算检查]
   I --> J[Leech 处理与配额调整]
 ```
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

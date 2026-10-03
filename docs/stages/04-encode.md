@@ -160,3 +160,7 @@ flowchart LR
   G --> H[第一批卡片与回链]
   H --> I[进入第 5 阶检索]
 ```
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

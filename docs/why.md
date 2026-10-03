@@ -105,3 +105,7 @@
 - [C207] WHO — Commission on Social Connection: <https://www.who.int/groups/commission-on-social-connection>
 - [C208] U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation: <https://www.hhs.gov/surgeongeneral/priorities/connection/index.html>
 - [C209] OECD (2023). PISA 2022 Results: <https://www.oecd.org/en/about/news/press-releases/2023/12/pisa-2022-results.html>
+
+---
+
+**导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

@@ -2533,3 +2533,7 @@
 - **[vault-ai](https://github.com/pashpashpash/vault-ai)** ★3.4k — OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload
 
 > 自动采集区共 2114 个条目；与上方精选合计 **2464 个**。
+
+---
+
+**导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

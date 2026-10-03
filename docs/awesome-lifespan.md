@@ -133,3 +133,6 @@
 
 > 下一站：当你触到人类知识的边界 —— 见 [第 11 阶 · 拓界](../docs/stages/11-expand.md)（从学会到创造）。
 
+---
+
+**导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

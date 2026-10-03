@@ -105,3 +105,7 @@ flowchart LR
 - [C189] Ries. The Lean Startup（官网）: <https://theleanstartup.com/>
 - [C190] Hall & Woodward (2010). The Burden of Nondiversifiable Risk of Entrepreneurship（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.100.3.1163>
 - [C191] Osterwalder & Pigneur. Business Model Generation（Strategyzer）: <https://www.strategyzer.com/>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

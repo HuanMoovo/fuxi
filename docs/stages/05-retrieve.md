@@ -153,3 +153,7 @@ flowchart LR
   G --> H[48 小时延迟复测]
   H --> I[进入第 6 阶间隔调度]
 ```
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

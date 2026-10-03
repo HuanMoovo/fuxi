@@ -97,3 +97,7 @@ flowchart TD
 - [C193] Christakis & Fowler (2007). The Spread of Obesity in a Large Social Network（NEJM）: <https://pubmed.ncbi.nlm.nih.gov/17652652/>
 - [C194] Fowler & Christakis (2008). Dynamic Spread of Happiness（BMJ）: <https://pubmed.ncbi.nlm.nih.gov/19056788/>
 - [C195] Harvard Study of Adult Development（1938– ）: <https://www.adultdevelopmentstudy.org/>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

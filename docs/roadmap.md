@@ -43,3 +43,7 @@
 ## 如何投票
 
 用 👍 反应对应 Issue，或在 Issue 模板中提交你的用例 —— 需求密度决定优先级。
+
+---
+
+**导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

@@ -136,3 +136,7 @@ flowchart LR
 ```
 
 上一阶：— ｜ [下一阶 →](./02-map.md)
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

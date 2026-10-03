@@ -64,3 +64,7 @@ flowchart LR
 - [C220] Koriat & Bjork (2005). Illusions of Competence in Monitoring One's Knowledge During Study: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0278-7393.31.2.187>
 - [C219] Bjork & Bjork (2011). Making Things Hard on Yourself, But in a Good Way: <https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf>
 - [C02] Roediger & Karpicke (2006). Test-Enhanced Learning: <https://doi.org/10.1111/j.1467-9280.2006.01693.x>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

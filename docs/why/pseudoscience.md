@@ -78,3 +78,7 @@ flowchart LR
 - [C216] Dekker et al. (2012). Neuromyths in Education: <https://www.frontiersin.org/articles/10.3389/fpsyg.2012.00429/full>
 - [C217] Weisberg et al. (2008). The Seductive Allure of Neuroscience Explanations: <https://pubmed.ncbi.nlm.nih.gov/18275336/>
 - [C218] Nickerson (1998). Confirmation Bias: A Ubiquitous Phenomenon: <https://doi.org/10.1037/1089-2680.2.2.175>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

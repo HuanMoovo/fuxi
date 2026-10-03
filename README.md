@@ -24,6 +24,8 @@
 
 > 提示：点击任意图片可放大查看（打开原图）。
 
+> 📚 **全部文档一页导航 → [docs/README.md](./docs/README.md)**（十阶 / 拓界篇 / 深度剖析 / 文献库 / 资源目录 / 模板）
+
 ---
 
 ## 目录
@@ -165,7 +167,7 @@
 
 ## 常见误区
 
-15 条完整辟谣见 **[docs/myths.md](./docs/myths.md)**，先看最常踩的五条：
+24 条完整辟谣见 **[docs/myths.md](./docs/myths.md)**，先看最常踩的五条：
 
 | 说法 | 真相 |
 |------|------|
@@ -184,15 +186,18 @@
 fuxi/
 ├── README.md                ← 你在这里
 ├── docs/
-│   ├── stages/              ← 十阶详解（01-orient → 10-maintain）
-│   ├── evidence.md          ← 证据库：30 条结论 + 73 条引用
-│   ├── references.md        ← 扩展文献库（C74–C110，37 条）
+│   ├── README.md            ← 文档总目录（全部页面一页导航）
+│   ├── stages/              ← 十阶详解（01-orient → 11-expand）
+│   ├── why.md               ← 为什么需要这个框架（全解）
+│   ├── why/                 ← 深度剖析：四论点 + 理论框架全景（53） + 方法全景（50+）
+│   ├── expand/              ← 拓界篇：创业 · 人际 · 长寿 · 未来 · 理论整合
+│   ├── evidence.md          ← 证据库：30 条结论 + 分级标准
+│   ├── references.md        ← 全量文献库（C01–C286，逐条核验）
 │   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
-│   ├── awesome-learning.md  ← 学习友链目录（2464 个学习项目）
+│   ├── awesome-learning.md  ← 学习友链目录（2465 个学习项目）
 │   ├── awesome-lifespan.md  ← 人生时间线友链（出生 → 老年）
-│   ├── expand/              ← 拓界篇：创业 · 人际 · 长寿 · 未来纪元 · 理论整合
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
-│   ├── myths.md             ← 15 条误区辟谣
+│   ├── myths.md             ← 24 条误区辟谣
 │   ├── faq.md               ← 常见问题
 │   ├── roadmap.md           ← 迭代路线图
 │   ├── assets/              ← 全部 SVG 图表（含生成器源码）

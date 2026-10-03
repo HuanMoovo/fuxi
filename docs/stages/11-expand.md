@@ -153,3 +153,7 @@ flowchart LR
 - [C185] Wuchty, Jones & Uzzi (2007). The Increasing Dominance of Teams in Production of Knowledge: <https://pubmed.ncbi.nlm.nih.gov/17431139/>
 - [C186] Uzzi et al. (2013). Atypical Combinations and Scientific Impact: <https://www.science.org/doi/10.1126/science.1240474>
 - [C187] Azoulay, Fons-Rosen & Graff Zivin (2019). Does Science Advance One Funeral at a Time?（AER）: <https://www.aeaweb.org/articles?id=10.1257/aer.20161574>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

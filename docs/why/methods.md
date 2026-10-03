@@ -189,3 +189,7 @@ flowchart LR
 - [C285] Munafò et al. (2017)（同上一篇）
 - [C286] Peng & Nisbett (1999)（同上一篇）
 - [C287] Morewedge et al. (2015)（同上一篇）
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

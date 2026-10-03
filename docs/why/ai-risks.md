@@ -89,3 +89,7 @@ flowchart LR
 - [C225] UNESCO (2023). Guidance for Generative AI in Education and Research: <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
 - [C226] Gerlich (2025). AI Tools in Society: Impacts on Cognitive Offloading and Critical Thinking: <https://www.mdpi.com/2075-4698/15/1/6>
 - [C227] OpenAI et al. (2023). GPT-4 Technical Report: <https://arxiv.org/abs/2303.08774>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

@@ -110,3 +110,7 @@ flowchart TD
 - [C200] World Economic Forum. Future of Jobs Report: <https://www.weforum.org/publications/the-future-of-jobs-report-2025/>
 - [C201] Acemoglu & Restrepo (2019). Automation and New Tasks（JEP）: <https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3>
 - [C202] Epoch AI — 算力与模型趋势数据: <https://epoch.ai/>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

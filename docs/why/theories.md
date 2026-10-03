@@ -176,3 +176,7 @@
 - [C285] Munafò et al. (2017). A Manifesto for Reproducible Science: <https://pubmed.ncbi.nlm.nih.gov/33954258/>
 - [C286] Peng & Nisbett (1999). Culture, Dialectics, and Reasoning About Contradiction（Am Psychol）: <https://www.semanticscholar.org/paper/073c71e1972025e05eb69f0e992b28aa68bfc7b1>
 - [C287] Morewedge et al. (2015). Debiasing Decisions: Improved Decision Making With a Single Training Intervention: <https://www.semanticscholar.org/paper/1984f045b488bb1af481b23f83f1b9df68e3f5b9>
+
+---
+
+**导航**：[📚 文档总目录](../../README.md) ｜ [🏠 项目主页](../../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)
