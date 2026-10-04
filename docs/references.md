@@ -287,6 +287,39 @@
 - [C292] Pekrun (2006). The Control-Value Theory of Achievement Emotions（成就情绪理论）: <https://doi.org/10.1007/s10648-006-9029-9>
 - [C293] Durlak & DuPre (2008). Implementation Matters（实施质量与结果的关系）: <https://pubmed.ncbi.nlm.nih.gov/18322790/>
 
+## 领域深潜 · 语言 / 编程 / 数学 / 技能 / 身体（C294–C323）
+
+- [C294] Nation (2006). How Large a Vocabulary Is Needed for Reading and Listening?（词汇量门槛）: <https://doi.org/10.3138/cmlr.63.1.59>
+- [C295] Webb (2007). The Effects of Repetition on Vocabulary Knowledge（重复与词汇）: <https://doi.org/10.1093/applin/aml048>
+- [C296] Kim & Webb (2022). The Effects of Spaced Practice on Second Language Learning: A Meta-Analysis（二语间隔元分析）: <https://doi.org/10.1111/lang.12479>
+- [C297] Nakanishi (2015). A Meta-Analysis of Extensive Reading Research（泛读元分析）: <https://doi.org/10.1002/tesq.157>
+- [C298] Logan, Lively & Pisoni (1991). Training Japanese Listeners to Identify English /r/ and /l/（高变异语音训练）: <https://doi.org/10.1121/1.1894649>
+- [C299] Thomson & Derwing (2015). The Effectiveness of L2 Pronunciation Instruction: A Narrative Review（发音教学综述）: <https://doi.org/10.1093/applin/amu076>
+- [C300] Sentance, Waite & Kallia (2019). Teaching Computer Programming with PRIMM（PRIMM 框架）: <https://doi.org/10.1080/08993408.2019.1608781>
+- [C301] Guo, Kim & Rubin (2014). How Video Production Affects Student Engagement（教学视频设计）: <https://doi.org/10.1145/2556325.2566239>
+- [C302] Ericson, Margulieux & Rick (2017). Solving Parsons Problems Versus Fixing and Writing Code（Parsons 题）: <https://doi.org/10.1145/3141880.3141895>
+- [C303] Margulieux, Guzdial & Catrambone (2012). Subgoal-Labeled Instructional Material（子目标标注示例）: <https://doi.org/10.1145/2361276.2361291>
+- [C304] McCauley et al. (2008). Debugging: A Review of the Literature from an Educational Perspective（调试教学综述）: <https://doi.org/10.1080/08993400802114581>
+- [C305] Porter & Simon (2013). Retaining Nearly One-Third More Majors（CS1 教学三件套）: <https://doi.org/10.1145/2445196.2445248>
+- [C306] Rohrer & Taylor (2007). The Shuffling of Mathematics Problems Improves Learning（数学交错）: <https://doi.org/10.1007/s11251-007-9015-8>
+- [C307] Cooper & Sweller (1987). Effects of Schema Acquisition and Rule Automation（示范题与图式）: <https://doi.org/10.1037/0022-0663.79.4.347>
+- [C308] Barroso et al. (2021). A Meta-Analysis of the Relation Between Math Anxiety and Math Achievement（数学焦虑元分析）: <https://doi.org/10.1037/bul0000307>
+- [C309] Booth & Newton (2012). Fractions: Could They Really Be the Gatekeeper's Doorman?（分数与代数门槛）: <https://doi.org/10.1016/j.cedpsych.2012.07.001>
+- [C310] Ramirez & Beilock (2011). Writing About Testing Worries Boosts Exam Performance（考试焦虑写作干预）: <https://doi.org/10.1126/science.1199427>
+- [C311] Wulf (2013). Attentional Focus and Motor Learning: A Review of 15 Years（注意力焦点综述）: <https://doi.org/10.1080/1750984X.2012.723728>
+- [C312] Shea & Morgan (1979). Contextual Interference Effects（情境干扰原始研究）: <https://doi.org/10.1037/0278-7393.5.2.179>
+- [C313] Magill & Hall (1990). A Review of the Contextual Interference Effect（情境干扰综述）: <https://doi.org/10.1016/0167-9457(90)90005-X>
+- [C314] Driskell, Copper & Moran (1994). Does Mental Practice Enhance Performance?（心理演练元分析）: <https://doi.org/10.1037/0021-9010.79.4.481>
+- [C315] Masters (1992). Knowledge, Knerves and Know-How（类比与隐性学习）: <https://doi.org/10.1111/j.2044-8295.1992.tb02446.x>
+- [C316] Walker et al. (2002). Practice with Sleep Makes Perfect（睡眠与运动技能巩固）: <https://doi.org/10.1016/S0896-6273(02)00746-8>
+- [C317] Rasch & Born (2013). About Sleep's Role in Memory（睡眠与记忆综述）: <https://doi.org/10.1152/physrev.00032.2012>
+- [C318] Walker & Stickgold (2006). Sleep, Memory, and Plasticity（睡眠·记忆·可塑性）: <https://doi.org/10.1146/annurev.psych.56.091103.070307>
+- [C319] Hillman, Erickson & Kramer (2008). Be Smart, Exercise Your Heart（运动与认知）: <https://doi.org/10.1038/nrn2298>
+- [C320] Erickson et al. (2011). Exercise Training Increases Size of Hippocampus and Improves Memory（运动与海马）: <https://doi.org/10.1073/pnas.1015950108>
+- [C321] Lupien et al. (2009). Effects of Stress Throughout the Lifespan（慢性压力与认知）: <https://doi.org/10.1038/nrn2639>
+- [C322] Nehlig (2010). Is Caffeine a Cognitive Enhancer?（咖啡因）: <https://doi.org/10.3233/JAD-2010-091315>
+- [C323] Gómez-Pinilla (2008). Brain Foods: The Effects of Nutrients on Brain Function（营养综述）: <https://doi.org/10.1038/nrn2421>
+
 ---
 
 **导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

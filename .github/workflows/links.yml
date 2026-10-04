@@ -23,7 +23,7 @@ jobs:
             --max-retries 2
             --retry-wait-time 3
             ./README.md ./README.en.md ./README.ja.md ./CONTRIBUTING.md ./CHANGELOG.md
-            ./docs/*.md ./docs/stages/*.md ./docs/expand/*.md ./docs/why/*.md ./templates/*.md
+            ./docs/*.md ./docs/stages/*.md ./docs/expand/*.md ./docs/why/*.md ./templates/*.md ./docs/domains/*.md
           fail: true
       - name: Upload report on failure
         if: failure()
