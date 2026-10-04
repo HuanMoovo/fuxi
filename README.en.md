@@ -69,7 +69,7 @@ Positive proof it *can* work: a well-designed AI tutor produced 0.73–1.3 SD ga
 
 ## Repo Map
 
-`docs/stages/` (11 stage guides, incl. Expand) · `docs/evidence.md` (evidence base) · `docs/references.md` (C01–C323) · `docs/tools.md` (toolchain, 60 tools) · `docs/why/` (deep dives) · `docs/limitations.md` (boundaries) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (24 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
+`docs/stages/` (11 stage guides, incl. Expand) · `docs/evidence.md` (evidence base) · `docs/references.md` (C01–C323) · `docs/tools.md` (toolchain, 60 tools) · `docs/why/` (deep dives) · `docs/limitations.md` (boundaries) · `docs/domains/` (domain deep-dives: language / programming / math / skills / body) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (24 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
 
 ## Contributing & License
 

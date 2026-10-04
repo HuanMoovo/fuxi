@@ -10,7 +10,7 @@
 
 「何かを学ぶ」を **5 つの時代・10 段階のタイムライン**（さらに先へ、第 11 段階「開拓」）に分解し、各段階に「**最適な方法 × エビデンス等級 × OSS ツール × 合格テスト**」を用意する。
 
-**[十段階の詳細](https://github.com/HuanMoovo/fuxi/blob/main/docs/stages/01-orient.md)** · **[エビデンス集](./docs/evidence.md)** · **[参考文献（C01–C323）](./docs/references.md)** · **[学習リンク集（2464）](./docs/awesome-learning.md)** · **[人生タイムライン](./docs/awesome-lifespan.md)** · **[開拓編・第 11 段階](./docs/stages/11-expand.md)** · **[オンラインサイト](https://HuanMoovo.github.io/fuxi/)**
+**[十段階の詳細](https://github.com/HuanMoovo/fuxi/blob/main/docs/stages/01-orient.md)** · **[エビデンス集](./docs/evidence.md)** · **[参考文献（C01–C323）](./docs/references.md)** · **[学習リンク集（2464）](./docs/awesome-learning.md)** · **[人生タイムライン](./docs/awesome-lifespan.md)** · **[開拓編・第 11 段階](./docs/stages/11-expand.md)** · **[領域ディープダイブ](./docs/domains/README.md)** · **[オンラインサイト](https://HuanMoovo.github.io/fuxi/)**
 
 </div>
 
@@ -69,7 +69,7 @@
 
 ## リポジトリ構成
 
-- `docs/` —— 全ドキュメント（stages/ 十段階＋開拓 · evidence · references（C01–C323）· awesome-learning（2464 リンク）· awesome-lifespan · limitations（限界と境界）…）
+- `docs/` —— 全ドキュメント（stages/ 十段階＋開拓 · evidence · references（C01–C323）· awesome-learning（2464 リンク）· awesome-lifespan · limitations（限界と境界）· domains（領域ディープダイブ）…）
 - `generator/` —— 図表と目録のビルドスクリプト（再現可能）
 - `templates/` —— 学習契約・週次レビュー・誤り日誌などのテンプレート
 - オンラインサイト：<https://HuanMoovo.github.io/fuxi/>（中文・English・日本語 切替対応）
