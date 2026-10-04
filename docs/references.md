@@ -278,9 +278,14 @@
 - [C286] Peng & Nisbett (1999). Culture, Dialectics, and Reasoning About Contradiction: <https://www.semanticscholar.org/paper/073c71e1972025e05eb69f0e992b28aa68bfc7b1>
 - [C287] Morewedge et al. (2015). Debiasing Decisions: <https://www.semanticscholar.org/paper/1984f045b488bb1af481b23f83f1b9df68e3f5b9>
 
-## 边界与元科学（C288）
+## 边界与元科学（C288–C293）
 
 - [C288] Henrich, Heine & Norenzayan (2010). The Weirdest People in the World?（BBS）: <https://doi.org/10.1017/S0140525X0999152X>
+- [C289] Kraft (2020). Interpreting Effect Sizes of Education Interventions（教育现场效应量的解读）: <https://doi.org/10.3102/0013189X20912798>
+- [C290] Bjork, Dunlosky & Kornell (2013). Self-Regulated Learning: Beliefs, Techniques, and Illusions（自学的错觉）: <https://pubmed.ncbi.nlm.nih.gov/23020639/>
+- [C291] Rawson & Dunlosky (2011). Optimizing Schedules of Retrieval Practice for Durable and Efficient Learning（组合排程的直接研究）: <https://pubmed.ncbi.nlm.nih.gov/21707204/>
+- [C292] Pekrun (2006). The Control-Value Theory of Achievement Emotions（成就情绪理论）: <https://doi.org/10.1007/s10648-006-9029-9>
+- [C293] Durlak & DuPre (2008). Implementation Matters（实施质量与结果的关系）: <https://pubmed.ncbi.nlm.nih.gov/18322790/>
 
 ---
 

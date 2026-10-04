@@ -40,7 +40,7 @@
 - FSRS scheduler: built on 220M review logs, +12.6% over previous SOTA, shipped in Anki. [Ye et al. 2022](https://dl.acm.org/doi/10.1145/3534678.3539081)
 - Unguarded AI assistants: +48% during practice, −17% on exams after removal. [Bastani et al. 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 
-Full evidence base: 30 findings with A–D grades ([docs/evidence.md](./docs/evidence.md)) · full reference library C01–C288 ([docs/references.md](./docs/references.md)).
+Full evidence base: 30 findings with A–D grades ([docs/evidence.md](./docs/evidence.md)) · full reference library C01–C293 ([docs/references.md](./docs/references.md)).
 
 ## Toolchain (open source first)
 
@@ -69,7 +69,7 @@ Positive proof it *can* work: a well-designed AI tutor produced 0.73–1.3 SD ga
 
 ## Repo Map
 
-`docs/stages/` (11 stage guides, incl. Expand) · `docs/evidence.md` (evidence base) · `docs/references.md` (C01–C288) · `docs/tools.md` (toolchain, 60 tools) · `docs/why/` (deep dives) · `docs/limitations.md` (boundaries) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (24 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
+`docs/stages/` (11 stage guides, incl. Expand) · `docs/evidence.md` (evidence base) · `docs/references.md` (C01–C293) · `docs/tools.md` (toolchain, 60 tools) · `docs/why/` (deep dives) · `docs/limitations.md` (boundaries) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (24 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
 
 ## Contributing & License
 

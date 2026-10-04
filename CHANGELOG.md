@@ -2,6 +2,14 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [1.15.1] - 2026-10-04
+
+### Added
+- **局限与边界页补全论文支撑**：新增文献 [C289]–[C293]——Kraft 2020（教育现场效应量解读）/ Bjork, Dunlosky & Kornell 2013（自学的错觉）/ Rawson & Dunlosky 2011（组合排程的直接研究）/ Pekrun 2006（成就情绪）/ Durlak & DuPre 2008（实施质量）；并复用 [C116] [C82] [C31][C32] [C242] [C244] [C288]，每条边界均可溯源（PubMed / DOI 逐条核验）。
+
+### Changed
+- 文献总量口径同步为 **C01–C293**（README 中英日 / 文档总目录 / 路线图 / 书稿 / 站点统计）。
+
 ## [1.15.0] - 2026-10-04
 
 ### Added
