@@ -2,7 +2,7 @@
 
 # Fuxi Framework — Everything Can Be Learned
 
-> **The Fuxi Framework** (伏羲框架 · 万物皆可学) organizes "learning anything" into a **10-stage timeline**. Every stage ships with the most suitable methods, an evidence grade (A/B/C/D), open-source tools, and a self-test.
+> **The Fuxi Framework** (伏羲框架 · 万物皆可学) organizes "learning anything" into a **10-stage timeline** — plus a Stage 11, *Expand*, for going from learning to creating. Every stage ships with the most suitable methods, an evidence grade (A/B/C/D), open-source tools, and a self-test.
 > 中文主文档：[README.md](./README.md) ｜ 在线主页：[HuanMoovo.github.io/fuxi](https://HuanMoovo.github.io/fuxi/)
 
 [![License: MIT + CC-BY-4.0](https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg)](./LICENSE)
@@ -28,7 +28,9 @@
 | 9 | Teach | Public output + transfer tests | Feynman technique · teaching effect · analogical transfer | B |
 | 10 | Maintain | Low-dose, compounding system | minimal maintenance dose · teach-to-maintain · spiraling up | C |
 
-**The output of one stages is the input of the next.** Three tracks (Explore / Build / Exam-sprint) adapt stage weights to your goal — see [docs/paths.md](./docs/paths.md).
+**The output of one stage is the input of the next.** Three tracks (Explore / Build / Exam-sprint) adapt stage weights to your goal — see [docs/paths.md](./docs/paths.md).
+
+**Stage 11 — Expand.** Beyond the ten stages: discovering new problems and creating new knowledge at the edge of the known — [docs/stages/11-expand.md](./docs/stages/11-expand.md).
 
 ## Evidence Base — highlights
 
@@ -38,12 +40,12 @@
 - FSRS scheduler: built on 220M review logs, +12.6% over previous SOTA, shipped in Anki. [Ye et al. 2022](https://dl.acm.org/doi/10.1145/3534678.3539081)
 - Unguarded AI assistants: +48% during practice, −17% on exams after removal. [Bastani et al. 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 
-Full table (30 findings, 70+ references, A–D grades): [docs/evidence.md](./docs/evidence.md).
+Full evidence base: 30 findings with A–D grades ([docs/evidence.md](./docs/evidence.md)) · full reference library C01–C288 ([docs/references.md](./docs/references.md)).
 
 ## Toolchain (open source first)
 
 Anki + [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) · [Obsidian](https://github.com/obsidianmd/obsidian-releases) / [Logseq](https://github.com/logseq/logseq) · [markmap](https://github.com/markmap/markmap) / [Excalidraw](https://github.com/excalidraw/excalidraw) · [Exercism](https://github.com/exercism/exercism) / [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) / [The Odin Project](https://github.com/TheOdinProject/theodinproject) · [Lean 4](https://github.com/leanprover/lean4) · [Yomitan](https://github.com/yomidevs/yomitan) / [asbplayer](https://github.com/killergerbah/asbplayer) · [Quartz](https://github.com/jackyzha0/quartz) · [Ollama](https://github.com/ollama/ollama).
-Full list (50+ tools, link-checked): [docs/tools.md](./docs/tools.md).
+Full list (60 tools, link-checked): [docs/tools.md](./docs/tools.md).
 
 ## AI Co-pilot Protocol (7 rules)
 
@@ -67,7 +69,7 @@ Positive proof it *can* work: a well-designed AI tutor produced 0.73–1.3 SD ga
 
 ## Repo Map
 
-`docs/stages/` (10 stage guides) · `docs/evidence.md` (evidence base) · `docs/tools.md` (toolchain) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (15 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
+`docs/stages/` (11 stage guides, incl. Expand) · `docs/evidence.md` (evidence base) · `docs/references.md` (C01–C288) · `docs/tools.md` (toolchain, 60 tools) · `docs/why/` (deep dives) · `docs/limitations.md` (boundaries) · `docs/paths.md` (tracks & domains) · `docs/myths.md` (24 myths debunked) · `docs/faq.md` · `templates/` (contracts & logs) · `generator/` (reproducible SVG charts) · `docs/index.html` (site).
 
 ## Contributing & License
 

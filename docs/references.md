@@ -1,6 +1,6 @@
 # 参考文献与扩展阅读 · References
 
-> 伏羲框架的完整文献索引。**基础引用（C01–C73）** 见 [docs/evidence.md](./evidence.md)；本页收录 **扩展文献（C74–C110，37 条）** 与工具/社区资源。
+> 伏羲框架的完整文献索引。**基础引用（C01–C73）** 见 [docs/evidence.md](./evidence.md)；本页收录 **扩展文献（C74–C288）** 与工具/社区资源，逐条核验（PubMed / 语义学者 / DOI 优先）。
 > 链接策略：开放获取优先；少数链接指向出版商页面（正常浏览器可打开，爬虫可能被拒）。核验日期：2026-10-03。
 
 ## 分类导读
@@ -277,6 +277,10 @@
 - [C285] Munafò et al. (2017). A Manifesto for Reproducible Science: <https://pubmed.ncbi.nlm.nih.gov/33954258/>
 - [C286] Peng & Nisbett (1999). Culture, Dialectics, and Reasoning About Contradiction: <https://www.semanticscholar.org/paper/073c71e1972025e05eb69f0e992b28aa68bfc7b1>
 - [C287] Morewedge et al. (2015). Debiasing Decisions: <https://www.semanticscholar.org/paper/1984f045b488bb1af481b23f83f1b9df68e3f5b9>
+
+## 边界与元科学（C288）
+
+- [C288] Henrich, Heine & Norenzayan (2010). The Weirdest People in the World?（BBS）: <https://doi.org/10.1017/S0140525X0999152X>
 
 ---
 

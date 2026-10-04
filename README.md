@@ -8,16 +8,16 @@
 
 **The Fuxi Framework — Everything Can Be Learned**
 
-把「学会一样东西」拆成一条 **5 纪 10 阶** 的时间线：每阶告诉你 **最合适的方法 × 证据等级 × 开源工具 × 过关测试**。
+把「学会一样东西」拆成一条 **5 纪 10 阶** 的时间线（尽头还有第 11 阶**拓界**——从学会走向创造）：每阶告诉你 **最合适的方法 × 证据等级 × 开源工具 × 过关测试**。
 
 <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg" alt="License"></a>
 <a href="./docs/evidence.md"><img src="https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg" alt="Evidence"></a>
-<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-280%2B%20papers-6E4E9E.svg" alt="References"></a>
+<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-288%20papers-6E4E9E.svg" alt="References"></a>
 <a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
 <a href="https://star-history.com/#HuanMoovo/fuxi&Date"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
 <a href="https://github.com/HuanMoovo/fuxi/forks"><img src="https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E" alt="Forks"></a>
 
-**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
+**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[局限与边界](./docs/limitations.md)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
 
 </div>
 
@@ -28,7 +28,7 @@
 
 > 📚 **全部文档一页导航 → [docs/README.md](./docs/README.md)**（十阶 / 拓界篇 / 深度剖析 / 文献库 / 资源目录 / 模板）
 >
-> 📄 **PDF 版**：制作中，暂不提供下载（生成器见 `generator/build_book*.py`）
+> 📄 **PDF 版**：暂不提供下载（书稿保留在 `docs/book/`；一切内容以线上版为准）
 
 ---
 
@@ -65,6 +65,8 @@
 
 **→ 展开全文：[为什么需要「伏羲框架」· 全解](./docs/why.md)**（三重不对称 · 设计四原则 · 社会影响情景推演 · 全部文献可核验）
 
+> **边界声明**：本框架的已知局限、不承诺清单与纠错机制 → **[局限与边界](./docs/limitations.md)**
+
 ---
 
 ## 十阶时间线
@@ -100,7 +102,7 @@
 
 ## 证据底座
 
-本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论、73 条基础引用与 37 条扩展文献（合计 110+）见 **[docs/evidence.md](./docs/evidence.md)** 与 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
+本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论见 **[docs/evidence.md](./docs/evidence.md)**，全量 288 条文献（C01–C288，逐条核验）见 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
 
 | 结论 | 数字口径 | 等级 |
 |------|----------|------|
@@ -118,7 +120,7 @@
 
 ## 开源工具链
 
-50+ 个开源（或免费）工具，全部按阶段索引、逐链接核验 —— 完整清单见 **[docs/tools.md](./docs/tools.md)**。
+60 个开源（或免费）工具，全部按阶段索引、逐链接核验 —— 完整清单见 **[docs/tools.md](./docs/tools.md)**。
 
 - **记忆与间隔**：[Anki](https://github.com/ankitects/anki) + [FSRS4Anki](https://github.com/open-spaced-repetition/fsrs4anki) + [FSRS 算法](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) …
 - **笔记与知识库**：[Obsidian](https://github.com/obsidianmd/obsidian-releases) · [Logseq](https://github.com/logseq/logseq) · [Zettlr](https://github.com/Zettlr/Zettlr) · [Quartz](https://github.com/jackyzha0/quartz) …
@@ -198,13 +200,14 @@ fuxi/
 │   ├── why/                 ← 深度剖析：四论点 + 理论框架全景（53） + 方法全景（50+）
 │   ├── expand/              ← 拓界篇：创业 · 人际 · 长寿 · 未来 · 理论整合
 │   ├── evidence.md          ← 证据库：30 条结论 + 分级标准
-│   ├── references.md        ← 全量文献库（C01–C286，逐条核验）
-│   ├── tools.md             ← 开源工具链（50+ 工具，逐链接核验）
-│   ├── awesome-learning.md  ← 学习友链目录（2465 个学习项目）
+│   ├── references.md        ← 全量文献库（C01–C288，逐条核验）
+│   ├── tools.md             ← 开源工具链（60 工具，逐链接核验）
+│   ├── awesome-learning.md  ← 学习友链目录（2464 个学习项目）
 │   ├── awesome-lifespan.md  ← 人生时间线友链（出生 → 老年）
 │   ├── paths.md             ← 三轨路线 + 五大领域适配 + 30 天模板
 │   ├── myths.md             ← 24 条误区辟谣
 │   ├── faq.md               ← 常见问题
+│   ├── limitations.md       ← 局限与边界（不承诺清单与纠错机制）
 │   ├── roadmap.md           ← 迭代路线图
 │   ├── assets/              ← 全部 SVG 图表（含生成器源码）
 │   └── index.html           ← GitHub Pages 主页
@@ -218,7 +221,7 @@ fuxi/
 
 ## 迭代与贡献
 
-- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（+37 条）；
+- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（现已扩至 C01–C288）；
 - 本仓库采用 **持续迭代** 模式：发版记录见 [CHANGELOG.md](./CHANGELOG.md)，计划见 [docs/roadmap.md](./docs/roadmap.md)；
 - 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml>)，防止引用腐烂；
 - 欢迎三类贡献：**新文献**（附链接+结论+建议等级）、**新工具**（附链接+适用阶）、**纠错**（任何数字/引用错误）—— 用 [Issue 模板](https://github.com/HuanMoovo/fuxi/issues/new/choose) 或直接 PR，细则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
@@ -252,7 +255,7 @@ fuxi/
 
 ## English Summary
 
-**The Fuxi Framework — Everything Can Be Learned.** A universal, evidence-graded learning methodology organized as a 10-stage timeline (Orient → Map → Decompose → Encode → Retrieve → Space → Drill → Apply → Teach → Maintain), with three tracks (explore / build / exam-sprint) to adapt the stages to your goal. Every method is tagged with an evidence grade (A/B/C/D) citing 70+ papers; every stage ships with open-source tools (Anki+FSRS, Obsidian, Exercism, Lean 4, …), a checklist, common myths, and safe-AI rules. Full English edition: [README.en.md](./README.en.md).
+**The Fuxi Framework — Everything Can Be Learned.** A universal, evidence-graded learning methodology organized as a 10-stage timeline (Orient → Map → Decompose → Encode → Retrieve → Space → Drill → Apply → Teach → Maintain), plus a Stage 11, *Expand* (from learning to creating), with three tracks (explore / build / exam-sprint) to adapt the stages to your goal. Every method is tagged with an evidence grade (A/B/C/D) citing 288 tracked references; every stage ships with open-source tools (Anki+FSRS, Obsidian, Exercism, Lean 4, …), a checklist, common myths, and safe-AI rules. Full English edition: [README.en.md](./README.en.md).
 
 ---
 
