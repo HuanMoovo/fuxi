@@ -287,7 +287,7 @@
 - [C292] Pekrun (2006). The Control-Value Theory of Achievement Emotions（成就情绪理论）: <https://doi.org/10.1007/s10648-006-9029-9>
 - [C293] Durlak & DuPre (2008). Implementation Matters（实施质量与结果的关系）: <https://pubmed.ncbi.nlm.nih.gov/18322790/>
 
-## 领域深潜 · 语言 / 编程 / 数学 / 技能 / 身体（C294–C323）
+## 领域深潜 · 语言 / 编程 / 数学 / 技能 / 考试 / 身体（C294–C326）
 
 - [C294] Nation (2006). How Large a Vocabulary Is Needed for Reading and Listening?（词汇量门槛）: <https://doi.org/10.3138/cmlr.63.1.59>
 - [C295] Webb (2007). The Effects of Repetition on Vocabulary Knowledge（重复与词汇）: <https://doi.org/10.1093/applin/aml048>
@@ -319,6 +319,9 @@
 - [C321] Lupien et al. (2009). Effects of Stress Throughout the Lifespan（慢性压力与认知）: <https://doi.org/10.1038/nrn2639>
 - [C322] Nehlig (2010). Is Caffeine a Cognitive Enhancer?（咖啡因）: <https://doi.org/10.3233/JAD-2010-091315>
 - [C323] Gómez-Pinilla (2008). Brain Foods: The Effects of Nutrients on Brain Function（营养综述）: <https://doi.org/10.1038/nrn2421>
+- [C324] Winstein & Schmidt (1990). Reduced Frequency of Knowledge of Results Enhances Motor Skill Learning（反馈频率与动作学习）: <https://doi.org/10.1037/0278-7393.16.4.677>
+- [C325] Lyster & Saito (2010). Oral Feedback in Classroom SLA: A Meta-Analysis（口头纠错反馈元分析）: <https://doi.org/10.1017/S0272263109990520>
+- [C326] Mednick, Nakayama & Stickgold (2003). Sleep-Dependent Learning: A Nap Is as Good as a Night（小睡巩固）: <https://doi.org/10.1038/nn1078>
 
 ---
 

@@ -12,7 +12,7 @@
 
 <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20CC--BY--4.0-blue.svg" alt="License"></a>
 <a href="./docs/evidence.md"><img src="https://img.shields.io/badge/evidence-graded%20A%2FB%2FC%2FD-34D399.svg" alt="Evidence"></a>
-<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-323%20papers-6E4E9E.svg" alt="References"></a>
+<a href="./docs/references.md"><img src="https://img.shields.io/badge/references-326%20papers-6E4E9E.svg" alt="References"></a>
 <a href="./docs/paths.md"><img src="https://img.shields.io/badge/stages-10%20%C3%97%203%20tracks-8B5CF6.svg" alt="Stages"></a>
 <a href="https://star-history.com/#HuanMoovo/fuxi&Date"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
 <a href="https://github.com/HuanMoovo/fuxi/forks"><img src="https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E" alt="Forks"></a>
@@ -102,7 +102,7 @@
 
 ## 证据底座
 
-本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论见 **[docs/evidence.md](./docs/evidence.md)**，全量 323 条文献（C01–C323，逐条核验）见 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
+本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论见 **[docs/evidence.md](./docs/evidence.md)**，全量 323 条文献（C01–C326，逐条核验）见 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
 
 | 结论 | 数字口径 | 等级 |
 |------|----------|------|
@@ -201,7 +201,7 @@ fuxi/
 │   ├── expand/              ← 拓界篇：创业 · 人际 · 长寿 · 未来 · 理论整合
 │   ├── domains/             ← 领域深潜（语言 · 编程 · 数学 · 技能 · 身体）
 │   ├── evidence.md          ← 证据库：30 条结论 + 分级标准
-│   ├── references.md        ← 全量文献库（C01–C323，逐条核验）
+│   ├── references.md        ← 全量文献库（C01–C326，逐条核验）
 │   ├── tools.md             ← 开源工具链（60 工具，逐链接核验）
 │   ├── awesome-learning.md  ← 学习友链目录（2464 个学习项目）
 │   ├── awesome-lifespan.md  ← 人生时间线友链（出生 → 老年）
@@ -222,7 +222,7 @@ fuxi/
 
 ## 迭代与贡献
 
-- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（现已扩至 C01–C323）；
+- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（现已扩至 C01–C326）；
 - 本仓库采用 **持续迭代** 模式：发版记录见 [CHANGELOG.md](./CHANGELOG.md)，计划见 [docs/roadmap.md](./docs/roadmap.md)；
 - 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml>)，防止引用腐烂；
 - 欢迎三类贡献：**新文献**（附链接+结论+建议等级）、**新工具**（附链接+适用阶）、**纠错**（任何数字/引用错误）—— 用 [Issue 模板](https://github.com/HuanMoovo/fuxi/issues/new/choose) 或直接 PR，细则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
