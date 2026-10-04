@@ -1,7 +1,7 @@
 # 伏羲框架 · 万物皆可学
 > 把「学会一样东西」拆成一条十阶时间线：每一阶给出最合适的方法 × 证据等级 × 开源工具 × 过关测试。
 > 在线版（持续迭代）：https://HuanMoovo.github.io/fuxi/ ｜ 文档总目录：docs/README.md
-> 许可：文档 CC BY 4.0 · 代码 MIT ｜ 全部文献可核验（C01–C326）
+> 许可：文档 CC BY 4.0 · 代码 MIT ｜ 全部文献可核验（C01–C339）
 
 # 目录
 
@@ -569,7 +569,7 @@
 
 HuanMoovo. 《伏羲框架 · 万物皆可学》. GitHub: https://github.com/HuanMoovo/fuxi （文档 CC BY 4.0）——引用格式见仓库 CITATION.cff。
 
-## 9.2 精选文献（全量 C01–C326 见线上文献库）
+## 9.2 精选文献（全量 C01–C339 见线上文献库）
 
 - - [C01] Karpicke, J. D., & Roediger, H. L. (2008). The Critical Importance of Retrieval for Learning. *Science*, 319(5865), 966–968. ；<http
 - - [C02] Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. *Perspectives on Psychological Science*. ；<

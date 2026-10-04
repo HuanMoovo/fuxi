@@ -323,6 +323,22 @@
 - [C325] Lyster & Saito (2010). Oral Feedback in Classroom SLA: A Meta-Analysis（口头纠错反馈元分析）: <https://doi.org/10.1017/S0272263109990520>
 - [C326] Mednick, Nakayama & Stickgold (2003). Sleep-Dependent Learning: A Nap Is as Good as a Night（小睡巩固）: <https://doi.org/10.1038/nn1078>
 
+## 领域深潜（续）· 阅读 / 写作 / 艺术 / 医学（C327–C339）
+
+- [C327] Recht & Leslie (1988). Effect of Prior Knowledge on Good and Poor Readers' Memory of Text（背景知识与阅读）: <https://doi.org/10.1037/0022-0663.80.1.16>
+- [C328] LaBerge & Samuels (1974). Toward a Theory of Automatic Information Processing in Reading（解码自动化）: <https://doi.org/10.1016/0010-0285(74)90015-2>
+- [C329] Edmonds et al. (2009). A Synthesis of Reading Interventions and Effects on Reading Comprehension Outcomes for Older Struggling Readers（阅读干预综合）: <https://doi.org/10.3102/0034654308325998>
+- [C330] Mol & Bus (2011). To Read or Not to Read: A Meta-Analysis of Print Exposure from Infancy to Early Adulthood（印刷暴露元分析）: <https://doi.org/10.1037/a0021890>
+- [C331] Graham & Perin (2007). A Meta-Analysis of Writing Instruction for Adolescent Students（写作教学元分析·青少年）: <https://doi.org/10.1037/0022-0663.99.3.445>
+- [C332] Graham et al. (2012). A Meta-Analysis of Writing Instruction for Students in the Elementary Grades（写作教学元分析·小学）: <https://doi.org/10.1037/a0029185>
+- [C333] Bangert-Drowns et al. (2004). The Effects of School-Based Writing-to-Learn Interventions on Academic Achievement（以写促学元分析）: <https://doi.org/10.3102/00346543074001029>
+- [C334] Kellogg (2008). Training Writing Skills: A Cognitive Developmental Perspective（写作认知发展）: <https://doi.org/10.17239/jowr-2008.01.01.1>
+- [C335] Scott, Leritz & Mumford (2004). The Effectiveness of Creativity Training: A Quantitative Review（创造力训练综述）: <https://doi.org/10.1080/10400410409534549>
+- [C336] Duke, Simmons & Cash (2009). It's Not How Much; It's How: Characteristics of Practice Behavior and Retention of Performance Skills（练习行为与保持）: <https://doi.org/10.1177/0022429408328851>
+- [C337] Larsen, Butler & Roediger (2008). Test-Enhanced Learning in Medical Education（医学教育测试效应）: <https://doi.org/10.1111/j.1365-2923.2008.03124.x>
+- [C338] Cook et al. (2011). Technology-Enhanced Simulation for Health Professions Education（医学仿真元分析）: <https://doi.org/10.1001/jama.2011.1234>
+- [C339] Ericsson (2004). Deliberate Practice and the Acquisition and Maintenance of Expert Performance in Medicine and Related Domains（医学刻意练习）: <https://doi.org/10.1097/00001888-200410001-00022>
+
 ---
 
 **导航**：[📚 文档总目录](README.md) ｜ [🏠 项目主页](../README.md) ｜ [在线主页](https://HuanMoovo.github.io/fuxi/)

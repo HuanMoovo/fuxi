@@ -10,13 +10,13 @@
 
 「何かを学ぶ」を **5 つの時代・10 段階のタイムライン**（さらに先へ、第 11 段階「開拓」）に分解し、各段階に「**最適な方法 × エビデンス等級 × OSS ツール × 合格テスト**」を用意する。
 
-**[十段階の詳細](https://github.com/HuanMoovo/fuxi/blob/main/docs/stages/01-orient.md)** · **[エビデンス集](./docs/evidence.md)** · **[参考文献（C01–C326）](./docs/references.md)** · **[学習リンク集（2464）](./docs/awesome-learning.md)** · **[人生タイムライン](./docs/awesome-lifespan.md)** · **[開拓編・第 11 段階](./docs/stages/11-expand.md)** · **[領域ディープダイブ](./docs/domains/README.md)** · **[オンラインサイト](https://HuanMoovo.github.io/fuxi/)**
+**[十段階の詳細](https://github.com/HuanMoovo/fuxi/blob/main/docs/stages/01-orient.md)** · **[エビデンス集](./docs/evidence.md)** · **[参考文献（C01–C339）](./docs/references.md)** · **[学習リンク集（2464）](./docs/awesome-learning.md)** · **[人生タイムライン](./docs/awesome-lifespan.md)** · **[開拓編・第 11 段階](./docs/stages/11-expand.md)** · **[領域ディープダイブ](./docs/domains/README.md)** · **[オンラインサイト](https://HuanMoovo.github.io/fuxi/)**
 
 </div>
 
 ## これは何か
 
-- 学習を「根性」ではなく**工学**として扱う：全主張は検証可能、全数字に出典あり（[エビデンス集](./docs/evidence.md)：30 の結論＋[参考文献](./docs/references.md) C01–C326）。
+- 学習を「根性」ではなく**工学**として扱う：全主張は検証可能、全数字に出典あり（[エビデンス集](./docs/evidence.md)：30 の結論＋[参考文献](./docs/references.md) C01–C339）。
 - 図表はスクリプトで**再現可能**（[generator/build_svgs.py](./generator/build_svgs.py)）。
 - 「学び方」だけでなく「学び終わった後」も対象：[開拓編・第 11 段階](./docs/stages/11-expand.md) —— 既存知識の限界に達したとき、未知を既知に変える方法（無知リスト・四大鉱脈・問題の陶冶・新奇予測・公開検証）。
 
@@ -69,7 +69,7 @@
 
 ## リポジトリ構成
 
-- `docs/` —— 全ドキュメント（stages/ 十段階＋開拓 · evidence · references（C01–C326）· awesome-learning（2464 リンク）· awesome-lifespan · limitations（限界と境界）· domains（領域ディープダイブ）…）
+- `docs/` —— 全ドキュメント（stages/ 十段階＋開拓 · evidence · references（C01–C339）· awesome-learning（2464 リンク）· awesome-lifespan · limitations（限界と境界）· domains（領域ディープダイブ）…）
 - `generator/` —— 図表と目録のビルドスクリプト（再現可能）
 - `templates/` —— 学習契約・週次レビュー・誤り日誌などのテンプレート
 - オンラインサイト：<https://HuanMoovo.github.io/fuxi/>（中文・English・日本語 切替対応）
