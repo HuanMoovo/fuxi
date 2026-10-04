@@ -78,7 +78,7 @@ flowchart TD
 
 - [C130] Hazan & Shaver (1987). Romantic love conceptualized as an attachment process: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.3.511>
 - [C131] Sternberg (1986). A triangular theory of love: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.93.2.119>
-- [C132] Granovetter (1973). The Strength of Weak Ties（PDF）: <https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf>
+- [C132] Granovetter (1973). The Strength of Weak Ties（PDF）: <https://web.archive.org/web/20230601000000/https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf>
 - [C133] Nowak & Sigmund (2005). Evolution of indirect reciprocity（Nature）: <https://www.nature.com/articles/nature04131>
 - [C134] Dunbar's numbers（Biology Letters 2021）: https://pubmed.ncbi.nlm.nih.gov/33947220/
 - [C135] The Gottman Institute — 关系研究总览: <https://www.gottman.com/about/research/>
