@@ -17,7 +17,7 @@
 <a href="https://star-history.com/#HuanMoovo/fuxi&Date"><img src="https://img.shields.io/github/stars/HuanMoovo/fuxi?label=%E2%98%85%20Stars&color=E4B95B" alt="Stars"></a>
 <a href="https://github.com/HuanMoovo/fuxi/forks"><img src="https://img.shields.io/github/forks/HuanMoovo/fuxi?label=Forks&color=6E4E9E" alt="Forks"></a>
 
-**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[局限与边界](./docs/limitations.md)** · **[领域深潜](./docs/domains/README.md)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)**
+**[十阶详解](#十阶时间线)** · **[证据库](./docs/evidence.md)** · **[参考文献库](./docs/references.md)** · **[开源工具链](./docs/tools.md)** · **[学习友链](./docs/awesome-learning.md)** · **[人生时间线](./docs/awesome-lifespan.md)** · **[拓界篇（第 11 阶）](./docs/stages/11-expand.md)** · **[三大路线](./docs/paths.md)** · **[误区辟谣](./docs/myths.md)** · **[学习模板](./templates/)** · **[局限与边界](./docs/limitations.md)** · **[领域深潜](./docs/domains/README.md)** · **[在线主页](https://HuanMoovo.github.io/fuxi/)** · **[书籍版（Material）](https://HuanMoovo.github.io/fuxi/book/)**
 
 </div>
 
@@ -215,6 +215,7 @@ fuxi/
 ├── LICENSE-DOCS.md          ← 文档与图表许可（CC BY 4.0）
 ├── templates/               ← 学习契约 / 周检视 / 错题日志 / 卡片规则 / 十阶清单
 ├── generator/               ← 图表生成脚本（可复现：python generator/build_svgs.py）
+├── site/                    ← 书籍版（Material 阅读站）构建工程（mkdocs.yml）
 └── .github/                 ← 链接检查 CI + Issue 模板
 ```
 

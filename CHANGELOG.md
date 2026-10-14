@@ -7,6 +7,7 @@
 ### Added
 - **书籍版（Material for MkDocs）**：新增 `site/` 工程（`prepare.py` 内容汇总与链接改写、`mkdocs.yml` 天蓝色主题与书籍式导航、`styles/extra.css` 中文阅读排版、`requirements.txt`）。全部资料（54 个页面）整理为适合阅读的书籍版：书籍式目录、全文搜索、上/下一页导航、深浅色切换、GitHub 同款锚点。
 - 部署集成：Pages 工作流构建书籍版并发布到 `/book/` 路径；现有主页与文档保持根路径不变。
+- 全站入口：README 顶部导航与仓库树、文档总目录、站点页脚新增「书籍版」链接（三语词典同步）。
 
 ### Changed
 - `.gitignore` 增补 `site/build/`、`site/dist/`、`.venv-mkdocs/`、`__pycache__/`。

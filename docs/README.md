@@ -74,6 +74,7 @@
 ## 资源目录
 
 - 📄 **PDF 版**：暂不提供下载（内容以线上版为准）
+- [书籍版（Material）](https://HuanMoovo.github.io/fuxi/book/) —— 全部页面整理为书籍式阅读版（天蓝色 · 全文搜索 · 上/下一页导航）
 - [学习友链目录](awesome-learning.md) —— **2464 个**开源学习项目（12 类）
 - [人生时间线目录](awesome-lifespan.md) —— 从出生到老年排序的资源带
 
