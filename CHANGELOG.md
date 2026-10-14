@@ -12,6 +12,10 @@
 ### Changed
 - `.gitignore` 增补 `site/build/`、`site/dist/`、`.venv-mkdocs/`、`__pycache__/`。
 
+### Fixed
+- 书籍版「项目主页」渲染修复：新增原始 HTML `src=`/`href=` 链接改写（修 logo 破图；徽章目标改为书籍站内页或仓库地址）；hero 区块启用 markdown 处理（标题/加粗/链接行不再以 Markdown 源码裸露）；链接文案书籍化（`docs/README.md` → `文档总目录`）。
+- 计数口径修正：README「323 条文献」与英文摘要「288 tracked references」统一为 **339**（与 C01–C339 / 站点统计一致）；文献库补上编号空位 **C129**（Rusbult 1980 投资模型，OpenAlex 核验），C01–C339 恢复连续；references 导语范围改至 C74–C339；README / README.en 领域列表补齐至 10 个领域；精简手册同款修正。
+
 ## [1.17.0] - 2026-10-04
 
 ### Added

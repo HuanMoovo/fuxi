@@ -1,6 +1,6 @@
 # 参考文献与扩展阅读 · References
 
-> 伏羲框架的完整文献索引。**基础引用（C01–C73）** 见 [docs/evidence.md](./evidence.md)；本页收录 **扩展文献（C74–C288）** 与工具/社区资源，逐条核验（PubMed / 语义学者 / DOI 优先）。
+> 伏羲框架的完整文献索引。**基础引用（C01–C73）** 见 [docs/evidence.md](./evidence.md)；本页收录 **扩展文献（C74–C339）** 与工具/社区资源，逐条核验（PubMed / 语义学者 / DOI 优先）。
 > 链接策略：开放获取优先；少数链接指向出版商页面（正常浏览器可打开，爬虫可能被拒）。核验日期：2026-10-03。
 
 ## 分类导读
@@ -94,6 +94,7 @@
 - [C126] Andreessen. The Only Thing That Matters（PMF）: <https://pmarchive.com/guide_to_startups_part4.html>
 - [C127] Blank (2013). Why the Lean Start-Up Changes Everything: <https://hbr.org/2013/05/why-the-lean-start-up-changes-everything>
 - [C128] Fitzpatrick. The Mom Test: <https://www.momtestbook.com/>
+- [C129] Rusbult (1980). Commitment and satisfaction in romantic associations（JESP·投资模型）: <https://doi.org/10.1016/0022-1031(80)90007-4>
 - [C130] Hazan & Shaver (1987). Romantic love as attachment: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.3.511>
 - [C131] Sternberg (1986). Triangular theory of love: <https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.93.2.119>
 - [C132] Granovetter (1973). The Strength of Weak Ties: <https://web.archive.org/web/20230601000000/https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf>

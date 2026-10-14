@@ -102,7 +102,7 @@
 
 ## 证据底座
 
-本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论见 **[docs/evidence.md](./docs/evidence.md)**，全量 323 条文献（C01–C339，逐条核验）见 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
+本仓库所有方法都标注证据等级（**A 强 / B 中 / C 弱或条件 / D 证伪**），完整 30 条结论见 **[docs/evidence.md](./docs/evidence.md)**，全量 339 条文献（C01–C339，逐条核验）见 **[docs/references.md](./docs/references.md)**。挑选几条体会一下口味：
 
 | 结论 | 数字口径 | 等级 |
 |------|----------|------|
@@ -199,7 +199,7 @@ fuxi/
 │   ├── why.md               ← 为什么需要这个框架（全解）
 │   ├── why/                 ← 深度剖析：四论点 + 理论框架全景（53） + 方法全景（50+）
 │   ├── expand/              ← 拓界篇：创业 · 人际 · 长寿 · 未来 · 理论整合
-│   ├── domains/             ← 领域深潜（语言 · 编程 · 数学 · 技能 · 身体）
+│   ├── domains/             ← 领域深潜（语言 · 编程 · 数学 · 技能 · 考试 · 身体 · 阅读 · 写作 · 艺术 · 医学）
 │   ├── evidence.md          ← 证据库：30 条结论 + 分级标准
 │   ├── references.md        ← 全量文献库（C01–C339，逐条核验）
 │   ├── tools.md             ← 开源工具链（60 工具，逐链接核验）
@@ -223,7 +223,7 @@ fuxi/
 
 ## 迭代与贡献
 
-- **v1.1（2026-10-03）**：标题居中 + 全新 SVG LOGO；全部图表重绘为**复古笔记本手绘风**；所有引用补齐可查看来源（死链清理，开放获取优先）；新增[扩展文献库](./docs/references.md)（现已扩至 C01–C339）；
+- **v1.18.0（2026-10-14）**：新增**书籍版（Material 阅读站）**（[在线访问](https://HuanMoovo.github.io/fuxi/book/)）；领域深潜扩至 **10 个领域**；文献库续至 **C01–C339**；
 - 本仓库采用 **持续迭代** 模式：发版记录见 [CHANGELOG.md](./CHANGELOG.md)，计划见 [docs/roadmap.md](./docs/roadmap.md)；
 - 每周自动运行 [链接检查](<https://github.com/HuanMoovo/fuxi/actions/workflows/links.yml>)，防止引用腐烂；
 - 欢迎三类贡献：**新文献**（附链接+结论+建议等级）、**新工具**（附链接+适用阶）、**纠错**（任何数字/引用错误）—— 用 [Issue 模板](https://github.com/HuanMoovo/fuxi/issues/new/choose) 或直接 PR，细则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
@@ -257,7 +257,7 @@ fuxi/
 
 ## English Summary
 
-**The Fuxi Framework — Everything Can Be Learned.** A universal, evidence-graded learning methodology organized as a 10-stage timeline (Orient → Map → Decompose → Encode → Retrieve → Space → Drill → Apply → Teach → Maintain), plus a Stage 11, *Expand* (from learning to creating), with three tracks (explore / build / exam-sprint) to adapt the stages to your goal. Every method is tagged with an evidence grade (A/B/C/D) citing 288 tracked references; every stage ships with open-source tools (Anki+FSRS, Obsidian, Exercism, Lean 4, …), a checklist, common myths, and safe-AI rules. Full English edition: [README.en.md](./README.en.md).
+**The Fuxi Framework — Everything Can Be Learned.** A universal, evidence-graded learning methodology organized as a 10-stage timeline (Orient → Map → Decompose → Encode → Retrieve → Space → Drill → Apply → Teach → Maintain), plus a Stage 11, *Expand* (from learning to creating), with three tracks (explore / build / exam-sprint) to adapt the stages to your goal. Every method is tagged with an evidence grade (A/B/C/D) citing 339 tracked references; every stage ships with open-source tools (Anki+FSRS, Obsidian, Exercism, Lean 4, …), a checklist, common myths, and safe-AI rules. Full English edition: [README.en.md](./README.en.md).
 
 ---
 
