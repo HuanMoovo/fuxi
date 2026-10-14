@@ -75,4 +75,4 @@ Positive proof it *can* work: a well-designed AI tutor produced 0.73–1.3 SD ga
 
 Add a **reference**, a **tool**, or a **correction** via [issue templates](https://github.com/HuanMoovo/fuxi/issues/new/choose) — see [CONTRIBUTING.md](./CONTRIBUTING.md). Code: MIT; docs & diagrams: CC BY 4.0.
 
-<sub>Verified 2026-10-03 · Evidence grades are this project's synthesis, not journal ratings.</sub>
+Verified 2026-10-03 · Evidence grades are this project's synthesis, not journal ratings.

@@ -36,11 +36,11 @@
 
 - [为什么需要这个框架](#为什么需要这个框架)
 - [十阶时间线](#十阶时间线)
+- [三大路线：先选走法](#三大路线先选走法)
+- [立即开始（30 分钟行动版）](#立即开始30-分钟行动版)
 - [引擎：三恒 · 两尺 · 一原则](#引擎三恒--两尺--一原则)
 - [证据底座](#证据底座)
 - [开源工具链](#开源工具链)
-- [三大路线：先选走法](#三大路线先选走法)
-- [立即开始（30 分钟行动版）](#立即开始30-分钟行动版)
 - [AI 副驾协议](#ai-副驾协议)
 - [常见误区](#常见误区)
 - [仓库导航](#仓库导航)
@@ -90,6 +90,30 @@
 
 ---
 
+## 三大路线：先选走法
+
+[![三轨适配](docs/assets/fuxi-paths.svg)](docs/assets/fuxi-paths.svg)
+
+| 路线 | 适用 | 重心阶段 | 策略 |
+|------|------|----------|------|
+| 探索轨 | 无目标 · 想了解 | ②③④⑤ | 结构化漫游，随手建卡 |
+| 实战轨 | 有交付目标 | ①③⑦⑧（图后补）| 先粗框架 → 直接做 → 缺啥补啥 |
+| 冲刺轨 | 考试 / 硬截止 | ①⑤⑥⑦ | 考纲倒推地图，模考即检索 |
+
+含 **五大领域适配**（语言/编程/数学/乐器运动/考试）与 **30 天启动模板**：[docs/paths.md](./docs/paths.md)
+
+---
+
+## 立即开始（30 分钟行动版）
+
+1. **5 分钟**：从上面的表格里选一条路线，记下你的重心阶段。
+2. **10 分钟**：填一份 [学习契约](./templates/learning-contract.md)（目标只写 3 个可验证结果）。
+3. **10 分钟**：画一版 [领域地图草稿](./docs/stages/02-map.md)（丑没关系，结构比美观重要）。
+4. **5 分钟**：为今天学的 1 个知识点做 [3 张卡片](./templates/card-rules.md)，装进 [Anki + FSRS](https://github.com/open-spaced-repetition/fsrs4anki)。
+5. **明天**：开始 25 分钟/天的[极简节律](./docs/paths.md#4-每日--每周节律样板)，一周后做第一次空白纸回忆。
+
+---
+
 ## 引擎：三恒 · 两尺 · 一原则
 
 [![伏羲引擎](docs/assets/fuxi-engine.svg)](docs/assets/fuxi-engine.svg)
@@ -129,30 +153,6 @@
 - **语言学习**：[Yomitan](https://github.com/yomidevs/yomitan) · [asbplayer](https://github.com/killergerbah/asbplayer) · [Whisper](https://github.com/openai/whisper) …
 - **习惯与执行**：[Habitica](https://github.com/HabitRPG/habitica) · [Loop](https://github.com/iSoron/uhabits) · [Super Productivity](https://github.com/johannesjo/super-productivity) …
 - **AI 学习助手**：[Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) · [Ollama](https://github.com/ollama/ollama) · [llama.cpp](https://github.com/ggml-org/llama.cpp) …
-
----
-
-## 三大路线：先选走法
-
-[![三轨适配](docs/assets/fuxi-paths.svg)](docs/assets/fuxi-paths.svg)
-
-| 路线 | 适用 | 重心阶段 | 策略 |
-|------|------|----------|------|
-| 探索轨 | 无目标 · 想了解 | ②③④⑤ | 结构化漫游，随手建卡 |
-| 实战轨 | 有交付目标 | ①③⑦⑧（图后补）| 先粗框架 → 直接做 → 缺啥补啥 |
-| 冲刺轨 | 考试 / 硬截止 | ①⑤⑥⑦ | 考纲倒推地图，模考即检索 |
-
-含 **五大领域适配**（语言/编程/数学/乐器运动/考试）与 **30 天启动模板**：[docs/paths.md](./docs/paths.md)
-
----
-
-## 立即开始（30 分钟行动版）
-
-1. **5 分钟**：从上面的表格里选一条路线，记下你的重心阶段。
-2. **10 分钟**：填一份 [学习契约](./templates/learning-contract.md)（目标只写 3 个可验证结果）。
-3. **10 分钟**：画一版 [领域地图草稿](./docs/stages/02-map.md)（丑没关系，结构比美观重要）。
-4. **5 分钟**：为今天学的 1 个知识点做 [3 张卡片](./templates/card-rules.md)，装进 [Anki + FSRS](https://github.com/open-spaced-repetition/fsrs4anki)。
-5. **明天**：开始 25 分钟/天的[极简节律](./docs/paths.md#4-每日--每周节律样板)，一周后做第一次空白纸回忆。
 
 ---
 
@@ -266,4 +266,4 @@ fuxi/
 - 代码（`generator/`、站点代码）：[MIT](./LICENSE)
 - 文档与图表（README、`docs/**`、`templates/**`）：[CC BY 4.0](./LICENSE-DOCS.md)
 
-<sub>核验日期 2026-10-03 ｜ 证据分级为本项目综合判断，详见 docs/evidence.md ｜ 把时间变成盟友。</sub>
+核验日期 2026-10-03 ｜ 证据分级为本项目综合判断，详见 docs/evidence.md ｜ 把时间变成盟友。

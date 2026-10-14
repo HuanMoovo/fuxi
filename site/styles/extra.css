@@ -9,8 +9,8 @@
 
 /* 中文舒适阅读：字号、行高、段距 */
 .md-typeset {
-  font-size: 0.84rem;
-  line-height: 1.85;
+  font-size: 0.95rem;
+  line-height: 1.9;
 }
 .md-typeset p {
   margin: 1em 0;

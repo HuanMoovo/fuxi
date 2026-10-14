@@ -37,6 +37,9 @@ STAGES = [
     dict(num=9, name="教学", en="Teach", line="讲给别人听，迁移新场景", chips=["费曼技巧", "类比迁移"], grade="B", era=4),
     dict(num=10, name="维护", en="Maintain", line="低频保养，复利增值", chips=["最低剂量", "教学即维护"], grade="C", era=4),
 ]
+# 总览图：两行描述的手工断行（放大字号后保持单行不超宽）
+LINE2 = {1: ("把「想学」变成", "可执行契约"), 2: ("先见森林：", "画出领域地图"),
+         4: ("用例子与解释", "织进旧知识"), 9: ("讲给别人听，", "迁移新场景")}
 
 
 def esc(s):
@@ -161,67 +164,58 @@ def build_hero():
     # 标题（黄色高亮 + 手写体）
     p.append(rect(58, 92, 560, 78, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 132, "伏羲框架 · 万物皆可学", 52, INK, "700"))
-    p.append(text(80, 184, "The Fuxi Framework — Everything Can Be Learned", 21, INK2))
-    p.append(text(80, 222, "5 纪 10 阶时间线 · 每阶 = 最合适的方法 × 证据等级 × 开源工具 × 过关测试", 20, "#4A5160"))
-    # 右侧标签（纸片）
-    badges = [("十阶时间线", 16), ("三轨适配：探索 / 实战 / 冲刺", 14)]
-    yy = 100
-    for s, size in badges:
-        g, w = chip(1664 - (tw(s, size) + 24), yy, s, size, INK, CARD, CARD_ST, h=32)
-        p.append(g); yy += 46
-    # 证据分级（圈字母）
-    p.append(text(1664 - 296, 236, "证据分级", 14, INK2, "400", "start"))
-    xx = 1664 - 296 + tw("证据分级", 14) + 10
+    p.append(text(80, 184, "The Fuxi Framework — Everything Can Be Learned", 26, INK2))
+    # 证据分级图例（放大版；原右侧纸片标签已移除）
+    _lw = tw("证据分级", 20)
+    sx = 1664 - (_lw + 12 + 4 * 46)
+    p.append(text(sx, 236, "证据分级", 20, INK2, "500", "start"))
+    xx = sx + _lw + 12
     for letter, col in [("A", GRADE["A"]), ("B", GRADE["B"]), ("C", GRADE["C"]), ("D", GRADE["D"])]:
-        p.append(f'<circle cx="{xx+13}" cy="236" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
-        p.append(text(xx + 13, 237, letter, 15, col, "700", "middle"))
-        xx += 34
+        p.append(f'<circle cx="{xx+16}" cy="236" r="16" fill="none" stroke="{col}" stroke-width="2.4"/>')
+        p.append(text(xx + 16, 237, letter, 19, col, "700", "middle"))
+        xx += 46
     # 五纪列
     col_w, gap = 320, 16
     x0 = 60
     for i in range(5):
         cx = x0 + i * (col_w + gap)
-        p.append(rect(cx, 268, col_w, 560, "#FFFFFF55", ERA[i], rx=16, sw=1.6, dash="9 7"))
-        p.append(tape(cx + col_w / 2, 282, ERA[i], -1.5 if i % 2 == 0 else 1.5, w=190, h=34, op=0.22))
-        p.append(text(cx + col_w / 2, 276, f"{ERA_NAMES[i]}", 21, ERA[i], "700", "middle"))
-        p.append(text(cx + col_w / 2, 294, ERA_SUB[i], 13, INK2, "400", "middle"))
+        p.append(rect(cx, 268, col_w, 552, "#FFFFFF55", ERA[i], rx=16, sw=1.6, dash="9 7"))
+        p.append(tape(cx + col_w / 2, 284, ERA[i], -1.5 if i % 2 == 0 else 1.5, w=190, h=36, op=0.22))
+        p.append(text(cx + col_w / 2, 280, f"{ERA_NAMES[i]}", 30, ERA[i], "700", "middle"))
         for j in range(2):
             st = STAGES[i * 2 + j]
-            cy = 320 + j * 248
+            cy = 318 + j * 256
             cw = col_w - 28
-            p.append(paper_card(cx + 14, cy, cw, 224, tape_specs=[(24, 0, st["era"], -14), (cw - 24, 2, st["era"], 12)]))
-            p.append(hand_circle(cx + 14 + 40, cy + 42, 21, ERA[st["era"]]))
-            p.append(text(cx + 14 + 40, cy + 43, str(st["num"]), 20, ERA[st["era"]], "700", "middle"))
-            p.append(text(cx + 14 + 76, cy + 42, st["name"], 29, INK, "700"))
-            p.append(text(cx + 14 + 76, cy + 68, st["en"], 13, INK2, "400", ls="1"))
+            p.append(paper_card(cx + 14, cy, cw, 242, tape_specs=[(24, 0, st["era"], -14), (cw - 24, 2, st["era"], 12)]))
+            p.append(hand_circle(cx + 14 + 44, cy + 50, 24, ERA[st["era"]]))
+            p.append(text(cx + 14 + 44, cy + 51, str(st["num"]), 26, ERA[st["era"]], "700", "middle"))
+            p.append(text(cx + 14 + 90, cy + 50, st["name"], 38, INK, "700"))
             # 证据圈字母
-            gx_ = cx + 14 + cw - 30
-            p.append(f'<circle cx="{gx_}" cy="{cy+42}" r="19" fill="none" stroke="{GRADE[st["grade"]]}" stroke-width="2.4"/>')
-            p.append(text(gx_, cy + 43, st["grade"], 19, GRADE[st["grade"]], "700", "middle"))
-            p.append(text(gx_, cy + 72, "证据", 11, INK2, "400", "middle"))
-            p.append(text(cx + 14 + 30, cy + 108, st["line"], 19, "#454C59"))
-            cxx = cx + 14 + 18
-            for c in st["chips"]:
-                g2, w2 = chip(cxx, cy + 134, c, 15, ERA[st["era"]], CARD, ERA[st["era"]] + "88", h=30)
-                p.append(g2)
-                cxx += w2 + 9
+            gx_ = cx + 14 + cw - 34
+            p.append(f'<circle cx="{gx_}" cy="{cy+50}" r="23" fill="none" stroke="{GRADE[st["grade"]]}" stroke-width="2.8"/>')
+            p.append(text(gx_, cy + 51, st["grade"], 24, GRADE[st["grade"]], "700", "middle"))
+            l1, l2 = LINE2.get(st["num"], (st["line"], None))
+            p.append(text(cx + 14 + 26, cy + 118, l1, 23, "#454C59"))
+            if l2:
+                p.append(text(cx + 14 + 26, cy + 150, l2, 23, "#454C59"))
+            p.append(text(cx + 14 + 26, cy + 198, " · ".join(st["chips"]), 20, INK2, "500"))
             if j == 0:
-                p.append(doodle_arrow(cx + col_w / 2, cy + 226, cx + col_w / 2, cy + 246, INK2, 1.8, 5))
-    # 底部：索引卡主干
-    by = 872
-    p.append(paper_card(60, by - 32, W - 120, 76, tape_specs=[(90, 0, 0, -8), (W - 210, 74, 2, 8)]))
+                p.append(doodle_arrow(cx + col_w / 2, cy + 248, cx + col_w / 2, cy + 256, INK2, 1.8, 4))
+    # 底部：索引卡主干（说明并入卡内）
+    by = 896
+    p.append(paper_card(60, 828, W - 120, 96, tape_specs=[(90, 0, 0, -8), (W - 210, 92, 2, 8)]))
+    p.append(text(W / 2, 862, "主干流向：上一阶的产出，是下一阶的输入", 19, INK2, "500", "middle"))
     step = (W - 280) / 9
     for i in range(10):
         px = 140 + i * step
         col = ERA[STAGES[i]["era"]]
-        p.append(f'<circle cx="{px:.0f}" cy="{by+4}" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
-        p.append(text(px, by + 5, str(i + 1), 13, col, "700", "middle"))
+        p.append(f'<circle cx="{px:.0f}" cy="{by}" r="16" fill="none" stroke="{col}" stroke-width="2.4"/>')
+        p.append(text(px, by + 1, str(i + 1), 17, col, "700", "middle"))
         if i < 9:
-            p.append(f'<line x1="{px + 18:.0f}" y1="{by+4}" x2="{px + step - 18:.0f}" y2="{by+4}" stroke="{INK2}" stroke-width="1.6" stroke-dasharray="1 0"/>')
-            p.append(f'<path d="M {px+step-24:.0f} {by-1} L {px+step-16:.0f} {by+4} L {px+step-24:.0f} {by+9}" fill="none" stroke="{INK2}" stroke-width="1.6"/>')
-    p.append(text(W / 2, by - 44, "主干流向：上一阶的产出，是下一阶的输入", 16, INK2, "400", "middle"))
-    p.append(text(70, H - 18, "启发式路线图 · 经验权重 · 证据分级为本项目综合判断（详见 docs/evidence.md）", 14, "#8A8F7A"))
-    p.append(text(W - 64, H - 18, "github.com/HuanMoovo/fuxi", 14, "#8A8F7A", "400", "end"))
+            p.append(f'<line x1="{px + 22:.0f}" y1="{by}" x2="{px + step - 22:.0f}" y2="{by}" stroke="{INK2}" stroke-width="1.8" stroke-dasharray="1 0"/>')
+            p.append(f'<path d="M {px+step-30:.0f} {by-6} L {px+step-20:.0f} {by} L {px+step-30:.0f} {by+6}" fill="none" stroke="{INK2}" stroke-width="1.8"/>')
+    p.append(text(70, H - 18, "启发式路线图 · 经验权重 · 证据分级为本项目综合判断（详见 docs/evidence.md）", 17, "#8A8F7A"))
+    p.append(text(W - 64, H - 18, "github.com/HuanMoovo/fuxi", 17, "#8A8F7A", "400", "end"))
     p.append("</svg>")
     return "".join(p)
 
@@ -231,94 +225,80 @@ def build_engine():
     W, H = 1560, 1030
     p = [svg_open(W, H, "伏羲引擎：十阶环 · 三恒 · 两把尺 · 一原则（复古笔记本风）")]
     p.append(deco_page(W, H, 2, 10))
-    p.append(rect(64, 96, 560, 46, YELLOW, None, rx=8, op="0.5"))
-    p.append(text(78, 120, "伏羲引擎 · 十阶环", 36, INK, "700"))
-    p.append(text(78, 168, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 18, INK2))
+    p.append(rect(64, 96, 620, 52, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 124, "伏羲引擎 · 十阶环", 40, INK, "700"))
+    p.append(text(78, 174, "Learning OS：三恒约束 × 两把尺 × 一原则，套在十阶主干上", 22, INK2))
 
     cx, cy, r_out, r_in = 500, 600, 300, 218
     for i in range(10):
         mid = 90 - (i * 36 + 18)
         col = ERA[STAGES[i]["era"]]
         p.append(f'<path d="{seg_path(mid, 34, r_in, r_out, cx, cy)}" fill="{col}" opacity="0.92" stroke="{PAPER}" stroke-width="2.5"/>')
-        lx, ly = polar(cx, cy, r_out + 52, mid)
+        lx, ly = polar(cx, cy, r_out + 56, mid)
         anchor = "start" if lx > cx + 30 else ("end" if lx < cx - 30 else "middle")
         st = STAGES[i]
-        p.append(text(lx, ly - 9, f'{st["num"]} · {st["name"]}', 22, INK, "700", anchor))
-        p.append(text(lx, ly + 14, st["en"], 13, INK2, "400", anchor))
-    p.append(stamp(cx, cy, 110, "伏羲", -8, RED, "#FFFFFF", "#C0392B"))
-    chips3 = [(152, "认知负荷预算", "#CFDFEA", "#2E6E8E"), (28, "动机与自我调节", "#DCCFE8", "#6E4E9E"), (270, "反馈回路", "#F0D3C0", "#C97A3D")]
-    for ang, label, tcol, fcol in chips3:
-        lx, ly = polar(cx, cy, 150, ang)
-        w = tw(label, 14) + 26
-        g = f'<rect x="{lx-w/2:.0f}" y="{ly-17:.0f}" width="{w:.0f}" height="34" fill="{tcol}" opacity="0.95" rx="4" transform="rotate({"2" if ang!=270 else "-2"} {lx:.0f} {ly:.0f})"/>'
-        g += text(lx, ly + 1, label, 14, "#3A3A32", "600", "middle")
-        p.append(g)
-    p.append(text(cx, cy + 118, "十阶主干：上一阶输出 = 下一阶输入", 14, "#4A5160", "400", "middle"))
-    p.append(text(cx, 963, "① 立志 → ② 建图 → ③ 拆解 → ④ 编码 → ⑤ 检索 → ⑥ 间隔 → ⑦ 精练 → ⑧ 实战 → ⑨ 教学 → ⑩ 维护", 16, "#4A5160", "500", "middle"))
+        p.append(text(lx, ly, f'{st["num"]} · {st["name"]}', 26, INK, "700", anchor))
+    p.append(stamp(cx, cy, 122, "伏羲", -8, RED, "#FFFFFF", "#C0392B"))
+    p.append(text(cx, cy + 128, "十阶主干：上一阶输出 = 下一阶输入", 18, "#4A5160", "500", "middle"))
 
     px, pw = 980, 528
     # 三恒
     y = 150
-    p.append(paper_card(px, y, pw, 238, tape_specs=[(70, 0, 0, -10), (pw - 60, 2, 1, 9)]))
-    p.append(text(px + 24, y + 36, "三恒 · 永远在线的约束", 22, INK, "700"))
+    p.append(paper_card(px, y, pw, 262, tape_specs=[(70, 0, 0, -10), (pw - 60, 2, 1, 9)]))
+    p.append(text(px + 24, y + 40, "三恒 · 永远在线的约束", 26, INK, "700"))
     rows = [("认知负荷预算", "工作记忆有限；新手先给示范与引导 [C15][C16]", "#2E6E8E"),
             ("动机与自我调节", "自主 · 胜任 · 联结；目标 + 计划 [C34][C36]", "#6E4E9E"),
             ("反馈回路", "即时、具体、可行动；无反馈=无精练 [C46][C47]", "#C97A3D")]
     for i, (t1, t2, col) in enumerate(rows):
-        yy = y + 82 + i * 50
-        p.append(f'<circle cx="{px + 34}" cy="{yy}" r="7" fill="{col}"/>')
-        p.append(text(px + 52, yy, t1, 18, INK, "600"))
-        p.append(text(px + 52 + tw(t1, 18) + 12, yy + 1, t2, 14, INK2))
+        yy = y + 90 + i * 58
+        p.append(f'<circle cx="{px + 34}" cy="{yy}" r="8" fill="{col}"/>')
+        p.append(text(px + 54, yy, t1, 22, INK, "600"))
+        p.append(text(px + 54, yy + 28, t2, 16, INK2))
     # 两把尺
-    y = 412
-    p.append(paper_card(px, y, pw, 208, tape_specs=[(120, 0, 2, 10)]))
-    p.append(text(px + 24, y + 36, "两把尺 · 测什么", 22, INK, "700"))
-    p.append(text(px + 24, y + 76, "表现（当下手感）", 16, "#B06A2A"))
-    p.append(rect(px + 24, y + 90, 250, 15, "#E8C48A", None, rx=4))
-    p.append(text(px + 288, y + 98, "→ 会骗人", 14, INK2))
-    p.append(text(px + 24, y + 132, "学习（延迟检索仍会）", 16, "#2E6E8E"))
-    p.append(rect(px + 24, y + 146, 250, 15, "#7FB3D5", None, rx=4))
-    p.append(text(px + 288, y + 154, "→ 才是裁判", 14, INK2))
-    p.append(text(px + 24, y + 184, "流畅感是骗子；一周后再测才作数 [C01][C05]", 14, INK2))
+    y = 432
+    p.append(paper_card(px, y, pw, 216, tape_specs=[(120, 0, 2, 10)]))
+    p.append(text(px + 24, y + 40, "两把尺 · 测什么", 26, INK, "700"))
+    p.append(text(px + 24, y + 84, "表现（当下手感）", 20, "#B06A2A"))
+    p.append(rect(px + 24, y + 98, 250, 16, "#E8C48A", None, rx=4))
+    p.append(text(px + 290, y + 107, "→ 会骗人", 18, INK2))
+    p.append(text(px + 24, y + 142, "学习（延迟检索仍会）", 20, "#2E6E8E"))
+    p.append(rect(px + 24, y + 156, 250, 16, "#7FB3D5", None, rx=4))
+    p.append(text(px + 290, y + 165, "→ 才是裁判", 18, INK2))
+    p.append(text(px + 24, y + 196, "流畅感是骗子；一周后再测才作数 [C01][C05]", 16, INK2))
     # 一原则
-    y = 644
-    p.append(paper_card(px, y, pw, 236, tape_specs=[(80, 0, 1, -9), (pw - 90, 234, 0, 8)]))
-    p.append(text(px + 24, y + 36, "一原则 · ICAP 主动参与", 22, INK, "700"))
+    y = 668
+    p.append(paper_card(px, y, pw, 256, tape_specs=[(80, 0, 1, -9), (pw - 90, 254, 0, 8)]))
+    p.append(text(px + 24, y + 40, "一原则 · ICAP 主动参与", 26, INK, "700"))
     lv = [("I 交互", "与人/系统讨论、互教", 1.0, "#9CC5A1"), ("C 建构", "自我解释、画图、生成", 0.78, "#A8C6E8"),
           ("A 主动", "操作、标注、复制", 0.5, "#C7B8E8"), ("P 被动", "看、听、划重点", 0.22, "#E8B4B4")]
     for i, (t1, t2, f, col) in enumerate(lv):
-        yy = y + 76 + i * 40
+        yy = y + 86 + i * 44
         bw = 250 * f
-        p.append(rect(px + 24, yy - 12, bw, 24, col, "#3A3A3A22", rx=4, sw=1))
-        p.append(text(px + 34, yy, t1, 15, "#33392F", "700"))
-        p.append(text(px + 24 + max(bw, 132) + 16, yy, t2, 14, INK2))
+        p.append(rect(px + 24, yy - 13, bw, 26, col, "#3A3A3A22", rx=4, sw=1))
+        p.append(text(px + 34, yy, t1, 19, "#33392F", "700"))
+        p.append(text(px + 24 + max(bw, 150) + 16, yy, t2, 17, INK2))
     # 分级图例
-    p.append(text(px + 24, 928, "证据分级：", 15, INK2))
-    xx = px + 24 + tw("证据分级：", 15)
+    p.append(text(px + 24, 958, "证据分级：", 19, INK2))
+    xx = px + 24 + tw("证据分级：", 19)
     for letter, col, lab_ in [("A", GRADE["A"], " 强"), ("B", GRADE["B"], " 中"), ("C", GRADE["C"], " 弱/条件"), ("D", GRADE["D"], " 证伪")]:
-        p.append(f'<circle cx="{xx+13}" cy="928" r="13" fill="none" stroke="{col}" stroke-width="2"/>')
-        p.append(text(xx + 13, 929, letter, 15, col, "700", "middle"))
-        p.append(text(xx + 30, 929, lab_, 13, INK2))
-        xx += 30 + tw(lab_, 13) + 16
-    p.append(text(70, H - 18, "三恒为本项目综合框架，具体证据见 docs/evidence.md", 14, "#8A8F7A"))
+        p.append(f'<circle cx="{xx+15}" cy="958" r="15" fill="none" stroke="{col}" stroke-width="2.4"/>')
+        p.append(text(xx + 15, 959, letter, 18, col, "700", "middle"))
+        p.append(text(xx + 36, 959, lab_, 16, INK2))
+        xx += 36 + tw(lab_, 16) + 18
+    p.append(text(70, H - 18, "三恒为本项目综合框架，具体证据见 docs/evidence.md", 17, "#8A8F7A"))
     p.append("</svg>")
     return "".join(p)
 
 
 # ---------------------------------------------------------------- paths
 def build_paths():
-    W, H = 1700, 970
+    W, H = 1700, 760
     p = [svg_open(W, H, "三轨适配：探索 / 实战 / 冲刺（复古笔记本风）")]
     p.append(deco_page(W, H, 3, 10))
-    p.append(rect(64, 96, 680, 46, YELLOW, None, rx=8, op="0.5"))
-    p.append(text(78, 120, "三轨适配 · 先选路线，再分配阶段权重", 36, INK, "700"))
-    p.append(text(78, 168, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 18, INK2))
-    y = 200
-    qs = [("只是好奇 → 探索轨", ERA[1]), ("有交付目标 → 实战轨", ERA[3]), ("有截止日/考试 → 冲刺轨", ERA[4])]
-    xx = 78
-    for q, col in qs:
-        g, w = chip(xx, y, q, 16, col, CARD, col + "99", h=34, pad=15)
-        p.append(g); xx += w + 16
+    p.append(rect(64, 96, 760, 54, YELLOW, None, rx=8, op="0.5"))
+    p.append(text(78, 124, "三轨适配 · 先选路线，再分配阶段权重", 40, INK, "700"))
+    p.append(text(78, 176, "同一个十阶主干，不同走法；权重为经验值，见 docs/paths.md", 22, INK2))
+    # （路线胶囊已移除：与轨道行名称/说明重复）
 
     lanes = [
         ("探索轨", "无目标 · 想了解", [0.16, 0.9, 0.9, 0.9, 0.9, 0.45, 0.16, 0.16, 0.45, 0.16], ERA[1]),
@@ -326,16 +306,16 @@ def build_paths():
         ("冲刺轨", "考试 / 证书 / 硬截止", [0.9, 0.45, 0.45, 0.45, 0.9, 0.9, 0.9, 0.45, 0.16, 0.16], ERA[4]),
     ]
     gx, gw, ggap = 330, 108, 12
-    ly = 330
+    ly = 310
     for i in range(10):
         x = gx + i * (gw + ggap)
-        p.append(text(x + gw / 2, ly - 64, f'{i + 1}', 20, ERA[STAGES[i]["era"]], "700", "middle"))
-        p.append(text(x + gw / 2, ly - 38, STAGES[i]["name"], 15, INK2, "400", "middle"))
+        p.append(text(x + gw / 2, ly - 66, f'{i + 1}', 26, ERA[STAGES[i]["era"]], "700", "middle"))
+        p.append(text(x + gw / 2, ly - 34, STAGES[i]["name"], 20, INK2, "500", "middle"))
     for li, (name, sub, weights, col) in enumerate(lanes):
         y = ly + li * 130
         p.append(paper_card(64, y, 1506, 114, tape_specs=[(64, 0, li % 3, -10)] if li == 0 else [(1506 - 60, 112, (li + 1) % 3, 9)]))
-        p.append(text(88, y + 44, name, 24, col, "700"))
-        p.append(text(88, y + 76, sub, 14, INK2))
+        p.append(text(88, y + 42, name, 30, col, "700"))
+        p.append(text(88, y + 78, sub, 18, INK2))
         for i, wgt in enumerate(weights):
             x = gx + i * (gw + ggap)
             c = ERA[STAGES[i]["era"]]
@@ -343,22 +323,14 @@ def build_paths():
             p.append(rect(x, y + 15, gw, 84, c, "#3A3A3A22", rx=6, sw=1, op=op))
             tcol = "#FFFFFF" if wgt >= 0.8 else (INK if wgt >= 0.4 else "#8A8F7A")
             lab = "重" if wgt >= 0.8 else ("中" if wgt >= 0.4 else "轻")
-            p.append(text(x + gw / 2, y + 58, lab, 21, tcol, "700", "middle"))
-    my = 752
-    ys_mid = [ly + li * 130 + 57 for li in range(3)]
-    for ym in ys_mid:
-        p.append(doodle_arrow(1578, ym, 1622, my + 20, INK2, 1.6, 4))
-    p.append(paper_card(64, my, 1586, 82, tape_specs=[(120, 0, 1, -8), (1586 - 130, 80, 2, 8)]))
-    p.append(text(96, my + 32, "共用十阶主干", 21, INK, "700"))
-    p.append(text(96 + tw("共用十阶主干", 21) + 18, my + 33, "①立志 → ②建图 → ③拆解 → ④编码 → ⑤检索 → ⑥间隔 → ⑦精练 → ⑧实战 → ⑨教学 → ⑩维护", 17, "#4A5160"))
-    p.append(text(96, my + 60, "换乘：目标变化就换轨；考试结束降级为低剂量维护，防止技能衰减 [C28]", 14, INK2))
-    lgx = 1230
+            p.append(text(x + gw / 2, y + 59, lab, 28, tcol, "700", "middle"))
+    p.append(text(96, 706, "换乘：目标变化就换轨；考试结束降级为低剂量维护，防止技能衰减 [C28]", 18, INK2))
+    lgx = 1290
     for wgt, lab_ in [("0.85", "重"), ("0.40", "中"), ("0.16", "轻")]:
-        p.append(rect(lgx, my + 28, 16, 16, INK, None, rx=3, op=wgt))
-        p.append(text(lgx + 24, my + 36, lab_, 14, INK2))
-        lgx += 58
-    p.append(text(lgx + 2, my + 36, "（底色调 = 所属纪）", 13, "#8A8F7A"))
-    p.append(text(W / 2, H - 18, "权重为经验值、非实验结论；方法与证据见 docs/stages 与 docs/evidence.md", 14, "#8A8F7A", "400", "middle"))
+        p.append(rect(lgx, 694, 20, 20, INK, None, rx=3, op=wgt))
+        p.append(text(lgx + 30, 705, lab_, 20, INK2))
+        lgx += 72
+    p.append(text(W / 2, H - 18, "权重为经验值、非实验结论；方法与证据见 docs/stages 与 docs/evidence.md", 17, "#8A8F7A", "400", "middle"))
     p.append("</svg>")
     return "".join(p)
 
