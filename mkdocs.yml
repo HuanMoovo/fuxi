@@ -64,7 +64,13 @@ markdown_extensions:
 extra_css:
   - styles/extra.css
 
-copyright: 文档 CC BY 4.0 · 代码 MIT ｜ 在线主页：https://HuanMoovo.github.io/fuxi/
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HuanMoovo/fuxi
+      name: GitHub 仓库
+
+copyright: 文档 CC BY 4.0 · 代码 MIT ｜ <a href="https://github.com/HuanMoovo/fuxi">GitHub 仓库</a> ｜ <a href="https://HuanMoovo.github.io/fuxi/">在线主页</a>
 
 nav:
   - 首页: index.md
@@ -129,3 +135,4 @@ nav:
   - 关于:
       - 更新日志: changelog.md
       - 贡献指南: contributing.md
+  - GitHub 仓库: https://github.com/HuanMoovo/fuxi
