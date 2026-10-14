@@ -155,13 +155,14 @@ def main():
     if len(uniq) > 40:
         print("  ... 另有 %d 种" % (len(uniq) - 40))
 
-    # nav 覆盖校验
+    # nav 覆盖校验（用 mkdocs 自带的 YAML 加载器，支持 !!python/... 标签）
+    cfg_path = os.path.join(ROOT, "mkdocs.yml")
     try:
-        import yaml
+        from mkdocs.utils import yaml_load
+        cfg = yaml_load(open(cfg_path, encoding="utf-8"))
     except ImportError:
-        print("!! 需要 pyyaml（随 mkdocs 安装）")
-        return 1
-    cfg = yaml.safe_load(open(os.path.join(ROOT, "mkdocs.yml"), encoding="utf-8"))
+        from mkdocs.config import load_config
+        cfg = load_config(config_file=cfg_path)
     nav_paths = []
 
     def walk(node):
