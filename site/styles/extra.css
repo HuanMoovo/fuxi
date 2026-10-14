@@ -1,0 +1,48 @@
+/* 伏羲框架 · 书籍版（Material for MkDocs）—— 阅读优先排版 + 天蓝色细节 */
+:root {
+  --md-text-font: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --md-code-font: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
+  --fx-sky: #03a9f4;
+  --fx-sky-deep: #0288d1;
+  --fx-sky-light: #b3e5fc;
+}
+
+/* 中文舒适阅读：字号、行高、段距 */
+.md-typeset {
+  font-size: 0.84rem;
+  line-height: 1.85;
+}
+.md-typeset p {
+  margin: 1em 0;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+}
+.md-typeset h2 {
+  margin-top: 1.5em;
+}
+
+/* 天蓝色细节：表头、引用、链接 */
+.md-typeset table:not([class]) th {
+  background: #e1f5fe;
+  color: #01579b;
+}
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--fx-sky);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background: rgba(3, 169, 244, 0.14);
+  color: var(--fx-sky-light);
+}
+.md-header {
+  box-shadow: 0 0.15rem 0.5rem rgba(2, 136, 209, 0.28);
+}
+
+/* 宽表格：横向滚动，窄屏不爆版 */
+.md-typeset table:not([class]) {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}

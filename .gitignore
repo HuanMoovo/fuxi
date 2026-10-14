@@ -8,3 +8,7 @@ docs/book/*.html
 docs/book/full-assets/
 docs/pdf/*.pdf
 generator/__pycache__/
+__pycache__/
+.venv-mkdocs/
+site/build/
+site/dist/

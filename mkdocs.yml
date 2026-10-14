@@ -1,0 +1,131 @@
+# 伏羲框架 · 书籍版（Material for MkDocs）
+# 构建：python site/prepare.py && python -m mkdocs build --strict
+site_name: 伏羲框架 · 万物皆可学
+site_description: 十阶时间线 × 证据分级 × 开源工具链 —— 适合阅读的书籍版（Material · 天蓝）
+site_url: https://HuanMoovo.github.io/fuxi/book/
+docs_dir: site/build
+site_dir: site/dist
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  logo: assets/fuxi-logo.svg
+  favicon: assets/fuxi-mark.svg
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 2-3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - styles/extra.css
+
+copyright: 文档 CC BY 4.0 · 代码 MIT ｜ 在线主页：https://HuanMoovo.github.io/fuxi/
+
+nav:
+  - 首页: index.md
+  - 项目主页: repo-readme.md
+  - 为什么需要这个框架:
+      - 全解 · 立项论证: why.md
+      - ① 方法碎片化: why/fragmentation.md
+      - ② 伪科学横行: why/pseudoscience.md
+      - ③ 爽感陷阱: why/fluency-trap.md
+      - ④ AI 时代的新风险: why/ai-risks.md
+      - 理论框架全景（53 个）: why/theories.md
+      - 学习方法全景（50+ 个）: why/methods.md
+  - 十阶时间线:
+      - 第 1 阶 · 立志: stages/01-orient.md
+      - 第 2 阶 · 建图: stages/02-map.md
+      - 第 3 阶 · 拆解: stages/03-decompose.md
+      - 第 4 阶 · 编码: stages/04-encode.md
+      - 第 5 阶 · 检索: stages/05-retrieve.md
+      - 第 6 阶 · 间隔: stages/06-space.md
+      - 第 7 阶 · 精练: stages/07-drill.md
+      - 第 8 阶 · 实战: stages/08-apply.md
+      - 第 9 阶 · 教学: stages/09-teach.md
+      - 第 10 阶 · 维护: stages/10-maintain.md
+      - 第 11 阶 · 拓界: stages/11-expand.md
+  - 拓界篇 · 五大赛道:
+      - 理论整合: expand/integration.md
+      - 创业赛道: expand/entrepreneurship.md
+      - 人际赛道: expand/relationships.md
+      - 长寿赛道: expand/longevity.md
+      - 未来纪元: expand/futures.md
+  - 领域深潜:
+      - 系列首页: domains/index.md
+      - 语言学习: domains/language.md
+      - 编程学习: domains/programming.md
+      - 数学学习: domains/math.md
+      - 技能学习（乐器 · 运动）: domains/skills.md
+      - 考试与应试: domains/exam.md
+      - 学习的身体: domains/body.md
+      - 阅读: domains/reading.md
+      - 写作: domains/writing.md
+      - 艺术与创造: domains/arts.md
+      - 医学与临床: domains/clinical.md
+  - 证据与体系:
+      - 证据底座（30 条结论）: evidence.md
+      - 误区辟谣库（24 条）: myths.md
+      - 局限与边界: limitations.md
+      - 路线与领域: paths.md
+      - 常见问题: faq.md
+      - 开源工具链: tools.md
+      - 迭代路线图: roadmap.md
+  - 资源目录:
+      - 学习友链目录: awesome-learning.md
+      - 人生时间线目录: awesome-lifespan.md
+  - 全量文献库（C01–C339）: references.md
+  - 模板与手册:
+      - 精读手册 · 精简版: book/fuxi-handbook-lite-zh.md
+      - 学习契约: doc-templates/learning-contract.md
+      - 周检视: doc-templates/weekly-review.md
+      - 错题日志: doc-templates/error-log.md
+      - 卡片规则: doc-templates/card-rules.md
+      - 十阶过关清单: doc-templates/stage-checklist.md
+  - 关于:
+      - 更新日志: changelog.md
+      - 贡献指南: contributing.md
