@@ -3,6 +3,8 @@
 site_name: 伏羲框架 · 万物皆可学
 site_description: 十阶时间线 × 证据分级 × 开源工具链 —— 适合阅读的书籍版（Material · 天蓝）
 site_url: https://HuanMoovo.github.io/fuxi/book/
+repo_url: https://github.com/HuanMoovo/fuxi
+repo_name: HuanMoovo/fuxi
 docs_dir: site/build
 site_dir: site/dist
 use_directory_urls: true
@@ -13,6 +15,8 @@ theme:
   logo: assets/fuxi-logo.svg
   favicon: assets/fuxi-mark.svg
   font: false
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
