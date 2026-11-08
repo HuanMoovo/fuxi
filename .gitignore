@@ -8,6 +8,7 @@ docs/book/*.html
 docs/book/full-assets/
 docs/pdf/*.pdf
 generator/__pycache__/
+generator/.awesome_auto.lock
 __pycache__/
 .venv-mkdocs/
 site/build/

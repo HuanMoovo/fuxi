@@ -10,7 +10,7 @@
 
 ## 为什么放在这里（认知机制）
 
-知识不用会退：技能随停练时间系统性衰减（技能衰减元综述，[C28] 文本引），遗忘曲线也已被成功复现 [C14]。但维护不需要「重新学一遍」——分布练习的元分析（254 项实验、约 1.4 万名被试）显示间隔复习效率极高 [C04]，最优间隔约为目标保持期的 10–20% [C06]，维护剂量远比直觉低。第二根杠杆是输出：知识要在实践社区中被使用才能保持活性 [C48]，而「预期要教」效应让答疑本身成为高质量复习 [C25]。制度化的维护靠自我调节循环——前瞻、执行、自省 [C37]，周期回顾把「感觉还行」换成可查清单。Zettelkasten 式的数字花园提供复利结构：越维护、链接越多、提取越容易 [C49]。完成一轮十阶，把同一套结构用在下一个领域，即螺旋重启。
+知识不用会退：技能随停练时间系统性衰减（技能衰减元综述，[C28] 文本引），遗忘曲线也已被成功复现 [C14]。但维护不需要「重新学一遍」——元分析显示，把练习分散到多个时段有助于长期保持 [C04]。适合的复习间隔随测验延迟而变 [C06]，可以根据延迟自测的结果调整。第二根杠杆是输出：知识要在实践社区中被使用才能保持活性 [C48]，而「预期要教」效应让答疑本身成为高质量复习 [C25]。制度化的维护靠自我调节循环——前瞻、执行、自省 [C37]，周期回顾把「感觉还行」换成可查清单。Zettelkasten 式的数字花园提供复利结构：越维护、链接越多、提取越容易 [C49]。完成一轮十阶，把同一套结构用在下一个领域，即螺旋重启。
 
 ## 核心方法（方法卡）
 
@@ -19,7 +19,7 @@
 ### 最低维护剂量（Minimum Effective Maintenance Dose）
 - **机制**：记忆强度随时间衰减，但长间隔复习能以极小成本把知识拉回；技能停练则系统性衰减（[C28] 文本引）。
 - **怎么做**：
-  1. 旧卡片调度交给 FSRS 自动排长间隔（月/季），不手动拍脑袋 [C26]；
+  1. 旧卡片调度交给 FSRS 自动排长间隔（月/季）[C27]；
   2. 每季度自测一次：随机抽 5–10 张旧卡 + 1 个综合小任务；
   3. 每月固定一个 15–30 分钟「保养时间块」，宁可少而准；
   4. 对想保留但不常用的技能，设「最低可见性」动作（每次一句话复盘）；
@@ -113,11 +113,11 @@
 
 ## 参考
 - [C04] Cepeda et al. (2006, Psychological Bulletin)：分布练习元分析（254 项实验、约 1.4 万名被试）。https://pubmed.ncbi.nlm.nih.gov/16719566/
-- [C06] Cepeda et al. (2008, Psychological Science)：最优间隔约为目标保持期的 10–20%。https://doi.org/10.1111/j.1467-9280.2008.02209.x
+- [C06] Cepeda et al. (2008, Psychological Science)：在事实记忆实验中，测验延迟越长，学习到复习的最佳间隔越长，但它占测验延迟的比例越小。https://doi.org/10.1111/j.1467-9280.2008.02209.x
 - [C11] Gick & Holyoak (1983)：图式归纳与类比迁移。https://www.semanticscholar.org/paper/7030688c1bd73740c5b588dc75a74c4db0bd4972
 - [C14] Murre & Dros (2015, PLOS ONE)：艾宾浩斯遗忘曲线复现。https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644
 - [C25] Nestojko et al. (2014)：预期要教 → 学习组织与回忆更好。https://pubmed.ncbi.nlm.nih.gov/25084988/
-- [C26] Ye, Su & Cao (2022, KDD)：FSRS 调度器。https://dl.acm.org/doi/10.1145/3534678.3539081
+- [C27] FSRS4Anki 与算法说明。<https://github.com/open-spaced-repetition/fsrs4anki>
 - [C28] （文本引）Arthur et al. (1998)：技能衰减元综述。 <https://doi.org/10.1207/s15327043hup1101_3>
 - [C37] Zimmerman (2002)：自我调节学习循环。https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf
 - [C48] Lave & Wenger (1991)：情境学习与合法边缘参与。https://www.cambridge.org/highereducation/books/situated-learning/6915ABD21C8E4619F750A4D4ACA616CD

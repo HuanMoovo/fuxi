@@ -5,7 +5,9 @@
 可选环境变量：GITHUB_TOKEN（提高 API 限额）、FUXI_PROXY（默认 http://127.0.0.1:7897）。
 收录标准：与「学习」直接相关、社区活跃、链接可访问；不收录盗版资源。
 """
-import os, json, urllib.request, concurrent.futures as cf
+import os, json, sys, urllib.request, concurrent.futures as cf
+from http.client import HTTPException
+from urllib.error import HTTPError
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -22,8 +24,10 @@ def gh(path):
     try:
         with OP.open(req, timeout=30) as r:
             return json.loads(r.read().decode())
-    except Exception as e:
-        return {"__err__": type(e).__name__ + str(getattr(e, "code", ""))}
+    except HTTPError as error:
+        if error.code == 404:
+            return {"__err__": "HTTPError404"}
+        raise
 
 def fmt_star(n):
     if n >= 10000: return "\u2605%.1f\u4e07" % (n / 10000)
@@ -33,9 +37,13 @@ def fmt_star(n):
 def main():
     allrepos = [(n, sl, d, tag) for _, its in DATA for (n, sl, d, tag) in its]
     results = {}
-    with cf.ThreadPoolExecutor(12) as ex:
-        for item, j in ex.map(lambda it: (it, gh("/repos/" + it[1])), allrepos):
-            results[item[1]] = j
+    try:
+        with cf.ThreadPoolExecutor(12) as ex:
+            for item, j in ex.map(lambda it: (it, gh("/repos/" + it[1])), allrepos):
+                results[item[1]] = j
+    except (OSError, ValueError, HTTPException) as error:
+        print(f"GitHub lookup failed; catalog not updated: {error}", file=sys.stderr)
+        return 1
     fails = [(k, v["__err__"]) for k, v in results.items() if "__err__" in v]
     star = {k: (v.get("stargazers_count", 0) if "__err__" not in v else -1) for k, v in results.items()}
     canonical = {k: (v.get("full_name", k) if "__err__" not in v else k) for k, v in results.items()}
@@ -79,4 +87,4 @@ def main():
     print("WRITTEN:", ok, "entries ->", out)
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

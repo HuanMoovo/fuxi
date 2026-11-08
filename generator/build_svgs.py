@@ -342,11 +342,11 @@ def build_spacing():
     p.append(deco_page(W, H, 4, 10))
     p.append(rect(64, 96, 600, 46, YELLOW, None, rx=8, op="0.5"))
     p.append(text(78, 120, "间隔 · 在遗忘边缘复习", 36, INK, "700"))
-    p.append(text(78, 168, "遗忘不是 bug；卡在 R≈0.9 复习，收益/成本最优", 18, INK2))
+    p.append(text(78, 168, "示例：以 90% 回忆概率为目标安排复习", 18, INK2))
     # 左：坐标纸卡片
     ox, oy, pw, ph = 150, 300, 700, 360
     p.append(paper_card(96, 220, 830, 560, tape_specs=[(120, 0, 0, -8), (830 - 130, 558, 2, 8)]))
-    p.append(text(116, 252, "R(t) = e^(−t/S)：每次复习后稳定度 S 增大 → 曲线更平、间隔更长（纵轴局部放大 0.8–1.0）", 14, "#4A5160", "500"))
+    p.append(text(116, 252, "示意模型 R(t) = e^(−t/S)：复习后稳定度 S 增大 → 曲线变平（纵轴局部放大 0.8–1.0）", 14, "#4A5160", "500"))
     gx0, gy0, gx1, gy1 = ox, oy, ox + pw, oy + ph
     for gx in range(int(gx0), int(gx1) + 1, 35):
         p.append(f'<line x1="{gx}" y1="{gy0}" x2="{gx}" y2="{gy1}" stroke="#E1E9F4" stroke-width="1"/>')
@@ -354,7 +354,7 @@ def build_spacing():
         p.append(f'<line x1="{gx0}" y1="{gy}" x2="{gx1}" y2="{gy}" stroke="#E1E9F4" stroke-width="1"/>')
     p.append(f'<line x1="{gx0}" y1="{gy1}" x2="{gx1}" y2="{gy1}" stroke="{INK}" stroke-width="2"/>')
     p.append(f'<line x1="{gx0}" y1="{gy0}" x2="{gx0}" y2="{gy1}" stroke="{INK}" stroke-width="2"/>')
-    p.append(text(ox + pw / 2, oy + ph + 46, "时间（复习间隔逐次增大）→", 16, INK2, "400", "middle"))
+    p.append(text(ox + pw / 2, oy + ph + 46, "时间（示例中复习间隔逐次拉长）→", 16, INK2, "400", "middle"))
     T_MAX = 15.0
     def X(t):
         return ox + (t / T_MAX) * pw
@@ -365,7 +365,7 @@ def build_spacing():
         p.append(text(ox - 12, Y(tick), f"{tick:.1f}", 14, INK2, "400", "end"))
     y09 = Y(0.9)
     p.append(f'<line x1="{ox}" y1="{y09:.1f}" x2="{ox + pw}" y2="{y09:.1f}" stroke="{RED}" stroke-width="1.4" stroke-dasharray="8 6" opacity="0.7"/>')
-    p.append(text(ox + pw - 8, y09 - 16, "R ≈ 0.9：复习触发线", 15, RED, "600", "end"))
+    p.append(text(ox + pw - 8, y09 - 16, "R ≈ 0.9（示例目标）", 15, RED, "600", "end"))
     times = [0.0, 1.0, 3.0, 7.0, 15.0]
     seg_colors = ["#2E6E8E", "#3E7C59", "#6E4E9E", "#B04A5A"]
     for k in range(4):
@@ -394,8 +394,8 @@ def build_spacing():
         p.append(text(px_ + (10 if k == 0 else 0), 542, lab, 15, "#A03028" if k == 3 else RED, "600", "middle"))
     p.append(text(X(0) - 10, 542, "学习", 15, RED, "600", "middle"))
     p.append(f'<line x1="{X(0):.1f}" y1="{Y(1.0) + 12:.1f}" x2="{X(0):.1f}" y2="524" stroke="{RED}" stroke-width="1" opacity="0.3"/>')
-    p.append(text(116, 806, "口径：最佳间隔 ≈ 目标保持期的 10–20% [C06]；254 项实验支持分布练习 [C04]", 14, INK2))
-    p.append(text(W / 2, H - 18, "间隔 = 把时间变成盟友：复习点由算法安排，你只负责检索与评分", 14, "#8A8F7A", "400", "middle"))
+    p.append(text(116, 806, "分布练习有助于保持 [C04]。最佳复习间隔随测验延迟而变 [C06]。", 14, INK2))
+    p.append(text(W / 2, H - 18, "可根据检索表现和复习预算调整间隔", 14, "#8A8F7A", "400", "middle"))
     p.append("</svg>")
     return "".join(p)
 

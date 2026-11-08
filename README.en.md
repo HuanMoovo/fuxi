@@ -35,9 +35,9 @@
 ## Evidence Base — highlights
 
 - Retrieval practice: ~80% vs ~35% recall after one week (retrieval vs restudy). [Karpicke & Roediger 2008](https://doi.org/10.1126/science.1152408)
-- Spaced practice beats massed practice; optimal gap ≈ 10–20% of the target retention interval. [Cepeda et al. 2006](https://pubmed.ncbi.nlm.nih.gov/16719566/) · [2008](https://doi.org/10.1111/j.1467-9280.2008.02209.x)
+- Spaced practice improves retention. In a study of factual recall, the best gap before review increased with the delay from review to test, but made up a smaller share of that delay. [Cepeda et al. 2006](https://pubmed.ncbi.nlm.nih.gov/16719566/) · [2008](https://doi.org/10.1111/j.1467-9280.2008.02209.x)
 - Interleaved math practice: 61% vs 38% on delayed tests (d=0.83). [Rohrer et al. 2020](https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf)
-- FSRS scheduler: built on 220M review logs, +12.6% over previous SOTA, shipped in Anki. [Ye et al. 2022](https://dl.acm.org/doi/10.1145/3534678.3539081)
+- Spaced repetition scheduling simulation: SSP-MMC reached the same vocabulary retention target in 12.6% fewer days than a 90% recall-threshold scheduler. [Ye et al. 2022](https://doi.org/10.1145/3534678.3539081)
 - Unguarded AI assistants: +48% during practice, −17% on exams after removal. [Bastani et al. 2025](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 
 Full evidence base: 30 findings with A–D grades ([docs/evidence.md](./docs/evidence.md)) · full reference library C01–C339 ([docs/references.md](./docs/references.md)).

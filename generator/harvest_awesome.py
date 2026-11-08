@@ -6,7 +6,14 @@
 组：books / courses / awesome / subjects / tools
 环境变量：GITHUB_TOKEN、FUXI_PROXY（默认 http://127.0.0.1:7897）。
 """
-import os, sys, re, json, time, urllib.request, urllib.parse
+import errno, os, sys, re, json, time, urllib.request, urllib.parse
+from pathlib import Path
+from tempfile import NamedTemporaryFile
+
+if os.name == "nt":
+    import msvcrt
+else:
+    import fcntl
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -62,14 +69,14 @@ def clean(s):
 
 _calls = []
 def throttled():
-    now = time.time()
-    del _calls[:]
-    for t in list(_calls):
-        pass
-    _calls[:] = [t for t in _calls if now - t < 60]
-    if len(_calls) >= 26:
-        time.sleep(max(0.0, 60 - (now - _calls[0]) + 0.6))
-    _calls.append(time.time())
+    limit = 26 if TOKEN else 10
+    while True:
+        now = time.monotonic()
+        _calls[:] = [t for t in _calls if now - t < 60]
+        if len(_calls) < limit:
+            _calls.append(now)
+            return
+        time.sleep(60 - (now - _calls[0]) + 0.6)
 
 def search(q, pages):
     items = []
@@ -80,60 +87,98 @@ def search(q, pages):
         try:
             with OP.open(urllib.request.Request(url, headers=HDR), timeout=30) as r:
                 j = json.loads(r.read().decode())
+            batch = j["items"]
         except Exception as e:
-            print("  ! fail:", q, pg, type(e).__name__)
-            continue
-        batch = j.get("items", [])
+            print("  ! fail:", q, pg, type(e).__name__, getattr(e, "code", ""))
+            return None
+        if j.get("incomplete_results"):
+            print("  ! incomplete results:", q, pg)
+            return None
         items += batch
         if len(batch) < 100:
             break
     return items
 
-def main():
-    args = sys.argv[1:] or ORDER
-    jp = os.path.join(ROOT, "generator", "awesome_auto.json")
+def write_catalog(path, data):
+    temporary = NamedTemporaryFile(mode="w", encoding="utf-8", dir=os.path.dirname(path), delete=False)
+    try:
+        with temporary:
+            json.dump(data, temporary, ensure_ascii=False, indent=1)
+        os.replace(temporary.name, path)
+    finally:
+        Path(temporary.name).unlink(missing_ok=True)
+
+def harvest(args, jp):
     data = {"generated": "", "sections": []}
     if os.path.exists(jp):
-        data = json.load(open(jp, encoding="utf-8"))
+        with open(jp, encoding="utf-8") as source:
+            data = json.load(source)
     merged = {s["key"]: s for s in data.get("sections", [])}
     docp = os.path.join(ROOT, "docs", "awesome-learning.md")
     curated = set()
     if os.path.exists(docp):
-        for ln in open(docp, encoding="utf-8"):
-            if ln.startswith("## " + "\u81ea\u52a8\u91c7\u96c6\u533a"):
-                break
-            m = re.match(r"- \*\*\[.+?\]\(https://github\.com/([^)]+)\)\*\*", ln)
-            if m:
-                curated.add(m.group(1))
+        with open(docp, encoding="utf-8") as source:
+            for ln in source:
+                if ln.startswith("## " + "\u81ea\u52a8\u91c7\u96c6\u533a"):
+                    break
+                m = re.match(r"- \*\*\[.+?\]\(https://github\.com/([^)]+)\)\*\*", ln)
+                if m:
+                    curated.add(m.group(1).lower())
+    failed = False
     for key in args:
         if key not in QUERIES:
             continue
         seen = set(curated)
-        for s in merged.values():
-            for e in s["entries"]:
-                seen.add(e["full"])
-        got = {}
+        for section_key, section in merged.items():
+            if section_key != key:
+                seen.update(entry["full"].lower() for entry in section["entries"])
+        got = {entry["full"].lower(): entry for entry in merged.get(key, {}).get("entries", [])
+               if entry["full"].lower() not in seen}
         for q, pages in QUERIES[key]:
             items = search(q, pages)
+            if items is None:
+                print("  ! %s skipped; existing entries preserved" % key)
+                failed = True
+                break
             print("  %s | %s -> %d" % (key, q, len(items)))
             for it in items:
-                fn = it.get("full_name", "")
-                if not fn or it.get("fork") or fn in seen:
+                fn = it.get("full_name") or ""
+                repo_key = fn.lower()
+                if not repo_key or it.get("fork") or repo_key in seen:
                     continue
                 desc = clean(it.get("description") or "")
                 if not desc:
                     continue
-                got[fn] = {"name": it.get("name", fn.split("/")[-1]), "full": fn,
-                           "desc": desc, "stars": it.get("stargazers_count", 0)}
-                seen.add(fn)
-        entries = sorted(got.values(), key=lambda x: -x["stars"])[:CAPS[key]]
-        merged[key] = {"key": key, "title": TITLES[key], "entries": entries}
-        data["sections"] = [merged[k] for k in ORDER if k in merged]
-        data["generated"] = time.strftime("%Y-%m-%d")
-        json.dump(data, open(jp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        print("  => %s kept %d | json saved" % (key, len(entries)))
+                got[repo_key] = {"name": it.get("name", fn.split("/")[-1]), "full": fn,
+                                 "desc": desc, "stars": it.get("stargazers_count", 0)}
+                seen.add(repo_key)
+        else:
+            entries = sorted(got.values(), key=lambda x: -x["stars"])[:CAPS[key]]
+            merged[key] = {"key": key, "title": TITLES[key], "entries": entries}
+            data["sections"] = [merged[k] for k in ORDER if k in merged]
+            data["generated"] = time.strftime("%Y-%m-%d")
+            write_catalog(jp, data)
+            print("  => %s kept %d | json saved" % (key, len(entries)))
     tot = sum(len(s["entries"]) for s in data["sections"])
     print("AUTO TOTAL:", tot, [s["key"] for s in data["sections"]])
+    return 1 if failed else 0
+
+def main():
+    directory = os.path.join(ROOT, "generator")
+    # Keep the lock file in place so every process locks the same file.
+    with open(os.path.join(directory, ".awesome_auto.lock"), "a+b") as lock:
+        lock.seek(0)
+        try:
+            if os.name == "nt":
+                msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+            else:
+                fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError as error:
+            if error.errno not in (errno.EACCES, errno.EAGAIN, errno.EWOULDBLOCK):
+                raise
+            print("A harvest is already running for this catalog.", file=sys.stderr)
+            return 1
+        return harvest(sys.argv[1:] or ORDER, os.path.join(directory, "awesome_auto.json"))
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
