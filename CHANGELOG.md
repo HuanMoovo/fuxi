@@ -2,6 +2,11 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 与语义化版本。
 
+## [Unreleased]
+
+### Added
+- 新增离线 `fuxi` 命令行工具，可导出学习模板、查看阶段指南，并从 Markdown 清单统计学习进度。
+
 ## [1.19.0] - 2026-10-14
 
 ### Changed

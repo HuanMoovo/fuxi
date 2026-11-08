@@ -38,6 +38,7 @@
 - [十阶时间线](#十阶时间线)
 - [三大路线：先选走法](#三大路线先选走法)
 - [立即开始（30 分钟行动版）](#立即开始30-分钟行动版)
+- [命令行工具（CLI）](#命令行工具cli)
 - [引擎：三恒 · 两尺 · 一原则](#引擎三恒--两尺--一原则)
 - [证据底座](#证据底座)
 - [开源工具链](#开源工具链)
@@ -111,6 +112,23 @@
 3. **10 分钟**：画一版 [领域地图草稿](./docs/stages/02-map.md)（丑没关系，结构比美观重要）。
 4. **5 分钟**：为今天学的 1 个知识点做 [3 张卡片](./templates/card-rules.md)，装进 [Anki + FSRS](https://github.com/open-spaced-repetition/fsrs4anki)。
 5. **明天**：开始 25 分钟/天的[极简节律](./docs/paths.md#4-每日--每周节律样板)，一周后做第一次空白纸回忆。
+
+## 命令行工具（CLI）
+
+需要 Python 3.10 或更新版本。在仓库根目录运行 `python -m pip install .`，即可使用 `fuxi` 命令。也可以在仓库根目录直接用 `python -m fuxi_cli` 运行相同的子命令。运行时只使用 Python 标准库，阶段指南和模板可离线使用。
+
+```sh
+fuxi --help
+fuxi stages
+fuxi stage map
+fuxi init "数据分析计划" --topic "数据分析"
+fuxi status "数据分析计划"
+fuxi status "数据分析计划" --json
+```
+
+`stage` 接受阶段编号或英文名称，输出原始 Markdown。`init` 在新目录中创建学习契约、十阶过关清单、周检视、错题日志和卡片规则。目录已存在时会退出，已有文件会保留。
+
+完成一项后，在 `stage-checklist.md` 中将对应任务的 `[ ]` 改成 `[x]`。`status` 汇总十阶清单的勾选记录，可在学习目录中直接运行。它反映的是自填进度。
 
 ---
 
@@ -263,7 +281,7 @@ fuxi/
 
 ## 许可
 
-- 代码（`generator/`、站点代码）：[MIT](./LICENSE)
+- 代码（`generator/`、`fuxi_cli/`、站点代码）：[MIT](./LICENSE)
 - 文档与图表（README、`docs/**`、`templates/**`）：[CC BY 4.0](./LICENSE-DOCS.md)
 
 核验日期 2026-10-03 ｜ 证据分级为本项目综合判断，详见 docs/evidence.md ｜ 把时间变成盟友。

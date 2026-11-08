@@ -12,3 +12,8 @@ __pycache__/
 .venv-mkdocs/
 site/build/
 site/dist/
+
+# Python package build artifacts
+/build/
+/dist/
+/*.egg-info/

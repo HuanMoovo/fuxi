@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fuxi-cli"
+version = "0.1.0"
+description = "Command-line interface for the Fuxi learning workflow"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+fuxi = "fuxi_cli.__main__:main"
+
+[tool.setuptools]
+packages = ["fuxi_cli", "fuxi_cli.stages", "fuxi_cli.templates"]
+
+[tool.setuptools.package-dir]
+"fuxi_cli" = "fuxi_cli"
+"fuxi_cli.stages" = "docs/stages"
+"fuxi_cli.templates" = "templates"
+
+[tool.setuptools.package-data]
+"fuxi_cli.stages" = ["*.md"]
+"fuxi_cli.templates" = ["*.md"]
