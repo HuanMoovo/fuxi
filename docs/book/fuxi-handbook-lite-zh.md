@@ -370,10 +370,10 @@
 
 
 1. **5 分钟**：从上面的表格里选一条路线，记下你的重心阶段。
-2. **10 分钟**：填一份 [学习契约](./templates/learning-contract.md)（目标只写 3 个可验证结果）。
-3. **10 分钟**：画一版 [领域地图草稿](./docs/stages/02-map.md)（丑没关系，结构比美观重要）。
-4. **5 分钟**：为今天学的 1 个知识点做 [3 张卡片](./templates/card-rules.md)，装进 [Anki + FSRS](https://github.com/open-spaced-repetition/fsrs4anki)。
-5. **明天**：开始 25 分钟/天的[极简节律](./docs/paths.md#4-每日--每周节律样板)，一周后做第一次空白纸回忆。
+2. **10 分钟**：填一份 [学习契约](../../templates/learning-contract.md)（目标只写 3 个可验证结果）。
+3. **10 分钟**：画一版 [领域地图草稿](../stages/02-map.md)（丑没关系，结构比美观重要）。
+4. **5 分钟**：为今天学的 1 个知识点做 [3 张卡片](../../templates/card-rules.md)，装进 [Anki + FSRS](https://github.com/open-spaced-repetition/fsrs4anki)。
+5. **明天**：开始 25 分钟/天的[极简节律](../paths.md#4-每日--每周节律样板)，一周后做第一次空白纸回忆。
 
 ---
 

@@ -5,6 +5,8 @@
 生成 docs/awesome-lifespan.md。环境变量：GITHUB_TOKEN、FUXI_PROXY。
 """
 import os, json, sys, urllib.request, concurrent.futures as cf
+from http.client import HTTPException
+from urllib.error import HTTPError
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -94,11 +96,17 @@ def main():
             with OP.open(urllib.request.Request("https://api.github.com/repos/" + sl, headers=HDR), timeout=30) as r:
                 j = json.loads(r.read().decode())
             return (sl, j.get("stargazers_count", 0), j.get("full_name", sl))
-        except Exception as e:
-            return (sl, -1, sl)
-    with cf.ThreadPoolExecutor(8) as ex:
-        for sl, st, fn in ex.map(f, slugs):
-            info[sl] = (st, fn)
+        except HTTPError as error:
+            if error.code == 404:
+                return (sl, -1, sl)
+            raise
+    try:
+        with cf.ThreadPoolExecutor(8) as ex:
+            for sl, st, fn in ex.map(f, slugs):
+                info[sl] = (st, fn)
+    except (OSError, ValueError, HTTPException) as error:
+        print(f"GitHub lookup failed; catalog not updated: {error}", file=sys.stderr)
+        return 1
     fails = [(sl, st) for sl, (st, fn) in info.items() if st < 0]
     print("FAIL:", fails if fails else "NONE")
     def fmt(n):
@@ -128,4 +136,4 @@ def main():
     print("done")
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

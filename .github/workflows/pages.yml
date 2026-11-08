@@ -3,7 +3,15 @@ name: Deploy Pages
 on:
   push:
     branches: [main]
-    paths: ["docs/**", "site/**", "mkdocs.yml", ".github/workflows/pages.yml"]
+    paths:
+      - "docs/**"
+      - "site/**"
+      - "mkdocs.yml"
+      - "README.md"
+      - "CHANGELOG.md"
+      - "CONTRIBUTING.md"
+      - "templates/*.md"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
